@@ -1,0 +1,15 @@
+---
+id: berlin-election-results-source-aligned
+name: Berlin Election Results
+metadata:
+  - ownership: Open Lifeworlds
+  - description:
+  - schema:
+description:
+input_ports:
+output_ports:
+metrics:
+  - quality:
+  - operational:
+classification: source-aligned
+tags:
