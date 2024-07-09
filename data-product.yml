@@ -5,8 +5,20 @@ metadata:
   - ownership: Open Lifeworlds
   - description:
   - schema:
-description:
+description: This data product provides Berlin election results
 input_ports:
+  - id: berlin-election-results-european-elections-2024
+    metadata:
+      name: Europawahlen in Berlin 2024
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2024-06-09
+    files:
+      - https://download.statistik-berlin-brandenburg.de/d1b4bf0e83308c9d/253954d40e86/SB_B07-05-01_2024j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/cfd80313bf809692/18fa0a3f2a3f/DL_BE_EU2024_EU2019.xlsx
+      - https://download.statistik-berlin-brandenburg.de/967df1cce75bb59d/812bfda698bf/DL_BE_EU_2024_Strukturdaten.xlsx
+      - https://download.statistik-berlin-brandenburg.de/d37d9cb69cb34d4a/be344fb7fb3f/Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx
 output_ports:
 metrics:
   - quality:
