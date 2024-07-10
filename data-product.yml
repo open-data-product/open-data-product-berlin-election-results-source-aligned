@@ -19,6 +19,22 @@ input_ports:
       - https://download.statistik-berlin-brandenburg.de/cfd80313bf809692/18fa0a3f2a3f/DL_BE_EU2024_EU2019.xlsx
       - https://download.statistik-berlin-brandenburg.de/967df1cce75bb59d/812bfda698bf/DL_BE_EU_2024_Strukturdaten.xlsx
       - https://download.statistik-berlin-brandenburg.de/d37d9cb69cb34d4a/be344fb7fb3f/Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx
+  - id: berlin-election-results-european-elections-2019
+    metadata:
+      name: Europawahlen in Berlin 2019
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2019-05-26
+    files:
+      - https://download.statistik-berlin-brandenburg.de/d71f8f07f70f14ee/4a55313ba9d1/DL_BE_EU2019.xlsx
+      - https://download.statistik-berlin-brandenburg.de/acb8a3ab46f55ddb/ecf2dad49fb3/DL_BE_2_EU2019.xlsx
+      - https://download.statistik-berlin-brandenburg.de/c47398234682aba0/b48d03cf04ce/SB_B07-05-01_2019j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/03cc44e257777eba/8c2db7d9332c/DL_BE_EU2019_BT2017.xlsx
+      - https://download.statistik-berlin-brandenburg.de/861958d84196b702/5143b3b75ee6/DL_BE_EU2019_EU2014.xlsx
+      - https://download.statistik-berlin-brandenburg.de/7b34f63009821bf3/ca356193dfcc/DL_BE_EU2019_Strukturdaten.xlsx
+      - https://download.statistik-berlin-brandenburg.de/8dafa380a493d2b5/68240135e9bf/SB_B07-05-05_2019j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/ba888546111fa22f/200ecbdb3b6e/europawahlen-lange-reihe-2019.xlsx
 output_ports:
 metrics:
   - quality:
