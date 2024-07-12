@@ -35,13 +35,13 @@ input_ports:
       - https://download.statistik-berlin-brandenburg.de/7b34f63009821bf3/ca356193dfcc/DL_BE_EU2019_Strukturdaten.xlsx
       - https://download.statistik-berlin-brandenburg.de/8dafa380a493d2b5/68240135e9bf/SB_B07-05-05_2019j05_BE.xlsx
       - https://download.statistik-berlin-brandenburg.de/ba888546111fa22f/200ecbdb3b6e/europawahlen-lange-reihe-2019.xlsx
-  - id: berlin-election-results-federal-election-2021
+  - id: berlin-election-results-federal-election-2024
     metadata:
-      name: Bundestagswahlen in Berlin 2021
+      name: Bundestagswahlen in Berlin 2024
       author: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
       license: CC-BY-3.0-Namensnennung
-      updated: 2021-09-26
+      updated: 2024-02-11
     files:
       - https://download.statistik-berlin-brandenburg.de/9e01e5361f54b145/1e68925d2d91/DL_BE_BU2024.xlsx
       - https://download.statistik-berlin-brandenburg.de/ae839a159e938d23/af2d7cdda57a/SB_B07-01-01_2024j04_BE.xlsx
@@ -49,6 +49,20 @@ input_ports:
       - https://download.statistik-berlin-brandenburg.de/abd5cf16a0b38e02/2ec164260d6d/DL_BE_BT2024_AH2016.xlsx
       - https://download.statistik-berlin-brandenburg.de/2adeb8080a11c251/b42405d7766a/DL_BE_BTW2024_Strukturdaten_Wiederholung.xlsx
       - https://download.statistik-berlin-brandenburg.de/93b37127fd93f22d/2031c92d04ce/SB_B07-01-05_2021j04_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx
+  - id: berlin-election-results-federal-election-2017
+    metadata:
+      name: Bundestagswahlen in Berlin 2017
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2017-09-24
+    files:
+      - https://download.statistik-berlin-brandenburg.de/d210ba0bede66450/ebe84a94907a/DL_BE_EE_WB_BU2017.xlsx
+      - https://download.statistik-berlin-brandenburg.de/6dab00eace2d0b74/eaf0f5160c9e/SB_B07-01-01_2017j04_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/0766e7b612ffdde8/2f5667410dfc/DL_BE_BT2017_BT2013.xlsx
+      - https://download.statistik-berlin-brandenburg.de/b877735b12104d71/c0e1c379cb54/DL_BE_BT2017_AH2016.xlsx
+      - https://download.statistik-berlin-brandenburg.de/36ac6e190e69bd29/6ccf7d248959/SB_B07-01-05_2017j04_BE.xlsx
       - https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx
 output_ports:
 metrics:
