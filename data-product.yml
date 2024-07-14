@@ -79,6 +79,20 @@ input_ports:
       - https://download.statistik-berlin-brandenburg.de/ef1e6910e83b0d60/00603a1223c4/DL_BE_AGH2023_AH2016.xlsx
       - https://download.statistik-berlin-brandenburg.de/14c528d75c186c7f/c57834e9eb16/SB_B07-02-05_2023j05_BE.xlsx
       - https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+  - id: berlin-election-results-berlin-elections-2016
+    metadata:
+      name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2016
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2016-09-18
+    files:
+      - https://download.statistik-berlin-brandenburg.de/f50ba98d9b03eb28/dee33151882f/DL_BE_AGHBVV2016.xlsx
+      - https://download.statistik-berlin-brandenburg.de/eb85181b755df887/57e8df87b3c6/SB_B07-02-01_2016j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/b4bef6a5a1e72623/7df615e73803/DL_BE_AH2016_BT2013.xlsx
+      - https://download.statistik-berlin-brandenburg.de/e2b7ac7c04cba26e/5f27e76bd6da/DL_BE_AH2016_AH2011.xlsx
+      - https://download.statistik-berlin-brandenburg.de/96cde9a982482ba6/45c4149adb66/SB_B07-02-05_2016j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
 output_ports:
 metrics:
   - quality:
