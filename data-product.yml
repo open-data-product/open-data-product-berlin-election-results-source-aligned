@@ -93,6 +93,15 @@ input_ports:
       - https://download.statistik-berlin-brandenburg.de/e2b7ac7c04cba26e/5f27e76bd6da/DL_BE_AH2016_AH2011.xlsx
       - https://download.statistik-berlin-brandenburg.de/96cde9a982482ba6/45c4149adb66/SB_B07-02-05_2016j05_BE.xlsx
       - https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+  - id: berlin-election-results-referendum-berlin-2030-klimaneutral
+    metadata:
+      name: Volksentscheid "Berlin 2030 klimaneutral"
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-03-26
+    files:
+      - https://download.statistik-berlin-brandenburg.de/a377bd4631845832/b4d26bc126af/DL_BE_VE2023.xlsx
 output_ports:
 metrics:
   - quality:
