@@ -102,6 +102,15 @@ input_ports:
       updated: 2023-03-26
     files:
       - https://download.statistik-berlin-brandenburg.de/a377bd4631845832/b4d26bc126af/DL_BE_VE2023.xlsx
+  - id: berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
+    metadata:
+      name: Volksentscheid "Deutsche Wohnen & Co enteignen"
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2021-09-26
+    files:
+      - https://download.statistik-berlin-brandenburg.de/b27aa19de4a317ad/074a941aab21/DL_BE_VE2021.xlsx
 output_ports:
 metrics:
   - quality:
