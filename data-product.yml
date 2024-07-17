@@ -111,6 +111,15 @@ input_ports:
       updated: 2021-09-26
     files:
       - https://download.statistik-berlin-brandenburg.de/b27aa19de4a317ad/074a941aab21/DL_BE_VE2021.xlsx
+  - id: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
+    metadata:
+      name: Volksentscheid über den Weiterbetrieb des Flughafens Tegel
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2017-09-24
+    files:
+      - https://download.statistik-berlin-brandenburg.de/e84527d08b1fa43e/68a03b004958/DL_BE_EE_WB_VE2017.xlsx
 output_ports:
 metrics:
   - quality:
