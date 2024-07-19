@@ -129,6 +129,15 @@ input_ports:
       updated: 2014-05-25
     files:
       - https://download.statistik-berlin-brandenburg.de/dae0d6980b6f02ca/ae8032e36b4d/DL_BE_VE2014.xlsx
+  - id: berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply
+    metadata:
+      name: Volksentscheid über die Rekommunalisierung der Berliner Energieversorgung
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2013-11-03
+    files:
+      - https://download.statistik-berlin-brandenburg.de/cc84503adc4f9037/d6aaa7686d50/DL_BE_VE2013.xlsx
 output_ports:
 metrics:
   - quality:
