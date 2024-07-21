@@ -147,6 +147,15 @@ input_ports:
       updated: 2011-02-13
     files:
       - https://download.statistik-berlin-brandenburg.de/1f75201feb3d1050/ab6d1fbf7d0e/DL_BE_VE2011.xlsx
+  - id: berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
+    metadata:
+      name: Volksentscheid über die Einführung des Wahlpflichtbereichs Ethik/Religion
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2009-04-26
+    files:
+      - https://download.statistik-berlin-brandenburg.de/9028dfce87494cb7/2c94c11ccd2b/DL_BE_VE2009.xlsx
 output_ports:
 metrics:
   - quality:
