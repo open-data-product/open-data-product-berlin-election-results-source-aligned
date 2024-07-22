@@ -156,6 +156,15 @@ input_ports:
       updated: 2009-04-26
     files:
       - https://download.statistik-berlin-brandenburg.de/9028dfce87494cb7/2c94c11ccd2b/DL_BE_VE2009.xlsx
+  - id: berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
+    metadata:
+      name: Volksentscheid "Tempelhof bleibt Verkehrsflughafen!"
+      author: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2008-04-27
+    files:
+      - https://download.statistik-berlin-brandenburg.de/3bae559f4c805b38/4c2b9503b7d8/DL_BE_VE2008.xlsx
 output_ports:
 metrics:
   - quality:
