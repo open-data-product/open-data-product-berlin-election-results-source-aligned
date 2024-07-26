@@ -3,6 +3,7 @@ import os
 import sys
 
 from lib.config.data_product_manifest_loader import load_data_product_manifest
+from lib.config.data_transformation_loader import load_data_transformation
 from lib.tracking_decorator import TrackingDecorator
 
 file_path = os.path.realpath(__file__)
@@ -34,6 +35,7 @@ def main(argv):
             quiet = True
 
     data_product_manifest = load_data_product_manifest(config_path=script_path)
+    data_transformation = load_data_transformation(config_path=script_path)
 
 
 if __name__ == "__main__":
