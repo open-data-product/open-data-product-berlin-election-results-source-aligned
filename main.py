@@ -2,9 +2,7 @@ import getopt
 import os
 import sys
 
-from lib.extract.data_copier import copy_data
-from lib.extract.data_extractor import extract_data
-from lib.load.data_loader import load_data
+from lib.config.data_product_manifest_loader import load_data_product_manifest
 from lib.tracking_decorator import TrackingDecorator
 
 file_path = os.path.realpath(__file__)
@@ -35,29 +33,7 @@ def main(argv):
         elif opt in ("-q", "--quiet"):
             quiet = True
 
-    manifest_path = os.path.join(script_path, "data-product.yml")
-    raw_path = os.path.join(script_path, "raw")
-    workspace_path = os.path.join(script_path, "workspace")
-    data_path = os.path.join(script_path, "data")
-
-    #
-    # Extract
-    #
-
-    extract_data(manifest_path=manifest_path, results_path=raw_path, clean=clean, quiet=quiet)
-    copy_data(source_path=raw_path, results_path=workspace_path, clean=clean, quiet=quiet)
-
-    #
-    # Transform
-    #
-
-    # TODO Add transformation steps in ./lib/transform and call them here
-
-    #
-    # Load
-    #
-
-    load_data(source_path=workspace_path, results_path=data_path, clean=clean, quiet=quiet)
+    data_product_manifest = load_data_product_manifest(config_path=script_path)
 
 
 if __name__ == "__main__":

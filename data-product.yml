@@ -1,28 +1,74 @@
 ---
 id: berlin-election-results-source-aligned
-name: Berlin Election Results
 metadata:
-  - ownership: Open Lifeworlds
-  - description:
-  - schema:
-description: This data product provides Berlin election results
+  name: Berlin Election Results
+  owner: Open Lifeworlds
+  description: This data product provides Berlin election results
+  url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
+  license: GPLv3
 input_ports:
-  - id: berlin-election-results-european-elections-2024
+  - id: berlin-election-results-berlin-elections-2016
     metadata:
-      name: Europawahlen in Berlin 2024
-      author: Amt für Statistik Berlin-Brandenburg
-      url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
+      name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2016
+      owner: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
       license: CC-BY-3.0-Namensnennung
-      updated: 2024-06-09
+      updated: 2016-09-18
     files:
-      - https://download.statistik-berlin-brandenburg.de/d1b4bf0e83308c9d/253954d40e86/SB_B07-05-01_2024j05_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/cfd80313bf809692/18fa0a3f2a3f/DL_BE_EU2024_EU2019.xlsx
-      - https://download.statistik-berlin-brandenburg.de/967df1cce75bb59d/812bfda698bf/DL_BE_EU_2024_Strukturdaten.xlsx
-      - https://download.statistik-berlin-brandenburg.de/d37d9cb69cb34d4a/be344fb7fb3f/Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx
+      - https://download.statistik-berlin-brandenburg.de/f50ba98d9b03eb28/dee33151882f/DL_BE_AGHBVV2016.xlsx
+      - https://download.statistik-berlin-brandenburg.de/eb85181b755df887/57e8df87b3c6/SB_B07-02-01_2016j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/b4bef6a5a1e72623/7df615e73803/DL_BE_AH2016_BT2013.xlsx
+      - https://download.statistik-berlin-brandenburg.de/e2b7ac7c04cba26e/5f27e76bd6da/DL_BE_AH2016_AH2011.xlsx
+      - https://download.statistik-berlin-brandenburg.de/96cde9a982482ba6/45c4149adb66/SB_B07-02-05_2016j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+  - id: berlin-election-results-berlin-elections-2023
+    metadata:
+      name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2023
+      owner: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2023-02-12
+    files:
+      - https://download.statistik-berlin-brandenburg.de/c6fffa8361dd1404/a8cc1bc593d9/DL_BE_AGHBVV2023.xlsx
+      - https://download.statistik-berlin-brandenburg.de/8350493567505a9d/e69917ec7c49/SB_B07-02-03_2023j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/500782cec2cb7f06/690b9d587d43/SB_B07-02-01_2023j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/d030080db77ad21c/072b8c5eb8fc/DL_BE_AGH2023_BT2017.xlsx
+      - https://download.statistik-berlin-brandenburg.de/ef1e6910e83b0d60/00603a1223c4/DL_BE_AGH2023_AH2016.xlsx
+      - https://download.statistik-berlin-brandenburg.de/14c528d75c186c7f/c57834e9eb16/SB_B07-02-05_2023j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+  - id: berlin-election-results-federal-election-2017
+    metadata:
+      name: Bundestagswahlen in Berlin 2017
+      owner: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2017-09-24
+    files:
+      - https://download.statistik-berlin-brandenburg.de/d210ba0bede66450/ebe84a94907a/DL_BE_EE_WB_BU2017.xlsx
+      - https://download.statistik-berlin-brandenburg.de/6dab00eace2d0b74/eaf0f5160c9e/SB_B07-01-01_2017j04_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/0766e7b612ffdde8/2f5667410dfc/DL_BE_BT2017_BT2013.xlsx
+      - https://download.statistik-berlin-brandenburg.de/b877735b12104d71/c0e1c379cb54/DL_BE_BT2017_AH2016.xlsx
+      - https://download.statistik-berlin-brandenburg.de/36ac6e190e69bd29/6ccf7d248959/SB_B07-01-05_2017j04_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx
+  - id: berlin-election-results-federal-election-2024
+    metadata:
+      name: Bundestagswahlen in Berlin 2024
+      owner: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      license: CC-BY-3.0-Namensnennung
+      updated: 2024-02-11
+    files:
+      - https://download.statistik-berlin-brandenburg.de/9e01e5361f54b145/1e68925d2d91/DL_BE_BU2024.xlsx
+      - https://download.statistik-berlin-brandenburg.de/ae839a159e938d23/af2d7cdda57a/SB_B07-01-01_2024j04_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/05d3e01da1b79c09/cb4a6f9def44/DL_BE_BT2024_BT2017.xlsx
+      - https://download.statistik-berlin-brandenburg.de/abd5cf16a0b38e02/2ec164260d6d/DL_BE_BT2024_AH2016.xlsx
+      - https://download.statistik-berlin-brandenburg.de/2adeb8080a11c251/b42405d7766a/DL_BE_BTW2024_Strukturdaten_Wiederholung.xlsx
+      - https://download.statistik-berlin-brandenburg.de/93b37127fd93f22d/2031c92d04ce/SB_B07-01-05_2021j04_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx
   - id: berlin-election-results-european-elections-2019
     metadata:
       name: Europawahlen in Berlin 2019
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2019-05-26
@@ -35,68 +81,24 @@ input_ports:
       - https://download.statistik-berlin-brandenburg.de/7b34f63009821bf3/ca356193dfcc/DL_BE_EU2019_Strukturdaten.xlsx
       - https://download.statistik-berlin-brandenburg.de/8dafa380a493d2b5/68240135e9bf/SB_B07-05-05_2019j05_BE.xlsx
       - https://download.statistik-berlin-brandenburg.de/ba888546111fa22f/200ecbdb3b6e/europawahlen-lange-reihe-2019.xlsx
-  - id: berlin-election-results-federal-election-2024
+  - id: berlin-election-results-european-elections-2024
     metadata:
-      name: Bundestagswahlen in Berlin 2024
-      author: Amt für Statistik Berlin-Brandenburg
-      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      name: Europawahlen in Berlin 2024
+      owner: Amt für Statistik Berlin-Brandenburg
+      url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
       license: CC-BY-3.0-Namensnennung
-      updated: 2024-02-11
+      updated: 2024-06-09
     files:
-      - https://download.statistik-berlin-brandenburg.de/9e01e5361f54b145/1e68925d2d91/DL_BE_BU2024.xlsx
-      - https://download.statistik-berlin-brandenburg.de/ae839a159e938d23/af2d7cdda57a/SB_B07-01-01_2024j04_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/05d3e01da1b79c09/cb4a6f9def44/DL_BE_BT2024_BT2017.xlsx
-      - https://download.statistik-berlin-brandenburg.de/abd5cf16a0b38e02/2ec164260d6d/DL_BE_BT2024_AH2016.xlsx
-      - https://download.statistik-berlin-brandenburg.de/2adeb8080a11c251/b42405d7766a/DL_BE_BTW2024_Strukturdaten_Wiederholung.xlsx
-      - https://download.statistik-berlin-brandenburg.de/93b37127fd93f22d/2031c92d04ce/SB_B07-01-05_2021j04_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx
-  - id: berlin-election-results-federal-election-2017
-    metadata:
-      name: Bundestagswahlen in Berlin 2017
-      author: Amt für Statistik Berlin-Brandenburg
-      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
-      license: CC-BY-3.0-Namensnennung
-      updated: 2017-09-24
-    files:
-      - https://download.statistik-berlin-brandenburg.de/d210ba0bede66450/ebe84a94907a/DL_BE_EE_WB_BU2017.xlsx
-      - https://download.statistik-berlin-brandenburg.de/6dab00eace2d0b74/eaf0f5160c9e/SB_B07-01-01_2017j04_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/0766e7b612ffdde8/2f5667410dfc/DL_BE_BT2017_BT2013.xlsx
-      - https://download.statistik-berlin-brandenburg.de/b877735b12104d71/c0e1c379cb54/DL_BE_BT2017_AH2016.xlsx
-      - https://download.statistik-berlin-brandenburg.de/36ac6e190e69bd29/6ccf7d248959/SB_B07-01-05_2017j04_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx
-  - id: berlin-election-results-berlin-elections-2023
-    metadata:
-      name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2023
-      author: Amt für Statistik Berlin-Brandenburg
-      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
-      license: CC-BY-3.0-Namensnennung
-      updated: 2023-02-12
-    files:
-      - https://download.statistik-berlin-brandenburg.de/c6fffa8361dd1404/a8cc1bc593d9/DL_BE_AGHBVV2023.xlsx
-      - https://download.statistik-berlin-brandenburg.de/8350493567505a9d/e69917ec7c49/SB_B07-02-03_2023j05_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/500782cec2cb7f06/690b9d587d43/SB_B07-02-01_2023j05_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/d030080db77ad21c/072b8c5eb8fc/DL_BE_AGH2023_BT2017.xlsx
-      - https://download.statistik-berlin-brandenburg.de/ef1e6910e83b0d60/00603a1223c4/DL_BE_AGH2023_AH2016.xlsx
-      - https://download.statistik-berlin-brandenburg.de/14c528d75c186c7f/c57834e9eb16/SB_B07-02-05_2023j05_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
-  - id: berlin-election-results-berlin-elections-2016
-    metadata:
-      name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2016
-      author: Amt für Statistik Berlin-Brandenburg
-      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
-      license: CC-BY-3.0-Namensnennung
-      updated: 2016-09-18
-    files:
-      - https://download.statistik-berlin-brandenburg.de/f50ba98d9b03eb28/dee33151882f/DL_BE_AGHBVV2016.xlsx
-      - https://download.statistik-berlin-brandenburg.de/eb85181b755df887/57e8df87b3c6/SB_B07-02-01_2016j05_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/b4bef6a5a1e72623/7df615e73803/DL_BE_AH2016_BT2013.xlsx
-      - https://download.statistik-berlin-brandenburg.de/e2b7ac7c04cba26e/5f27e76bd6da/DL_BE_AH2016_AH2011.xlsx
-      - https://download.statistik-berlin-brandenburg.de/96cde9a982482ba6/45c4149adb66/SB_B07-02-05_2016j05_BE.xlsx
-      - https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+      - https://download.statistik-berlin-brandenburg.de/62d50b33eabbeefa/3857c08baebd/DL_BE_EU2024.xlsx
+      - https://download.statistik-berlin-brandenburg.de/1e6c52e90e75a93a/eb718bb186be/DL_BE_2_EU2024.xlsx
+      - https://download.statistik-berlin-brandenburg.de/d1b4bf0e83308c9d/253954d40e86/SB_B07-05-01_2024j05_BE.xlsx
+      - https://download.statistik-berlin-brandenburg.de/cfd80313bf809692/18fa0a3f2a3f/DL_BE_EU2024_EU2019.xlsx
+      - https://download.statistik-berlin-brandenburg.de/967df1cce75bb59d/812bfda698bf/DL_BE_EU_2024_Strukturdaten.xlsx
+      - https://download.statistik-berlin-brandenburg.de/d37d9cb69cb34d4a/be344fb7fb3f/Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx
   - id: berlin-election-results-referendum-berlin-2030-klimaneutral
     metadata:
       name: Volksentscheid "Berlin 2030 klimaneutral"
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2023-03-26
@@ -105,7 +107,7 @@ input_ports:
   - id: berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
     metadata:
       name: Volksentscheid "Deutsche Wohnen & Co enteignen"
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2021-09-26
@@ -114,7 +116,7 @@ input_ports:
   - id: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
     metadata:
       name: Volksentscheid über den Weiterbetrieb des Flughafens Tegel
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2017-09-24
@@ -123,7 +125,7 @@ input_ports:
   - id: berlin-election-results-referendum-on-the-preservation-of-tempelhofer-feld
     metadata:
       name: Volksentscheid über den Erhalt des Tempelhofer Feldes
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2014-05-25
@@ -132,7 +134,7 @@ input_ports:
   - id: berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply
     metadata:
       name: Volksentscheid über die Rekommunalisierung der Berliner Energieversorgung
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2013-11-03
@@ -141,7 +143,7 @@ input_ports:
   - id: berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     metadata:
       name: Volksentscheid über die Offenlegung der Teilprivatisierungsverträge bei den Berliner Wasserbetrieben
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2011-02-13
@@ -150,7 +152,7 @@ input_ports:
   - id: berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     metadata:
       name: Volksentscheid über die Einführung des Wahlpflichtbereichs Ethik/Religion
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2009-04-26
@@ -159,15 +161,11 @@ input_ports:
   - id: berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
     metadata:
       name: Volksentscheid "Tempelhof bleibt Verkehrsflughafen!"
-      author: Amt für Statistik Berlin-Brandenburg
+      owner: Amt für Statistik Berlin-Brandenburg
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2008-04-27
     files:
       - https://download.statistik-berlin-brandenburg.de/3bae559f4c805b38/4c2b9503b7d8/DL_BE_VE2008.xlsx
-output_ports:
-metrics:
-  - quality:
-  - operational:
 classification: source-aligned
 tags:
