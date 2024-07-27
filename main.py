@@ -4,6 +4,7 @@ import sys
 
 from lib.config.data_product_manifest_loader import load_data_product_manifest
 from lib.config.data_transformation_loader import load_data_transformation
+from lib.extract.data_extractor import extract_data
 from lib.tracking_decorator import TrackingDecorator
 
 file_path = os.path.realpath(__file__)
@@ -34,8 +35,17 @@ def main(argv):
         elif opt in ("-q", "--quiet"):
             quiet = True
 
+    data_path = os.path.join(script_path, "data")
+    bronze_path = os.path.join(data_path, "01-bronze")
+
     data_product_manifest = load_data_product_manifest(config_path=script_path)
     data_transformation = load_data_transformation(config_path=script_path)
+
+    #
+    # Extract
+    #
+
+    extract_data(data_product_manifest=data_product_manifest, results_path=bronze_path, clean=clean, quiet=quiet)
 
 
 if __name__ == "__main__":
