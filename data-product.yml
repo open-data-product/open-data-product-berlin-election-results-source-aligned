@@ -167,5 +167,9 @@ input_ports:
       updated: 2008-04-27
     files:
       - https://download.statistik-berlin-brandenburg.de/3bae559f4c805b38/4c2b9503b7d8/DL_BE_VE2008.xlsx
+transformation_steps:
+  - name: CSV converter
+    path: lib/transform/data_csv_converter.py
+    description: converts Excel sheets to csv files
 classification: source-aligned
 tags:
