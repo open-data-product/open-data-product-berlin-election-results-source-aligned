@@ -4,6 +4,7 @@ import sys
 
 from lib.config.data_product_manifest_loader import load_data_product_manifest
 from lib.config.data_transformation_loader import load_data_transformation
+from lib.documentation.data_product_canvas_generator import generate_data_product_canvas
 from lib.documentation.data_product_manifest_updater import update_data_product_manifest
 from lib.extract.data_extractor import extract_data
 from lib.tracking_decorator import TrackingDecorator
@@ -42,6 +43,7 @@ def main(argv):
     bronze_path = os.path.join(data_path, "01-bronze")
     silver_path = os.path.join(data_path, "02-silver")
     gold_path = os.path.join(data_path, "03-gold")
+    docs_path = os.path.join(script_path, "docs")
 
     data_product_manifest = load_data_product_manifest(config_path=script_path)
     data_transformation = load_data_transformation(config_path=script_path)
@@ -81,6 +83,12 @@ def main(argv):
         config_path=script_path,
         data_paths=[silver_path, gold_path],
         file_endings=(".csv")
+    )
+
+    generate_data_product_canvas(
+        data_product_manifest=data_product_manifest,
+        data_transformation=data_transformation,
+        docs_path=docs_path
     )
 
 
