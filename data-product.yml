@@ -6,14 +6,18 @@ metadata:
   description: This data product provides Berlin election results
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
   license: GPLv3
+  updated:
+  schema:
 input_ports:
   - id: berlin-election-results-berlin-elections-2016
     metadata:
       name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2016
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2016-09-18
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/f50ba98d9b03eb28/dee33151882f/DL_BE_AGHBVV2016.xlsx
       - https://download.statistik-berlin-brandenburg.de/eb85181b755df887/57e8df87b3c6/SB_B07-02-01_2016j05_BE.xlsx
@@ -25,9 +29,11 @@ input_ports:
     metadata:
       name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2023
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2023-02-12
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/c6fffa8361dd1404/a8cc1bc593d9/DL_BE_AGHBVV2023.xlsx
       - https://download.statistik-berlin-brandenburg.de/8350493567505a9d/e69917ec7c49/SB_B07-02-03_2023j05_BE.xlsx
@@ -40,9 +46,11 @@ input_ports:
     metadata:
       name: Bundestagswahlen in Berlin 2017
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2017-09-24
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/d210ba0bede66450/ebe84a94907a/DL_BE_EE_WB_BU2017.xlsx
       - https://download.statistik-berlin-brandenburg.de/6dab00eace2d0b74/eaf0f5160c9e/SB_B07-01-01_2017j04_BE.xlsx
@@ -54,9 +62,11 @@ input_ports:
     metadata:
       name: Bundestagswahlen in Berlin 2024
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2024-02-11
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/9e01e5361f54b145/1e68925d2d91/DL_BE_BU2024.xlsx
       - https://download.statistik-berlin-brandenburg.de/ae839a159e938d23/af2d7cdda57a/SB_B07-01-01_2024j04_BE.xlsx
@@ -69,9 +79,11 @@ input_ports:
     metadata:
       name: Europawahlen in Berlin 2019
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2019-05-26
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/d71f8f07f70f14ee/4a55313ba9d1/DL_BE_EU2019.xlsx
       - https://download.statistik-berlin-brandenburg.de/acb8a3ab46f55ddb/ecf2dad49fb3/DL_BE_2_EU2019.xlsx
@@ -85,9 +97,11 @@ input_ports:
     metadata:
       name: Europawahlen in Berlin 2024
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2024-06-09
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/62d50b33eabbeefa/3857c08baebd/DL_BE_EU2024.xlsx
       - https://download.statistik-berlin-brandenburg.de/1e6c52e90e75a93a/eb718bb186be/DL_BE_2_EU2024.xlsx
@@ -99,77 +113,102 @@ input_ports:
     metadata:
       name: Volksentscheid "Berlin 2030 klimaneutral"
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2023-03-26
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/a377bd4631845832/b4d26bc126af/DL_BE_VE2023.xlsx
   - id: berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
     metadata:
       name: Volksentscheid "Deutsche Wohnen & Co enteignen"
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2021-09-26
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/b27aa19de4a317ad/074a941aab21/DL_BE_VE2021.xlsx
   - id: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
     metadata:
       name: Volksentscheid über den Weiterbetrieb des Flughafens Tegel
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2017-09-24
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/e84527d08b1fa43e/68a03b004958/DL_BE_EE_WB_VE2017.xlsx
   - id: berlin-election-results-referendum-on-the-preservation-of-tempelhofer-feld
     metadata:
       name: Volksentscheid über den Erhalt des Tempelhofer Feldes
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2014-05-25
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/dae0d6980b6f02ca/ae8032e36b4d/DL_BE_VE2014.xlsx
   - id: berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply
     metadata:
       name: Volksentscheid über die Rekommunalisierung der Berliner Energieversorgung
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2013-11-03
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/cc84503adc4f9037/d6aaa7686d50/DL_BE_VE2013.xlsx
   - id: berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     metadata:
       name: Volksentscheid über die Offenlegung der Teilprivatisierungsverträge bei den Berliner Wasserbetrieben
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2011-02-13
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/1f75201feb3d1050/ab6d1fbf7d0e/DL_BE_VE2011.xlsx
   - id: berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     metadata:
       name: Volksentscheid über die Einführung des Wahlpflichtbereichs Ethik/Religion
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2009-04-26
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/9028dfce87494cb7/2c94c11ccd2b/DL_BE_VE2009.xlsx
   - id: berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
     metadata:
       name: Volksentscheid "Tempelhof bleibt Verkehrsflughafen!"
       owner: Amt für Statistik Berlin-Brandenburg
+      description:
       url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2008-04-27
+      schema:
     files:
       - https://download.statistik-berlin-brandenburg.de/3bae559f4c805b38/4c2b9503b7d8/DL_BE_VE2008.xlsx
 transformation_steps:
   - name: CSV converter
     path: lib/transform/data_csv_converter.py
     description: converts Excel sheets to csv files
+output_ports:
+observability:
+  quality:
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
 classification: source-aligned
+ubiquitous_language: []
 tags:
