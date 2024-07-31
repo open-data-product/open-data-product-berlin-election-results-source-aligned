@@ -190,6 +190,21 @@
 
 * [CSV converter](../lib/transform/data_csv_converter.py) converts Excel sheets to csv files
 
+## Output Ports
+
+### Berlin Election Results Berlin Elections 2016
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-elections-2016
+* license: GPLv3
+* updated: None
+
+#### Files
+
+* [berlin-election-results-berlin-election-2016-constituency-results-district-council.csv](https://raw.githubusercontent.com/open-lifeworlds/berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-constituency-results-district-council.csv)
+* [berlin-election-results-berlin-election-2016-constituency-results-first-vote.csv](https://raw.githubusercontent.com/open-lifeworlds/berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-constituency-results-first-vote.csv)
+* [berlin-election-results-berlin-election-2016-constituency-results-second-vote.csv](https://raw.githubusercontent.com/open-lifeworlds/berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-constituency-results-second-vote.csv)
+
+
 ## Observability
 
 

@@ -202,6 +202,19 @@ transformation_steps:
     path: lib/transform/data_csv_converter.py
     description: converts Excel sheets to csv files
 output_ports:
+  - id: berlin-election-results-berlin-elections-2016
+    metadata:
+      name: Berlin Election Results Berlin Elections 2016
+      owner: Open Lifeworlds
+      description: description
+      url: https://github.com/open-lifeworlds/berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-elections-2016
+      license: GPLv3
+      updated:
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-constituency-results-district-council.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-constituency-results-first-vote.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-constituency-results-second-vote.csv
 observability:
   quality:
   operational:
