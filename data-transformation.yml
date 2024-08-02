@@ -192,6 +192,40 @@ input_ports:
             skip_rows: 1
             drop_columns:
               - constituency_district_berlin_elections
+      - source_file_name: DL_BE_AH2016_AH2011.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-converted-results-berlin-elections-2011.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-converted-results-berlin-elections-2011.csv
+            sheet_name: 2011_Zweitstimmen
+            names:
+              - name: id
+              - name: district_id
+              - name: district_name
+              - name: constituency_district
+              - name: constituency_district_type
+              - name: constituency_district_berlin_elections
+              - name: constituency_district_federal_election
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu, type: int }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne, type: int }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke, type: int }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_piraten, type: int }
+              - { name: party_piraten_percentage, type: float }
+              - { name: party_npd, type: int }
+              - { name: party_npd_percentage, type: float }
+              - { name: party_fdp, type: int }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others, type: int }
+              - { name: others_percentage, type: float }
+            skip_rows: 1
       - source_file_name: SB_B07-02-01_2016j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-structural-data.xlsx
         datasets:
