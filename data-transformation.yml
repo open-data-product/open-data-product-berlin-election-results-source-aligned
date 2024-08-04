@@ -1831,3 +1831,141 @@ input_ports:
               - { name: 12_reinickendorf, type: int }
             skip_rows: 7
             head: 27
+      - source_file_name: SB_B07-02-05_2016j05_BE.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-eligible-voters-by-age-and-sex.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 8
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-eligible-voters-by-age-and-sex-berlin-east.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 21
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-eligible-voters-by-age-and-sex-berlin-west.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 33
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-ballot-paper-recipients-by-age-and-sex.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 8
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-ballot-paper-recipients-by-age-and-sex-berlin-east.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 20
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-ballot-paper-recipients-by-age-and-sex-berlin-west.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 33
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-voter-turnout-by-age-and-sex.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 8
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-voter-turnout-by-age-and-sex-berlin-east.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 21
+            head: 10
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-voter-turnout-by-age-and-sex-berlin-west.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: total_2016_percentage, type: float }
+              - { name: male_2016_percentage, type: float }
+              - { name: female_2016_percentage, type: float }
+              - { name: total_2011_percentage, type: float }
+              - { name: male_2011_percentage, type: float }
+              - { name: female_2011_percentage, type: float }
+              - { name: 2016_vs_2011_total, type: float }
+              - { name: 2016_vs_2011_male, type: float }
+              - { name: 2016_vs_2011_female, type: float }
+            skip_rows: 34
+            head: 10
