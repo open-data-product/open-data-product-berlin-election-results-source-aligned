@@ -2,6 +2,405 @@
 input_ports:
   - id: berlin-election-results-berlin-elections-2016
     files:
+      - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-eligible-voters.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+      - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-eligible-voters-comparison-to-previous.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+      - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-eligible-voters-relative-to-1990.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+      - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-eligible-voters-percentage.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+      - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-second-vote.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 5
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-second-vote-comparison-to-previous.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 16
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-second-vote-relative-to-1990.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 27
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-total-second-vote-percentage.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 38
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-eligible-voters.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-eligible-voters-east-comparison-to-previous.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-eligible-voters-relative-to-1990.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-eligible-voters-percentage.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-second-vote.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 5
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-second-vote-comparison-to-previous.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 16
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-second-vote-relative-to-1990.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 27
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-east-berlin-second-vote-percentage.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 38
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-eligible-voters.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-eligible-voters-comparison-to-previous.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-eligible-voters-relative-to-1990.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-eligible-voters-percentage.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-second-vote.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 5
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-second-vote-comparison-to-previous.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 16
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-second-vote-relative-to-1990.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 27
+            skip_cols: 1
+            head: 9
+          - target_file_name: berlin-election-results-berlin-election-2016-long-series-west-berlin-second-vote-percentage.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - name: "1990"
+              - name: "1995"
+              - name: "1999"
+              - name: "2001"
+              - name: "2006"
+              - name: "2011"
+              - name: "2016"
+              - name: "2021"
+              - name: "2023"
+            skip_rows: 38
+            skip_cols: 1
+            head: 9
       - source_file_name: DL_BE_AGHBVV2016.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-constituency-results.xlsx
         datasets:
