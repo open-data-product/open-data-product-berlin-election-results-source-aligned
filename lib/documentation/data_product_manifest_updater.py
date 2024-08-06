@@ -23,19 +23,22 @@ def update_data_product_manifest(data_product_manifest: DataProductManifest, con
             if [file for file in files if file.endswith(file_endings)]:
                 id = subdir.replace(f"{data_path}/", "")
 
+                repo_organization = data_product_manifest.metadata.owner.lower().replace(" ", "-")
+                repo = f"open-lifeworlds-data-product-{data_product_manifest.id}"
+
                 output_port = Port(
                     id=id,
                     metadata=Metadata(
                         name=id.replace("-", " ").title(),
                         owner=data_product_manifest.metadata.owner,
                         description="description",
-                        url=f"https://github.com/{data_product_manifest.metadata.owner.lower().replace(" ", "-")}/{data_product_manifest.id}/tree/main/data/{os.path.basename(data_path)}/{id}",
+                        url=f"https://github.com/{repo_organization}/{repo}/tree/main/data/{os.path.basename(data_path)}/{id}",
                         license=data_product_manifest.metadata.license,
                         updated=None,
                         schema=None,
                     ),
                     files=[
-                        f"https://raw.githubusercontent.com/{data_product_manifest.metadata.owner.lower().replace(" ", "-")}/{data_product_manifest.id}/main/data/{os.path.basename(data_path)}/{id}/{file}"
+                        f"https://raw.githubusercontent.com/{repo_organization}/{repo}/main/data/{os.path.basename(data_path)}/{id}/{file}"
                         for file in sorted([file for file in files if file.endswith(file_endings)])
                     ]
                 )
