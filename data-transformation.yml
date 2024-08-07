@@ -2356,3 +2356,188 @@ input_ports:
             skip_rows: 38
             skip_cols: 1
             head: 9
+  - id: berlin-election-results-berlin-elections-2023
+    files:
+      - source_file_name: DL_BE_AGHBVV2023.xlsx
+        target_file_name: berlin-election-results-berlin-election-2023-constituency-results.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2023-constituency-results-first-vote.csv
+            sheet_name: AGH_W1
+            names:
+              - name: vote_type
+              - name: address
+              - name: district_id
+              - name: district_name
+              - name: constituency_district
+              - name: constituency_district_type
+              - name: postal_voting_district
+              - name: constituency_district_berlin_elections
+              - name: constituency_district_federal_election
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: valid_votes, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_graue_panther, type: int }
+              - { name: party_npd, type: int }
+              - { name: party_gesundheitsforschung, type: int }
+              - { name: party_lkr, type: int }
+              - { name: party_dkp, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_menschliche_welt, type: int }
+              - { name: party_b, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_die_basis, type: int }
+              - { name: party_bildet_berlin, type: int }
+              - { name: party_dl, type: int }
+              - { name: party_deutsche_konservative, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_neue_demokraten, type: int }
+              - { name: party_rep, type: int }
+              - { name: party_du, type: int }
+              - { name: party_bündnis21, type: int }
+              - { name: party_die_frauen, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_klimaliste_berlin, type: int }
+              - { name: party_ld, type: int }
+              - { name: party_mieterpartei, type: int }
+              - { name: party_die_humanisten, type: int }
+              - { name: party_team_todenhöfer, type: int }
+              - { name: party_volt, type: int }
+              - { name: individual_applicant_1, type: int }
+              - { name: individual_applicant_2, type: int }
+              - { name: individual_applicant_3, type: int }
+              - { name: individual_applicant_4, type: int }
+              - { name: individual_applicant_5, type: int }
+              - { name: individual_applicant_6, type: int }
+              - { name: individual_applicant_7, type: int }
+              - { name: individual_applicant_8, type: int }
+              - { name: individual_applicant_9, type: int }
+              - { name: individual_applicant_10, type: int }
+              - { name: individual_applicant_11, type: int }
+              - { name: individual_applicant_12, type: int }
+            skip_rows: 1
+          - target_file_name: berlin-election-results-berlin-election-2023-constituency-results-second-vote.csv
+            sheet_name: AGH_W2
+            names:
+              - name: vote_type
+              - name: address
+              - name: district_id
+              - name: district_name
+              - name: constituency_district
+              - name: constituency_district_type
+              - name: postal_voting_district
+              - name: constituency_district_berlin_elections
+              - name: constituency_district_federal_election
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: valid_votes, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_graue_panther, type: int }
+              - { name: party_npd, type: int }
+              - { name: party_gesundheitsforschung, type: int }
+              - { name: party_lkr, type: int }
+              - { name: party_dkp, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_menschliche_welt, type: int }
+              - { name: party_b, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_die_basis, type: int }
+              - { name: party_bildet_berlin, type: int }
+              - { name: party_dl, type: int }
+              - { name: party_deutsche_konservative, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_neue_demokraten, type: int }
+              - { name: party_rep, type: int }
+              - { name: party_du, type: int }
+              - { name: party_bündnis21, type: int }
+              - { name: party_die_frauen, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_klimaliste_berlin, type: int }
+              - { name: party_ld, type: int }
+              - { name: party_mieterpartei, type: int }
+              - { name: party_die_humanisten, type: int }
+              - { name: party_team_todenhöfer, type: int }
+              - { name: party_volt, type: int }
+            skip_rows: 1
+          - target_file_name: berlin-election-results-berlin-election-2023-constituency-results-district-council.csv
+            sheet_name: BVV
+            names:
+              - name: vote_type
+              - name: address
+              - name: district_id
+              - name: district_name
+              - name: constituency_district
+              - name: constituency_district_type
+              - name: postal_voting_district
+              - name: constituency_district_berlin_elections
+              - name: constituency_district_federal_election
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: valid_votes, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_npd, type: int }
+              - { name: party_lkr, type: int }
+              - { name: party_b, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_die_basis, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_klimaliste_berlin, type: int }
+              - { name: party_ld, type: int }
+              - { name: party_mieterpartei, type: int }
+              - { name: party_die_humanisten, type: int }
+              - { name: party_volt, type: int }
+              - { name: voters_alliance_wsb_f_k, type: int }
+              - { name: voters_alliance_die_waehlbaren.de, type: int }
+              - { name: voters_alliance_olf, type: int }
+              - { name: voters_alliance_bärlä, type: int }
+              - { name: voters_alliance_wsB_spandau, type: int }
+              - { name: voters_alliance_tkbb, type: int }
+              - { name: voters_alliance_wsb, type: int }
+              - { name: voters_alliance_wiss, type: int }
+              - { name: voters_alliance_wsb, type: int }
+            skip_rows: 1

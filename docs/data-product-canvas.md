@@ -333,6 +333,18 @@
 * [berlin-election-results-berlin-election-2016-structural-data-2-8-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-structural-data-2-8-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv)
 * [berlin-election-results-berlin-election-2016-structural-data-2-9-registered-inhabitants-december-2015-by-constituency-association.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2016/berlin-election-results-berlin-election-2016-structural-data-2-9-registered-inhabitants-december-2015-by-constituency-association.csv)
 
+### Berlin Election Results Berlin Elections 2023
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-elections-2023
+* license: GPLv3
+* updated: None
+
+#### Files
+
+* [berlin-election-results-berlin-election-2023-constituency-results-district-council.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2023/berlin-election-results-berlin-election-2023-constituency-results-district-council.csv)
+* [berlin-election-results-berlin-election-2023-constituency-results-first-vote.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2023/berlin-election-results-berlin-election-2023-constituency-results-first-vote.csv)
+* [berlin-election-results-berlin-election-2023-constituency-results-second-vote.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-elections-2023/berlin-election-results-berlin-election-2023-constituency-results-second-vote.csv)
+
 
 ## Observability
 
