@@ -8,6 +8,8 @@ from dacite import from_dict
 from yaml import MappingNode
 from yaml.constructor import ConstructorError
 
+from lib.tracking_decorator import TrackingDecorator
+
 
 @dataclass
 class Name:
@@ -28,10 +30,18 @@ class Dataset:
 
 
 @dataclass
+class Property:
+    name: str
+    rename: Optional[str] = None
+    remove: Optional[bool] = None
+
+
+@dataclass
 class File:
     source_file_name: str
     target_file_name: str
     datasets: Optional[List[Dataset]] = field(default_factory=list)
+    properties: Optional[List[Property]] = field(default_factory=list)
 
 
 @dataclass
@@ -54,15 +64,22 @@ class Loader(yaml.SafeLoader):
 
     def construct_mapping(self, node, deep=False):
         if not isinstance(node, MappingNode):
-            raise ConstructorError(None, None,
-                                   "expected a mapping node, but found %s" % node.id,
-                                   node.start_mark)
+            raise ConstructorError(
+                None,
+                None,
+                "expected a mapping node, but found %s" % node.id,
+                node.start_mark,
+            )
         mapping = {}
         for key_node, value_node in node.value:
             key = self.construct_object(key_node, deep=deep)
             if not isinstance(key, collections.abc.Hashable):
-                raise ConstructorError("while constructing a mapping", node.start_mark,
-                                       "found unhashable key", key_node.start_mark)
+                raise ConstructorError(
+                    "while constructing a mapping",
+                    node.start_mark,
+                    "found unhashable key",
+                    key_node.start_mark,
+                )
 
             # Make sure that some fields are read in a raw format
             if key in self.raw_fields:
@@ -73,6 +90,7 @@ class Loader(yaml.SafeLoader):
         return mapping
 
 
+@TrackingDecorator.track_time
 def load_data_transformation(config_path) -> DataTransformation:
     data_transformation_path = os.path.join(config_path, "data-transformation.yml")
 
