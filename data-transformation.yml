@@ -3,9 +3,9 @@ input_ports:
   - id: berlin-election-results-berlin-election-2016
     files:
       - source_file_name: DL_BE_AGHBVV2016.xlsx
-        target_file_name: berlin-election-results-berlin-election-2016-constituency-results.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-electoral-results.xlsx
         datasets:
-          - target_file_name: berlin-election-results-berlin-election-2016-constituency-results-first-vote.csv
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-results-first-vote.csv
             sheet_name: Erststimme
             names:
               - name: address
@@ -70,7 +70,7 @@ input_ports:
               - { name: individual_applicant_17, type: int }
               - { name: individual_applicant_18, type: int }
             skip_rows: 1
-          - target_file_name: berlin-election-results-berlin-election-2016-constituency-results-second-vote.csv
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote.csv
             sheet_name: Zweitstimme
             names:
               - name: address
@@ -117,7 +117,7 @@ input_ports:
               - { name: party_mieterpartei, type: int }
               - { name: party_gesundheitsforschung, type: int }
             skip_rows: 1
-          - target_file_name: berlin-election-results-berlin-election-2016-constituency-results-district-council.csv
+          - target_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council.csv
             sheet_name: BVV
             names:
               - name: address
@@ -1831,6 +1831,9 @@ input_ports:
               - { name: party_afd_percentage, type: float }
               - { name: others, type: int }
               - { name: others_percentage, type: float }
+      - source_file_name: DL_BE_AH2016_Strukturdaten.xlsx
+        target_file_name: berlin-election-results-berlin-election-2016-structural-data.xlsx
+        datasets:
       - source_file_name: SB_B07-02-05_2016j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics.xlsx
         datasets:
@@ -2359,9 +2362,9 @@ input_ports:
   - id: berlin-election-results-berlin-election-2023
     files:
       - source_file_name: DL_BE_AGHBVV2023.xlsx
-        target_file_name: berlin-election-results-berlin-election-2023-constituency-results.xlsx
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results.xlsx
         datasets:
-          - target_file_name: berlin-election-results-berlin-election-2023-constituency-results-first-vote.csv
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
             sheet_name: AGH_W1
             names:
               - name: vote_type
@@ -2431,7 +2434,7 @@ input_ports:
               - { name: individual_applicant_11, type: int }
               - { name: individual_applicant_12, type: int }
             skip_rows: 1
-          - target_file_name: berlin-election-results-berlin-election-2023-constituency-results-second-vote.csv
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote.csv
             sheet_name: AGH_W2
             names:
               - name: vote_type
@@ -2489,7 +2492,7 @@ input_ports:
               - { name: party_team_todenhöfer, type: int }
               - { name: party_volt, type: int }
             skip_rows: 1
-          - target_file_name: berlin-election-results-berlin-election-2023-constituency-results-district-council.csv
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council.csv
             sheet_name: BVV
             names:
               - name: vote_type
@@ -2541,6 +2544,9 @@ input_ports:
               - { name: voters_alliance_wiss, type: int }
               - { name: voters_alliance_wsb, type: int }
             skip_rows: 1
+      - source_file_name: SB_B07-02-03_2023j05_BE.xlsx
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report.xlsx
+        datasets:
       - source_file_name: SB_B07-02-01_2023j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2023-structural-data.xlsx
         datasets:
@@ -4052,3 +4058,10 @@ input_ports:
               - { name: party_fdp_percentage, type: float }
               - { name: others, type: int }
               - { name: others_percentage, type: float }
+      - source_file_name: DL_BE_AGH2023_Strukturdaten.xlsx
+        target_file_name: berlin-election-results-berlin-election-2023-structural-data.xlsx
+        datasets:
+      - source_file_name: SB_B07-02-05_2023j05_BE.xlsx
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics.xlsx
+      - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
+        target_file_name: berlin-election-results-berlin-election-2023-long-series.xlsx
