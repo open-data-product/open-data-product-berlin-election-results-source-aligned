@@ -13,7 +13,7 @@
 
 ### Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2016
 * owner: Amt für Statistik Berlin-Brandenburg
-* url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+* url: https://www.statistik-berlin-brandenburg.de/abgeordnetenhauswahlen-bvv-berlin
 * license: CC-BY-3.0-Namensnennung
 * updated: 2016-09-18
 
@@ -27,7 +27,7 @@
 * [abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx](https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx)
 ### Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2023
 * owner: Amt für Statistik Berlin-Brandenburg
-* url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+* url: https://www.statistik-berlin-brandenburg.de/abgeordnetenhauswahlen-bvv-berlin
 * license: CC-BY-3.0-Namensnennung
 * updated: 2023-02-12
 

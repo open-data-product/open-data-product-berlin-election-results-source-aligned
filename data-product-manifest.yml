@@ -14,7 +14,7 @@ input_ports:
       name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2016
       owner: Amt für Statistik Berlin-Brandenburg
       description:
-      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      url: https://www.statistik-berlin-brandenburg.de/abgeordnetenhauswahlen-bvv-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2016-09-18
       schema:
@@ -30,7 +30,7 @@ input_ports:
       name: Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2023
       owner: Amt für Statistik Berlin-Brandenburg
       description:
-      url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
+      url: https://www.statistik-berlin-brandenburg.de/abgeordnetenhauswahlen-bvv-berlin
       license: CC-BY-3.0-Namensnennung
       updated: 2023-02-12
       schema:
