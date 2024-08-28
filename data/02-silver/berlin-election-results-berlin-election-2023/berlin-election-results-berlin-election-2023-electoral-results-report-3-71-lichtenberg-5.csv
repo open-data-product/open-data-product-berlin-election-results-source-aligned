@@ -1,0 +1,39 @@
+feature,berlin_election_2023_first_votes,berlin_election_2023_first_votes_percentage,berlin_election_2023_second_votes,berlin_election_2023_second_votes_percentage,berlin_election_2016_first_votes,berlin_election_2016_first_votes_percentage,berlin_election_2016_second_votes,berlin_election_2016_second_votes_percentage,difference_first_votes,difference_first_votes_percentage,difference_second_votes,difference_second_votes_percentage
+Wahlberechtigte,33134,x,33134,x,34420,x,34420,x,-1286,x,-1286,x
+ohne Wahlschein,23617,71.3,23617,71.3,28276,82.1,28276,82.1,-4659,-10.9,-4659,-10.9
+mit Wahlschein,9517,28.7,9517,28.7,6144,17.9,6144,17.9,3373,10.9,3373,10.9
+Wählende,19972,60.3,19972,60.3,21614,62.8,21614,62.8,-1642,-2.5,-1642,-2.5
+darunter Briefwählende,8583,43,8583,43,5569,25.8,5569,25.8,3014,17.2,3014,17.2
+Abgegebene Stimmen,19949,x,19956,x,21583,x,21591,x,-1634,x,-1635,x
+Ungültige Stimmen,205,1,193,1,368,1.7,366,1.7,-163,-0.7,-173,-0.7
+Gültige Stimmen,19744,99,19763,99,21215,98.3,21225,98.3,-1471,0.7,-1462,0.7
+SPD,3203,16.2,3140,15.9,4813,22.7,4187,19.7,-1610,-6.5,-1047,-3.8
+CDU,3900,19.8,3919,19.8,2197,10.4,2044,9.6,1703,9.4,1875,10.2
+GRÜNE,2791,14.1,2959,15,2463,11.6,2471,11.6,328,2.5,488,3.3
+DIE LINKE,4928,25,4139,20.9,6270,29.6,5606,26.4,-1342,-4.6,-1467,-5.5
+AfD,2588,13.1,2518,12.7,3605,17,3417,16.1,-1017,-3.9,-899,-3.4
+FDP,545,2.8,582,2.9,547,2.6,587,2.8,-2,0.2,-5,0.2
+Die PARTEI,549,2.8,437,2.2,x,x,740,3.5,549,2.8,-303,-1.3
+Tierschutzpartei,872,4.4,725,3.7,x,x,566,2.7,872,4.4,159,1
+PIRATEN,x,x,115,0.6,686,3.2,498,2.3,-686,-3.2,-383,-1.8
+Graue Panther,x,x,104,0.5,x,x,268,1.3,x,x,-164,-0.7
+NPD,x,x,36,0.2,x,x,211,1,x,x,-175,-0.8
+Gesundheitsforschung,x,x,81,0.4,x,x,158,0.7,x,x,-77,-0.3
+LKR,17,0.1,9,0,x,x,100,0.5,17,0.1,-91,-0.4
+DKP,x,x,64,0.3,x,x,77,0.4,x,x,-13,0
+SGP,x,x,18,0.1,x,x,53,0.2,x,x,-35,-0.2
+BüSo,x,x,12,0.1,x,x,33,0.2,x,x,-21,-0.1
+B*,x,x,23,0.1,x,x,x,x,x,x,23,0.1
+ÖDP,x,x,20,0.1,x,x,x,x,x,x,20,0.1
+dieBasis,130,0.7,97,0.5,x,x,x,x,130,0.7,97,0.5
+Bildet Berlin!,x,x,36,0.2,x,x,x,x,x,x,36,0.2
+Die Grauen,x,x,105,0.5,x,x,x,x,x,x,105,0.5
+du.,x,x,70,0.4,x,x,x,x,x,x,70,0.4
+BÜNDNIS21,x,x,20,0.1,x,x,x,x,x,x,20,0.1
+FREIE WÄHLER,221,1.1,102,0.5,x,x,x,x,221,1.1,102,0.5
+Klimaliste Berlin,x,x,63,0.3,x,x,x,x,x,x,63,0.3
+MIETERPARTEI,x,x,85,0.4,x,x,x,x,x,x,85,0.4
+Die Humanisten,x,x,36,0.2,x,x,x,x,x,x,36,0.2
+Team Todenhöfer,x,x,42,0.2,x,x,x,x,x,x,42,0.2
+Volt,x,x,206,1,x,x,x,x,x,x,206,1
+Sonstige,x,x,x,x,634,3,209,1,x,x,x,x

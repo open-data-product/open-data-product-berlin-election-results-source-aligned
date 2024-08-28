@@ -1,0 +1,6 @@
+party,valid_second_votes,new_mandates,valid_second_votes_to_consider,calculation_number,integer,fraction,basic_mandates,overhang_mandates,compensatory_mandates
+SPD,279017,159,1309199,33.8861,33.0,1,34.0,28.0,0.0
+CDU¹,x,x,x,x,52.0,x,52.0,42.0,10.0
+GRÜNE,278964,159,1309199,33.8797,33.0,1,34.0,28.0,0.0
+DIE LINKE,185119,159,1309199,22.4824,22.0,0,22.0,18.0,0.0
+AfD,137871,159,1309199,16.7442,16.0,1,17.0,14.0,0.0

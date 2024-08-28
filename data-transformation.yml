@@ -2547,6 +2547,2256 @@ input_ports:
       - source_file_name: SB_B07-02-03_2023j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report.xlsx
         datasets:
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-1.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-1-mitte.csv
+            sheet_name: 2.1
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-2-friedrichshain-kreuzberg.csv
+            sheet_name: 2.2
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-3-pankow.csv
+            sheet_name: 2.3
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-4-charlottenburg-wilmersdorf.csv
+            sheet_name: 2.4
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-5-spandau.csv
+            sheet_name: 2.5
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-6-steglitz-zehlendorf.csv
+            sheet_name: 2.6
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-7-tempelhof-schöneberg.csv
+            sheet_name: 2.7
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-8-neukölln.csv
+            sheet_name: 2.8
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-9-treptow-köpenick.csv
+            sheet_name: 2.9
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-10-marzahn-hellersdorf.csv
+            sheet_name: 2.10
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-11-lichtenberg.csv
+            sheet_name: 2.11
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-2-12-reinickendorf.csv
+            sheet_name: 2.12
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-1-mitte-1.csv
+            sheet_name: 3.1
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-2-mitte-2.csv
+            sheet_name: 3.2
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-3-mitte-3.csv
+            sheet_name: 3.3
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-4-mitte-4.csv
+            sheet_name: 3.4
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-5-mitte-5.csv
+            sheet_name: 3.5
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-6-mitte-6.csv
+            sheet_name: 3.6
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-7-mitte-7.csv
+            sheet_name: 3.7
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-8-friedrichshain-kreuzberg-1.csv
+            sheet_name: 3.8
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-9-friedrichshain-kreuzberg-2.csv
+            sheet_name: 3.9
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-10-friedrichshain-kreuzberg-3.csv
+            sheet_name: 3.10
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-11-friedrichshain-kreuzberg-4.csv
+            sheet_name: 3.11
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-12-friedrichshain-kreuzberg-5.csv
+            sheet_name: 3.12
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-13-friedrichshain-kreuzberg-6.csv
+            sheet_name: 3.13
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-14-pankow-1.csv
+            sheet_name: 3.14
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-15-pankow-2.csv
+            sheet_name: 3.15
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-16-pankow-3.csv
+            sheet_name: 3.16
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-17-pankow-4.csv
+            sheet_name: 3.17
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-18-pankow-5.csv
+            sheet_name: 3.18
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-19-pankow-6.csv
+            sheet_name: 3.19
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-20-pankow-7.csv
+            sheet_name: 3.20
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-21-pankow-8.csv
+            sheet_name: 3.21
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-22-pankow-9.csv
+            sheet_name: 3.22
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-23-charlottenburg-wilmersdorf-1.csv
+            sheet_name: 3.23
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-24-charlottenburg-wilmersdorf-2.csv
+            sheet_name: 3.24
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-25-charlottenburg-wilmersdorf-3.csv
+            sheet_name: 3.25
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-26-charlottenburg-wilmersdorf-4.csv
+            sheet_name: 3.26
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-27-charlottenburg-wilmersdorf-5.csv
+            sheet_name: 3.27
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-28-charlottenburg-wilmersdorf-6.csv
+            sheet_name: 3.28
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-29-charlottenburg-wilmersdorf-7.csv
+            sheet_name: 3.29
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-30-spandau-1.csv
+            sheet_name: 3.30
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-31-spandau-2.csv
+            sheet_name: 3.31
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-32-spandau-3.csv
+            sheet_name: 3.32
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-33-spandau-4.csv
+            sheet_name: 3.33
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-34-spandau-5.csv
+            sheet_name: 3.34
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-35-steglitz-zehlendorf-1.csv
+            sheet_name: 3.35
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-36-steglitz-zehlendorf-2.csv
+            sheet_name: 3.36
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-37-steglitz-zehlendorf-3.csv
+            sheet_name: 3.37
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-38-steglitz-zehlendorf-4.csv
+            sheet_name: 3.38
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-39-steglitz-zehlendorf-5.csv
+            sheet_name: 3.39
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-40-steglitz-zehlendorf-6.csv
+            sheet_name: 3.40
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-41-steglitz-zehlendorf-7.csv
+            sheet_name: 3.41
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-42-tempelhof-schöneberg-1.csv
+            sheet_name: 3.42
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-43-tempelhof-schöneberg-2.csv
+            sheet_name: 3.43
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-44-tempelhof-schöneberg-3.csv
+            sheet_name: 3.44
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-45-tempelhof-schöneberg-4.csv
+            sheet_name: 3.45
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-46-tempelhof-schöneberg-5.csv
+            sheet_name: 3.46
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-47-tempelhof-schöneberg-6.csv
+            sheet_name: 3.47
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-48-tempelhof-schöneberg-7.csv
+            sheet_name: 3.48
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-49-neukölln-1.csv
+            sheet_name: 3.49
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-50-neukölln-2.csv
+            sheet_name: 3.50
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-51-neukölln-3.csv
+            sheet_name: 3.51
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-52-neukölln-4.csv
+            sheet_name: 3.52
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-53-neukölln-5.csv
+            sheet_name: 3.53
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-54-neukölln-6.csv
+            sheet_name: 3.54
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-55-treptow-köpenick-1.csv
+            sheet_name: 3.55
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-56-treptow-köpenick-2.csv
+            sheet_name: 3.56
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-57-treptow-köpenick-3.csv
+            sheet_name: 3.57
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-58-treptow-köpenick-4.csv
+            sheet_name: 3.58
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-59-treptow-köpenick-5.csv
+            sheet_name: 3.59
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-60-treptow-köpenick-6.csv
+            sheet_name: 3.60
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-61-marzahn-hellersdorf-1.csv
+            sheet_name: 3.61
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-62-marzahn-hellersdorf-2.csv
+            sheet_name: 3.62
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-63-marzahn-hellersdorf-3.csv
+            sheet_name: 3.63
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-64-marzahn-hellersdorf-4.csv
+            sheet_name: 3.64
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-65-marzahn-hellersdorf-5.csv
+            sheet_name: 3.65
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-66-marzahn-hellersdorf-6.csv
+            sheet_name: 3.66
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-67-lichtenberg-1.csv
+            sheet_name: 3.67
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-68-lichtenberg-2.csv
+            sheet_name: 3.68
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-69-lichtenberg-3.csv
+            sheet_name: 3.69
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-70-lichtenberg-4.csv
+            sheet_name: 3.70
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-71-lichtenberg-5.csv
+            sheet_name: 3.71
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-72-lichtenberg-6.csv
+            sheet_name: 3.72
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-73-reinickendorf-1.csv
+            sheet_name: 3.73
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-74-reinickendorf-2.csv
+            sheet_name: 3.74
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-75-reinickendorf-3.csv
+            sheet_name: 3.75
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-76-reinickendorf-4.csv
+            sheet_name: 3.76
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-77-reinickendorf-5.csv
+            sheet_name: 3.77
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-3-78-reinickendorf-6.csv
+            sheet_name: 3.78
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 9
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-1-seating-distribution.csv
+            sheet_name: 4.1
+            names:
+              - name: party
+              - { name: second_votes, type: int }
+              - { name: direct_mandates, type: int }
+            skip_rows: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-2-basic-mandates.csv
+            sheet_name: 4.2
+            names:
+              - name: party
+              - { name: valid_second_votes, type: int }
+              - { name: basic_mandates, type: int }
+              - { name: second_votes_to_be_taken_into_account, type: int }
+              - { name: calculation_number, type: int }
+              - { name: mandates_integer, type: int }
+              - { name: mandates_fraction, type: int }
+              - { name: mandates_total, type: int }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-3-overhang-mandates-spd.csv
+            sheet_name: 4.3
+            names:
+              - name: party
+              - { name: basic_mandates, type: int }
+              - { name: direct_mandates_total, type: int }
+              - { name: direct_mandates_overhang, type: int }
+              - { name: mandates_including_overhang, type: int }
+              - { name: list_mandates, type: int }
+            skip_rows: 9
+            head: 12
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-3-overhang-mandates-cdu.csv
+            sheet_name: 4.3
+            names:
+              - name: party
+              - { name: basic_mandates, type: int }
+              - { name: direct_mandates_total, type: int }
+              - { name: direct_mandates_overhang, type: int }
+              - { name: mandates_including_overhang, type: int }
+              - { name: list_mandates, type: int }
+            skip_rows: 24
+            head: 12
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-3-overhang-mandates-grüne.csv
+            sheet_name: 4.3
+            names:
+              - name: party
+              - { name: basic_mandates, type: int }
+              - { name: direct_mandates_total, type: int }
+              - { name: direct_mandates_overhang, type: int }
+              - { name: mandates_including_overhang, type: int }
+              - { name: list_mandates, type: int }
+            skip_rows: 40
+            head: 1
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-3-overhang-mandates-die-linke.csv
+            sheet_name: 4.3
+            names:
+              - name: party
+              - { name: basic_mandates, type: int }
+              - { name: direct_mandates_total, type: int }
+              - { name: direct_mandates_overhang, type: int }
+              - { name: mandates_including_overhang, type: int }
+              - { name: list_mandates, type: int }
+            skip_rows: 41
+            head: 1
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-3-overhang-mandates-afd.csv
+            sheet_name: 4.3
+            names:
+              - name: party
+              - { name: basic_mandates, type: int }
+              - { name: direct_mandates_total, type: int }
+              - { name: direct_mandates_overhang, type: int }
+              - { name: mandates_including_overhang, type: int }
+              - { name: list_mandates, type: int }
+            skip_rows: 42
+            head: 1
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-4-mandate-calculation.csv
+            sheet_name: 4.4+4.5
+            names:
+              - name: party
+              - { name: mandates_including_overhang_mandates, type: int }
+              - { name: valid_second_votes_to_consider, type: int }
+              - { name: valid_second_votes_per_list, type: int }
+              - { name: calculation_number, type: int }
+              - { name: total_mandates, type: int }
+            skip_rows: 7
+            head: 1
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-5-mandate-calculation.csv
+            sheet_name: 4.4+4.5
+            names:
+              - name: party
+              - { name: valid_second_votes, type: int }
+              - { name: new_mandates, type: int }
+              - { name: valid_second_votes_to_consider, type: int }
+              - { name: calculation_number, type: int }
+              - { name: integer, type: int }
+              - { name: fraction, type: int }
+              - { name: basic_mandates, type: int }
+              - { name: overhang_mandates, type: int }
+              - { name: compensatory_mandates, type: int }
+            skip_rows: 22
+            head: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-6-mandate-distribution.csv
+            sheet_name: 4.6
+            names:
+              - name: district
+              - { name: valid_second_votes, type: int }
+              - { name: new_mandates, type: int }
+              - { name: valid_second_votes_to_consider, type: int }
+              - { name: calculation_number, type: int }
+              - { name: integer, type: int }
+              - { name: fraction, type: int }
+              - { name: basic_mandates, type: int }
+              - { name: overhang_mandates, type: int }
+              - { name: compensatory_mandates, type: int }
+            skip_rows: 8
+            head: 12
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-7-mandates.csv
+            sheet_name: 4.7
+            names:
+              - name: party
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+              - { name: list_mandates, type: int }
+              - { name: total, type: int }
+            skip_rows: 7
+            head: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-7-overhang-mandates.csv
+            sheet_name: 4.7
+            names:
+              - name: party
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+              - { name: list_mandates, type: int }
+              - { name: total, type: int }
+            skip_rows: 16
+            head: 1
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-7-compensatory-mandates.csv
+            sheet_name: 4.7
+            names:
+              - name: party
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+              - { name: list_mandates, type: int }
+              - { name: total, type: int }
+            skip_rows: 19
+            head: 4
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-8-compensatory-mandates.csv
+            sheet_name: 4.8
+            names:
+              - name: election_day
+              - { name: total, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_spd_percentage, type: int }
+              - { name: party_cdu_percentage, type: int }
+              - { name: party_grüne_percentage, type: int }
+              - { name: party_die_linke_percentage, type: int }
+              - { name: party_fdp_percentage, type: int }
+              - { name: party_piraten_percentage, type: int }
+              - { name: party_afd_percentage, type: int }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-9-directly-elected-representatives.csv
+            sheet_name: 4.9
+            names:
+              - name: electoral_district
+              - name: name
+              - name: party
+              - { name: first_votes, type: int }
+              - { name: first_votes_percentage, type: float }
+              - { name: vote_lead_over_runner_up, type: int }
+              - { name: vote_lead_over_runner_up_percentage, type: float }
+            skip_rows: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-10-elected-representatives.csv
+            sheet_name: 4.10
+            names:
+              - name: party
+              - name: name
+              - { name: year_of_birth, type: int }
+              - name: profession
+              - name: direct_mandate_list_mandate
+              - name: electoral_district
+            skip_rows: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-11-party-successors.csv
+            sheet_name: 4.11
+            names:
+              - name: party
+              - name: electoral_district
+              - { name: list_position, type: int }
+            skip_rows: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-1-second-votes.csv
+            sheet_name: 5.1
+            names:
+              - name: feature
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+              - { name: total, type: int }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-2-second-votes-by-electoral-districts.csv
+            sheet_name: 5.2
+            names:
+              - name: electoral_district
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: float }
+              - { name: valid_votes, type: float }
+              - { name: party_spd, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-3-election-results-east-berlin.csv
+            sheet_name: 5.3
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-4-election-results-west-berlin.csv
+            sheet_name: 5.4
+            names:
+              - name: feature
+              - { name: berlin_election_2023_first_votes, type: int }
+              - { name: berlin_election_2023_first_votes_percentage, type: float }
+              - { name: berlin_election_2023_second_votes, type: int }
+              - { name: berlin_election_2023_second_votes_percentage, type: float }
+              - { name: berlin_election_2016_first_votes, type: int }
+              - { name: berlin_election_2016_first_votes_percentage, type: float }
+              - { name: berlin_election_2016_second_votes, type: int }
+              - { name: berlin_election_2016_second_votes_percentage, type: float }
+              - { name: difference_first_votes, type: int }
+              - { name: difference_first_votes_percentage, type: float }
+              - { name: difference_second_votes, type: int }
+              - { name: difference_second_votes_percentage, type: float }
+            skip_rows: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-6-1-first-votes.csv
+            sheet_name: 6.1
+            names:
+              - name: feature
+              - { name: total, type: int }
+              - { name: total_percentage, type: float }
+              - { name: urn_voting, type: int }
+              - { name: urn_voting_percentage, type: float }
+              - { name: postal_voting, type: int }
+              - { name: postal_voting_percentage, type: float }
+              - { name: postal_voting_percentage_of_total, type: float }
+            skip_rows: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-6-2-second-votes.csv
+            sheet_name: 6.2
+            names:
+              - name: feature
+              - { name: total, type: int }
+              - { name: total_percentage, type: float }
+              - { name: urn_voting, type: int }
+              - { name: urn_voting_percentage, type: float }
+              - { name: postal_voting, type: int }
+              - { name: postal_voting_percentage, type: float }
+              - { name: postal_voting_percentage_of_total, type: float }
+            skip_rows: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-1-bvv-election-results-comparison.csv
+            sheet_name: 7.1
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-1-bvv-mitte-1-election-results-comparison.csv
+            sheet_name: 7.2.1
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-1-bvv-mitte-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.1.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-1-bvv-mitte-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.1.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-2-bvv-friedrichshain-kreuzberg-1-election-results-comparison.csv
+            sheet_name: 7.2.2
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-2-bvv-friedrichshain-kreuzberg-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.2.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-2-bvv-friedrichshain-kreuzberg-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.2.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-3-bvv-pankow-1-election-results-comparison.csv
+            sheet_name: 7.2.3
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-3-bvv-pankow-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.3.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-3-bvv-pankow-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.3.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-4-bvv-charlottenburg-wilmersdorf-1-election-results-comparison.csv
+            sheet_name: 7.2.4
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-4-bvv-charlottenburg-wilmersdorf-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.4.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-4-bvv-charlottenburg-wilmersdorf-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.4.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-5-bvv-spandau-1-election-results-comparison.csv
+            sheet_name: 7.2.5
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-5-bvv-spandau-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.5.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-5-bvv-spandau-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.5.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-6-bvv-steglitz-zehlendorf-1-election-results-comparison.csv
+            sheet_name: 7.2.6
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-6-bvv-steglitz-zehlendorf-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.6.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-6-bvv-steglitz-zehlendorf-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.6.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-7-bvv-tempelhof-schöneberg-1-election-results-comparison.csv
+            sheet_name: 7.2.7
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-7-bvv-tempelhof-schöneberg-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.7.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-7-bvv-tempelhof-schöneberg-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.7.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-8-bvv-neukölln-1-election-results-comparison.csv
+            sheet_name: 7.2.8
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-8-bvv-neukölln-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.8.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-8-bvv-neukölln-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.8.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-9-bvv-treptow-köpenick-1-election-results-comparison.csv
+            sheet_name: 7.2.9
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-9-bvv-treptow-köpenick-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.9.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-9-bvv-treptow-köpenick-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.9.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-10-bvv-marzahn-hellersdorf-1-election-results-comparison.csv
+            sheet_name: 7.2.10
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-10-bvv-marzahn-hellersdorf-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.10.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-10-bvv-marzahn-hellersdorf-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.10.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-11-bvv-lichtenberg-1-election-results-comparison.csv
+            sheet_name: 7.2.11
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-11-bvv-lichtenberg-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.11.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-11-bvv-lichtenberg-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.11.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-12-bvv-reinickendorf-1-election-results-comparison.csv
+            sheet_name: 7.2.12
+            names:
+              - name: feature
+              - { name: 2023_total, type: int }
+              - { name: 2023_total_percentage, type: float }
+              - { name: 2016_total, type: int }
+              - { name: 2016_total_percentage, type: float }
+              - { name: difference, type: int }
+              - { name: difference_percentage, type: float }
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-12-bvv-reinickendorf-2-max-numbers-and-seat-distribution.csv
+            sheet_name: 7.2.12.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+              - name: elected_person
+            skip_rows: 7
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-12-bvv-reinickendorf-3-max-numbers-and-district-office-distribution.csv
+            sheet_name: 7.2.12.2+3
+            names:
+              - name: electoral_district_proposal
+              - { name: division_numbers, type: int }
+              - { name: max_numbers, type: float }
+            skip_rows: 7
+            skip_columns: 5
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-3-bvv-valid-voters-valid-votes-by-electoral-district.csv
+            sheet_name: 7.3
+            names:
+              - name: feature
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+              - { name: total, type: int }
+            skip_rows: 8
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-4-bvv-seat-distribution.csv
+            sheet_name: 7.4+7.5
+            names:
+              - name: party
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+              - { name: total, type: int }
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-5-bvv-elected-members.csv
+            sheet_name: 7.4+7.5
+            names:
+              - name: party
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+              - { name: total, type: int }
+            skip_rows: 26
+            head: 5
       - source_file_name: SB_B07-02-01_2023j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2023-structural-data.xlsx
         datasets:

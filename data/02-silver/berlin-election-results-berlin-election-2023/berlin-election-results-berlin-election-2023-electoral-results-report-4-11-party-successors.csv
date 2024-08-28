@@ -1,0 +1,207 @@
+party,electoral_district,list_position
+SPD,Mitte,3
+SPD,Mitte,4
+SPD,Mitte,5
+SPD,Mitte,6
+SPD,Mitte,7
+SPD,Mitte,8
+SPD,Friedrichshain-Kreuzberg,3
+SPD,Friedrichshain-Kreuzberg,4
+SPD,Friedrichshain-Kreuzberg,5
+SPD,Friedrichshain-Kreuzberg,6
+SPD,Pankow,4
+SPD,Pankow,6
+SPD,Pankow,7
+SPD,Pankow,9
+SPD,Pankow,10
+SPD,Charlottenburg-Wilmersdorf,4
+SPD,Charlottenburg-Wilmersdorf,5
+SPD,Charlottenburg-Wilmersdorf,6
+SPD,Charlottenburg-Wilmersdorf,7
+SPD,Charlottenburg-Wilmersdorf,8
+SPD,Charlottenburg-Wilmersdorf,9
+SPD,Charlottenburg-Wilmersdorf,10
+SPD,Charlottenburg-Wilmersdorf,11
+SPD,Charlottenburg-Wilmersdorf,12
+SPD,Charlottenburg-Wilmersdorf,13
+SPD,Charlottenburg-Wilmersdorf,14
+SPD,Spandau,3
+SPD,Spandau,4
+SPD,Spandau,5
+SPD,Spandau,6
+SPD,Spandau,7
+SPD,Spandau,8
+SPD,Spandau,9
+SPD,Steglitz-Zehlendorf,5
+SPD,Steglitz-Zehlendorf,6
+SPD,Steglitz-Zehlendorf,7
+SPD,Steglitz-Zehlendorf,8
+SPD,Tempelhof-Schöneberg,4
+SPD,Tempelhof-Schöneberg,5
+SPD,Tempelhof-Schöneberg,6
+SPD,Tempelhof-Schöneberg,8
+SPD,Tempelhof-Schöneberg,9
+SPD,Tempelhof-Schöneberg,10
+SPD,Neukölln,4
+SPD,Neukölln,5
+SPD,Neukölln,6
+SPD,Neukölln,7
+SPD,Neukölln,8
+SPD,Treptow-Köpenick,4
+SPD,Treptow-Köpenick,5
+SPD,Treptow-Köpenick,6
+SPD,Treptow-Köpenick,7
+SPD,Marzahn-Hellersdorf,3
+SPD,Marzahn-Hellersdorf,4
+SPD,Marzahn-Hellersdorf,5
+SPD,Lichtenberg,3
+SPD,Lichtenberg,4
+SPD,Lichtenberg,5
+SPD,Lichtenberg,6
+SPD,Lichtenberg,7
+SPD,Reinickendorf,4
+SPD,Reinickendorf,5
+SPD,Reinickendorf,6
+SPD,Reinickendorf,7
+SPD,Reinickendorf,8
+SPD,Reinickendorf,9
+SPD,Reinickendorf,10
+SPD,Reinickendorf,11
+SPD,Reinickendorf,12
+CDU,Mitte,2
+CDU,Mitte,3
+CDU,Mitte,5
+CDU,Mitte,6
+CDU,Mitte,7
+CDU,Mitte,8
+CDU,Mitte,9
+CDU,Mitte,10
+CDU,Friedrichshain-Kreuzberg,3
+CDU,Friedrichshain-Kreuzberg,4
+CDU,Friedrichshain-Kreuzberg,5
+CDU,Pankow,4
+CDU,Pankow,5
+CDU,Pankow,6
+CDU,Pankow,8
+CDU,Pankow,9
+CDU,Pankow,10
+CDU,Charlottenburg-Wilmersdorf,5
+CDU,Charlottenburg-Wilmersdorf,8
+CDU,Charlottenburg-Wilmersdorf,9
+CDU,Spandau,6
+CDU,Spandau,7
+CDU,Spandau,8
+CDU,Spandau,9
+CDU,Spandau,10
+CDU,Spandau,11
+CDU,Spandau,12
+CDU,Spandau,13
+CDU,Steglitz-Zehlendorf,8
+CDU,Steglitz-Zehlendorf,9
+CDU,Steglitz-Zehlendorf,10
+CDU,Steglitz-Zehlendorf,11
+CDU,Steglitz-Zehlendorf,12
+CDU,Steglitz-Zehlendorf,13
+CDU,Steglitz-Zehlendorf,14
+CDU,Steglitz-Zehlendorf,15
+CDU,Steglitz-Zehlendorf,16
+CDU,Steglitz-Zehlendorf,17
+CDU,Steglitz-Zehlendorf,18
+CDU,Steglitz-Zehlendorf,19
+CDU,Steglitz-Zehlendorf,20
+CDU,Tempelhof-Schöneberg,5
+CDU,Tempelhof-Schöneberg,6
+CDU,Tempelhof-Schöneberg,8
+CDU,Tempelhof-Schöneberg,9
+CDU,Tempelhof-Schöneberg,10
+CDU,Tempelhof-Schöneberg,11
+CDU,Tempelhof-Schöneberg,12
+CDU,Neukölln,3
+CDU,Neukölln,4
+CDU,Neukölln,6
+CDU,Neukölln,7
+CDU,Neukölln,8
+CDU,Treptow-Köpenick,4
+CDU,Treptow-Köpenick,5
+CDU,Treptow-Köpenick,6
+CDU,Treptow-Köpenick,7
+CDU,Marzahn-Hellersdorf,4
+CDU,Marzahn-Hellersdorf,5
+CDU,Marzahn-Hellersdorf,6
+CDU,Marzahn-Hellersdorf,7
+CDU,Marzahn-Hellersdorf,8
+CDU,Lichtenberg,4
+CDU,Lichtenberg,5
+CDU,Lichtenberg,6
+CDU,Reinickendorf,7
+CDU,Reinickendorf,8
+CDU,Reinickendorf,9
+CDU,Reinickendorf,10
+CDU,Reinickendorf,11
+GRÜNE,x,18
+GRÜNE,x,19
+GRÜNE,x,20
+GRÜNE,x,21
+GRÜNE,x,23
+GRÜNE,x,25
+GRÜNE,x,27
+GRÜNE,x,28
+GRÜNE,x,32
+GRÜNE,x,33
+GRÜNE,x,34
+GRÜNE,x,37
+GRÜNE,x,39
+GRÜNE,x,40
+GRÜNE,x,41
+GRÜNE,x,42
+GRÜNE,x,44
+GRÜNE,x,45
+GRÜNE,x,46
+GRÜNE,x,47
+GRÜNE,x,48
+GRÜNE,x,50
+GRÜNE,x,52
+GRÜNE,x,53
+GRÜNE,x,54
+GRÜNE,x,55
+GRÜNE,x,56
+GRÜNE,x,57
+GRÜNE,x,58
+GRÜNE,x,59
+GRÜNE,x,60
+DIE LINKE,x,21
+DIE LINKE,x,22
+DIE LINKE,x,23
+DIE LINKE,x,24
+DIE LINKE,x,25
+DIE LINKE,x,27
+DIE LINKE,x,28
+DIE LINKE,x,30
+DIE LINKE,x,31
+DIE LINKE,x,32
+DIE LINKE,x,33
+DIE LINKE,x,34
+DIE LINKE,x,35
+DIE LINKE,x,36
+DIE LINKE,x,37
+DIE LINKE,x,38
+DIE LINKE,x,39
+DIE LINKE,x,40
+DIE LINKE,x,41
+DIE LINKE,x,42
+DIE LINKE,x,43
+DIE LINKE,x,44
+DIE LINKE,x,45
+AfD,x,17
+AfD,x,18
+AfD,x,19
+AfD,x,20
+AfD,x,22
+AfD,x,23
+AfD,x,24
+AfD,x,25
+AfD,x,26
+AfD,x,27
+AfD,x,28
+AfD,x,29
+AfD,x,30

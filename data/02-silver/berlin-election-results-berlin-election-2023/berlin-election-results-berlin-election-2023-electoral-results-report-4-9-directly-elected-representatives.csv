@@ -1,0 +1,79 @@
+electoral_district,name,party,first_votes,first_votes_percentage,vote_lead_over_runner_up,vote_lead_over_runner_up_percentage
+Mitte 1,"Gebel, Silke",GRÜNE,6758,33.5,2340,11.6
+Mitte 2,"Schaal, Lucas",CDU,5195,24.9,710,3.4
+Mitte 3,"Omar, Jian",GRÜNE,6207,33.0,2011,10.7
+Mitte 4,"Kurt, Taylan",GRÜNE,6837,40.1,3850,22.6
+Mitte 5,"Rissmann, Sven Nico",CDU,3640,24.4,287,1.9
+Mitte 6,"Bozkurt, Tuba",GRÜNE,4213,32.0,1440,10.9
+Mitte 7,"Neugebauer, Laura",GRÜNE,4289,30.1,1536,10.8
+Friedrichshain-Kreuzberg 1,"Schmidberger, Katrin",GRÜNE,7422,40.3,4261,23.1
+Friedrichshain-Kreuzberg 2,"Burkert-Eulitz, Marianne",GRÜNE,6349,37.9,1818,10.9
+Friedrichshain-Kreuzberg 3,"Dr. Altuğ, Turgut",GRÜNE,5634,35.1,2449,15.2
+Friedrichshain-Kreuzberg 4,"Valgolio, Damiano",DIE LINKE,4388,24.7,433,2.4
+Friedrichshain-Kreuzberg 5,"Franco, Vasili",GRÜNE,6833,36.1,2690,14.2
+Friedrichshain-Kreuzberg 6,"Schwarze, Julian",GRÜNE,7525,39.5,3779,19.8
+Pankow 1,"Kraft, Johannes",CDU,9085,41.6,5636,25.8
+Pankow 2,"Bocian, Lars",CDU,7057,31.4,2760,12.3
+Pankow 3,"Hassepaß, Oda",GRÜNE,5628,24.8,748,3.3
+Pankow 4,"Stettner, Dirk",CDU,5505,30.2,1898,10.4
+Pankow 5,"Krüger, Louis",GRÜNE,4431,22.1,265,1.3
+Pankow 6,"Otto, Andreas",GRÜNE,8943,41.6,5016,23.4
+Pankow 7,"Schneider, Julia",GRÜNE,5974,30.9,2422,12.5
+Pankow 8,"Billig, Daniela",GRÜNE,7533,37.2,3857,19.1
+Pankow 9,"Schopf, Tino",SPD,5551,25.6,284,1.3
+Charlottenburg-Wilmersdorf 1,"Häntsch, Stefan",CDU,4489,28.3,795,5.0
+Charlottenburg-Wilmersdorf 2,"Hack, Ariturel",CDU,8088,38.7,3791,18.1
+Charlottenburg-Wilmersdorf 3,"Dr.Vandrey, Petra",GRÜNE,6068,29.2,631,3.0
+Charlottenburg-Wilmersdorf 4,"Niemczyk, Aldona Maria",CDU,5848,28.6,527,2.6
+Charlottenburg-Wilmersdorf 5,"Khalatbari, Sandra",CDU,8359,42.3,4398,22.3
+Charlottenburg-Wilmersdorf 6,"Mock-Stümer, Peer",CDU,6101,29.2,746,3.6
+Charlottenburg-Wilmersdorf 7,"Bung, Stefanie",CDU,7638,34.2,2313,10.4
+Spandau 1,"Meißner, Bettina",CDU,6588,37.3,2263,12.8
+Spandau 2,"Dr.Nas, Ersin",CDU,4703,33.2,1017,7.2
+Spandau 3,"Brauner, Kerstin",CDU,5897,34.4,1802,10.5
+Spandau 4,"Melzer, Heiko",CDU,8305,45.3,4084,22.3
+Spandau 5,"Wegner, Kai",CDU,9873,46.9,5247,24.9
+Steglitz-Zehlendorf 1,"Dr.Wein, Claudia",CDU,6696,30.2,343,1.5
+Steglitz-Zehlendorf 2,"Cywinski, Tom Jan Filip",CDU,6447,31.3,1475,7.2
+Steglitz-Zehlendorf 3,"Goiny, Christian",CDU,9876,40.5,4593,18.8
+Steglitz-Zehlendorf 4,"Seibeld, Cornelia Simone Michaela",CDU,8096,41.8,3822,19.7
+Steglitz-Zehlendorf 5,"Friederici, Oliver",CDU,7732,41.2,3735,19.9
+Steglitz-Zehlendorf 6,"Grasse, Adrian",CDU,9338,40.0,4575,19.6
+Steglitz-Zehlendorf 7,"Standfuß, Stephan Carsten Günter",CDU,9003,40.1,4545,20.2
+Tempelhof-Schöneberg 1,"Walter, Sebastian",GRÜNE,7370,34.4,2651,12.4
+Tempelhof-Schöneberg 2,"Pieroth-Manelli, Catherina",GRÜNE,7830,36.9,3153,14.9
+Tempelhof-Schöneberg 3,"Özdemir, Orkan",SPD,7742,32.1,1280,5.3
+Tempelhof-Schöneberg 4,"Luhmann, Frank",CDU,5880,28.5,418,2.0
+Tempelhof-Schöneberg 5,"Simon, Roman",CDU,7768,40.3,3480,18.1
+Tempelhof-Schöneberg 6,"Körber, Scott",CDU,9345,47.4,5264,26.7
+Tempelhof-Schöneberg 7,"Zander, Christian",CDU,10546,49.6,6392,30.1
+Neukölln 1,"Schulze, André",GRÜNE,6661,35.1,1680,8.9
+Neukölln 2,"Dr.Kahlefeld, Susanna Maria",GRÜNE,6123,34.5,665,3.7
+Neukölln 3,"Çağlar, Derya",SPD,3739,23.4,372,2.3
+Neukölln 4,"Förster, Christopher",CDU,7477,43.0,2312,13.3
+Neukölln 5,"Dr.Juhnke, Robbin",CDU,8682,43.1,3668,18.2
+Neukölln 6,"Schenk, Olaf",CDU,9190,45.3,3196,15.8
+Treptow-Köpenick 1,"Gennburg, Katalin",DIE LINKE,5670,25.9,1455,6.6
+Treptow-Köpenick 2,"Düsterhöft, Lars",SPD,6277,29.2,1764,8.2
+Treptow-Köpenick 3,"Evers, Stefan",CDU,7022,32.7,2940,13.7
+Treptow-Köpenick 4,"Knack, Lisa-Bettina",CDU,6386,27.2,848,3.6
+Treptow-Köpenick 5,"Dr.Sattelkau, Martin",CDU,5180,27.7,901,4.8
+Treptow-Köpenick 6,"Penn, Maik",CDU,7306,31.6,3038,13.1
+Marzahn-Hellersdorf 1,"Lindemann, Gunnar Norbert",AfD,3945,28.8,932,6.8
+Marzahn-Hellersdorf 2,"Gauks, Olga",CDU,4353,25.5,773,4.5
+Marzahn-Hellersdorf 3,"Auricht, Jeannette",AfD,3865,25.9,173,1.2
+Marzahn-Hellersdorf 4,"Gräff, Christian",CDU,9494,42.9,6180,27.9
+Marzahn-Hellersdorf 5,"Günther-Wünsch, Katharina",CDU,11446,45.0,7537,29.7
+Marzahn-Hellersdorf 6,"Herrmann, Alexander",CDU,6131,37.8,2984,18.4
+Lichtenberg  1,"Freymark, Danny",CDU,7159,40.8,3658,20.9
+Lichtenberg  2,"Dr.Pätzold, Martin",CDU,7762,39.5,4438,22.6
+Lichtenberg  3,"Haustein, Dennis",CDU,4254,23.4,10,0.1
+Lichtenberg  4,"Schlüsselburg, Sebastian",DIE LINKE,5399,27.2,1616,8.2
+Lichtenberg  5,"Klein, Hendrikje",DIE LINKE,4928,25.0,1028,5.2
+Lichtenberg  6,"Usik, Lilia",CDU,4807,22.4,138,0.6
+Reinickendorf 1,"Dregger, Burkard",CDU,5056,37.2,1928,14.2
+Reinickendorf 2,"Demirbüken-Wegner, Emine",CDU,5928,38.9,2452,16.1
+Reinickendorf 3,"Schmidt, Stephan",CDU,9348,44.1,4612,21.7
+Reinickendorf 4,"Wohlert, Björn",CDU,8709,41.3,3794,18.0
+Reinickendorf 5,"Dietmann, Michael",CDU,5702,43.8,2768,21.2
+Reinickendorf 6,"Balzer, Frank",CDU,9889,45.7,5493,25.4
