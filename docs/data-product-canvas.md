@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-02-21
+* updated: 2025-02-22
 
 ## Input Ports
 
@@ -184,7 +184,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2016
 * license: GPLv3
-* updated: 2025-02-21
+* updated: 2025-02-22
 
 **Files**
 
@@ -418,7 +418,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2023
 * license: GPLv3
-* updated: 2025-02-21
+* updated: 2025-02-22
 
 **Files**
 
@@ -673,6 +673,7 @@
 * [berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-11-lichtenberg.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-11-lichtenberg.csv)
 * [berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-12-reinickendorf.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-12-reinickendorf.csv)
 * [berlin-election-results-berlin-election-2023-pre-electoral-data-3-6-registered-inhabitants-june-2022.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-pre-electoral-data-3-6-registered-inhabitants-june-2022.csv)
+* [berlin-election-results-berlin-election-2023-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-structural-data.csv)
 
 ## Classification
 
