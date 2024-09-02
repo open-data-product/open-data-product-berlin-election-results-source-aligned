@@ -6390,5 +6390,723 @@ input_ports:
               - { name: germans_in_sgb_II_in_2021_percentage, type: float }
       - source_file_name: SB_B07-02-05_2023j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-1-eligible-voters-berlin.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-1-eligible-voters-berlin-east.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 21
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-1-eligible-voters-berlin-west.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 34
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-2-eligible-voters-with-voting-license-berlin.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-2-eligible-voters-with-voting-license-berlin-east.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 21
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-2-eligible-voters-with-voting-license-berlin-west.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 34
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-3-voter-turnout-berlin.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-3-voter-turnout-berlin-east.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 21
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-3-voter-turnout-berlin-west.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 34
+            head: 11
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 6
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-male-diverse.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 15
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-female.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 24
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-east.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 38
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-east-male-diverse.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 47
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-east-female.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 56
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-west.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 70
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-west-male-diverse.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 79
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-4-valid-second-votes-berlin-west-female.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 88
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 6
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-male-diverse.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 15
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-female.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 24
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-east.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 38
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-east-male-diverse.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 47
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-east-female.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 56
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-west.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 70
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-west-male-diverse.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 79
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-5-valid-second-votes-for-individuals-berlin-west-female.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total_percentage, type: float }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others_percentage, type: float }
+            skip_rows: 88
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-1-valid-second-votes-spd-berlin.csv
+            sheet_name: 6.1
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-1-valid-second-votes-spd-berlin-east.csv
+            sheet_name: 6.1
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-1-valid-second-votes-spd-berlin-west.csv
+            sheet_name: 6.1
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-2-valid-second-votes-cdu-berlin.csv
+            sheet_name: 6.2
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-2-valid-second-votes-cdu-berlin-east.csv
+            sheet_name: 6.2
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-2-valid-second-votes-cdu-berlin-west.csv
+            sheet_name: 6.2
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-3-valid-second-votes-grüne-berlin.csv
+            sheet_name: 6.3
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-3-valid-second-votes-grüne-berlin-east.csv
+            sheet_name: 6.3
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-3-valid-second-votes-grüne-berlin-west.csv
+            sheet_name: 6.3
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-4-valid-second-votes-die-linke-berlin.csv
+            sheet_name: 6.4
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-4-valid-second-votes-die-linke-berlin-east.csv
+            sheet_name: 6.4
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-4-valid-second-votes-die-linke-berlin-west.csv
+            sheet_name: 6.4
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-5-valid-second-votes-afd-berlin.csv
+            sheet_name: 6.5
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-5-valid-second-votes-afd-berlin-east.csv
+            sheet_name: 6.5
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-5-valid-second-votes-afd-berlin-west.csv
+            sheet_name: 6.5
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-6-valid-second-votes-fdp-berlin.csv
+            sheet_name: 6.6
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-6-valid-second-votes-fdp-berlin-east.csv
+            sheet_name: 6.6
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-6-valid-second-votes-fdp-berlin-west.csv
+            sheet_name: 6.6
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-7-valid-second-votes-others-berlin.csv
+            sheet_name: 6.7
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-7-valid-second-votes-others-berlin-east.csv
+            sheet_name: 6.7
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-6-7-valid-second-votes-others-berlin-west.csv
+            sheet_name: 6.7
+            names:
+              - name: age
+              - { name: 2023_total, type: float }
+              - { name: 2023_male_diverse, type: float }
+              - { name: 2023_female, type: float }
+              - { name: 2016_total, type: float }
+              - { name: 2016_male_diverse, type: float }
+              - { name: 2016_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male_diverse, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-7-invalid-votes.csv
+            sheet_name: 7
+            names:
+              - name: reason
+              - { name: berlin_total, type: float }
+              - { name: berlin_male_diverse, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male_diverse, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male_diverse, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 6
+            head: 3
       - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
         target_file_name: berlin-election-results-berlin-election-2023-long-series.xlsx
