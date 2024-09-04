@@ -346,6 +346,7 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-11-lichtenberg.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-pre-electoral-data-2-9-registered-inhabitants-december-2015-by-constituency-association.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-structural-data.csv
   - id: berlin-election-results-berlin-election-2023
     metadata:
       name: Berlin Election Results Berlin Election 2023

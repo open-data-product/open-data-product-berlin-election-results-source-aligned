@@ -1834,6 +1834,77 @@ input_ports:
       - source_file_name: DL_BE_AH2016_Strukturdaten.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-structural-data.xlsx
         datasets:
+          - target_file_name: berlin-election-results-berlin-election-2016-structural-data.csv
+            sheet_name: Strukturdaten
+            names:
+              - name: id
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: postal_voting_district_id
+              - name: berlin_east_west
+              - name: electoral_district_federal_election_id
+              - name: electoral_district_berlin_election_id
+              - { name: inhabitants_total, type: int }
+              - { name: foreigners, type: int }
+              - { name: foreigners_percentage, type: float }
+              - { name: eu_citizens, type: int }
+              - { name: eu_citizens_percentage, type: float }
+              - { name: germans_total, type: int }
+              - { name: germans_percentage, type: float }
+              - { name: germans_below_6, type: int }
+              - { name: germans_below_6_percentage, type: float }
+              - { name: germans_between_6_and_18, type: int }
+              - { name: germans_between_6_and_18_percentage, type: float }
+              - { name: germans_between_18_and_65, type: int }
+              - { name: germans_between_18_and_65_percentage, type: float }
+              - { name: germans_above_65, type: int }
+              - { name: germans_above_65_percentage, type: float }
+              - { name: germans_and_eu_citizens_above_16, type: int }
+              - { name: germans_and_eu_citizens_above_16_female, type: float }
+              - { name: germans_and_eu_citizens_above_16_percentage, type: float }
+              - { name: germans_and_eu_citizens_between_16_and_18, type: int }
+              - { name: germans_and_eu_citizens_between_16_and_18_percentage, type: float }
+              - { name: eu_citizens_above_16, type: int }
+              - { name: eu_citizens_above_16_percentage, type: float }
+              - { name: germans_above_18, type: int }
+              - { name: germans_between_18_and_25, type: int }
+              - { name: germans_between_18_and_25_percentage, type: float }
+              - { name: germans_between_25_and_35, type: int }
+              - { name: germans_between_25_and_35_percentage, type: float }
+              - { name: germans_between_35_and_45, type: int }
+              - { name: germans_between_35_and_45_percentage, type: float }
+              - { name: germans_between_45_and_60, type: int }
+              - { name: germans_between_45_and_60_percentage, type: float }
+              - { name: germans_between_60_and_70, type: int }
+              - { name: germans_between_60_and_70_percentage, type: float }
+              - { name: germans_between_above_70, type: int }
+              - { name: germans_between_above_70_percentage, type: float }
+              - { name: germans_above_18_with_migration_background, type: int }
+              - { name: germans_above_18_with_migration_background_percentage, type: float }
+              - { name: germans_above_18_single, type: int }
+              - { name: germans_above_18_single_percentage, type: float }
+              - { name: germans_above_18_married, type: int }
+              - { name: germans_above_18_married_percentage, type: float }
+              - { name: germans_above_18_widowed, type: int }
+              - { name: germans_above_18_widowed_percentage, type: float }
+              - { name: germans_above_18_divorced, type: int }
+              - { name: germans_above_18_divorced_percentage, type: float }
+              - { name: germans_above_18_registered_civil_partnership, type: int }
+              - { name: germans_above_18_registered_civil_partnership_percentage, type: float }
+              - { name: germans_above_18_protestant, type: int }
+              - { name: germans_above_18_protestant_percentage, type: float }
+              - { name: germans_above_18_catholic, type: int }
+              - { name: germans_above_18_catholic_percentage, type: float }
+              - { name: germans_above_18_simple_residential_area, type: int }
+              - { name: germans_above_18_simple_residential_area_percentage, type: float }
+              - { name: germans_above_18_medium_residential_area, type: int }
+              - { name: germans_above_18_medium_residential_area_percentage, type: float }
+              - { name: germans_above_18_good_residential_area, type: int }
+              - { name: germans_above_18_good_residential_area_percentage, type: float }
+              - { name: inhabitants_below_65_in_2014_percentage, type: float }
+              - { name: inhabitants_in_sgb_II_in_2014, type: int }
+              - { name: inhabitants_in_sgb_II_in_2014_percentage, type: float }
       - source_file_name: SB_B07-02-05_2016j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics.xlsx
         datasets:
@@ -6371,8 +6442,8 @@ input_ports:
               - { name: germans_above_18_with_migration_background_percentage, type: float }
               - { name: germans_above_18_single, type: int }
               - { name: germans_above_18_single_percentage, type: float }
-              - { name: germans_above_18_ married, type: int }
-              - { name: germans_above_18_ married_percentage, type: float }
+              - { name: germans_above_18_married, type: int }
+              - { name: germans_above_18_married_percentage, type: float }
               - { name: germans_above_18_widowed, type: int }
               - { name: germans_above_18_widowed_percentage, type: float }
               - { name: germans_above_18_divorced, type: int }
