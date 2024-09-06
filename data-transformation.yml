@@ -7566,3 +7566,122 @@ input_ports:
             skip_rows: 38
             skip_cols: 1
             head: 9
+  - id: berlin-election-results-federal-election-2017
+    files:
+      - source_file_name: DL_BE_EE_WB_BU2017.xlsx
+        target_file_name: berlin-election-results-federal-election-2017-electoral-results.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-first-votes.csv
+            sheet_name: BE_W1
+            names:
+              - name: address
+              - name: vote_type
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_mlpd, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_b, type: int }
+              - { name: party_bge, type: int }
+              - { name: party_dib, type: int }
+              - { name: party_dkp, type: int }
+              - { name: party_dm, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_du, type: int }
+              - { name: party_menschliche_welt, type: int }
+              - { name: party_gesundheitsforschung, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_v_partei3, type: int }
+              - { name: party_die_frauen, type: int }
+              - { name: individual_applicant_für_dich_im_bundestag, type: int }
+              - { name: individual_applicant_grog, type: int }
+              - { name: individual_applicant_grundeinkommen_für_alle.org_1, type: int }
+              - { name: individual_applicant_grundeinkommen_für_alle.org_2, type: int }
+              - { name: individual_applicant_ideengeber_mensch_natur_technik, type: int }
+              - { name: individual_applicant_liberal_nachhaltig_sozial_weltoffen, type: int }
+              - { name: individual_applicant_den_menschen_verpflichtet_keiner_partei, type: int }
+              - { name: party_mieterpartei, type: int }
+              - { name: party_npd, type: int }
+              - { name: individual_applicant, type: int }
+              - { name: individual_applicant_parteifrei_für_die_menschen, type: int }
+              - { name: individual_applicant_parteifrei_und_bürgerbestimmt, type: int }
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
+            sheet_name: BE_W2
+            names:
+              - name: address
+              - name: vote_type
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_mlpd, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_b, type: int }
+              - { name: party_bge, type: int }
+              - { name: party_dib, type: int }
+              - { name: party_dkp, type: int }
+              - { name: party_dm, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_du, type: int }
+              - { name: party_menschliche_welt, type: int }
+              - { name: party_gesundheitsforschung, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_v_partei3, type: int }
+              - { name: party_die_frauen, type: int }
+              - { name: individual_applicant_für_dich_im_bundestag, type: int }
+              - { name: individual_applicant_grog, type: int }
+              - { name: individual_applicant_grundeinkommen_für_alle.org_1, type: int }
+              - { name: individual_applicant_grundeinkommen_für_alle.org_2, type: int }
+              - { name: individual_applicant_ideengeber_mensch_natur_technik, type: int }
+              - { name: individual_applicant_liberal_nachhaltig_sozial_weltoffen, type: int }
+              - { name: individual_applicant_den_menschen_verpflichtet_keiner_partei, type: int }
+              - { name: party_mieterpartei, type: int }
+              - { name: party_npd, type: int }
+              - { name: individual_applicant, type: int }
+              - { name: individual_applicant_parteifrei_für_die_menschen, type: int }
+              - { name: individual_applicant_parteifrei_und_bürgerbestimmt, type: int }
