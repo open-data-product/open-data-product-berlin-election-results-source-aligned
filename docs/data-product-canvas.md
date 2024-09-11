@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-03-01
+* updated: 2025-03-03
 
 ## Input Ports
 
@@ -184,7 +184,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2016
 * license: GPLv3
-* updated: 2025-03-01
+* updated: 2025-03-03
 
 **Files**
 
@@ -325,7 +325,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2023
 * license: GPLv3
-* updated: 2025-03-01
+* updated: 2025-03-03
 
 **Files**
 
@@ -658,7 +658,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2017
 * license: GPLv3
-* updated: 2025-03-01
+* updated: 2025-03-03
 
 **Files**
 
@@ -813,6 +813,31 @@
 * [berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin-east.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin-east.csv)
 * [berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin-west.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin-west.csv)
 * [berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin.csv)
+* [berlin-election-results-federal-election-2017-long-series-1-.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-.csv)
+* [berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-comparison-to-1990.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-comparison-to-1990.csv)
+* [berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-comparison-to-previous.csv)
+* [berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-percentage.csv)
+* [berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-total.csv)
+* [berlin-election-results-federal-election-2017-long-series-2-second-votes-comparison-to-1990.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-2-second-votes-comparison-to-1990.csv)
+* [berlin-election-results-federal-election-2017-long-series-2-second-votes-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-2-second-votes-comparison-to-previous.csv)
+* [berlin-election-results-federal-election-2017-long-series-2-second-votes-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-2-second-votes-percentage.csv)
+* [berlin-election-results-federal-election-2017-long-series-2-second-votes-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-2-second-votes-total.csv)
+* [berlin-election-results-federal-election-2017-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-1990.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-1990.csv)
+* [berlin-election-results-federal-election-2017-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-previous.csv)
+* [berlin-election-results-federal-election-2017-long-series-3-eligible-voters-and-voters-berlin-east-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-3-eligible-voters-and-voters-berlin-east-percentage.csv)
+* [berlin-election-results-federal-election-2017-long-series-3-eligible-voters-berlin-east-and-voters-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-3-eligible-voters-berlin-east-and-voters-total.csv)
+* [berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-comparison-to-1990.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-comparison-to-1990.csv)
+* [berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-comparison-to-previous.csv)
+* [berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-percentage.csv)
+* [berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-4-second-votes-berlin-east-total.csv)
+* [berlin-election-results-federal-election-2017-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-1990.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-1990.csv)
+* [berlin-election-results-federal-election-2017-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-previous.csv)
+* [berlin-election-results-federal-election-2017-long-series-5-eligible-voters-and-voters-berlin-west-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-5-eligible-voters-and-voters-berlin-west-percentage.csv)
+* [berlin-election-results-federal-election-2017-long-series-5-eligible-voters-berlin-west-and-voters-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-5-eligible-voters-berlin-west-and-voters-total.csv)
+* [berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-comparison-to-1990.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-comparison-to-1990.csv)
+* [berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-comparison-to-previous.csv)
+* [berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-percentage.csv)
+* [berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-total.csv)
 
 ## Classification
 
