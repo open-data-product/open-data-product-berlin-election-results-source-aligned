@@ -10385,3 +10385,116 @@ input_ports:
             skip_rows: 35
             skip_cols: 1
             head: 8
+  - id: berlin-election-results-federal-election-2021
+    files:
+      - source_file_name: DL_BE_BU2024.xlsx
+        target_file_name: berlin-election-results-federal-election-2021-electoral-results.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-first-votes.csv
+            sheet_name: BE_W1
+            names:
+              - name: address
+              - name: vote_type
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: valid_votes, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_verjüngungsforschung, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_du, type: int }
+              - { name: party_v_partei3, type: int }
+              - { name: party_dkp, type: int }
+              - { name: party_mlpd, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_wir_bürger, type: int }
+              - { name: party_heimat, type: int }
+              - { name: party_die_humanisten, type: int }
+              - { name: party_team_todenhöfer, type: int }
+              - { name: party_volt, type: int }
+              - { name: party_die_basis, type: int }
+              - { name: party_b, type: int }
+              - { name: others, type: int }
+              - { name: party_bündnis_21, type: int }
+              - { name: other_applicant_1, type: int }
+              - { name: other_applicant_2, type: int }
+              - { name: other_applicant_3, type: int }
+              - { name: other_applicant_meschliche_welt, type: int }
+              - { name: other_applicant_4, type: int }
+              - { name: other_applicant_5, type: int }
+              - { name: other_applicant_6, type: int }
+              - { name: other_applicant_7, type: int }
+              - { name: other_applicant_8, type: int }
+              - { name: other_applicant_9, type: int }
+              - name: aufn
+              - name: partial_election_repetition
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
+            sheet_name: BE_W2
+            names:
+              - name: address
+              - name: vote_type
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: valid_votes, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_verjüngungsforschung, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_du, type: int }
+              - { name: party_v_partei3, type: int }
+              - { name: party_dkp, type: int }
+              - { name: party_mlpd, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_wir_bürger, type: int }
+              - { name: party_heimat, type: int }
+              - { name: party_die_humanisten, type: int }
+              - { name: party_team_todenhöfer, type: int }
+              - { name: party_volt, type: int }
+              - name: aufn
+              - name: partial_election_repetition

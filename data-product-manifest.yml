@@ -60,9 +60,9 @@ input_ports:
       - https://download.statistik-berlin-brandenburg.de/b877735b12104d71/c0e1c379cb54/DL_BE_BT2017_AH2016.xlsx
       - https://download.statistik-berlin-brandenburg.de/36ac6e190e69bd29/6ccf7d248959/SB_B07-01-05_2017j04_BE.xlsx
       - https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx
-  - id: berlin-election-results-federal-election-2024
+  - id: berlin-election-results-federal-election-2021
     metadata:
-      name: Bundestagswahlen in Berlin 2024
+      name: Bundestagswahlen in Berlin 2021
       owner: Amt für Statistik Berlin-Brandenburg
       description:
       url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
@@ -868,6 +868,18 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-comparison-to-previous.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-percentage.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-total.csv
+  - id: berlin-election-results-federal-election-2021
+    metadata:
+      name: Berlin Election Results Federal Election 2021
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2021
+      license: GPLv3
+      updated: 2025-03-03
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-first-votes.csv
 observability:
   quality:
   operational:
