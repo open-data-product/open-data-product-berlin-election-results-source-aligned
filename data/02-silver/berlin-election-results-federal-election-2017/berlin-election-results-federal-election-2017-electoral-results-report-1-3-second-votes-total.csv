@@ -1,4 +1,4 @@
-electoral_district_id,federal_election_id,eligible_voters,voters,valid_second_votes,party_cdu,party_spd,party_die_linke,party_grüne,party_afd,party_piraten,party_fdp,party_npd,party_die_partei,party_freie_wähler,party_pro_deutschland,party_ödp,party_big,party_rep,party_büso,party_mlpd,party_psg
+electoral_district_id,electoral_district_name,eligible_voters,voters,valid_second_votes,party_cdu,party_spd,party_die_linke,party_grüne,party_afd,party_piraten,party_fdp,party_npd,party_die_partei,party_freie_wähler,party_pro_deutschland,party_ödp,party_big,party_rep,party_büso,party_mlpd,party_psg
 75.0,Berlin-Mitte,204085,141574.0,139400.0,31544.0,36403.0,26068.0,23329.0,5443.0,6608.0,5134.0,1234.0,1686.0,304.0,292.0,319.0,473.0,198.0,144.0,145.0,76.0
 76.0,Berlin-Pankow,235344,175061.0,172824.0,40617.0,38030.0,43472.0,24300.0,8372.0,6767.0,4380.0,2597.0,1984.0,665.0,457.0,416.0,84.0,231.0,182.0,146.0,124.0
 77.0,Berlin-Reinickendorf,182934,133484.0,131056.0,52545.0,34571.0,10394.0,11427.0,7906.0,3417.0,5708.0,1976.0,1074.0,661.0,449.0,240.0,209.0,310.0,75.0,44.0,50.0

@@ -6,7 +6,7 @@ metadata:
   description: This data product provides Berlin election results
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
   license: GPLv3
-  updated: 2025-03-03
+  updated: 2025-03-06
   schema:
 input_ports:
   - id: berlin-election-results-berlin-election-2016
@@ -211,7 +211,7 @@ output_ports:
       description: description
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2016
       license: GPLv3
-      updated: 2025-03-03
+      updated: 2025-03-06
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-converted-results-berlin-election-2011.csv
@@ -354,7 +354,7 @@ output_ports:
       description: description
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2023
       license: GPLv3
-      updated: 2025-03-03
+      updated: 2025-03-06
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-converted-results-berlin-election-2016.csv
@@ -689,7 +689,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2017
       license: GPLv3
-      updated: 2025-03-03
+      updated: 2025-03-06
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-converted-results-berlin-election-2016.csv
@@ -843,7 +843,6 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin-east.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin-west.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-statistics-9-7-second-votes-others-berlin.csv
-      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-comparison-to-1990.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-comparison-to-previous.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-1-eligible-voters-and-voters-percentage.csv
@@ -875,11 +874,27 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2021
       license: GPLv3
-      updated: 2025-03-03
+      updated: 2025-03-06
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-first-votes.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-1.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-2-first-votes-percentage.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-2-first-votes-total.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-3-second-votes-percentage.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-3-second-votes-total.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-4-berlin-members-in-german-bundestag.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-5-mandate-distribution.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-6-second-votes.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-7-european-election-results-by-federal-election-electoral-districts-percentage.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-7-european-election-results-by-federal-election-electoral-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-8-berlin-election-results-by-federal-election-electoral-districts-percentage.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-1-8-berlin-election-results-by-federal-election-electoral-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-2-1-registered-inhabitants.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-2-2-registered-inhabitants-above-18.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-electoral-results-report-2-4-registered-inhabitants-below-65-in-sgb-II-communities-of-need.csv
 observability:
   quality:
   operational:

@@ -1,4 +1,4 @@
-electoral_district_id,federal_election_id,eligible_voters,voters,valid_first_votes,party_cdu,party_spd,party_die_linke,party_grüne,party_afd,party_fdp,others
+electoral_district_id,electoral_district_name,eligible_voters,voters,valid_first_votes,party_cdu,party_spd,party_die_linke,party_grüne,party_afd,party_fdp,others
 75.0,Berlin-Mitte,x,69.4,98.4,23.9,28.3,16.7,18.4,3.0,1.5,4.3
 76.0,Berlin-Pankow,x,74.4,98.6,23.9,21.0,28.3,14.7,4.1,0.9,3.6
 77.0,Berlin-Reinickendorf,x,73.0,98.0,45.0,29.5,6.5,6.7,4.5,2.0,3.4

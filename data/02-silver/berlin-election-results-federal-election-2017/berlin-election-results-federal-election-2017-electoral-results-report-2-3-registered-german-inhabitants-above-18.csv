@@ -1,26 +1,22 @@
-electoral_district_id,electoral_district_name,total,female_percentage,migration_background_percentage,single_percentage,married_percentage,widowed_percentage,divorced_percentage,divorced_percentage.1,civil_partnership_percentage,protestant_percentage,catholic_percentage,simple_residential_area,medium_residential_area,good_residential_area,comparison_to_2023
-75,Berlin-Mitte,205543.0,49.1,18.6,52.0,30.7,5.5,10.9,0.9,21.1,10.6,64.2,27.4,8.0,0.6,Berlin-Mitte
-76,Berlin-Pankow,236084.0,51.9,4.5,44.5,38.3,6.0,10.6,0.6,14.5,6.2,25.1,59.3,15.2,0.8,Berlin-Pankow
-77,Berlin-Reinickendorf,182483.0,52.2,11.8,31.6,46.5,9.3,12.3,0.3,30.0,9.9,46.3,39.5,14.1,-0.1,Berlin-Reinickendorf
+electoral_district_id,electoral_district_name,total,female_percentage,migration_background_percentage,single_percentage,married_percentage,widowed_percentage,divorced_percentage,civil_partnership_percentage,protestant_percentage,catholic_percentage,simple_residential_area,medium_residential_area,good_residential_area,comparison_to_2023
+75,Berlin-Mitte,205543.0,49.1,18.6,52.0,30.7,5.5,10.9,0.9,21.1,10.6,64.2,27.4,8.0,0.6
+76,Berlin-Pankow,236084.0,51.9,4.5,44.5,38.3,6.0,10.6,0.6,14.5,6.2,25.1,59.3,15.2,0.8
+77,Berlin-Reinickendorf,182483.0,52.2,11.8,31.6,46.5,9.3,12.3,0.3,30.0,9.9,46.3,39.5,14.1,-0.1
 "78
 ","Berlin-Spandau –
-Charlottenburg Nord",184929.0,52.5,14.9,33.9,43.5,9.2,13.1,0.4,29.1,9.5,57.4,40.7,1.7,-1.2,"Berlin-Spandau –
-Charlottenburg Nord"
-79,Berlin-Steglitz-Zehlendorf,219797.0,54.1,9.7,31.6,47.3,8.7,11.8,0.5,31.6,11.0,5.7,44.9,49.1,0.1,Berlin-Steglitz-Zehlendorf
+Charlottenburg Nord",184929.0,52.5,14.9,33.9,43.5,9.2,13.1,0.4,29.1,9.5,57.4,40.7,1.7,-1.2
+79,Berlin-Steglitz-Zehlendorf,219797.0,54.1,9.7,31.6,47.3,8.7,11.8,0.5,31.6,11.0,5.7,44.9,49.1,0.1
 "80
-",Berlin-Charlottenburg-Wilmersdorf,196731.0,53.3,14.7,39.1,39.2,7.5,13.1,1.1,26.4,11.4,1.2,23.0,75.7,-0.1,Berlin-Charlottenburg-Wilmersdorf
+",Berlin-Charlottenburg-Wilmersdorf,196731.0,53.3,14.7,39.1,39.2,7.5,13.1,1.1,26.4,11.4,1.2,23.0,75.7,-0.1
 "81
 ","Berlin-Tempelhof-
-Schöneberg",234650.0,52.5,14.3,38.6,40.7,7.7,11.9,1.1,27.4,11.3,27.4,49.8,22.7,-0.1,"Berlin-Tempelhof-
-Schöneberg"
-82,Berlin-Neukölln,202917.0,51.5,17.6,42.8,37.8,7.6,11.2,0.5,25.3,10.6,83.7,16.1,0.0,-1.2,Berlin-Neukölln
+Schöneberg",234650.0,52.5,14.3,38.6,40.7,7.7,11.9,1.1,27.4,11.3,27.4,49.8,22.7,-0.1
+82,Berlin-Neukölln,202917.0,51.5,17.6,42.8,37.8,7.6,11.2,0.5,25.3,10.6,83.7,16.1,0.0,-1.2
 "83
 
 ","Berlin-Friedrichshain-
 Kreuzberg –
-Prenzlauer Berg Ost",222062.0,49.8,12.2,58.0,27.4,4.3,9.3,1.0,17.1,9.2,55.0,44.3,0.6,-1.6,"Berlin-Friedrichshain-
-Kreuzberg –
-Prenzlauer Berg Ost"
-84,Berlin-Treptow-Köpenick,203869.0,52.0,3.3,36.3,43.0,8.5,11.8,0.4,11.3,4.0,19.1,73.8,6.2,1.2,Berlin-Treptow-Köpenick
-85,Berlin-Marzahn-Hellersdorf,200796.0,51.3,6.4,33.7,46.1,7.1,12.9,0.3,8.8,3.1,41.4,55.5,2.7,-1.5,Berlin-Marzahn-Hellersdorf
-86,Berlin-Lichtenberg,205576.0,51.7,6.3,40.6,39.3,7.7,12.0,0.4,9.2,3.7,21.7,74.7,3.2,-0.2,Berlin-Lichtenberg
+Prenzlauer Berg Ost",222062.0,49.8,12.2,58.0,27.4,4.3,9.3,1.0,17.1,9.2,55.0,44.3,0.6,-1.6
+84,Berlin-Treptow-Köpenick,203869.0,52.0,3.3,36.3,43.0,8.5,11.8,0.4,11.3,4.0,19.1,73.8,6.2,1.2
+85,Berlin-Marzahn-Hellersdorf,200796.0,51.3,6.4,33.7,46.1,7.1,12.9,0.3,8.8,3.1,41.4,55.5,2.7,-1.5
+86,Berlin-Lichtenberg,205576.0,51.7,6.3,40.6,39.3,7.7,12.0,0.4,9.2,3.7,21.7,74.7,3.2,-0.2
