@@ -12728,3 +12728,390 @@ input_ports:
               - { name: others, type: int }
               - { name: others_percentage, type: float }
               - name: partial_election_repetition
+      - source_file_name: bundestagswahlen-lange-reihe.xlsx
+        target_file_name: berlin-election-results-federal-election-2021-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-1-eligible-voters-and-voters-total.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-1-eligible-voters-and-voters-comparison-to-previous.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-1-eligible-voters-and-voters-comparison-to-1990.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-1-eligible-voters-and-voters-percentage.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-2-second-votes-total.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-2-second-votes-comparison-to-previous.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-2-second-votes-comparison-to-1990.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-2-second-votes-percentage.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-3-eligible-voters-berlin-east-and-voters-total.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-previous.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-1990.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-3-eligible-voters-and-voters-berlin-east-percentage.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-4-second-votes-berlin-east-total.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-4-second-votes-berlin-east-comparison-to-previous.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-4-second-votes-berlin-east-comparison-to-1990.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-4-second-votes-berlin-east-percentage.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-5-eligible-voters-berlin-west-and-voters-total.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-previous.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-1990.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-5-eligible-voters-and-voters-berlin-west-percentage.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-total.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-comparison-to-previous.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-comparison-to-1990.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-percentage.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
