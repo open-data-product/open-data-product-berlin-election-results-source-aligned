@@ -845,6 +845,7 @@
 
 **Files**
 
+* [berlin-election-results-berlin-election-2023-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-berlin-election-2023-structural-data.csv)
 * [berlin-election-results-federal-election-2017-electoral-results-second-votes.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2017-electoral-results-second-votes.csv)
 * [berlin-election-results-federal-election-2021-converted-results-berlin-election-2016.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-converted-results-berlin-election-2016.csv)
 * [berlin-election-results-federal-election-2021-converted-results-federal-election-2017.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-converted-results-federal-election-2017.csv)
