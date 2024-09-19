@@ -682,6 +682,17 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-12-reinickendorf.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-pre-electoral-data-3-6-registered-inhabitants-june-2022.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-structural-data.csv
+  - id: berlin-election-results-european-election-2019
+    metadata:
+      name: Berlin Election Results European Election 2019
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-european-election-2019
+      license: GPLv3
+      updated: 2025-03-10
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-electoral-results-2.csv
   - id: berlin-election-results-federal-election-2017
     metadata:
       name: Berlin Election Results Federal Election 2017

@@ -13196,3 +13196,97 @@ input_ports:
               - { name: inhabitants_in_sgb_II_in_2021, type: int }
               - { name: inhabitants_in_sgb_II_in_2021_percentage, type: float }
               - name: partial_election_repetition
+  - id: berlin-election-results-european-election-2019
+    files:
+      - source_file_name: DL_BE_2_EU2019.xlsx
+        target_file_name: berlin-election-results-european-election-2019-electoral-results-2.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-2.csv
+            sheet_name: Berlin_Europawahl_A
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - name: district_name
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: voters, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu, type: int }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne, type: int }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke, type: int }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd, type: int }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_piraten, type: int }
+              - { name: party_piraten_percentage, type: float }
+              - { name: party_fdp, type: int }
+              - { name: party_fdp_percentage, type: float }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_tierschutzpartei_percentage, type: float }
+              - { name: party_die_partei, type: int }
+              - { name: party_die_partei_percentage, type: float }
+              - { name: party_npd, type: int }
+              - { name: party_npd_percentage, type: float }
+              - { name: party_familie, type: int }
+              - { name: party_familie_percentage, type: float }
+              - { name: party_volksabstimmung, type: int }
+              - { name: party_volksabstimmung_percentage, type: float }
+              - { name: party_ödp, type: int }
+              - { name: party_ödp_percentage, type: float }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_freie_wähler_percentage, type: float }
+              - { name: party_dkp, type: int }
+              - { name: party_dkp_percentage, type: float }
+              - { name: party_mlpd, type: int }
+              - { name: party_mlpd_percentage, type: float }
+              - { name: party_sgp, type: int }
+              - { name: party_sgp_percentage, type: float }
+              - { name: party_bp, type: int }
+              - { name: party_bp_percentage, type: float }
+              - { name: party_tierschutz_hier, type: int }
+              - { name: party_tierschutz_hier_percentage, type: float }
+              - { name: party_tierschutzallianz, type: int }
+              - { name: party_tierschutzallianz_percentage, type: float }
+              - { name: party_bündnis_c, type: int }
+              - { name: party_bündnis_c_percentage, type: float }
+              - { name: party_big, type: int }
+              - { name: party_big_percentage, type: float }
+              - { name: party_die_direkte, type: int }
+              - { name: party_die_direkte_percentage, type: float }
+              - { name: party_diem25, type: int }
+              - { name: party_diem25_percentage, type: float }
+              - { name: party_III_weg, type: int }
+              - { name: party_III_weg_percentage, type: float }
+              - { name: party_die_grauen, type: int }
+              - { name: party_die_grauen_percentage, type: float }
+              - { name: party_die_rechte, type: int }
+              - { name: party_die_rechte_percentage, type: float }
+              - { name: party_die_violetten, type: int }
+              - { name: party_die_violetten_percentage, type: float }
+              - { name: party_liebe, type: int }
+              - { name: party_liebe_percentage, type: float }
+              - { name: party_die_frauen, type: int }
+              - { name: party_die_frauen_percentage, type: float }
+              - { name: party_graue_panther, type: int }
+              - { name: party_graue_panther_percentage, type: float }
+              - { name: party_lkr, type: int }
+              - { name: party_lkr_percentage, type: float }
+              - { name: party_menschliche_welt, type: int }
+              - { name: party_menschliche_welt_percentage, type: float }
+              - { name: party_nl, type: int }
+              - { name: party_nl_percentage, type: float }
+              - { name: party_ökolinx, type: int }
+              - { name: party_ökolinx_percentage, type: float }
+              - { name: party_partei_für_die_tiere, type: int }
+              - { name: party_partei_für_die_tiere_percentage, type: float }
+              - { name: party_gesundheitsforschung, type: int }
+              - { name: party_gesundheitsforschung_percentage, type: float }
+              - { name: party_volt, type: int }
+              - { name: party_volt_percentage, type: float }
+            skip_rows: 2
