@@ -13290,3 +13290,64 @@ input_ports:
               - { name: party_volt, type: int }
               - { name: party_volt_percentage, type: float }
             skip_rows: 2
+      - source_file_name: DL_BE_EU2019.xlsx
+        target_file_name: berlin-election-results-european-election-2019-electoral-results.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results.csv
+            sheet_name: Berlin_Europawahl_W
+            names:
+              - name: vote_type
+              - name: address
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_piraten, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_npd, type: int }
+              - { name: party_familie, type: int }
+              - { name: party_volksabstimmung, type: int }
+              - { name: party_ödp, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_dkp, type: int }
+              - { name: party_mlpd, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_bp, type: int }
+              - { name: party_tierschutz_hier, type: int }
+              - { name: party_tierschutzallianz, type: int }
+              - { name: party_bündnis_c, type: int }
+              - { name: party_big, type: int }
+              - { name: party_die_direkte, type: int }
+              - { name: party_diem25, type: int }
+              - { name: party_III_weg, type: int }
+              - { name: party_die_grauen, type: int }
+              - { name: party_die_rechte, type: int }
+              - { name: party_die_violetten, type: int }
+              - { name: party_liebe, type: int }
+              - { name: party_die_frauen, type: int }
+              - { name: party_graue_panther, type: int }
+              - { name: party_lkr, type: int }
+              - { name: party_menschliche_welt, type: int }
+              - { name: party_nl, type: int }
+              - { name: party_ökolinx, type: int }
+              - { name: party_partei_für_die_tiere, type: int }
+              - { name: party_gesundheitsforschung, type: int }
+              - { name: party_volt, type: int }
