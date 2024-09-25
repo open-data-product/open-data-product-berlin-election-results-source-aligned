@@ -13792,3 +13792,168 @@ input_ports:
             skip_rows: 35
             skip_cols: 1
             head: 8
+      - source_file_name: SB_B07-05-01_2019j05_BE.xlsx
+        target_file_name: berlin-election-results-european-election-2019-electoral-results-report.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-1-1-electoral-results-berlin.csv
+            sheet_name: 1.1
+            names:
+              - name: feature
+              - { name: european_election_2014, type: int }
+              - { name: european_election_2014_percentage, type: float }
+              - { name: federal_election_2017, type: int }
+              - { name: federal_election_2017_percentage, type: float }
+              - { name: berlin_election_2016, type: int }
+              - { name: berlin_election_2016_percentage, type: float }
+            skip_rows: 7
+            head: 31
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-1-1-electoral-results-berlin-east.csv
+            sheet_name: 1.1
+            names:
+              - name: feature
+              - { name: european_election_2014, type: int }
+              - { name: european_election_2014_percentage, type: float }
+              - { name: federal_election_2017, type: int }
+              - { name: federal_election_2017_percentage, type: float }
+              - { name: berlin_election_2016, type: int }
+              - { name: berlin_election_2016_percentage, type: float }
+            skip_rows: 40
+            head: 31
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-1-1-electoral-results-berlin-west.csv
+            sheet_name: 1.1
+            names:
+              - name: feature
+              - { name: european_election_2014, type: int }
+              - { name: european_election_2014_percentage, type: float }
+              - { name: federal_election_2017, type: int }
+              - { name: federal_election_2017_percentage, type: float }
+              - { name: berlin_election_2016, type: int }
+              - { name: berlin_election_2016_percentage, type: float }
+            skip_rows: 73
+            head: 31
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-1-2-voter-turnout-and-valid-votes-total.csv
+            sheet_name: 1.2
+            names:
+              - name: district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 6
+            head: 12
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-1-2-voter-turnout-and-valid-votes-percentage.csv
+            sheet_name: 1.2
+            names:
+              - name: district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 6
+            head: 12
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-1-3-elected-delegates.csv
+            sheet_name: 1.3+Grafik1
+            names:
+              - name: election_date
+              - { name: total, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_afd, type: int }
+              - { name: others, type: int }
+            skip_rows: 5
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-2-1-registered-inhabitants.csv
+            sheet_name: 2.1
+            names:
+              - name: district_name
+              - { name: total, type: int }
+              - { name: below_6, type: int }
+              - { name: below_6_percentage, type: float }
+              - { name: between_6_and_18, type: int }
+              - { name: between_6_and_18_percentage, type: float }
+              - { name: between_18_and_65, type: int }
+              - { name: between_18_and_65_percentage, type: float }
+              - { name: above_65, type: int }
+              - { name: above_65_percentage, type: float }
+              - { name: eu_citizens, type: int }
+              - { name: eu_citizens_percentage, type: float }
+            skip_rows: 9
+            head: 12
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-2-2-registered-inhabitants-above-18.csv
+            sheet_name: 2.2
+            names:
+              - name: district_name
+              - { name: total, type: int }
+              - { name: between_18_and_25, type: int }
+              - { name: between_18_and_25_percentage, type: float }
+              - { name: between_25_and_35, type: int }
+              - { name: between_25_and_35_percentage, type: float }
+              - { name: between_35_and_45, type: int }
+              - { name: between_35_and_45_percentage, type: float }
+              - { name: between_45_and_60, type: int }
+              - { name: between_45_and_60_percentage, type: int }
+              - { name: between_60_and_70, type: float }
+              - { name: between_60_and_70_percentage, type: float }
+              - { name: between_above_70, type: float }
+              - { name: between_above_70_percentage, type: float }
+            skip_rows: 8
+            head: 12
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
+            sheet_name: 2.3
+            names:
+              - name: district_name
+              - { name: total, type: int }
+              - { name: female_percentage, type: float }
+              - { name: migration_background_percentage, type: float }
+              - { name: single_percentage, type: float }
+              - { name: married_percentage, type: float }
+              - { name: widowed_percentage, type: float }
+              - { name: divorced_percentage, type: float }
+              - { name: civil_partnership_percentage, type: float }
+              - { name: protestant_percentage, type: float }
+              - { name: catholic_percentage, type: float }
+            skip_rows: 8
+            head: 12
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-2-4-registered-inhabitants-below-65-in-sgb-II-communities-of-need.csv
+            sheet_name: 2.4
+            names:
+              - name: district_name
+              - { name: total, type: int }
+              - { name: in_sgb_II_communities_of_need, type: int }
+              - { name: in_sgb_II_communities_of_need_percentage, type: float }
+            skip_rows: 7
+            head: 13
+          - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-2-5-registered-eu-citizens.csv
+            sheet_name: 2.5
+            names:
+              - name: country
+              - { name: total, type: int }
+              - { name: 01_mitte, type: int }
+              - { name: 02_friedrichshain_kreuzberg, type: int }
+              - { name: 03_pankow, type: int }
+              - { name: 04_charlottenburg_wilmersdorf, type: int }
+              - { name: 05_spandau, type: int }
+              - { name: 06_steglitz_zehlendorf, type: int }
+              - { name: 07_tempelhof_schöneberg, type: int }
+              - { name: 08_neukölln, type: int }
+              - { name: 09_treptow_köpenick, type: int }
+              - { name: 10_marzahn_hellersdorf, type: int }
+              - { name: 11_lichtenberg, type: int }
+              - { name: 12_reinickendorf, type: int }
+            skip_rows: 7
+            head: 28
