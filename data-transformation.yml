@@ -13957,3 +13957,798 @@ input_ports:
               - { name: 12_reinickendorf, type: int }
             skip_rows: 7
             head: 28
+      - source_file_name: SB_B07-05-05_2019j05_BE.xlsx
+        target_file_name: berlin-election-results-european-election-2019-electoral-statistics.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-1-eligible-voters-berlin.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-1-eligible-voters-berlin-east.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 21
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-1-eligible-voters-berlin-west.csv
+            sheet_name: 1
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 34
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-2-voting-ballot-recipients-berlin.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-2-voting-ballot-recipient-berlin-east.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 21
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-2-voting-ballot-recipient-berlin-west.csv
+            sheet_name: 2
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 34
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-3-voter-turnout-berlin.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-3-voter-turnout-berlin-east.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 21
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-3-voter-turnout-berlin-west.csv
+            sheet_name: 3
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 34
+            head: 10
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-1-valid-votes-berlin-total.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 6
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-1-valid-votes-berlin-male.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 15
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-1-valid-votes-berlin-female.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 24
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-2-valid-votes-berlin-east-total.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 38
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-2-valid-votes-berlin-east-male.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 47
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-2-valid-votes-berlin-east-female.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 56
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-3-valid-votes-berlin-west-total.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 70
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-3-valid-votes-berlin-west-male.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 79
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-4-3-valid-votes-berlin-west-female.csv
+            sheet_name: 4
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 88
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-1-valid-votes-berlin-total.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 6
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-1-valid-votes-berlin-male.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 15
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-1-valid-votes-berlin-female.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 24
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-2-valid-votes-berlin-east-total.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 38
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-2-valid-votes-berlin-east-male.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 47
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-2-valid-votes-berlin-east-female.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 56
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-3-valid-votes-berlin-west-total.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 70
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-3-valid-votes-berlin-west-male.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 79
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-5-3-valid-votes-berlin-west-female.csv
+            sheet_name: 5
+            names:
+              - name: age
+              - { name: total, type: int }
+              - { name: party_spu, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_afd, type: float }
+              - { name: party_fdp, type: float }
+              - { name: others, type: float }
+            skip_rows: 88
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-1-valid-votes-spd-berlin.csv
+            sheet_name: 6.1
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-1-valid-votes-spd-berlin-east.csv
+            sheet_name: 6.1
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-1-valid-votes-spd-berlin-west.csv
+            sheet_name: 6.1
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-2-valid-votes-cdu-berlin.csv
+            sheet_name: 6.2
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-2-valid-votes-cdu-berlin-east.csv
+            sheet_name: 6.2
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-2-valid-votes-cdu-berlin-west.csv
+            sheet_name: 6.2
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-3-valid-votes-grüne-berlin.csv
+            sheet_name: 6.3
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-3-valid-votes-grüne-berlin-east.csv
+            sheet_name: 6.3
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-3-valid-votes-grüne-berlin-west.csv
+            sheet_name: 6.3
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-4-valid-votes-die-linke-berlin.csv
+            sheet_name: 6.4
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-4-valid-votes-die-linke-berlin-east.csv
+            sheet_name: 6.4
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-4-valid-votes-die-linke-berlin-west.csv
+            sheet_name: 6.4
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-5-valid-votes-afd-berlin.csv
+            sheet_name: 6.5
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-5-valid-votes-afd-berlin-east.csv
+            sheet_name: 6.5
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-5-valid-votes-afd-berlin-west.csv
+            sheet_name: 6.5
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-6-valid-votes-fdp-berlin.csv
+            sheet_name: 6.6
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-6-valid-votes-fdp-berlin-east.csv
+            sheet_name: 6.6
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-6-valid-votes-fdp-berlin-west.csv
+            sheet_name: 6.6
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-7-valid-votes-others-berlin.csv
+            sheet_name: 6.7
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 8
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-7-valid-votes-others-berlin-east.csv
+            sheet_name: 6.7
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 17
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-6-7-valid-votes-others-berlin-west.csv
+            sheet_name: 6.7
+            names:
+              - name: age
+              - { name: 2019_total, type: float }
+              - { name: 2019_male, type: float }
+              - { name: 2019_female, type: float }
+              - { name: 2014_total, type: float }
+              - { name: 2014_male, type: float }
+              - { name: 2014_female, type: float }
+              - { name: comparison_total, type: float }
+              - { name: comparison_male, type: float }
+              - { name: comparison_female, type: float }
+            skip_rows: 26
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-7-invalid-votes-2019.csv
+            sheet_name: 7
+            names:
+              - name: age
+              - { name: berlin_total, type: float }
+              - { name: berlin_male, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 7
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-7-invalid-votes-2014.csv
+            sheet_name: 7
+            names:
+              - name: age
+              - { name: berlin_total, type: float }
+              - { name: berlin_male, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 16
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-7-invalid-votes-comparison.csv
+            sheet_name: 7
+            names:
+              - name: type
+              - { name: berlin_total, type: float }
+              - { name: berlin_male, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 25
+            head: 7
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-8-invalid-votes-2019.csv
+            sheet_name: 8
+            names:
+              - name: type
+              - { name: berlin_total, type: float }
+              - { name: berlin_male, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 7
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-8-invalid-votes-2014.csv
+            sheet_name: 8
+            names:
+              - name: type
+              - { name: berlin_total, type: float }
+              - { name: berlin_male, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 13
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2019-electoral-statistics-8-invalid-votes-comparison.csv
+            sheet_name: 8
+            names:
+              - name: type
+              - { name: berlin_total, type: float }
+              - { name: berlin_male, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 19
+            head: 4
