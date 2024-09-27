@@ -14752,3 +14752,103 @@ input_ports:
               - { name: berlin_west_female, type: float }
             skip_rows: 19
             head: 4
+  - id: berlin-election-results-european-election-2024
+    files:
+      - source_file_name: DL_BE_2_EU2024.xlsx
+        target_file_name: berlin-election-results-european-election-2024-electoral-results-2.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-european-election-2024-electoral-results-2.csv
+            sheet_name: Berlin_Europawahl_A
+            names:
+              - name: address
+              - name: electoral_district_type
+              - name: electoral_district_name
+              - name: electoral_district_id
+              - name: berlin_east_west
+              - name: electoral_districts
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a1_percentage, type: float }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a2_percentage, type: float }
+              - { name: eligible_voters_a3, type: int }
+              - { name: eligible_voters_a3_percentage, type: float }
+              - { name: voters, type: int }
+              - { name: voters_percentage, type: float }
+              - { name: postal_voters, type: int }
+              - { name: postal_voters_percentage, type: float }
+              - { name: voters_with_voting_license, type: int }
+              - { name: voters_with_voting_license_percentage, type: float }
+              - { name: valid_votes, type: int }
+              - { name: valid_votes_percentage, type: float }
+              - { name: invalid_votes, type: int }
+              - { name: invalid_votes_percentage, type: float }
+              - { name: party_grüne, type: int }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_cdu, type: int }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_spd, type: int }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_die_linke, type: int }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd, type: int }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_die_partei, type: int }
+              - { name: party_die_partei_percentage, type: float }
+              - { name: party_fdp, type: int }
+              - { name: party_fdp_percentage, type: float }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_tierschutzpartei_percentage, type: float }
+              - { name: party_mera25, type: int }
+              - { name: party_mera25_percentage, type: float }
+              - { name: party_volt, type: int }
+              - { name: party_volt_percentage, type: float }
+              - { name: party_piraten, type: int }
+              - { name: party_piraten_percentage, type: float }
+              - { name: party_familie, type: int }
+              - { name: party_familie_percentage, type: float }
+              - { name: party_ödp, type: int }
+              - { name: party_ödp_percentage, type: float }
+              - { name: party_freie_wäher, type: int }
+              - { name: party_freie_wäher_percentage, type: float }
+              - { name: party_tierschutz_hier, type: int }
+              - { name: party_tierschutz_hier_percentage, type: float }
+              - { name: party_big, type: int }
+              - { name: party_big_percentage, type: float }
+              - { name: party_verjüngungsforschung, type: int }
+              - { name: party_verjüngungsforschung_percentage, type: float }
+              - { name: party_pdh, type: int }
+              - { name: party_pdh_percentage, type: float }
+              - { name: party_heimat, type: int }
+              - { name: party_heimat_percentage, type: float }
+              - { name: party_dkp, type: int }
+              - { name: party_dkp_percentage, type: float }
+              - { name: party_menschliche_welt, type: int }
+              - { name: party_menschliche_welt_percentage, type: float }
+              - { name: party_bündnis_c, type: int }
+              - { name: party_bündnis_c_percentage, type: float }
+              - { name: party_mlpd, type: int }
+              - { name: party_mlpd_percentage, type: float }
+              - { name: party_sgp, type: int }
+              - { name: party_sgp_percentage, type: float }
+              - { name: party_abg, type: int }
+              - { name: party_abg_percentage, type: float }
+              - { name: party_die_basis, type: int }
+              - { name: party_die_basis_percentage, type: float }
+              - { name: party_bündnis_deutschand, type: int }
+              - { name: party_bündnis_deutschand_percentage, type: float }
+              - { name: party_bsw, type: int }
+              - { name: party_bsw_percentage, type: float }
+              - { name: party_dawa, type: int }
+              - { name: party_dawa_percentage, type: float }
+              - { name: party_klimaliste, type: int }
+              - { name: party_klimaliste_percentage, type: float }
+              - { name: party_letzte_generation, type: int }
+              - { name: party_letzte_generation_percentage, type: float }
+              - { name: party_pdv, type: int }
+              - { name: party_pdv_percentage, type: float }
+              - { name: party_pdf, type: int }
+              - { name: party_pdf_percentage, type: float }
+              - { name: party_v_partei3, type: int }
+              - { name: party_v_partei3_percentage, type: float }
+            skip_rows: 2

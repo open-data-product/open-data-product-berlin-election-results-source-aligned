@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-03-10
+* updated: 2025-03-11
 
 ## Input Ports
 
@@ -184,7 +184,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2016
 * license: GPLv3
-* updated: 2025-03-10
+* updated: 2025-03-11
 
 **Files**
 
@@ -325,7 +325,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2023
 * license: GPLv3
-* updated: 2025-03-10
+* updated: 2025-03-11
 
 **Files**
 
@@ -658,7 +658,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-european-election-2019
 * license: GPLv3
-* updated: 2025-03-10
+* updated: 2025-03-11
 
 **Files**
 
@@ -756,11 +756,20 @@
 * [berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-percentage.csv)
 * [berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-total.csv)
 * [berlin-election-results-european-election-2019-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-structural-data.csv)
+### Berlin Election Results European Election 2024
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-european-election-2024
+* license: GPLv3
+* updated: 2025-03-11
+
+**Files**
+
+* [berlin-election-results-european-election-2024-electoral-results-2.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2024-electoral-results-2.csv)
 ### Berlin Election Results Federal Election 2017
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2017
 * license: GPLv3
-* updated: 2025-03-10
+* updated: 2025-03-11
 
 **Files**
 
@@ -943,7 +952,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2021
 * license: GPLv3
-* updated: 2025-03-10
+* updated: 2025-03-11
 
 **Files**
 
