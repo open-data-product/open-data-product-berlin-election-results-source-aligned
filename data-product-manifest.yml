@@ -797,6 +797,7 @@ output_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2024-electoral-results-2.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2025-electoral-results.csv
   - id: berlin-election-results-federal-election-2017
     metadata:
       name: Berlin Election Results Federal Election 2017
