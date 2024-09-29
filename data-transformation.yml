@@ -14951,3 +14951,34 @@ input_ports:
               - { name: party_v_partei3, type: int }
               - { name: party_v_partei3_percentage, type: float }
               - name: aufn
+      - source_file_name: DL_BE_EU2024_EU2019.xlsx
+        target_file_name: berlin-election-results-european-election-2024-converted-results-european-election-2019.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-european-election-2024-converted-results-european-election-2019.csv
+            sheet_name: 2019
+            names:
+              - name: address
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: berlin_east_west
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_cdu, type: int }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_grüne, type: int }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_die_linke, type: int }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd, type: int }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp, type: int }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others, type: int }
+              - { name: others_percentage, type: float }
