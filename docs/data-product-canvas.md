@@ -766,6 +766,7 @@
 
 * [berlin-election-results-european-election-2024-converted-results-european-election-2019.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2024-converted-results-european-election-2019.csv)
 * [berlin-election-results-european-election-2024-electoral-results-2.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2024-electoral-results-2.csv)
+* [berlin-election-results-european-election-2024-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2024-structural-data.csv)
 * [berlin-election-results-european-election-2025-electoral-results.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2025-electoral-results.csv)
 ### Berlin Election Results Federal Election 2017
 * owner: Open Lifeworlds
