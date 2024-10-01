@@ -1002,32 +1002,6 @@ input_ports:
               - { name: between_16_and_18_percentage, type: float }
             skip_rows: 9
             head: 7
-          - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-01-mitte.csv
-            sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
-            skip_rows: 19
-            head: 5
-          - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-01-mitte.csv
-            sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
-            skip_rows: 27
-            head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.4
             names:
@@ -1039,7 +1013,7 @@ input_ports:
               - { name: eu_foreigners_percentage, type: float }
               - { name: between_16_and_18_total, type: int }
               - { name: between_16_and_18_percentage, type: float }
-            skip_rows: 39
+            skip_rows: 19
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-03-pankow.csv
             sheet_name: 2.4
@@ -1052,7 +1026,7 @@ input_ports:
               - { name: eu_foreigners_percentage, type: float }
               - { name: between_16_and_18_total, type: int }
               - { name: between_16_and_18_percentage, type: float }
-            skip_rows: 49
+            skip_rows: 27
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.4
@@ -1065,7 +1039,7 @@ input_ports:
               - { name: eu_foreigners_percentage, type: float }
               - { name: between_16_and_18_total, type: int }
               - { name: between_16_and_18_percentage, type: float }
-            skip_rows: 57
+            skip_rows: 39
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-06-steglitz-zehlendorf.csv
             sheet_name: 2.4
@@ -1078,7 +1052,7 @@ input_ports:
               - { name: eu_foreigners_percentage, type: float }
               - { name: between_16_and_18_total, type: int }
               - { name: between_16_and_18_percentage, type: float }
-            skip_rows: 67
+            skip_rows: 57
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-07-tempelhof-schöneberg.csv
             sheet_name: 2.4
@@ -1091,8 +1065,21 @@ input_ports:
               - { name: eu_foreigners_percentage, type: float }
               - { name: between_16_and_18_total, type: int }
               - { name: between_16_and_18_percentage, type: float }
-            skip_rows: 77
+            skip_rows: 67
             head: 7
+          - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-08-neukölln.csv
+            sheet_name: 2.4
+            names:
+              - name: district
+              - { name: total, type: int }
+              - { name: female_total, type: int }
+              - { name: female_percentage, type: float }
+              - { name: eu_foreigners_total, type: int }
+              - { name: eu_foreigners_percentage, type: float }
+              - { name: between_16_and_18_total, type: int }
+              - { name: between_16_and_18_percentage, type: float }
+            skip_rows: 77
+            head: 8
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-09-treptow-köpenick.csv
             sheet_name: 2.4
             names:
@@ -2050,15 +2037,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: int }
+              - { name: year_1995, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2001, type: int }
+              - { name: year_2006, type: int }
+              - { name: year_2011, type: int }
+              - { name: year_2016, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2023, type: int }
             skip_rows: 5
             skip_cols: 1
             head: 4
@@ -2066,15 +2053,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -2082,15 +2069,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -2098,15 +2085,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -2114,15 +2101,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: int }
+              - { name: year_1995, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2001, type: int }
+              - { name: year_2006, type: int }
+              - { name: year_2011, type: int }
+              - { name: year_2016, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2023, type: int }
             skip_rows: 5
             skip_cols: 1
             head: 9
@@ -2130,15 +2117,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 16
             skip_cols: 1
             head: 9
@@ -2146,15 +2133,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 27
             skip_cols: 1
             head: 9
@@ -2162,15 +2149,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 38
             skip_cols: 1
             head: 9
@@ -2178,15 +2165,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: int }
+              - { name: year_1995, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2001, type: int }
+              - { name: year_2006, type: int }
+              - { name: year_2011, type: int }
+              - { name: year_2016, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2023, type: int }
             skip_rows: 5
             skip_cols: 1
             head: 4
@@ -2194,15 +2181,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -2210,15 +2197,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -2226,15 +2213,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -2242,15 +2229,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: int }
+              - { name: year_1995, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2001, type: int }
+              - { name: year_2006, type: int }
+              - { name: year_2011, type: int }
+              - { name: year_2016, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2023, type: int }
             skip_rows: 5
             skip_cols: 1
             head: 9
@@ -2258,15 +2245,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 16
             skip_cols: 1
             head: 9
@@ -2274,15 +2261,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 27
             skip_cols: 1
             head: 9
@@ -2290,15 +2277,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 38
             skip_cols: 1
             head: 9
@@ -2306,15 +2293,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 5
             skip_cols: 1
             head: 4
@@ -2322,15 +2309,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -2338,15 +2325,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -2354,15 +2341,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -2370,15 +2357,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: int }
+              - { name: year_1995, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2001, type: int }
+              - { name: year_2006, type: int }
+              - { name: year_2011, type: int }
+              - { name: year_2016, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2023, type: int }
             skip_rows: 5
             skip_cols: 1
             head: 9
@@ -2386,15 +2373,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 16
             skip_cols: 1
             head: 9
@@ -2402,15 +2389,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 27
             skip_cols: 1
             head: 9
@@ -2418,15 +2405,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - name: "1990"
-              - name: "1995"
-              - name: "1999"
-              - name: "2001"
-              - name: "2006"
-              - name: "2011"
-              - name: "2016"
-              - name: "2021"
-              - name: "2023"
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 38
             skip_cols: 1
             head: 9
@@ -7202,15 +7189,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -7218,15 +7205,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -7234,15 +7221,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -7266,15 +7253,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 16
             skip_cols: 1
             head: 9
@@ -7282,15 +7269,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 27
             skip_cols: 1
             head: 9
@@ -7298,15 +7285,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 38
             skip_cols: 1
             head: 9
@@ -7330,15 +7317,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -7346,15 +7333,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -7362,15 +7349,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -7394,15 +7381,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 16
             skip_cols: 1
             head: 9
@@ -7410,15 +7397,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 27
             skip_cols: 1
             head: 9
@@ -7426,15 +7413,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 38
             skip_cols: 1
             head: 9
@@ -7458,15 +7445,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -7474,15 +7461,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -7490,15 +7477,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -7522,15 +7509,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 16
             skip_cols: 1
             head: 9
@@ -7538,15 +7525,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 27
             skip_cols: 1
             head: 9
@@ -7554,15 +7541,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1995, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2001, type: int }
-              - { name: year_2006, type: int }
-              - { name: year_2011, type: int }
-              - { name: year_2016, type: int }
-              - { name: year_2021, type: int }
-              - { name: year_2023, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1995, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2001, type: float }
+              - { name: year_2006, type: float }
+              - { name: year_2011, type: float }
+              - { name: year_2016, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2023, type: float }
             skip_rows: 38
             skip_cols: 1
             head: 9
@@ -9292,20 +9279,6 @@ input_ports:
               - { name: others, type: float }
             skip_rows: 31
             head: 6
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-1-vote-splitting-berlin-between-35-and-45.csv
-            sheet_name: 10.1
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
-            head: 6
           - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-1-vote-splitting-berlin-between-45-and-60.csv
             sheet_name: 10.1
             names:
@@ -9389,20 +9362,6 @@ input_ports:
               - { name: party_fdp, type: float }
               - { name: others, type: float }
             skip_rows: 23
-            head: 6
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-2-vote-splitting-berlin-east-between-35-and-45.csv
-            sheet_name: 10.2
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
             head: 6
           - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-2-vote-splitting-berlin-east-between-35-and-45.csv
             sheet_name: 10.2
@@ -9516,20 +9475,6 @@ input_ports:
               - { name: others, type: float }
             skip_rows: 31
             head: 6
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-3-vote-splitting-berlin-west-between-35-and-45.csv
-            sheet_name: 10.3
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
-            head: 6
           - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-3-vote-splitting-berlin-west-between-45-and-60.csv
             sheet_name: 10.3
             names:
@@ -9628,20 +9573,6 @@ input_ports:
               - { name: others, type: float }
             skip_rows: 31
             head: 6
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-4-vote-splitting-male-between-35-and-45.csv
-            sheet_name: 10.4
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
-            head: 6
           - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-4-vote-splitting-male-between-45-and-60.csv
             sheet_name: 10.4
             names:
@@ -9725,20 +9656,6 @@ input_ports:
               - { name: party_fdp, type: float }
               - { name: others, type: float }
             skip_rows: 23
-            head: 6
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-5-vote-splitting-female-between-35-and-45.csv
-            sheet_name: 10.5
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
             head: 6
           - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-10-5-vote-splitting-female-between-35-and-45.csv
             sheet_name: 10.5
@@ -10020,15 +9937,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -10036,15 +9953,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -10052,15 +9969,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -10084,15 +10001,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
@@ -10100,15 +10017,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
@@ -10116,15 +10033,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -10148,15 +10065,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -10164,15 +10081,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -10180,15 +10097,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -10212,15 +10129,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
@@ -10228,15 +10145,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
@@ -10244,15 +10161,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -10276,15 +10193,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -10292,15 +10209,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -10308,15 +10225,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -10340,15 +10257,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
@@ -10356,15 +10273,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
@@ -10372,15 +10289,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -12081,20 +11998,6 @@ input_ports:
               - { name: others, type: float }
             skip_rows: 31
             head: 6
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-1-vote-splitting-berlin-between-35-and-45.csv
-            sheet_name: 10.1
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
-            head: 6
           - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-1-vote-splitting-berlin-between-45-and-60.csv
             sheet_name: 10.1
             names:
@@ -12178,20 +12081,6 @@ input_ports:
               - { name: party_fdp, type: float }
               - { name: others, type: float }
             skip_rows: 23
-            head: 6
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-2-vote-splitting-berlin-east-between-35-and-45.csv
-            sheet_name: 10.2
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
             head: 6
           - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-2-vote-splitting-berlin-east-between-35-and-45.csv
             sheet_name: 10.2
@@ -12305,20 +12194,6 @@ input_ports:
               - { name: others, type: float }
             skip_rows: 31
             head: 6
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-3-vote-splitting-berlin-west-between-35-and-45.csv
-            sheet_name: 10.3
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
-            head: 6
           - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-3-vote-splitting-berlin-west-between-45-and-60.csv
             sheet_name: 10.3
             names:
@@ -12417,20 +12292,6 @@ input_ports:
               - { name: others, type: float }
             skip_rows: 31
             head: 6
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-4-vote-splitting-male-between-35-and-45.csv
-            sheet_name: 10.4
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
-            head: 6
           - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-4-vote-splitting-male-between-45-and-60.csv
             sheet_name: 10.4
             names:
@@ -12514,20 +12375,6 @@ input_ports:
               - { name: party_fdp, type: float }
               - { name: others, type: float }
             skip_rows: 23
-            head: 6
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-5-vote-splitting-female-between-35-and-45.csv
-            sheet_name: 10.5
-            names:
-              - name: second-vote
-              - { name: total, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 31
             head: 6
           - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-10-5-vote-splitting-female-between-35-and-45.csv
             sheet_name: 10.5
@@ -12751,15 +12598,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -12767,15 +12614,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -12783,15 +12630,15 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -12815,15 +12662,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
@@ -12831,15 +12678,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
@@ -12847,15 +12694,15 @@ input_ports:
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -12879,15 +12726,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -12895,15 +12742,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -12911,15 +12758,15 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -12943,15 +12790,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
@@ -12959,15 +12806,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
@@ -12975,15 +12822,15 @@ input_ports:
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -13007,15 +12854,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -13023,15 +12870,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -13039,15 +12886,15 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
@@ -13071,15 +12918,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
@@ -13087,15 +12934,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
@@ -13103,15 +12950,15 @@ input_ports:
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1990, type: int }
-              - { name: year_1994, type: int }
-              - { name: year_1998, type: int }
-              - { name: year_2002, type: int }
-              - { name: year_2005, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2013, type: int }
-              - { name: year_2017, type: int }
-              - { name: year_2021, type: int }
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -13497,12 +13344,12 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -13510,12 +13357,12 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -13523,16 +13370,16 @@ input_ports:
             sheet_name: 1
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
-          - target_file_name: berlin-election-results-european-election-2019-long-series-2-second-votes-total.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-2-valid-votes-total.csv
             sheet_name: 2
             names:
               - name: feature
@@ -13545,42 +13392,42 @@ input_ports:
             skip_rows: 5
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-2-second-votes-comparison-to-previous.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-2-valid-votes-comparison-to-previous.csv
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-2-second-votes-comparison-to-1990.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-2-valid-votes-comparison-to-1990.csv
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-2-second-votes-percentage.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-2-valid-votes-percentage.csv
             sheet_name: 2
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -13601,12 +13448,12 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -13614,12 +13461,12 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -13627,16 +13474,16 @@ input_ports:
             sheet_name: 3
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
-          - target_file_name: berlin-election-results-european-election-2019-long-series-4-second-votes-berlin-east-total.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-4-valid-votes-berlin-east-total.csv
             sheet_name: 4
             names:
               - name: feature
@@ -13649,42 +13496,42 @@ input_ports:
             skip_rows: 5
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-4-second-votes-berlin-east-comparison-to-previous.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-4-valid-votes-berlin-east-comparison-to-previous.csv
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-4-second-votes-berlin-east-comparison-to-1990.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-4-valid-votes-berlin-east-comparison-to-1990.csv
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-4-second-votes-berlin-east-percentage.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-4-valid-votes-berlin-east-percentage.csv
             sheet_name: 4
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -13705,12 +13552,12 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 11
             skip_cols: 1
             head: 4
@@ -13718,12 +13565,12 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 17
             skip_cols: 1
             head: 4
@@ -13731,16 +13578,16 @@ input_ports:
             sheet_name: 5
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 23
             skip_cols: 1
             head: 4
-          - target_file_name: berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-total.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-total.csv
             sheet_name: 6
             names:
               - name: feature
@@ -13753,42 +13600,42 @@ input_ports:
             skip_rows: 5
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-comparison-to-previous.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-comparison-to-previous.csv
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 15
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-comparison-to-1990.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-comparison-to-1990.csv
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 25
             skip_cols: 1
             head: 8
-          - target_file_name: berlin-election-results-european-election-2019-long-series-6-second-votes-berlin-west-percentage.csv
+          - target_file_name: berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-percentage.csv
             sheet_name: 6
             names:
               - name: feature
-              - { name: year_1994, type: int }
-              - { name: year_1999, type: int }
-              - { name: year_2004, type: int }
-              - { name: year_2009, type: int }
-              - { name: year_2014, type: int }
-              - { name: year_2019, type: int }
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
             skip_rows: 35
             skip_cols: 1
             head: 8
@@ -15062,3 +14909,341 @@ input_ports:
               - { name: inhabitants_above_65_in_2022, type: int }
               - { name: inhabitants_in_sgb_II_in_2021, type: int }
               - { name: inhabitants_in_sgb_II_in_2021_percentage, type: float }
+      - source_file_name: Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx
+        target_file_name: berlin-election-results-european-election-2024-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-european-election-2024-long-series-1-eligible-voters-and-voters-total.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1994, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2004, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2014, type: int }
+              - { name: year_2019, type: int }
+              - { name: year_2024, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-1-eligible-voters-and-voters-comparison-to-previous.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-1-eligible-voters-and-voters-comparison-to-1990.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-1-eligible-voters-and-voters-percentage.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1994, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2004, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2014, type: int }
+              - { name: year_2019, type: int }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-2-valid-votes-total.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1994, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2004, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2014, type: int }
+              - { name: year_2019, type: int }
+              - { name: year_2024, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-2-valid-votes-comparison-to-previous.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-2-valid-votes-comparison-to-1990.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-2-valid-votes-percentage.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-3-eligible-voters-berlin-east-and-voters-total.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-previous.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-1990.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-3-eligible-voters-and-voters-berlin-east-percentage.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-4-valid-votes-berlin-east-total.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1994, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2004, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2014, type: int }
+              - { name: year_2019, type: int }
+              - { name: year_2024, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-4-valid-votes-berlin-east-comparison-to-previous.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-4-valid-votes-berlin-east-comparison-to-1990.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-4-valid-votes-berlin-east-percentage.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-5-eligible-voters-berlin-west-and-voters-total.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1994, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2004, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2014, type: int }
+              - { name: year_2019, type: int }
+              - { name: year_2024, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-previous.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-1990.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-5-eligible-voters-and-voters-berlin-west-percentage.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-european-election-2024-long-series-6-valid-votes-berlin-west-total.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1994, type: int }
+              - { name: year_1999, type: int }
+              - { name: year_2004, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2014, type: int }
+              - { name: year_2019, type: int }
+              - { name: year_2024, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-6-valid-votes-berlin-west-comparison-to-previous.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-6-valid-votes-berlin-west-comparison-to-1990.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-european-election-2024-long-series-6-valid-votes-berlin-west-percentage.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1994, type: float }
+              - { name: year_1999, type: float }
+              - { name: year_2004, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2014, type: float }
+              - { name: year_2019, type: float }
+              - { name: year_2024, type: float }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
