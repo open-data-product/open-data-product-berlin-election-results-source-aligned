@@ -15412,3 +15412,32 @@ input_ports:
               - { name: 12_reinickendorf, type: int }
             skip_rows: 7
             head: 28
+  - id: berlin-election-results-referendum-berlin-2030-klimaneutral
+    files:
+      - source_file_name: DL_BE_VE2023.xlsx
+        target_file_name: berlin-election-results-referendum-berlin-2030-klimaneutral.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-referendum-berlin-2030-klimaneutral.csv
+            sheet_name: VE_2023
+            names:
+              - name: vote_type
+              - name: address
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - name: vote_yes
+              - name: vote_no
+              - name: aufn

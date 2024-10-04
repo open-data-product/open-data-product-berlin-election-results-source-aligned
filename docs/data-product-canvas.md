@@ -7,11 +7,12 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-03-11
+* updated: 2025-03-12
 
 ## Input Ports
 
 ### Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2016
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/abgeordnetenhauswahlen-bvv-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -26,7 +27,9 @@
 * [DL_BE_AH2016_Strukturdaten.xlsx](https://download.statistik-berlin-brandenburg.de/8b44df3c88a0c344/2e77b4cc9256/DL_BE_AH2016_Strukturdaten.xlsx)
 * [SB_B07-02-05_2016j05_BE.xlsx](https://download.statistik-berlin-brandenburg.de/96cde9a982482ba6/45c4149adb66/SB_B07-02-05_2016j05_BE.xlsx)
 * [abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx](https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx)
+
 ### Berliner Wahlen - Abgeordnetenhaus und Bezirksverordnetenversammlungen 2023
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/abgeordnetenhauswahlen-bvv-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -42,7 +45,9 @@
 * [DL_BE_AGH2023_Strukturdaten.xlsx](https://download.statistik-berlin-brandenburg.de/5e482ab26dfd51b7/00f86bb5f3c4/DL_BE_AGH2023_Strukturdaten.xlsx)
 * [SB_B07-02-05_2023j05_BE.xlsx](https://download.statistik-berlin-brandenburg.de/14c528d75c186c7f/c57834e9eb16/SB_B07-02-05_2023j05_BE.xlsx)
 * [abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx](https://download.statistik-berlin-brandenburg.de/c427aa9c4178f92d/8466ce447431/abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx)
+
 ### Bundestagswahlen in Berlin 2017
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -56,7 +61,9 @@
 * [DL_BE_BT2017_AH2016.xlsx](https://download.statistik-berlin-brandenburg.de/b877735b12104d71/c0e1c379cb54/DL_BE_BT2017_AH2016.xlsx)
 * [SB_B07-01-05_2017j04_BE.xlsx](https://download.statistik-berlin-brandenburg.de/36ac6e190e69bd29/6ccf7d248959/SB_B07-01-05_2017j04_BE.xlsx)
 * [bundestagswahlen-lange-reihe.xlsx](https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx)
+
 ### Bundestagswahlen in Berlin 2021
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/bundestagswahlen-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -71,7 +78,9 @@
 * [DL_BE_BTW2024_Strukturdaten_Wiederholung.xlsx](https://download.statistik-berlin-brandenburg.de/2adeb8080a11c251/b42405d7766a/DL_BE_BTW2024_Strukturdaten_Wiederholung.xlsx)
 * [SB_B07-01-05_2021j04_BE.xlsx](https://download.statistik-berlin-brandenburg.de/93b37127fd93f22d/2031c92d04ce/SB_B07-01-05_2021j04_BE.xlsx)
 * [bundestagswahlen-lange-reihe.xlsx](https://download.statistik-berlin-brandenburg.de/fef2be7da8798fcf/5cf7369c25c1/bundestagswahlen-lange-reihe.xlsx)
+
 ### Europawahlen in Berlin 2019
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -87,7 +96,9 @@
 * [DL_BE_EU2019_Strukturdaten.xlsx](https://download.statistik-berlin-brandenburg.de/7b34f63009821bf3/ca356193dfcc/DL_BE_EU2019_Strukturdaten.xlsx)
 * [SB_B07-05-05_2019j05_BE.xlsx](https://download.statistik-berlin-brandenburg.de/8dafa380a493d2b5/68240135e9bf/SB_B07-05-05_2019j05_BE.xlsx)
 * [europawahlen-lange-reihe-2019.xlsx](https://download.statistik-berlin-brandenburg.de/ba888546111fa22f/200ecbdb3b6e/europawahlen-lange-reihe-2019.xlsx)
+
 ### Europawahlen in Berlin 2024
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/europawahlen-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -101,7 +112,9 @@
 * [DL_BE_EU2024_EU2019.xlsx](https://download.statistik-berlin-brandenburg.de/cfd80313bf809692/18fa0a3f2a3f/DL_BE_EU2024_EU2019.xlsx)
 * [DL_BE_EU_2024_Strukturdaten.xlsx](https://download.statistik-berlin-brandenburg.de/967df1cce75bb59d/812bfda698bf/DL_BE_EU_2024_Strukturdaten.xlsx)
 * [Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx](https://download.statistik-berlin-brandenburg.de/d37d9cb69cb34d4a/be344fb7fb3f/Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx)
+
 ### Volksentscheid "Berlin 2030 klimaneutral"
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -110,7 +123,9 @@
 **Files**
 
 * [DL_BE_VE2023.xlsx](https://download.statistik-berlin-brandenburg.de/a377bd4631845832/b4d26bc126af/DL_BE_VE2023.xlsx)
+
 ### Volksentscheid "Deutsche Wohnen & Co enteignen"
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -119,7 +134,9 @@
 **Files**
 
 * [DL_BE_VE2021.xlsx](https://download.statistik-berlin-brandenburg.de/b27aa19de4a317ad/074a941aab21/DL_BE_VE2021.xlsx)
+
 ### Volksentscheid über den Weiterbetrieb des Flughafens Tegel
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -128,7 +145,9 @@
 **Files**
 
 * [DL_BE_EE_WB_VE2017.xlsx](https://download.statistik-berlin-brandenburg.de/e84527d08b1fa43e/68a03b004958/DL_BE_EE_WB_VE2017.xlsx)
+
 ### Volksentscheid über den Erhalt des Tempelhofer Feldes
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -137,7 +156,9 @@
 **Files**
 
 * [DL_BE_VE2014.xlsx](https://download.statistik-berlin-brandenburg.de/dae0d6980b6f02ca/ae8032e36b4d/DL_BE_VE2014.xlsx)
+
 ### Volksentscheid über die Rekommunalisierung der Berliner Energieversorgung
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -146,7 +167,9 @@
 **Files**
 
 * [DL_BE_VE2013.xlsx](https://download.statistik-berlin-brandenburg.de/cc84503adc4f9037/d6aaa7686d50/DL_BE_VE2013.xlsx)
+
 ### Volksentscheid über die Offenlegung der Teilprivatisierungsverträge bei den Berliner Wasserbetrieben
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -155,7 +178,9 @@
 **Files**
 
 * [DL_BE_VE2011.xlsx](https://download.statistik-berlin-brandenburg.de/1f75201feb3d1050/ab6d1fbf7d0e/DL_BE_VE2011.xlsx)
+
 ### Volksentscheid über die Einführung des Wahlpflichtbereichs Ethik/Religion
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -164,7 +189,9 @@
 **Files**
 
 * [DL_BE_VE2009.xlsx](https://download.statistik-berlin-brandenburg.de/9028dfce87494cb7/2c94c11ccd2b/DL_BE_VE2009.xlsx)
+
 ### Volksentscheid "Tempelhof bleibt Verkehrsflughafen!"
+
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
@@ -181,10 +208,11 @@
 ## Output Ports
 
 ### Berlin Election Results Berlin Election 2016
+
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2016
 * license: GPLv3
-* updated: 2025-03-11
+* updated: 2025-03-12
 
 **Files**
 
@@ -322,11 +350,13 @@
 * [berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv)
 * [berlin-election-results-berlin-election-2016-pre-electoral-data-2-9-registered-inhabitants-december-2015-by-constituency-association.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-pre-electoral-data-2-9-registered-inhabitants-december-2015-by-constituency-association.csv)
 * [berlin-election-results-berlin-election-2016-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-structural-data.csv)
+
 ### Berlin Election Results Berlin Election 2023
+
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-berlin-election-2023
 * license: GPLv3
-* updated: 2025-03-11
+* updated: 2025-03-12
 
 **Files**
 
@@ -655,11 +685,13 @@
 * [berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-12-reinickendorf.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-12-reinickendorf.csv)
 * [berlin-election-results-berlin-election-2023-pre-electoral-data-3-6-registered-inhabitants-june-2022.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-pre-electoral-data-3-6-registered-inhabitants-june-2022.csv)
 * [berlin-election-results-berlin-election-2023-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-structural-data.csv)
+
 ### Berlin Election Results European Election 2019
+
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-european-election-2019
 * license: GPLv3
-* updated: 2025-03-11
+* updated: 2025-03-12
 
 **Files**
 
@@ -757,11 +789,13 @@
 * [berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-percentage.csv)
 * [berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-long-series-6-valid-votes-berlin-west-total.csv)
 * [berlin-election-results-european-election-2019-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-structural-data.csv)
+
 ### Berlin Election Results European Election 2024
+
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-european-election-2024
 * license: GPLv3
-* updated: 2025-03-11
+* updated: 2025-03-12
 
 **Files**
 
@@ -804,11 +838,13 @@
 * [berlin-election-results-european-election-2024-long-series-6-valid-votes-berlin-west-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2024-long-series-6-valid-votes-berlin-west-total.csv)
 * [berlin-election-results-european-election-2024-structural-data.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2024-structural-data.csv)
 * [berlin-election-results-european-election-2025-electoral-results.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-european-election-2024/berlin-election-results-european-election-2025-electoral-results.csv)
+
 ### Berlin Election Results Federal Election 2017
+
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2017
 * license: GPLv3
-* updated: 2025-03-11
+* updated: 2025-03-12
 
 **Files**
 
@@ -987,11 +1023,13 @@
 * [berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-comparison-to-previous.csv)
 * [berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-percentage.csv)
 * [berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-long-series-6-second-votes-berlin-west-total.csv)
+
 ### Berlin Election Results Federal Election 2021
+
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-federal-election-2021
 * license: GPLv3
-* updated: 2025-03-11
+* updated: 2025-03-12
 
 **Files**
 
@@ -1167,6 +1205,17 @@
 * [berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-comparison-to-previous.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-comparison-to-previous.csv)
 * [berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-percentage.csv)
 * [berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-total.csv)
+
+### Berlin Election Results Referendum Berlin 2030 Klimaneutral
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-berlin-2030-klimaneutral
+* license: GPLv3
+* updated: 2025-03-12
+
+**Files**
+
+* [berlin-election-results-referendum-berlin-2030-klimaneutral.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-berlin-2030-klimaneutral/berlin-election-results-referendum-berlin-2030-klimaneutral.csv)
 
 ## Classification
 
