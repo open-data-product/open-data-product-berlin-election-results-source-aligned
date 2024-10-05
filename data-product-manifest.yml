@@ -1214,6 +1214,17 @@ output_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-berlin-2030-klimaneutral/berlin-election-results-referendum-berlin-2030-klimaneutral.csv
+  - id: berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
+    metadata:
+      name: Berlin Election Results Referendum Deutsche Wohnen Und Co Enteignen
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
+      license: GPLv3
+      updated: 2025-03-12
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen.csv
 observability:
   quality:
   operational:
