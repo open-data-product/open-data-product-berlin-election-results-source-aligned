@@ -1228,6 +1228,17 @@
 
 * [berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen.csv)
 
+### Berlin Election Results Referendum On The Continued Operation Of Tegel Airport
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
+* license: GPLv3
+* updated: 2025-03-12
+
+**Files**
+
+* [berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv)
+
 ## Classification
 
 **The nature of the exposed data (source-aligned, aggregate, consumer-aligned)**

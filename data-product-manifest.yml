@@ -1225,6 +1225,17 @@ output_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen.csv
+  - id: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
+    metadata:
+      name: Berlin Election Results Referendum On The Continued Operation Of Tegel Airport
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
+      license: GPLv3
+      updated: 2025-03-12
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv
 observability:
   quality:
   operational:

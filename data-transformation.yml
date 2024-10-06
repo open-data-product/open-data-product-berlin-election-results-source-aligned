@@ -15470,3 +15470,30 @@ input_ports:
               - name: vote_yes
               - name: vote_no
               - name: aufn
+  - id: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
+    files:
+      - source_file_name: DL_BE_EE_WB_VE2017.xlsx
+        target_file_name: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv
+            sheet_name: BE_WV
+            names:
+              - name: address
+              - name: vote_type
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - name: vote_yes
+              - name: vote_no
