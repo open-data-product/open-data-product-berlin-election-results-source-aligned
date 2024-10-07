@@ -1239,6 +1239,17 @@
 
 * [berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv)
 
+### Berlin Election Results Referendum On The Disclosure Of The Partial Privatisation Contracts At Berliner Wasserbetriebe
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
+* license: GPLv3
+* updated: 2025-03-12
+
+**Files**
+
+* [berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe/berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv)
+
 ## Classification
 
 **The nature of the exposed data (source-aligned, aggregate, consumer-aligned)**

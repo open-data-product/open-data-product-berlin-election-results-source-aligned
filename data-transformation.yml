@@ -15438,8 +15438,8 @@ input_ports:
               - { name: voters_b1, type: int }
               - { name: invalid_votes, type: int }
               - { name: valid_votes, type: int }
-              - name: vote_yes
-              - name: vote_no
+              - { name: vote_yes, type: int }
+              - { name: vote_no, type: int }
               - name: aufn
   - id: berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
     files:
@@ -15467,8 +15467,8 @@ input_ports:
               - { name: voters_b1, type: int }
               - { name: invalid_votes, type: int }
               - { name: valid_votes, type: int }
-              - name: vote_yes
-              - name: vote_no
+              - { name: vote_yes, type: int }
+              - { name: vote_no, type: int }
               - name: aufn
   - id: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
     files:
@@ -15495,5 +15495,27 @@ input_ports:
               - { name: voters_b1, type: int }
               - { name: invalid_votes, type: int }
               - { name: valid_votes, type: int }
-              - name: vote_yes
-              - name: vote_no
+              - { name: vote_yes, type: int }
+              - { name: vote_no, type: int }
+  - id: berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
+    files:
+      - source_file_name: DL_BE_VE2011.xlsx
+        target_file_name: berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
+            sheet_name: VE
+            names:
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: vote_yes, type: int }
+              - { name: vote_no, type: int }
