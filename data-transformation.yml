@@ -15567,3 +15567,25 @@ input_ports:
               - { name: question_2_valid_votes, type: int }
               - { name: question_2_vote_yes, type: int }
               - { name: question_2_vote_no, type: int }
+  - id: berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply
+    files:
+      - source_file_name: DL_BE_VE2013.xlsx
+        target_file_name: berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply.csv
+            sheet_name: VE
+            names:
+              - name: district_id
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: vote_yes, type: int }
+              - { name: vote_no, type: int }
