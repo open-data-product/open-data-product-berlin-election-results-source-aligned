@@ -1283,6 +1283,17 @@
 
 * [berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply/berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply.csv)
 
+### Berlin Election Results Referendum Tempelhof Bleibt Verkehrsflughafen
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
+* license: GPLv3
+* updated: 2025-03-12
+
+**Files**
+
+* [berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen.csv)
+
 ## Classification
 
 **The nature of the exposed data (source-aligned, aggregate, consumer-aligned)**

@@ -1280,6 +1280,17 @@ output_ports:
       schema:
     files:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply/berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply.csv
+  - id: berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
+    metadata:
+      name: Berlin Election Results Referendum Tempelhof Bleibt Verkehrsflughafen
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
+      license: GPLv3
+      updated: 2025-03-12
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen.csv
 observability:
   quality:
   operational:
