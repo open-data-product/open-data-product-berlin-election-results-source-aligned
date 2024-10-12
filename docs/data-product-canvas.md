@@ -113,71 +113,16 @@
 * [DL_BE_EU_2024_Strukturdaten.xlsx](https://download.statistik-berlin-brandenburg.de/967df1cce75bb59d/812bfda698bf/DL_BE_EU_2024_Strukturdaten.xlsx)
 * [Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx](https://download.statistik-berlin-brandenburg.de/d37d9cb69cb34d4a/be344fb7fb3f/Europawahlen_Lange-Reihe_2024_Berlin-Brandenburg.xlsx)
 
-### Volksentscheid "Berlin 2030 klimaneutral"
+### Volksentscheid "Tempelhof bleibt Verkehrsflughafen!"
 
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
-* updated: 2023-03-26
+* updated: 2008-04-27
 
 **Files**
 
-* [DL_BE_VE2023.xlsx](https://download.statistik-berlin-brandenburg.de/a377bd4631845832/b4d26bc126af/DL_BE_VE2023.xlsx)
-
-### Volksentscheid "Deutsche Wohnen & Co enteignen"
-
-* owner: Amt für Statistik Berlin-Brandenburg
-* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
-* license: CC-BY-3.0-Namensnennung
-* updated: 2021-09-26
-
-**Files**
-
-* [DL_BE_VE2021.xlsx](https://download.statistik-berlin-brandenburg.de/b27aa19de4a317ad/074a941aab21/DL_BE_VE2021.xlsx)
-
-### Volksentscheid über den Weiterbetrieb des Flughafens Tegel
-
-* owner: Amt für Statistik Berlin-Brandenburg
-* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
-* license: CC-BY-3.0-Namensnennung
-* updated: 2017-09-24
-
-**Files**
-
-* [DL_BE_EE_WB_VE2017.xlsx](https://download.statistik-berlin-brandenburg.de/e84527d08b1fa43e/68a03b004958/DL_BE_EE_WB_VE2017.xlsx)
-
-### Volksentscheid über den Erhalt des Tempelhofer Feldes
-
-* owner: Amt für Statistik Berlin-Brandenburg
-* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
-* license: CC-BY-3.0-Namensnennung
-* updated: 2014-05-25
-
-**Files**
-
-* [DL_BE_VE2014.xlsx](https://download.statistik-berlin-brandenburg.de/dae0d6980b6f02ca/ae8032e36b4d/DL_BE_VE2014.xlsx)
-
-### Volksentscheid über die Rekommunalisierung der Berliner Energieversorgung
-
-* owner: Amt für Statistik Berlin-Brandenburg
-* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
-* license: CC-BY-3.0-Namensnennung
-* updated: 2013-11-03
-
-**Files**
-
-* [DL_BE_VE2013.xlsx](https://download.statistik-berlin-brandenburg.de/cc84503adc4f9037/d6aaa7686d50/DL_BE_VE2013.xlsx)
-
-### Volksentscheid über die Offenlegung der Teilprivatisierungsverträge bei den Berliner Wasserbetrieben
-
-* owner: Amt für Statistik Berlin-Brandenburg
-* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
-* license: CC-BY-3.0-Namensnennung
-* updated: 2011-02-13
-
-**Files**
-
-* [DL_BE_VE2011.xlsx](https://download.statistik-berlin-brandenburg.de/1f75201feb3d1050/ab6d1fbf7d0e/DL_BE_VE2011.xlsx)
+* [DL_BE_VE2008.xlsx](https://download.statistik-berlin-brandenburg.de/3bae559f4c805b38/4c2b9503b7d8/DL_BE_VE2008.xlsx)
 
 ### Volksentscheid über die Einführung des Wahlpflichtbereichs Ethik/Religion
 
@@ -190,16 +135,71 @@
 
 * [DL_BE_VE2009.xlsx](https://download.statistik-berlin-brandenburg.de/9028dfce87494cb7/2c94c11ccd2b/DL_BE_VE2009.xlsx)
 
-### Volksentscheid "Tempelhof bleibt Verkehrsflughafen!"
+### Volksentscheid über die Offenlegung der Teilprivatisierungsverträge bei den Berliner Wasserbetrieben
 
 * owner: Amt für Statistik Berlin-Brandenburg
 * url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
 * license: CC-BY-3.0-Namensnennung
-* updated: 2008-04-27
+* updated: 2011-02-13
 
 **Files**
 
-* [DL_BE_VE2008.xlsx](https://download.statistik-berlin-brandenburg.de/3bae559f4c805b38/4c2b9503b7d8/DL_BE_VE2008.xlsx)
+* [DL_BE_VE2011.xlsx](https://download.statistik-berlin-brandenburg.de/1f75201feb3d1050/ab6d1fbf7d0e/DL_BE_VE2011.xlsx)
+
+### Volksentscheid über die Rekommunalisierung der Berliner Energieversorgung
+
+* owner: Amt für Statistik Berlin-Brandenburg
+* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+* license: CC-BY-3.0-Namensnennung
+* updated: 2013-11-03
+
+**Files**
+
+* [DL_BE_VE2013.xlsx](https://download.statistik-berlin-brandenburg.de/cc84503adc4f9037/d6aaa7686d50/DL_BE_VE2013.xlsx)
+
+### Volksentscheid über den Erhalt des Tempelhofer Feldes
+
+* owner: Amt für Statistik Berlin-Brandenburg
+* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+* license: CC-BY-3.0-Namensnennung
+* updated: 2014-05-25
+
+**Files**
+
+* [DL_BE_VE2014.xlsx](https://download.statistik-berlin-brandenburg.de/dae0d6980b6f02ca/ae8032e36b4d/DL_BE_VE2014.xlsx)
+
+### Volksentscheid über den Weiterbetrieb des Flughafens Tegel
+
+* owner: Amt für Statistik Berlin-Brandenburg
+* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+* license: CC-BY-3.0-Namensnennung
+* updated: 2017-09-24
+
+**Files**
+
+* [DL_BE_EE_WB_VE2017.xlsx](https://download.statistik-berlin-brandenburg.de/e84527d08b1fa43e/68a03b004958/DL_BE_EE_WB_VE2017.xlsx)
+
+### Volksentscheid "Deutsche Wohnen & Co enteignen"
+
+* owner: Amt für Statistik Berlin-Brandenburg
+* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+* license: CC-BY-3.0-Namensnennung
+* updated: 2021-09-26
+
+**Files**
+
+* [DL_BE_VE2021.xlsx](https://download.statistik-berlin-brandenburg.de/b27aa19de4a317ad/074a941aab21/DL_BE_VE2021.xlsx)
+
+### Volksentscheid "Berlin 2030 klimaneutral"
+
+* owner: Amt für Statistik Berlin-Brandenburg
+* url: https://www.statistik-berlin-brandenburg.de/volksentscheide-berlin
+* license: CC-BY-3.0-Namensnennung
+* updated: 2023-03-26
+
+**Files**
+
+* [DL_BE_VE2023.xlsx](https://download.statistik-berlin-brandenburg.de/a377bd4631845832/b4d26bc126af/DL_BE_VE2023.xlsx)
 
 ## Transformation Steps
 
@@ -1206,93 +1206,93 @@
 * [berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-percentage.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-percentage.csv)
 * [berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-total.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-federal-election-2021/berlin-election-results-federal-election-2021-long-series-6-second-votes-berlin-west-total.csv)
 
-### Berlin Election Results Referendum Berlin 2030 Klimaneutral
+### Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-berlin-2030-klimaneutral
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-berlin-2030-klimaneutral.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-berlin-2030-klimaneutral/berlin-election-results-referendum-berlin-2030-klimaneutral.csv)
+* [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv)
 
-### Berlin Election Results Referendum Deutsche Wohnen Und Co Enteignen
+### Berlin Election Results Referendum 2009 On The Introduction Of The Compulsory Elective Subject Ethics Religion
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen.csv)
+* [berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv)
 
-### Berlin Election Results Referendum On The Continued Operation Of Tegel Airport
+### Berlin Election Results Referendum 2011 On The Disclosure Of The Partial Privatisation Contracts At Berliner Wasserbetriebe
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport.csv)
+* [berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv)
 
-### Berlin Election Results Referendum On The Disclosure Of The Partial Privatisation Contracts At Berliner Wasserbetriebe
+### Berlin Election Results Referendum 2013 On The Remunicipalisation Of Berlins Energy Supply
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe/berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv)
+* [berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv)
 
-### Berlin Election Results Referendum On The Introduction Of The Compulsory Elective Subject Ethics Religion
+### Berlin Election Results Referendum 2014 On The Preservation Of Tempelhofer Feld
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion/berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv)
+* [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv)
 
-### Berlin Election Results Referendum On The Preservation Of Tempelhofer Feld
+### Berlin Election Results Referendum 2017 On The Continued Operation Of Tegel Airport
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-preservation-of-tempelhofer-feld
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-on-the-preservation-of-tempelhofer-feld.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-on-the-preservation-of-tempelhofer-feld.csv)
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport.csv)
 
-### Berlin Election Results Referendum On The Remunicipalisation Of Berlins Energy Supply
+### Berlin Election Results Referendum 2021 Deutsche Wohnen Und Co Enteignen
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply/berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply.csv)
+* [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen.csv)
 
-### Berlin Election Results Referendum Tempelhof Bleibt Verkehrsflughafen
+### Berlin Election Results Referendum 2023 Berlin 2030 Klimaneutral
 
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/02-silver/berlin-election-results-referendum-2023-berlin-2030-klimaneutral
 * license: GPLv3
 * updated: 2025-03-12
 
 **Files**
 
-* [berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen/berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen.csv)
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/02-silver/berlin-election-results-referendum-2023-berlin-2030-klimaneutral/berlin-election-results-referendum-2023-berlin-2030-klimaneutral.csv)
 
 ## Classification
 
