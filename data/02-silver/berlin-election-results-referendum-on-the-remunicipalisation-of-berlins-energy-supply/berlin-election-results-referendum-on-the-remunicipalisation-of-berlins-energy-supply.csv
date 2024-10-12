@@ -1,857 +1,856 @@
 district_id,district_name,electoral_district_id,electoral_district_type,eligible_voters,eligible_voters_a1,eligible_voters_a2,eligible_voters_a3,voters,voters_b1,invalid_votes,valid_votes,vote_yes,vote_no
-Bezirksnummer,Bezirksname,Stimmbezirk,Stimmbezirksart,Stimmberechtigte insgesamt,Stimmberechtigte A1,Stimmberechtigte A2,Stimmberechtigte A3,Teilnehmer,Teilnehmer B1,Ungültige Stimmen,Gültige Stimmen,JA,NEIN
-01,Mitte,100,Urnenwahlbezirk,3277,2926,351,0,617,3,5,612,544,68
-01,Mitte,101,Urnenwahlbezirk,2440,2150,290,0,434,4,1,433,346,87
-01,Mitte,105,Urnenwahlbezirk,3905,3450,455,0,890,2,1,889,751,138
-01,Mitte,107,Urnenwahlbezirk,3671,3303,368,0,913,1,1,912,828,84
-01,Mitte,111,Urnenwahlbezirk,2427,2232,195,0,695,0,1,694,597,97
-01,Mitte,112,Urnenwahlbezirk,2124,1907,217,0,532,3,0,532,484,48
-01,Mitte,115,Urnenwahlbezirk,3277,2971,306,0,804,0,0,804,692,112
-01,Mitte,118,Urnenwahlbezirk,2365,2106,259,0,541,5,0,541,497,44
-01,Mitte,120,Urnenwahlbezirk,3546,3335,211,0,596,2,0,596,511,85
-01,Mitte,121,Urnenwahlbezirk,2742,2472,270,0,584,4,0,584,521,63
-01,Mitte,129,Urnenwahlbezirk,3130,2895,235,0,503,1,3,500,434,66
-01,Mitte,200,Urnenwahlbezirk,2065,1830,235,0,424,1,1,423,355,68
-01,Mitte,202,Urnenwahlbezirk,3526,3122,404,0,789,0,0,789,664,125
-01,Mitte,205,Urnenwahlbezirk,2989,2651,338,0,628,2,0,628,561,67
-01,Mitte,207,Urnenwahlbezirk,3096,2625,471,0,617,6,0,617,534,83
-01,Mitte,209,Urnenwahlbezirk,3724,3375,349,0,805,5,1,804,735,69
-01,Mitte,212,Urnenwahlbezirk,3291,2913,378,0,733,1,2,731,625,106
-01,Mitte,214,Urnenwahlbezirk,2989,2675,314,0,698,1,0,698,600,98
-01,Mitte,217,Urnenwahlbezirk,2201,1927,274,0,449,0,0,449,388,61
-01,Mitte,219,Urnenwahlbezirk,3639,3208,431,0,900,7,1,899,752,147
-01,Mitte,221,Urnenwahlbezirk,3935,3533,402,0,946,2,0,946,815,131
-01,Mitte,300,Urnenwahlbezirk,3242,2985,257,0,579,5,1,578,470,108
-01,Mitte,302,Urnenwahlbezirk,2770,2466,304,0,634,6,3,631,530,101
-01,Mitte,305,Urnenwahlbezirk,3247,2884,363,0,890,10,3,887,753,134
-01,Mitte,307,Urnenwahlbezirk,2937,2694,243,0,594,2,1,593,527,66
-01,Mitte,308,Urnenwahlbezirk,2201,2014,187,0,391,4,0,391,357,34
-01,Mitte,312,Urnenwahlbezirk,2443,2166,277,0,724,3,0,724,638,86
-01,Mitte,315,Urnenwahlbezirk,2269,1991,278,0,552,2,1,551,455,96
-01,Mitte,317,Urnenwahlbezirk,3550,3157,393,0,927,3,0,927,752,175
-01,Mitte,321,Urnenwahlbezirk,2263,1986,277,0,327,1,1,326,269,57
-01,Mitte,323,Urnenwahlbezirk,2183,1947,236,0,411,6,1,410,362,48
-01,Mitte,325,Urnenwahlbezirk,2763,2495,268,0,480,2,0,480,421,59
-01,Mitte,327,Urnenwahlbezirk,3074,2837,237,0,537,2,1,536,485,51
-01,Mitte,400,Urnenwahlbezirk,3537,3329,208,0,586,2,1,585,522,63
-01,Mitte,403,Urnenwahlbezirk,2711,2483,228,0,601,6,1,600,534,66
-01,Mitte,404,Urnenwahlbezirk,2607,2386,221,0,583,5,3,580,519,61
-01,Mitte,405,Urnenwahlbezirk,1910,1780,130,0,386,1,0,386,355,31
-01,Mitte,409,Urnenwahlbezirk,3168,2899,269,0,801,1,2,799,719,80
-01,Mitte,414,Urnenwahlbezirk,2132,1972,160,0,455,2,1,454,397,57
-01,Mitte,415,Urnenwahlbezirk,2934,2736,198,0,584,0,1,583,521,62
-01,Mitte,416,Urnenwahlbezirk,3804,3481,323,0,837,2,1,836,745,91
-01,Mitte,421,Urnenwahlbezirk,2993,2756,237,0,726,5,3,723,648,75
-01,Mitte,425,Urnenwahlbezirk,2932,2710,222,0,621,4,3,618,560,58
-01,Mitte,427,Urnenwahlbezirk,3059,2780,279,0,686,5,3,683,644,39
-01,Mitte,431,Urnenwahlbezirk,3259,3034,225,0,677,2,1,676,628,48
-01,Mitte,500,Urnenwahlbezirk,3118,2877,241,0,473,3,2,471,408,63
-01,Mitte,504,Urnenwahlbezirk,3153,2932,221,0,496,0,0,496,446,50
-01,Mitte,505,Urnenwahlbezirk,2722,2484,238,0,545,0,1,544,365,179
-01,Mitte,508,Urnenwahlbezirk,2173,2002,171,0,411,0,0,411,325,86
-01,Mitte,510,Urnenwahlbezirk,2105,1984,121,0,314,1,0,314,260,54
-01,Mitte,512,Urnenwahlbezirk,2188,2029,159,0,436,1,0,436,385,51
-01,Mitte,513,Urnenwahlbezirk,2593,2392,201,0,397,1,1,396,357,39
-01,Mitte,516,Urnenwahlbezirk,3317,3054,263,0,673,3,2,671,598,73
-01,Mitte,519,Urnenwahlbezirk,2437,2223,214,0,562,4,2,560,451,109
-01,Mitte,522,Urnenwahlbezirk,2371,2239,132,0,317,2,1,316,265,51
-01,Mitte,524,Urnenwahlbezirk,2289,2107,182,0,489,3,0,489,466,23
-01,Mitte,528,Urnenwahlbezirk,3398,3170,228,0,803,2,7,796,744,52
-01,Mitte,600,Urnenwahlbezirk,2304,2149,155,0,357,0,1,356,321,35
-01,Mitte,601,Urnenwahlbezirk,3300,3097,203,0,559,0,1,558,523,35
-01,Mitte,602,Urnenwahlbezirk,1967,1826,141,0,437,0,2,435,379,56
-01,Mitte,603,Urnenwahlbezirk,2767,2566,201,0,369,0,0,369,340,29
-01,Mitte,605,Urnenwahlbezirk,3174,2977,197,0,585,0,1,584,546,38
-01,Mitte,612,Urnenwahlbezirk,2273,2128,145,0,362,0,2,360,341,19
-01,Mitte,613,Urnenwahlbezirk,3400,3164,236,0,571,0,2,569,527,42
-01,Mitte,617,Urnenwahlbezirk,2359,2212,147,0,335,0,0,335,307,28
-01,Mitte,620,Urnenwahlbezirk,2049,1929,120,0,316,0,1,315,268,47
-01,Mitte,623,Urnenwahlbezirk,2936,2746,190,0,471,0,1,470,417,53
-01,Mitte,624,Urnenwahlbezirk,2686,2529,157,0,488,0,1,487,442,45
-01,Mitte,627,Urnenwahlbezirk,2853,2718,135,0,408,0,2,406,369,37
-01,Mitte,632,Urnenwahlbezirk,2331,2121,210,0,509,0,1,508,456,52
-01,Mitte,634,Urnenwahlbezirk,2800,2624,176,0,572,0,1,571,510,61
-02,Friedrichshain-Kreuzberg,101,Urnenwahlbezirk,1931,1825,106,0,325,0,1,324,278,46
-02,Friedrichshain-Kreuzberg,102,Urnenwahlbezirk,3273,2990,283,0,433,7,2,431,391,40
-02,Friedrichshain-Kreuzberg,103,Urnenwahlbezirk,2060,1846,214,0,547,7,0,547,520,27
-02,Friedrichshain-Kreuzberg,104,Urnenwahlbezirk,1992,1675,317,0,571,19,0,571,538,33
-02,Friedrichshain-Kreuzberg,105,Urnenwahlbezirk,2008,1773,235,0,596,5,0,596,558,38
-02,Friedrichshain-Kreuzberg,106,Urnenwahlbezirk,1732,1547,185,0,528,3,1,527,493,34
-02,Friedrichshain-Kreuzberg,107,Urnenwahlbezirk,1811,1626,185,0,483,4,0,483,454,29
-02,Friedrichshain-Kreuzberg,108,Urnenwahlbezirk,2150,1885,265,0,566,6,3,563,503,60
-02,Friedrichshain-Kreuzberg,109,Urnenwahlbezirk,1835,1603,232,0,612,5,0,612,580,32
-02,Friedrichshain-Kreuzberg,110,Urnenwahlbezirk,1956,1728,228,0,702,5,0,702,673,29
-02,Friedrichshain-Kreuzberg,111,Urnenwahlbezirk,2095,1903,192,0,718,4,0,718,675,43
-02,Friedrichshain-Kreuzberg,112,Urnenwahlbezirk,1959,1739,220,0,638,8,1,637,599,38
-02,Friedrichshain-Kreuzberg,113,Urnenwahlbezirk,1873,1604,269,0,652,9,2,650,623,27
-02,Friedrichshain-Kreuzberg,114,Urnenwahlbezirk,1914,1628,286,0,630,7,0,630,606,24
-02,Friedrichshain-Kreuzberg,115,Urnenwahlbezirk,1986,1697,289,0,718,9,1,717,658,59
-02,Friedrichshain-Kreuzberg,116,Urnenwahlbezirk,1978,1771,207,0,640,4,0,640,609,31
-02,Friedrichshain-Kreuzberg,117,Urnenwahlbezirk,1802,1573,229,0,513,12,1,512,492,20
-02,Friedrichshain-Kreuzberg,118,Urnenwahlbezirk,1915,1661,254,0,566,6,0,566,555,11
-02,Friedrichshain-Kreuzberg,119,Urnenwahlbezirk,1875,1646,229,0,649,8,2,647,619,28
-02,Friedrichshain-Kreuzberg,120,Urnenwahlbezirk,1908,1683,225,0,628,5,0,628,598,30
-02,Friedrichshain-Kreuzberg,121,Urnenwahlbezirk,1840,1612,228,0,569,12,0,569,551,18
-02,Friedrichshain-Kreuzberg,122,Urnenwahlbezirk,1783,1589,194,0,559,4,0,559,531,28
-02,Friedrichshain-Kreuzberg,123,Urnenwahlbezirk,1972,1722,250,0,620,12,0,620,604,16
-02,Friedrichshain-Kreuzberg,124,Urnenwahlbezirk,2023,1761,262,0,713,5,0,713,682,31
-02,Friedrichshain-Kreuzberg,125,Urnenwahlbezirk,1917,1705,212,0,639,7,2,637,616,21
-02,Friedrichshain-Kreuzberg,126,Urnenwahlbezirk,1881,1657,224,0,578,6,0,578,566,12
-02,Friedrichshain-Kreuzberg,127,Urnenwahlbezirk,1982,1685,297,0,668,16,0,668,659,9
-02,Friedrichshain-Kreuzberg,128,Urnenwahlbezirk,1752,1535,217,0,586,13,1,585,571,14
-02,Friedrichshain-Kreuzberg,129,Urnenwahlbezirk,2019,1767,252,0,720,9,1,719,700,19
-02,Friedrichshain-Kreuzberg,130,Urnenwahlbezirk,1798,1702,96,0,281,3,0,281,246,35
-02,Friedrichshain-Kreuzberg,131,Urnenwahlbezirk,1741,1615,126,0,339,2,1,338,306,32
-02,Friedrichshain-Kreuzberg,132,Urnenwahlbezirk,1975,1780,195,0,670,7,0,670,645,25
-02,Friedrichshain-Kreuzberg,133,Urnenwahlbezirk,1731,1506,225,0,452,10,0,452,423,29
-02,Friedrichshain-Kreuzberg,134,Urnenwahlbezirk,1954,1837,117,0,303,3,1,302,272,30
-02,Friedrichshain-Kreuzberg,135,Urnenwahlbezirk,2045,1917,128,0,337,2,0,337,300,37
-02,Friedrichshain-Kreuzberg,136,Urnenwahlbezirk,1797,1679,118,0,235,0,2,233,195,38
-02,Friedrichshain-Kreuzberg,137,Urnenwahlbezirk,3305,3099,206,0,688,2,0,688,632,56
-02,Friedrichshain-Kreuzberg,138,Urnenwahlbezirk,1906,1652,254,0,597,6,1,596,578,18
-02,Friedrichshain-Kreuzberg,139,Urnenwahlbezirk,3424,2983,441,0,1105,11,1,1104,1078,26
-02,Friedrichshain-Kreuzberg,140,Urnenwahlbezirk,3262,2893,369,0,829,7,0,829,793,36
-02,Friedrichshain-Kreuzberg,141,Urnenwahlbezirk,1705,1472,233,0,532,11,1,531,512,19
-02,Friedrichshain-Kreuzberg,142,Urnenwahlbezirk,2141,1957,184,0,580,2,5,575,491,84
-02,Friedrichshain-Kreuzberg,143,Urnenwahlbezirk,2042,1838,204,0,462,1,1,461,392,69
-02,Friedrichshain-Kreuzberg,144,Urnenwahlbezirk,2161,1941,220,0,491,0,0,491,428,63
-02,Friedrichshain-Kreuzberg,145,Urnenwahlbezirk,2150,1930,220,0,564,2,1,563,495,68
-02,Friedrichshain-Kreuzberg,146,Urnenwahlbezirk,1826,1675,151,0,443,0,1,442,360,82
-02,Friedrichshain-Kreuzberg,147,Urnenwahlbezirk,2218,2018,200,0,495,4,2,493,455,38
-02,Friedrichshain-Kreuzberg,148,Urnenwahlbezirk,2279,2079,200,0,662,6,0,662,583,79
-02,Friedrichshain-Kreuzberg,149,Urnenwahlbezirk,2048,1817,231,0,597,5,0,597,546,51
-02,Friedrichshain-Kreuzberg,150,Urnenwahlbezirk,2153,1950,203,0,566,7,0,566,503,63
-02,Friedrichshain-Kreuzberg,151,Urnenwahlbezirk,2217,1957,260,0,530,6,0,530,463,67
-02,Friedrichshain-Kreuzberg,152,Urnenwahlbezirk,2234,1998,236,0,453,0,1,452,391,61
-02,Friedrichshain-Kreuzberg,153,Urnenwahlbezirk,2034,1814,220,0,398,0,2,396,346,50
-02,Friedrichshain-Kreuzberg,154,Urnenwahlbezirk,3299,3023,276,0,700,3,0,700,596,104
-02,Friedrichshain-Kreuzberg,155,Urnenwahlbezirk,1728,1590,138,0,509,4,2,507,468,39
-02,Friedrichshain-Kreuzberg,156,Urnenwahlbezirk,1851,1694,157,0,500,7,2,498,461,37
-02,Friedrichshain-Kreuzberg,157,Urnenwahlbezirk,3302,2916,386,0,1027,1,0,1027,974,53
-02,Friedrichshain-Kreuzberg,158,Urnenwahlbezirk,1822,1653,169,0,520,2,1,519,477,42
-02,Friedrichshain-Kreuzberg,159,Urnenwahlbezirk,3480,3091,389,0,1003,12,0,1003,946,57
-02,Friedrichshain-Kreuzberg,160,Urnenwahlbezirk,3242,2842,400,0,944,11,1,943,888,55
-02,Friedrichshain-Kreuzberg,161,Urnenwahlbezirk,1733,1529,204,0,464,5,0,464,418,46
-02,Friedrichshain-Kreuzberg,162,Urnenwahlbezirk,2184,1961,223,0,694,2,1,693,657,36
-02,Friedrichshain-Kreuzberg,163,Urnenwahlbezirk,1913,1667,246,0,546,3,2,544,524,20
-02,Friedrichshain-Kreuzberg,164,Urnenwahlbezirk,1919,1724,195,0,541,16,0,541,503,38
-02,Friedrichshain-Kreuzberg,165,Urnenwahlbezirk,1787,1600,187,0,533,5,2,531,509,22
-02,Friedrichshain-Kreuzberg,166,Urnenwahlbezirk,2054,1862,192,0,644,2,1,643,598,45
-02,Friedrichshain-Kreuzberg,167,Urnenwahlbezirk,1854,1644,210,0,486,2,1,485,462,23
-02,Friedrichshain-Kreuzberg,168,Urnenwahlbezirk,1996,1831,165,0,620,3,0,620,545,75
-02,Friedrichshain-Kreuzberg,169,Urnenwahlbezirk,1983,1791,192,0,542,4,1,541,500,41
-02,Friedrichshain-Kreuzberg,170,Urnenwahlbezirk,2161,1966,195,0,620,1,0,620,569,51
-02,Friedrichshain-Kreuzberg,171,Urnenwahlbezirk,3109,2773,336,0,780,12,0,780,725,55
-02,Friedrichshain-Kreuzberg,172,Urnenwahlbezirk,2166,1886,280,0,547,12,1,546,517,29
-02,Friedrichshain-Kreuzberg,173,Urnenwahlbezirk,1897,1629,268,0,549,5,1,548,528,20
-02,Friedrichshain-Kreuzberg,174,Urnenwahlbezirk,2043,1807,236,0,681,5,0,681,646,35
-02,Friedrichshain-Kreuzberg,175,Urnenwahlbezirk,2014,1801,213,0,654,8,1,653,608,45
-02,Friedrichshain-Kreuzberg,176,Urnenwahlbezirk,1735,1558,177,0,504,1,1,503,482,21
-02,Friedrichshain-Kreuzberg,177,Urnenwahlbezirk,2080,1835,245,0,689,7,0,689,659,30
-02,Friedrichshain-Kreuzberg,178,Urnenwahlbezirk,2193,1959,234,0,726,4,0,726,673,53
-02,Friedrichshain-Kreuzberg,179,Urnenwahlbezirk,3344,2971,373,0,796,12,0,796,752,44
-02,Friedrichshain-Kreuzberg,180,Urnenwahlbezirk,1419,1282,137,0,370,9,0,370,345,25
-02,Friedrichshain-Kreuzberg,181,Urnenwahlbezirk,2305,2113,192,0,630,5,0,630,522,108
-03,Pankow,101,Urnenwahlbezirk,1798,1585,213,0,332,2,1,331,284,47
-03,Pankow,102,Urnenwahlbezirk,1891,1715,176,0,316,1,0,316,272,44
-03,Pankow,103,Urnenwahlbezirk,1892,1759,133,0,322,0,1,321,273,48
-03,Pankow,104,Urnenwahlbezirk,1614,1500,114,0,431,1,0,431,368,63
-03,Pankow,105,Urnenwahlbezirk,1931,1834,97,0,274,0,0,274,245,29
-03,Pankow,106,Urnenwahlbezirk,1810,1680,130,0,359,1,1,358,313,45
-03,Pankow,107,Urnenwahlbezirk,1540,1480,60,0,225,0,0,225,198,27
-03,Pankow,108,Urnenwahlbezirk,3201,3001,200,0,536,0,1,535,450,85
-03,Pankow,109,Urnenwahlbezirk,1214,1121,93,0,251,0,0,251,194,57
-03,Pankow,110,Urnenwahlbezirk,2776,2531,245,0,541,7,0,541,419,122
-03,Pankow,111,Urnenwahlbezirk,3200,2831,369,0,768,2,3,765,616,149
-03,Pankow,112,Urnenwahlbezirk,1773,1644,129,0,439,1,0,439,366,73
-03,Pankow,113,Urnenwahlbezirk,1756,1621,135,0,332,1,1,331,234,97
-03,Pankow,114,Urnenwahlbezirk,3160,2884,276,0,628,2,1,627,534,93
-03,Pankow,115,Urnenwahlbezirk,1438,1327,111,0,318,1,0,318,240,78
-03,Pankow,116,Urnenwahlbezirk,1082,1004,78,0,214,1,0,214,163,51
-03,Pankow,201,Urnenwahlbezirk,655,638,17,0,157,0,2,155,124,31
-03,Pankow,202,Urnenwahlbezirk,830,782,48,0,153,0,0,153,133,20
-03,Pankow,203,Urnenwahlbezirk,3659,3360,299,0,701,3,0,701,581,120
-03,Pankow,204,Urnenwahlbezirk,3647,3340,307,0,612,2,0,612,520,92
-03,Pankow,205,Urnenwahlbezirk,1758,1602,156,0,383,0,0,383,313,70
-03,Pankow,206,Urnenwahlbezirk,3543,3249,294,0,805,1,0,805,679,126
-03,Pankow,207,Urnenwahlbezirk,2976,2707,269,0,700,5,0,700,572,128
-03,Pankow,208,Urnenwahlbezirk,1703,1518,185,0,405,1,1,404,342,62
-03,Pankow,209,Urnenwahlbezirk,1868,1716,152,0,421,2,2,419,355,64
-03,Pankow,210,Urnenwahlbezirk,2805,2477,328,0,672,2,1,671,595,76
-03,Pankow,211,Urnenwahlbezirk,4896,4393,503,0,1079,6,2,1077,904,173
-03,Pankow,212,Urnenwahlbezirk,1928,1743,185,0,470,1,1,469,403,66
-03,Pankow,213,Urnenwahlbezirk,1887,1731,156,0,450,2,0,450,359,91
-03,Pankow,214,Urnenwahlbezirk,1790,1628,162,0,378,4,0,378,305,73
-03,Pankow,215,Urnenwahlbezirk,1872,1719,153,0,342,1,0,342,284,58
-03,Pankow,301,Urnenwahlbezirk,3390,3049,341,0,659,0,3,656,542,114
-03,Pankow,302,Urnenwahlbezirk,3862,3425,437,0,849,1,1,848,740,108
-03,Pankow,303,Urnenwahlbezirk,3173,2854,319,0,730,3,0,730,622,108
-03,Pankow,304,Urnenwahlbezirk,1785,1552,233,0,415,0,1,414,354,60
-03,Pankow,305,Urnenwahlbezirk,5212,4571,641,0,1393,14,1,1392,1246,146
-03,Pankow,306,Urnenwahlbezirk,2819,2519,300,0,689,4,0,689,616,73
-03,Pankow,307,Urnenwahlbezirk,1717,1516,201,0,504,5,1,503,454,49
-03,Pankow,308,Urnenwahlbezirk,1821,1625,196,0,519,9,2,517,438,79
-03,Pankow,309,Urnenwahlbezirk,1806,1591,215,0,462,6,0,462,409,53
-03,Pankow,310,Urnenwahlbezirk,5261,4654,607,0,1500,21,6,1494,1377,117
-03,Pankow,401,Urnenwahlbezirk,1921,1808,113,0,380,2,0,380,321,59
-03,Pankow,402,Urnenwahlbezirk,3569,3255,314,0,711,3,1,710,608,102
-03,Pankow,403,Urnenwahlbezirk,1815,1660,155,0,411,4,0,411,347,64
-03,Pankow,404,Urnenwahlbezirk,1326,1202,124,0,283,0,0,283,260,23
-03,Pankow,405,Urnenwahlbezirk,3103,2877,226,0,491,3,0,491,427,64
-03,Pankow,406,Urnenwahlbezirk,5334,4942,392,0,924,2,1,923,786,137
-03,Pankow,407,Urnenwahlbezirk,3140,2833,307,0,501,0,0,501,414,87
-03,Pankow,408,Urnenwahlbezirk,1717,1555,162,0,309,2,0,309,263,46
-03,Pankow,409,Urnenwahlbezirk,1661,1469,192,0,303,0,0,303,255,48
-03,Pankow,410,Urnenwahlbezirk,2047,1810,237,0,441,6,1,440,381,59
-03,Pankow,411,Urnenwahlbezirk,1892,1635,257,0,388,3,2,386,315,71
-03,Pankow,412,Urnenwahlbezirk,1914,1718,196,0,371,2,3,368,301,67
-03,Pankow,501,Urnenwahlbezirk,3374,3003,371,0,922,3,2,920,811,109
-03,Pankow,502,Urnenwahlbezirk,1308,1153,155,0,333,2,0,333,299,34
-03,Pankow,503,Urnenwahlbezirk,2936,2599,337,0,772,0,1,771,711,60
-03,Pankow,504,Urnenwahlbezirk,2751,2418,333,0,581,8,1,580,521,59
-03,Pankow,505,Urnenwahlbezirk,3105,2780,325,0,804,3,1,803,719,84
-03,Pankow,506,Urnenwahlbezirk,2930,2572,358,0,665,8,2,663,588,75
-03,Pankow,507,Urnenwahlbezirk,3085,2731,354,0,788,2,0,788,694,94
-03,Pankow,508,Urnenwahlbezirk,1628,1449,179,0,313,3,0,313,278,35
-03,Pankow,509,Urnenwahlbezirk,3390,3073,317,0,655,3,2,653,587,66
-03,Pankow,510,Urnenwahlbezirk,1138,1058,80,0,237,0,1,236,206,30
-03,Pankow,511,Urnenwahlbezirk,3071,2805,266,0,716,3,3,713,555,158
-03,Pankow,512,Urnenwahlbezirk,1460,1323,137,0,339,0,0,339,300,39
-03,Pankow,601,Urnenwahlbezirk,1907,1758,149,0,472,2,3,469,430,39
-03,Pankow,602,Urnenwahlbezirk,1813,1597,216,0,454,11,1,453,433,20
-03,Pankow,603,Urnenwahlbezirk,3502,3131,371,0,1066,9,2,1064,976,88
-03,Pankow,604,Urnenwahlbezirk,1853,1628,225,0,544,11,1,543,511,32
-03,Pankow,605,Urnenwahlbezirk,1625,1417,208,0,502,6,0,502,460,42
-03,Pankow,606,Urnenwahlbezirk,3218,2801,417,0,901,15,2,899,834,65
-03,Pankow,607,Urnenwahlbezirk,1649,1463,186,0,491,9,1,490,451,39
-03,Pankow,608,Urnenwahlbezirk,3172,2728,444,0,848,24,2,846,793,53
-03,Pankow,609,Urnenwahlbezirk,3319,2818,501,0,948,13,0,948,891,57
-03,Pankow,610,Urnenwahlbezirk,2474,2154,320,0,644,11,1,643,594,49
-03,Pankow,611,Urnenwahlbezirk,2428,2072,356,0,721,38,2,719,666,53
-03,Pankow,612,Urnenwahlbezirk,3221,2778,443,0,835,16,1,834,795,39
-03,Pankow,613,Urnenwahlbezirk,3340,2903,437,0,821,13,0,821,758,63
-03,Pankow,701,Urnenwahlbezirk,1536,1427,109,0,242,0,0,242,220,22
-03,Pankow,702,Urnenwahlbezirk,1308,1217,91,0,282,2,0,282,244,38
-03,Pankow,703,Urnenwahlbezirk,1668,1562,106,0,317,1,0,317,280,37
-03,Pankow,704,Urnenwahlbezirk,2718,2535,183,0,554,4,0,554,504,50
-03,Pankow,705,Urnenwahlbezirk,1666,1526,140,0,341,1,0,341,310,31
-03,Pankow,706,Urnenwahlbezirk,4937,4535,402,0,1063,7,1,1062,934,128
-03,Pankow,707,Urnenwahlbezirk,3342,3071,271,0,825,5,2,823,738,85
-03,Pankow,708,Urnenwahlbezirk,1975,1740,235,0,344,2,0,344,293,51
-03,Pankow,709,Urnenwahlbezirk,4790,4162,628,0,1256,11,3,1253,1165,88
-03,Pankow,710,Urnenwahlbezirk,2693,2359,334,0,718,8,1,717,662,55
-03,Pankow,711,Urnenwahlbezirk,1508,1355,153,0,438,8,0,438,403,35
-03,Pankow,712,Urnenwahlbezirk,1104,1015,89,0,251,0,0,251,224,27
-03,Pankow,801,Urnenwahlbezirk,1924,1719,205,0,406,3,0,406,355,51
-03,Pankow,802,Urnenwahlbezirk,3271,2862,409,0,912,18,2,910,842,68
-03,Pankow,803,Urnenwahlbezirk,2897,2555,342,0,818,8,0,818,750,68
-03,Pankow,804,Urnenwahlbezirk,4629,4011,618,0,1169,5,1,1168,1072,96
-03,Pankow,805,Urnenwahlbezirk,1799,1629,170,0,400,2,3,397,355,42
-03,Pankow,806,Urnenwahlbezirk,3134,2734,400,0,872,11,1,871,814,57
-03,Pankow,807,Urnenwahlbezirk,1665,1429,236,0,503,8,0,503,456,47
-03,Pankow,808,Urnenwahlbezirk,1511,1293,218,0,427,1,0,427,385,42
-03,Pankow,809,Urnenwahlbezirk,2968,2573,395,0,890,9,0,890,831,59
-03,Pankow,810,Urnenwahlbezirk,2764,2444,320,0,725,7,2,723,670,53
-03,Pankow,811,Urnenwahlbezirk,2275,1981,294,0,606,18,1,605,549,56
-03,Pankow,901,Urnenwahlbezirk,3026,2771,255,0,843,2,0,843,748,95
-03,Pankow,902,Urnenwahlbezirk,3324,3100,224,0,842,4,1,841,734,107
-03,Pankow,903,Urnenwahlbezirk,2119,1954,165,0,471,2,2,469,412,57
-03,Pankow,904,Urnenwahlbezirk,2439,2162,277,0,552,1,0,552,457,95
-03,Pankow,905,Urnenwahlbezirk,1651,1504,147,0,314,0,1,313,277,36
-03,Pankow,906,Urnenwahlbezirk,2384,2170,214,0,543,1,0,543,472,71
-03,Pankow,907,Urnenwahlbezirk,2870,2655,215,0,653,5,1,652,588,64
-03,Pankow,908,Urnenwahlbezirk,3480,3190,290,0,932,5,3,929,840,89
-03,Pankow,909,Urnenwahlbezirk,2675,2436,239,0,641,5,2,639,598,41
-03,Pankow,910,Urnenwahlbezirk,3077,2704,373,0,874,5,0,874,802,72
-03,Pankow,911,Urnenwahlbezirk,3449,3086,363,0,1056,11,2,1054,930,124
-03,Pankow,912,Urnenwahlbezirk,2468,2213,255,0,522,4,2,520,442,78
-03,Pankow,913,Urnenwahlbezirk,1261,1128,133,0,373,5,0,373,297,76
-04,Charlottenburg-Wilmersdorf,101,Urnenwahlbezirk,3317,3075,242,0,533,0,2,531,437,94
-04,Charlottenburg-Wilmersdorf,102,Urnenwahlbezirk,3572,3347,225,0,487,0,0,487,406,81
-04,Charlottenburg-Wilmersdorf,103,Urnenwahlbezirk,2443,2267,176,0,357,0,1,356,282,74
-04,Charlottenburg-Wilmersdorf,104,Urnenwahlbezirk,3069,2820,249,0,376,0,0,376,281,95
-04,Charlottenburg-Wilmersdorf,105,Urnenwahlbezirk,2575,2390,185,0,513,5,1,512,433,79
-04,Charlottenburg-Wilmersdorf,106,Urnenwahlbezirk,2811,2584,227,0,607,0,1,606,539,67
-04,Charlottenburg-Wilmersdorf,107,Urnenwahlbezirk,4402,3995,407,0,967,2,0,967,818,149
-04,Charlottenburg-Wilmersdorf,108,Urnenwahlbezirk,938,810,128,0,272,0,0,272,189,83
-04,Charlottenburg-Wilmersdorf,109,Urnenwahlbezirk,2592,2214,378,0,536,9,1,535,366,169
-04,Charlottenburg-Wilmersdorf,110,Urnenwahlbezirk,3039,2644,395,0,644,6,0,644,450,194
-04,Charlottenburg-Wilmersdorf,111,Urnenwahlbezirk,3511,3062,449,0,809,5,1,808,561,247
-04,Charlottenburg-Wilmersdorf,112,Urnenwahlbezirk,2539,2268,271,0,602,2,2,600,433,167
-04,Charlottenburg-Wilmersdorf,113,Urnenwahlbezirk,3353,3072,281,0,556,3,5,551,491,60
-04,Charlottenburg-Wilmersdorf,114,Urnenwahlbezirk,2779,2364,415,0,552,1,0,552,367,185
-04,Charlottenburg-Wilmersdorf,115,Urnenwahlbezirk,2511,2151,360,0,591,6,0,591,423,168
-04,Charlottenburg-Wilmersdorf,116,Urnenwahlbezirk,3865,3397,468,0,802,2,3,799,621,178
-04,Charlottenburg-Wilmersdorf,117,Urnenwahlbezirk,1244,1048,196,0,290,10,0,290,217,73
-04,Charlottenburg-Wilmersdorf,118,Urnenwahlbezirk,3002,2670,332,0,804,12,1,803,654,149
-04,Charlottenburg-Wilmersdorf,119,Urnenwahlbezirk,1551,1420,131,0,376,0,0,376,294,82
-04,Charlottenburg-Wilmersdorf,120,Urnenwahlbezirk,1078,941,137,0,323,3,1,322,238,84
-04,Charlottenburg-Wilmersdorf,121,Urnenwahlbezirk,2351,2136,215,0,576,4,1,575,515,60
-04,Charlottenburg-Wilmersdorf,122,Urnenwahlbezirk,2612,2380,232,0,605,3,2,603,481,122
-04,Charlottenburg-Wilmersdorf,123,Urnenwahlbezirk,2278,2030,248,0,461,2,0,461,399,62
-04,Charlottenburg-Wilmersdorf,124,Urnenwahlbezirk,2511,2280,231,0,629,5,2,627,540,87
-04,Charlottenburg-Wilmersdorf,125,Urnenwahlbezirk,2463,2239,224,0,700,1,0,700,655,45
-04,Charlottenburg-Wilmersdorf,126,Urnenwahlbezirk,2740,2448,292,0,669,2,1,668,511,157
-04,Charlottenburg-Wilmersdorf,127,Urnenwahlbezirk,1524,1340,184,0,391,1,0,391,319,72
-04,Charlottenburg-Wilmersdorf,128,Urnenwahlbezirk,2489,2266,223,0,690,0,1,689,582,107
-04,Charlottenburg-Wilmersdorf,129,Urnenwahlbezirk,2585,2301,284,0,627,0,0,627,514,113
-04,Charlottenburg-Wilmersdorf,130,Urnenwahlbezirk,1482,1320,162,0,320,1,2,318,276,42
-04,Charlottenburg-Wilmersdorf,131,Urnenwahlbezirk,2620,2349,271,0,662,3,2,660,561,99
-04,Charlottenburg-Wilmersdorf,132,Urnenwahlbezirk,2462,2191,271,0,562,2,0,562,499,63
-04,Charlottenburg-Wilmersdorf,133,Urnenwahlbezirk,2449,2196,253,0,578,5,1,577,486,91
-04,Charlottenburg-Wilmersdorf,134,Urnenwahlbezirk,1521,1377,144,0,326,2,0,326,256,70
-04,Charlottenburg-Wilmersdorf,135,Urnenwahlbezirk,2387,2142,245,0,505,2,1,504,412,92
-04,Charlottenburg-Wilmersdorf,136,Urnenwahlbezirk,2599,2333,266,0,505,0,3,502,424,78
-04,Charlottenburg-Wilmersdorf,137,Urnenwahlbezirk,2723,2384,339,0,460,2,1,459,375,84
-04,Charlottenburg-Wilmersdorf,138,Urnenwahlbezirk,2637,2431,206,0,575,1,2,573,506,67
-04,Charlottenburg-Wilmersdorf,139,Urnenwahlbezirk,2440,2177,263,0,417,8,1,416,344,72
-04,Charlottenburg-Wilmersdorf,140,Urnenwahlbezirk,2454,2147,307,0,557,5,1,556,464,92
-04,Charlottenburg-Wilmersdorf,141,Urnenwahlbezirk,2831,2488,343,0,676,14,2,674,547,127
-04,Charlottenburg-Wilmersdorf,142,Urnenwahlbezirk,2942,2542,400,0,612,7,0,612,533,79
-04,Charlottenburg-Wilmersdorf,143,Urnenwahlbezirk,2349,2064,285,0,453,3,1,452,389,63
-04,Charlottenburg-Wilmersdorf,144,Urnenwahlbezirk,2302,2040,262,0,517,3,0,517,436,81
-04,Charlottenburg-Wilmersdorf,145,Urnenwahlbezirk,2397,2096,301,0,400,5,1,399,334,65
-04,Charlottenburg-Wilmersdorf,146,Urnenwahlbezirk,2300,2067,233,0,412,2,0,412,337,75
-04,Charlottenburg-Wilmersdorf,147,Urnenwahlbezirk,2744,2427,317,0,591,6,0,591,456,135
-04,Charlottenburg-Wilmersdorf,148,Urnenwahlbezirk,1990,1726,264,0,417,30,0,417,286,131
-04,Charlottenburg-Wilmersdorf,149,Urnenwahlbezirk,2299,2058,241,0,353,0,1,352,257,95
-04,Charlottenburg-Wilmersdorf,150,Urnenwahlbezirk,2578,2319,259,0,499,0,2,497,414,83
-04,Charlottenburg-Wilmersdorf,151,Urnenwahlbezirk,2196,2002,194,0,503,1,2,501,402,99
-04,Charlottenburg-Wilmersdorf,152,Urnenwahlbezirk,1376,1237,139,0,348,3,0,348,256,92
-04,Charlottenburg-Wilmersdorf,153,Urnenwahlbezirk,2709,2480,229,0,646,6,2,644,480,164
-04,Charlottenburg-Wilmersdorf,154,Urnenwahlbezirk,2453,2178,275,0,420,4,0,420,345,75
-04,Charlottenburg-Wilmersdorf,155,Urnenwahlbezirk,3318,2868,450,0,670,8,0,670,534,136
-04,Charlottenburg-Wilmersdorf,156,Urnenwahlbezirk,2640,2423,217,0,487,3,0,487,385,102
-04,Charlottenburg-Wilmersdorf,157,Urnenwahlbezirk,2678,2382,296,0,566,4,3,563,430,133
-04,Charlottenburg-Wilmersdorf,158,Urnenwahlbezirk,2203,1995,208,0,388,0,1,387,298,89
-04,Charlottenburg-Wilmersdorf,159,Urnenwahlbezirk,2102,1828,274,0,427,1,0,427,304,123
-04,Charlottenburg-Wilmersdorf,160,Urnenwahlbezirk,2610,2289,321,0,452,10,0,452,272,180
-04,Charlottenburg-Wilmersdorf,161,Urnenwahlbezirk,3607,3179,428,0,770,2,1,769,521,248
-04,Charlottenburg-Wilmersdorf,162,Urnenwahlbezirk,2125,1867,258,0,442,1,4,438,357,81
-04,Charlottenburg-Wilmersdorf,163,Urnenwahlbezirk,2244,2012,232,0,488,5,0,488,398,90
-04,Charlottenburg-Wilmersdorf,164,Urnenwahlbezirk,2724,2479,245,0,661,2,1,660,511,149
-04,Charlottenburg-Wilmersdorf,165,Urnenwahlbezirk,2122,1830,292,0,516,2,1,515,426,89
-04,Charlottenburg-Wilmersdorf,166,Urnenwahlbezirk,3429,3002,427,0,720,12,3,717,589,128
-04,Charlottenburg-Wilmersdorf,167,Urnenwahlbezirk,2376,2056,320,0,499,7,1,498,417,81
-04,Charlottenburg-Wilmersdorf,168,Urnenwahlbezirk,2701,2388,313,0,605,4,1,604,484,120
-04,Charlottenburg-Wilmersdorf,169,Urnenwahlbezirk,2319,1993,326,0,546,5,1,545,481,64
-04,Charlottenburg-Wilmersdorf,170,Urnenwahlbezirk,2230,1963,267,0,487,6,1,486,410,76
-04,Charlottenburg-Wilmersdorf,171,Urnenwahlbezirk,3071,2665,406,0,780,7,1,779,626,153
-04,Charlottenburg-Wilmersdorf,172,Urnenwahlbezirk,2349,2050,299,0,624,12,0,624,509,115
-04,Charlottenburg-Wilmersdorf,173,Urnenwahlbezirk,2644,2340,304,0,627,10,2,625,543,82
-04,Charlottenburg-Wilmersdorf,174,Urnenwahlbezirk,2458,2238,220,0,530,1,0,530,456,74
-04,Charlottenburg-Wilmersdorf,175,Urnenwahlbezirk,2789,2518,271,0,746,6,0,746,616,130
-04,Charlottenburg-Wilmersdorf,176,Urnenwahlbezirk,3007,2700,307,0,797,3,1,796,659,137
-04,Charlottenburg-Wilmersdorf,177,Urnenwahlbezirk,2966,2694,272,0,877,3,2,875,697,178
-04,Charlottenburg-Wilmersdorf,178,Urnenwahlbezirk,2887,2547,340,0,731,2,0,731,576,155
-04,Charlottenburg-Wilmersdorf,179,Urnenwahlbezirk,2770,2428,342,0,706,1,0,706,543,163
-04,Charlottenburg-Wilmersdorf,180,Urnenwahlbezirk,2786,2477,309,0,724,1,0,724,605,119
-04,Charlottenburg-Wilmersdorf,181,Urnenwahlbezirk,1653,1500,153,0,362,1,0,362,283,79
-04,Charlottenburg-Wilmersdorf,182,Urnenwahlbezirk,1511,1308,203,0,412,1,2,410,313,97
-04,Charlottenburg-Wilmersdorf,183,Urnenwahlbezirk,1364,1230,134,0,317,1,0,317,251,66
-04,Charlottenburg-Wilmersdorf,184,Urnenwahlbezirk,2488,2248,240,0,608,5,2,606,451,155
-04,Charlottenburg-Wilmersdorf,185,Urnenwahlbezirk,1201,1081,120,0,304,3,0,304,223,81
-04,Charlottenburg-Wilmersdorf,186,Urnenwahlbezirk,2318,2064,254,0,541,1,3,538,459,79
-04,Charlottenburg-Wilmersdorf,187,Urnenwahlbezirk,1641,1502,139,0,307,1,2,305,246,59
-04,Charlottenburg-Wilmersdorf,188,Urnenwahlbezirk,1366,1219,147,0,283,2,0,283,233,50
-05,Spandau,101,Urnenwahlbezirk,876,802,74,0,145,0,0,145,120,25
-05,Spandau,102,Urnenwahlbezirk,2797,2581,216,0,386,5,2,384,304,80
-05,Spandau,103,Urnenwahlbezirk,1108,1003,105,0,317,1,0,317,247,70
-05,Spandau,104,Urnenwahlbezirk,2135,1960,175,0,357,0,1,356,255,101
-05,Spandau,105,Urnenwahlbezirk,2236,2031,205,0,293,0,1,292,220,72
-05,Spandau,106,Urnenwahlbezirk,2074,1828,246,0,435,3,2,433,298,135
-05,Spandau,107,Urnenwahlbezirk,1944,1774,170,0,366,2,0,366,301,65
-05,Spandau,108,Urnenwahlbezirk,1062,1006,56,0,201,0,1,200,153,47
-05,Spandau,109,Urnenwahlbezirk,1856,1773,83,0,268,0,0,268,203,65
-05,Spandau,110,Urnenwahlbezirk,2719,2544,175,0,369,0,0,369,294,75
-05,Spandau,111,Urnenwahlbezirk,1106,996,110,0,284,0,0,284,197,87
-05,Spandau,112,Urnenwahlbezirk,883,850,33,0,120,0,0,120,91,29
-05,Spandau,113,Urnenwahlbezirk,1101,1062,39,0,166,0,0,166,116,50
-05,Spandau,114,Urnenwahlbezirk,2976,2761,215,0,451,2,1,450,345,105
-05,Spandau,115,Urnenwahlbezirk,2094,1942,152,0,305,0,1,304,229,75
-05,Spandau,116,Urnenwahlbezirk,2658,2547,111,0,292,0,0,292,238,54
-05,Spandau,117,Urnenwahlbezirk,955,923,32,0,114,0,1,113,93,20
-05,Spandau,118,Urnenwahlbezirk,889,808,81,0,141,0,0,141,92,49
-05,Spandau,119,Urnenwahlbezirk,1770,1689,81,0,287,0,1,286,231,55
-05,Spandau,120,Urnenwahlbezirk,1121,1080,41,0,158,0,0,158,121,37
-05,Spandau,121,Urnenwahlbezirk,1380,1291,89,0,155,0,0,155,119,36
-05,Spandau,122,Urnenwahlbezirk,2498,2378,120,0,257,1,0,257,219,38
-05,Spandau,123,Urnenwahlbezirk,2248,2141,107,0,362,0,2,360,311,49
-05,Spandau,124,Urnenwahlbezirk,846,798,48,0,135,0,1,134,112,22
-05,Spandau,125,Urnenwahlbezirk,2303,2154,149,0,387,1,1,386,306,80
-05,Spandau,126,Urnenwahlbezirk,1714,1603,111,0,313,3,0,313,255,58
-05,Spandau,127,Urnenwahlbezirk,1987,1786,201,0,387,2,2,385,283,102
-05,Spandau,128,Urnenwahlbezirk,2263,2073,190,0,520,1,0,520,352,168
-05,Spandau,129,Urnenwahlbezirk,1277,1154,123,0,207,0,0,207,161,46
-05,Spandau,130,Urnenwahlbezirk,2158,1938,220,0,411,2,1,410,315,95
-05,Spandau,131,Urnenwahlbezirk,2124,1986,138,0,347,1,2,345,251,94
-05,Spandau,132,Urnenwahlbezirk,1897,1760,137,0,293,1,0,293,205,88
-05,Spandau,133,Urnenwahlbezirk,800,729,71,0,139,0,0,139,107,32
-05,Spandau,134,Urnenwahlbezirk,2872,2692,180,0,462,1,1,461,339,122
-05,Spandau,135,Urnenwahlbezirk,1732,1632,100,0,260,0,0,260,218,42
-05,Spandau,136,Urnenwahlbezirk,3127,2894,233,0,342,0,2,340,279,61
-05,Spandau,137,Urnenwahlbezirk,1738,1617,121,0,320,0,1,319,225,94
-05,Spandau,138,Urnenwahlbezirk,2625,2502,123,0,311,0,0,311,244,67
-05,Spandau,139,Urnenwahlbezirk,3239,3040,199,0,439,0,2,437,338,99
-05,Spandau,140,Urnenwahlbezirk,2422,2272,150,0,367,0,0,367,300,67
-05,Spandau,141,Urnenwahlbezirk,2476,2334,142,0,320,0,2,318,264,54
-05,Spandau,142,Urnenwahlbezirk,1695,1580,115,0,251,0,0,251,193,58
-05,Spandau,143,Urnenwahlbezirk,1915,1805,110,0,309,0,1,308,216,92
-05,Spandau,144,Urnenwahlbezirk,1991,1799,192,0,302,1,0,302,198,104
-05,Spandau,145,Urnenwahlbezirk,896,846,50,0,187,0,1,186,150,36
-05,Spandau,146,Urnenwahlbezirk,1864,1698,166,0,338,0,0,338,238,100
-05,Spandau,147,Urnenwahlbezirk,2635,2442,193,0,489,0,0,489,367,122
-05,Spandau,148,Urnenwahlbezirk,1953,1802,151,0,337,0,0,337,273,64
-05,Spandau,149,Urnenwahlbezirk,1397,1281,116,0,231,0,0,231,194,37
-05,Spandau,150,Urnenwahlbezirk,1990,1774,216,0,364,3,2,362,274,88
-05,Spandau,151,Urnenwahlbezirk,1053,1006,47,0,164,0,0,164,122,42
-05,Spandau,152,Urnenwahlbezirk,1892,1696,196,0,264,0,2,262,192,70
-05,Spandau,153,Urnenwahlbezirk,2342,2187,155,0,365,1,2,363,257,106
-05,Spandau,154,Urnenwahlbezirk,2290,2124,166,0,367,1,1,366,272,94
-05,Spandau,155,Urnenwahlbezirk,2775,2592,183,0,440,2,1,439,372,67
-05,Spandau,156,Urnenwahlbezirk,3137,2916,221,0,470,0,2,468,389,79
-05,Spandau,157,Urnenwahlbezirk,2451,2268,183,0,431,0,0,431,346,85
-05,Spandau,158,Urnenwahlbezirk,2298,2143,155,0,384,1,2,382,311,71
-05,Spandau,159,Urnenwahlbezirk,2368,2156,212,0,465,1,0,465,368,97
-05,Spandau,160,Urnenwahlbezirk,2182,2012,170,0,376,0,1,375,270,105
-05,Spandau,161,Urnenwahlbezirk,830,800,30,0,68,0,0,68,46,22
-05,Spandau,162,Urnenwahlbezirk,2114,1997,117,0,225,1,0,225,179,46
-05,Spandau,163,Urnenwahlbezirk,2173,2062,111,0,229,1,0,229,166,63
-05,Spandau,164,Urnenwahlbezirk,1058,1009,49,0,145,0,0,145,106,39
-05,Spandau,165,Urnenwahlbezirk,2063,1897,166,0,357,1,0,357,252,105
-05,Spandau,166,Urnenwahlbezirk,1891,1736,155,0,344,0,0,344,245,99
-05,Spandau,167,Urnenwahlbezirk,2327,2196,131,0,316,0,0,316,224,92
-05,Spandau,168,Urnenwahlbezirk,1117,1030,87,0,187,0,1,186,136,50
-05,Spandau,169,Urnenwahlbezirk,2033,1894,139,0,380,2,1,379,297,82
-05,Spandau,170,Urnenwahlbezirk,2230,2017,213,0,350,0,1,349,269,80
-05,Spandau,171,Urnenwahlbezirk,1236,1178,58,0,228,0,1,227,172,55
-05,Spandau,172,Urnenwahlbezirk,1081,1008,73,0,188,2,2,186,129,57
-05,Spandau,173,Urnenwahlbezirk,2656,2522,134,0,383,1,2,381,316,65
-05,Spandau,174,Urnenwahlbezirk,1301,1219,82,0,182,0,0,182,136,46
-05,Spandau,175,Urnenwahlbezirk,2271,2053,218,0,442,0,0,442,289,153
-05,Spandau,176,Urnenwahlbezirk,1193,1082,111,0,255,0,1,254,182,72
-05,Spandau,177,Urnenwahlbezirk,839,733,106,0,201,0,0,201,132,69
-05,Spandau,178,Urnenwahlbezirk,2217,1848,369,0,435,1,2,433,284,149
-05,Spandau,179,Urnenwahlbezirk,1933,1709,223,1,440,1,0,440,267,173
-05,Spandau,180,Urnenwahlbezirk,1919,1743,176,0,526,2,0,526,378,148
-05,Spandau,181,Urnenwahlbezirk,1034,923,111,0,267,0,0,267,194,73
-05,Spandau,182,Urnenwahlbezirk,894,802,92,0,174,2,0,174,140,34
-05,Spandau,183,Urnenwahlbezirk,1036,905,131,0,301,0,1,300,235,65
-05,Spandau,184,Urnenwahlbezirk,941,836,105,0,238,0,1,237,169,68
-05,Spandau,185,Urnenwahlbezirk,1020,907,113,0,294,0,0,294,225,69
-05,Spandau,186,Urnenwahlbezirk,1160,1022,138,0,293,0,2,291,189,102
-05,Spandau,187,Urnenwahlbezirk,1914,1680,234,0,406,2,0,406,289,117
-05,Spandau,188,Urnenwahlbezirk,1792,1547,245,0,362,0,0,362,255,107
-05,Spandau,189,Urnenwahlbezirk,2531,2338,193,0,617,0,0,617,423,194
-06,Steglitz-Zehlendorf,101,Urnenwahlbezirk,1864,1586,278,0,453,4,1,452,351,101
-06,Steglitz-Zehlendorf,102,Urnenwahlbezirk,1768,1498,270,0,415,3,0,415,333,82
-06,Steglitz-Zehlendorf,103,Urnenwahlbezirk,1785,1626,159,0,391,2,0,391,328,63
-06,Steglitz-Zehlendorf,104,Urnenwahlbezirk,1946,1704,242,0,510,3,0,510,419,91
-06,Steglitz-Zehlendorf,105,Urnenwahlbezirk,1586,1418,168,0,338,6,2,336,280,56
-06,Steglitz-Zehlendorf,106,Urnenwahlbezirk,1695,1536,159,0,385,1,3,382,320,62
-06,Steglitz-Zehlendorf,107,Urnenwahlbezirk,1863,1679,184,0,437,3,2,435,352,83
-06,Steglitz-Zehlendorf,108,Urnenwahlbezirk,1888,1633,255,0,484,1,2,482,372,110
-06,Steglitz-Zehlendorf,109,Urnenwahlbezirk,1879,1645,234,0,476,2,1,475,398,77
-06,Steglitz-Zehlendorf,110,Urnenwahlbezirk,1895,1690,205,0,492,2,3,489,396,93
-06,Steglitz-Zehlendorf,111,Urnenwahlbezirk,1895,1747,148,0,439,1,5,434,342,92
-06,Steglitz-Zehlendorf,112,Urnenwahlbezirk,1675,1502,173,0,386,3,1,385,322,63
-06,Steglitz-Zehlendorf,113,Urnenwahlbezirk,1807,1614,193,0,265,0,0,265,209,56
-06,Steglitz-Zehlendorf,114,Urnenwahlbezirk,1877,1651,226,0,439,7,3,436,353,83
-06,Steglitz-Zehlendorf,115,Urnenwahlbezirk,1598,1418,180,0,316,3,0,316,231,85
-06,Steglitz-Zehlendorf,116,Urnenwahlbezirk,1957,1708,249,0,446,3,1,445,376,69
-06,Steglitz-Zehlendorf,117,Urnenwahlbezirk,1775,1483,292,0,328,2,4,324,241,83
-06,Steglitz-Zehlendorf,118,Urnenwahlbezirk,1776,1532,244,0,459,6,2,457,355,102
-06,Steglitz-Zehlendorf,201,Urnenwahlbezirk,1763,1592,171,0,451,2,2,449,383,66
-06,Steglitz-Zehlendorf,202,Urnenwahlbezirk,1723,1540,183,0,352,2,3,349,291,58
-06,Steglitz-Zehlendorf,203,Urnenwahlbezirk,1847,1645,202,0,388,0,0,388,309,79
-06,Steglitz-Zehlendorf,204,Urnenwahlbezirk,1661,1486,175,0,429,1,1,428,318,110
-06,Steglitz-Zehlendorf,205,Urnenwahlbezirk,1726,1520,206,0,337,2,1,336,249,87
-06,Steglitz-Zehlendorf,206,Urnenwahlbezirk,1645,1459,186,0,329,3,0,329,236,93
-06,Steglitz-Zehlendorf,207,Urnenwahlbezirk,1537,1370,167,0,279,1,2,277,226,51
-06,Steglitz-Zehlendorf,208,Urnenwahlbezirk,1564,1411,153,0,291,0,1,290,217,73
-06,Steglitz-Zehlendorf,209,Urnenwahlbezirk,1928,1646,282,0,350,2,0,350,287,63
-06,Steglitz-Zehlendorf,210,Urnenwahlbezirk,1727,1505,222,0,379,1,1,378,293,85
-06,Steglitz-Zehlendorf,211,Urnenwahlbezirk,1697,1430,267,0,325,3,0,325,256,69
-06,Steglitz-Zehlendorf,212,Urnenwahlbezirk,1880,1697,183,0,350,2,0,350,295,55
-06,Steglitz-Zehlendorf,213,Urnenwahlbezirk,2049,1834,215,0,397,0,0,397,319,78
-06,Steglitz-Zehlendorf,214,Urnenwahlbezirk,1934,1738,196,0,405,0,0,405,324,81
-06,Steglitz-Zehlendorf,215,Urnenwahlbezirk,1690,1531,159,0,366,0,0,366,293,73
-06,Steglitz-Zehlendorf,216,Urnenwahlbezirk,1664,1446,218,0,320,2,0,320,264,56
-06,Steglitz-Zehlendorf,217,Urnenwahlbezirk,1922,1738,184,0,581,2,2,579,464,115
-06,Steglitz-Zehlendorf,218,Urnenwahlbezirk,1633,1465,168,0,311,0,0,311,240,71
-06,Steglitz-Zehlendorf,301,Urnenwahlbezirk,1719,1508,211,0,434,1,2,432,333,99
-06,Steglitz-Zehlendorf,302,Urnenwahlbezirk,1740,1463,277,0,489,3,0,489,360,129
-06,Steglitz-Zehlendorf,303,Urnenwahlbezirk,1848,1678,170,0,443,5,3,440,347,93
-06,Steglitz-Zehlendorf,304,Urnenwahlbezirk,1858,1602,256,0,539,7,2,537,401,136
-06,Steglitz-Zehlendorf,305,Urnenwahlbezirk,1641,1435,206,0,421,0,1,420,307,113
-06,Steglitz-Zehlendorf,306,Urnenwahlbezirk,1891,1654,237,0,489,0,0,489,362,127
-06,Steglitz-Zehlendorf,307,Urnenwahlbezirk,1701,1500,201,0,413,0,1,412,307,105
-06,Steglitz-Zehlendorf,308,Urnenwahlbezirk,1776,1484,292,0,481,6,4,477,316,161
-06,Steglitz-Zehlendorf,309,Urnenwahlbezirk,1795,1541,254,0,452,4,1,451,320,131
-06,Steglitz-Zehlendorf,310,Urnenwahlbezirk,1744,1522,222,0,454,0,0,454,339,115
-06,Steglitz-Zehlendorf,311,Urnenwahlbezirk,1617,1451,166,0,354,1,1,353,269,84
-06,Steglitz-Zehlendorf,312,Urnenwahlbezirk,1901,1649,252,0,426,0,1,425,303,122
-06,Steglitz-Zehlendorf,313,Urnenwahlbezirk,1638,1403,235,0,324,2,0,324,223,101
-06,Steglitz-Zehlendorf,314,Urnenwahlbezirk,2042,1825,217,0,440,2,3,437,315,122
-06,Steglitz-Zehlendorf,315,Urnenwahlbezirk,1617,1389,228,0,385,2,2,383,268,115
-06,Steglitz-Zehlendorf,316,Urnenwahlbezirk,1960,1747,213,0,473,3,2,471,357,114
-06,Steglitz-Zehlendorf,317,Urnenwahlbezirk,1890,1687,203,0,322,1,1,321,251,70
-06,Steglitz-Zehlendorf,318,Urnenwahlbezirk,2003,1731,272,0,372,0,0,372,288,84
-06,Steglitz-Zehlendorf,401,Urnenwahlbezirk,2086,1845,241,0,487,2,0,487,371,116
-06,Steglitz-Zehlendorf,402,Urnenwahlbezirk,1534,1381,153,0,357,1,0,357,258,99
-06,Steglitz-Zehlendorf,403,Urnenwahlbezirk,1743,1558,185,0,290,2,0,290,200,90
-06,Steglitz-Zehlendorf,404,Urnenwahlbezirk,1942,1714,228,0,464,1,1,463,324,139
-06,Steglitz-Zehlendorf,405,Urnenwahlbezirk,1740,1555,185,0,455,2,0,455,327,128
-06,Steglitz-Zehlendorf,406,Urnenwahlbezirk,1891,1644,247,0,444,0,1,443,348,95
-06,Steglitz-Zehlendorf,407,Urnenwahlbezirk,1969,1761,208,0,350,0,2,348,287,61
-06,Steglitz-Zehlendorf,408,Urnenwahlbezirk,1774,1522,252,0,429,3,1,428,292,136
-06,Steglitz-Zehlendorf,409,Urnenwahlbezirk,1880,1617,263,0,285,2,1,284,202,82
-06,Steglitz-Zehlendorf,410,Urnenwahlbezirk,1680,1508,172,0,300,1,2,298,226,72
-06,Steglitz-Zehlendorf,411,Urnenwahlbezirk,1688,1461,227,0,339,3,1,338,253,85
-06,Steglitz-Zehlendorf,412,Urnenwahlbezirk,1617,1473,144,0,387,1,1,386,292,94
-06,Steglitz-Zehlendorf,413,Urnenwahlbezirk,1843,1605,238,0,355,0,1,354,221,133
-06,Steglitz-Zehlendorf,414,Urnenwahlbezirk,1651,1554,97,0,238,1,1,237,185,52
-06,Steglitz-Zehlendorf,415,Urnenwahlbezirk,1676,1521,155,0,253,2,0,253,207,46
-06,Steglitz-Zehlendorf,416,Urnenwahlbezirk,1792,1546,246,0,445,7,2,443,291,152
-06,Steglitz-Zehlendorf,417,Urnenwahlbezirk,1679,1461,218,0,459,2,0,459,306,153
-06,Steglitz-Zehlendorf,501,Urnenwahlbezirk,1732,1546,186,0,351,1,0,351,248,103
-06,Steglitz-Zehlendorf,502,Urnenwahlbezirk,1628,1491,137,0,311,3,0,311,242,69
-06,Steglitz-Zehlendorf,503,Urnenwahlbezirk,1369,1210,159,0,266,1,0,266,197,69
-06,Steglitz-Zehlendorf,504,Urnenwahlbezirk,1568,1363,205,0,326,1,0,326,242,84
-06,Steglitz-Zehlendorf,505,Urnenwahlbezirk,1934,1704,230,0,472,1,2,470,323,147
-06,Steglitz-Zehlendorf,506,Urnenwahlbezirk,1721,1533,188,0,272,1,2,270,186,84
-06,Steglitz-Zehlendorf,507,Urnenwahlbezirk,1668,1563,105,0,279,0,0,279,220,59
-06,Steglitz-Zehlendorf,508,Urnenwahlbezirk,1852,1666,186,0,320,2,1,319,266,53
-06,Steglitz-Zehlendorf,509,Urnenwahlbezirk,1782,1552,230,0,374,1,3,371,252,119
-06,Steglitz-Zehlendorf,510,Urnenwahlbezirk,1912,1732,180,0,404,1,0,404,326,78
-06,Steglitz-Zehlendorf,511,Urnenwahlbezirk,1569,1364,205,0,339,0,2,337,230,107
-06,Steglitz-Zehlendorf,512,Urnenwahlbezirk,1645,1518,127,0,251,1,1,250,212,38
-06,Steglitz-Zehlendorf,513,Urnenwahlbezirk,1999,1825,174,0,349,2,1,348,253,95
-06,Steglitz-Zehlendorf,514,Urnenwahlbezirk,1714,1505,209,0,416,2,1,415,302,113
-06,Steglitz-Zehlendorf,515,Urnenwahlbezirk,1661,1478,183,0,384,0,0,384,246,138
-06,Steglitz-Zehlendorf,516,Urnenwahlbezirk,1861,1699,162,0,208,0,1,207,185,22
-06,Steglitz-Zehlendorf,517,Urnenwahlbezirk,1704,1500,204,0,228,2,1,227,175,52
-06,Steglitz-Zehlendorf,518,Urnenwahlbezirk,1683,1518,165,0,291,1,0,291,210,81
-06,Steglitz-Zehlendorf,601,Urnenwahlbezirk,1406,1205,201,0,362,5,0,362,288,74
-06,Steglitz-Zehlendorf,602,Urnenwahlbezirk,1547,1369,178,0,488,4,1,487,390,97
-06,Steglitz-Zehlendorf,603,Urnenwahlbezirk,1511,1303,208,0,360,3,1,359,265,94
-06,Steglitz-Zehlendorf,604,Urnenwahlbezirk,1812,1506,306,0,525,4,0,525,412,113
-06,Steglitz-Zehlendorf,605,Urnenwahlbezirk,1503,1339,164,0,350,0,0,350,265,85
-06,Steglitz-Zehlendorf,606,Urnenwahlbezirk,1404,1228,176,0,255,3,0,255,153,102
-06,Steglitz-Zehlendorf,607,Urnenwahlbezirk,1580,1348,232,0,323,0,0,323,183,140
-06,Steglitz-Zehlendorf,608,Urnenwahlbezirk,1508,1346,162,0,299,3,1,298,229,69
-06,Steglitz-Zehlendorf,609,Urnenwahlbezirk,1747,1529,218,0,431,0,1,430,297,133
-06,Steglitz-Zehlendorf,610,Urnenwahlbezirk,1147,961,186,0,261,3,0,261,168,93
-06,Steglitz-Zehlendorf,611,Urnenwahlbezirk,1537,1328,209,0,392,1,0,392,301,91
-06,Steglitz-Zehlendorf,612,Urnenwahlbezirk,1828,1604,224,0,406,1,0,406,311,95
-06,Steglitz-Zehlendorf,613,Urnenwahlbezirk,1687,1406,281,0,459,3,1,458,336,122
-06,Steglitz-Zehlendorf,614,Urnenwahlbezirk,1799,1552,247,0,409,0,0,409,285,124
-06,Steglitz-Zehlendorf,615,Urnenwahlbezirk,1787,1527,260,0,412,0,1,411,319,92
-06,Steglitz-Zehlendorf,616,Urnenwahlbezirk,1682,1504,178,0,450,3,2,448,355,93
-06,Steglitz-Zehlendorf,617,Urnenwahlbezirk,1746,1586,160,0,491,1,5,486,303,183
-06,Steglitz-Zehlendorf,618,Urnenwahlbezirk,1740,1489,251,0,424,3,1,423,347,76
-06,Steglitz-Zehlendorf,619,Urnenwahlbezirk,1452,1315,137,0,374,0,2,372,299,73
-06,Steglitz-Zehlendorf,701,Urnenwahlbezirk,1593,1402,191,0,410,2,1,409,290,119
-06,Steglitz-Zehlendorf,702,Urnenwahlbezirk,1891,1585,306,0,423,7,1,422,321,101
-06,Steglitz-Zehlendorf,703,Urnenwahlbezirk,1283,1150,133,0,310,0,0,310,226,84
-06,Steglitz-Zehlendorf,704,Urnenwahlbezirk,1479,1270,209,0,379,0,0,379,269,110
-06,Steglitz-Zehlendorf,705,Urnenwahlbezirk,1499,1244,255,0,284,2,0,284,223,61
-06,Steglitz-Zehlendorf,706,Urnenwahlbezirk,1754,1493,261,0,433,0,0,433,288,145
-06,Steglitz-Zehlendorf,707,Urnenwahlbezirk,1772,1516,256,0,438,3,1,437,328,109
-06,Steglitz-Zehlendorf,708,Urnenwahlbezirk,1403,1222,181,0,337,0,0,337,257,80
-06,Steglitz-Zehlendorf,709,Urnenwahlbezirk,1754,1446,308,0,392,3,1,391,273,118
-06,Steglitz-Zehlendorf,710,Urnenwahlbezirk,1727,1432,295,0,406,3,0,406,284,122
-06,Steglitz-Zehlendorf,711,Urnenwahlbezirk,1649,1433,216,0,427,7,1,426,309,117
-06,Steglitz-Zehlendorf,712,Urnenwahlbezirk,1644,1451,193,0,538,1,4,534,403,131
-06,Steglitz-Zehlendorf,713,Urnenwahlbezirk,1547,1313,234,0,359,3,1,358,242,116
-06,Steglitz-Zehlendorf,714,Urnenwahlbezirk,1309,1165,144,0,296,1,0,296,234,62
-06,Steglitz-Zehlendorf,715,Urnenwahlbezirk,1469,1234,235,0,329,1,0,329,225,104
-06,Steglitz-Zehlendorf,716,Urnenwahlbezirk,1350,1138,212,0,335,4,2,333,241,92
-06,Steglitz-Zehlendorf,717,Urnenwahlbezirk,1202,1050,152,0,301,4,0,301,240,61
-06,Steglitz-Zehlendorf,718,Urnenwahlbezirk,1886,1637,249,0,515,0,3,512,374,138
-06,Steglitz-Zehlendorf,719,Urnenwahlbezirk,1720,1473,247,0,475,3,1,474,386,88
-07,Tempelhof-Schöneberg,101,Urnenwahlbezirk,1831,1637,194,0,259,2,0,259,198,61
-07,Tempelhof-Schöneberg,102,Urnenwahlbezirk,1845,1595,250,0,275,2,0,275,245,30
-07,Tempelhof-Schöneberg,103,Urnenwahlbezirk,1912,1754,158,0,418,3,0,418,367,51
-07,Tempelhof-Schöneberg,104,Urnenwahlbezirk,1804,1647,157,0,403,4,0,403,376,27
-07,Tempelhof-Schöneberg,105,Urnenwahlbezirk,1948,1740,208,0,414,5,3,411,319,92
-07,Tempelhof-Schöneberg,106,Urnenwahlbezirk,1667,1473,194,0,421,4,1,420,368,52
-07,Tempelhof-Schöneberg,107,Urnenwahlbezirk,1747,1515,232,0,489,4,2,487,440,47
-07,Tempelhof-Schöneberg,108,Urnenwahlbezirk,1718,1536,182,0,386,6,1,385,362,23
-07,Tempelhof-Schöneberg,109,Urnenwahlbezirk,1880,1651,229,0,518,7,0,518,429,89
-07,Tempelhof-Schöneberg,110,Urnenwahlbezirk,2102,1854,248,0,495,3,0,495,416,79
-07,Tempelhof-Schöneberg,111,Urnenwahlbezirk,1763,1585,178,0,498,2,2,496,428,68
-07,Tempelhof-Schöneberg,112,Urnenwahlbezirk,1934,1670,264,0,535,4,1,534,480,54
-07,Tempelhof-Schöneberg,113,Urnenwahlbezirk,1924,1723,201,0,491,4,0,491,441,50
-07,Tempelhof-Schöneberg,114,Urnenwahlbezirk,2037,1771,266,0,462,1,0,462,391,71
-07,Tempelhof-Schöneberg,115,Urnenwahlbezirk,1947,1756,191,0,425,3,0,425,356,69
-07,Tempelhof-Schöneberg,201,Urnenwahlbezirk,1909,1660,249,0,543,2,1,542,458,84
-07,Tempelhof-Schöneberg,202,Urnenwahlbezirk,2030,1781,249,0,645,1,1,644,572,72
-07,Tempelhof-Schöneberg,203,Urnenwahlbezirk,1908,1666,242,0,547,7,0,547,499,48
-07,Tempelhof-Schöneberg,204,Urnenwahlbezirk,1715,1543,172,0,420,5,0,420,395,25
-07,Tempelhof-Schöneberg,205,Urnenwahlbezirk,1745,1545,200,0,517,8,1,516,491,25
-07,Tempelhof-Schöneberg,206,Urnenwahlbezirk,1947,1729,218,0,424,8,0,424,362,62
-07,Tempelhof-Schöneberg,207,Urnenwahlbezirk,1932,1710,222,0,456,0,0,456,369,87
-07,Tempelhof-Schöneberg,208,Urnenwahlbezirk,1790,1565,225,0,354,0,2,352,300,52
-07,Tempelhof-Schöneberg,209,Urnenwahlbezirk,2028,1801,227,0,433,3,0,433,387,46
-07,Tempelhof-Schöneberg,210,Urnenwahlbezirk,1753,1555,198,0,443,1,0,443,408,35
-07,Tempelhof-Schöneberg,211,Urnenwahlbezirk,2065,1796,269,0,542,2,0,542,523,19
-07,Tempelhof-Schöneberg,212,Urnenwahlbezirk,2069,1793,276,0,567,5,0,567,539,28
-07,Tempelhof-Schöneberg,213,Urnenwahlbezirk,2041,1831,210,0,555,2,0,555,520,35
-07,Tempelhof-Schöneberg,214,Urnenwahlbezirk,2051,1853,198,0,471,3,1,470,438,32
-07,Tempelhof-Schöneberg,215,Urnenwahlbezirk,1427,1229,198,0,450,3,0,450,420,30
-07,Tempelhof-Schöneberg,301,Urnenwahlbezirk,1997,1779,218,0,554,0,0,554,470,84
-07,Tempelhof-Schöneberg,302,Urnenwahlbezirk,1799,1620,179,0,607,2,1,606,512,94
-07,Tempelhof-Schöneberg,303,Urnenwahlbezirk,1717,1523,194,0,520,3,0,520,447,73
-07,Tempelhof-Schöneberg,304,Urnenwahlbezirk,1989,1745,244,0,439,8,1,438,378,60
-07,Tempelhof-Schöneberg,305,Urnenwahlbezirk,1810,1552,258,0,529,4,2,527,447,80
-07,Tempelhof-Schöneberg,306,Urnenwahlbezirk,1719,1531,188,0,468,4,0,468,388,80
-07,Tempelhof-Schöneberg,307,Urnenwahlbezirk,1903,1702,201,0,536,2,2,534,460,74
-07,Tempelhof-Schöneberg,308,Urnenwahlbezirk,1715,1515,200,0,525,1,2,523,442,81
-07,Tempelhof-Schöneberg,309,Urnenwahlbezirk,1650,1451,199,0,509,3,3,506,438,68
-07,Tempelhof-Schöneberg,310,Urnenwahlbezirk,1842,1607,235,0,490,1,1,489,402,87
-07,Tempelhof-Schöneberg,311,Urnenwahlbezirk,1705,1531,174,0,520,5,0,520,436,84
-07,Tempelhof-Schöneberg,312,Urnenwahlbezirk,1828,1620,208,0,510,5,1,509,438,71
-07,Tempelhof-Schöneberg,313,Urnenwahlbezirk,1809,1586,223,0,515,5,0,515,447,68
-07,Tempelhof-Schöneberg,314,Urnenwahlbezirk,1664,1474,190,0,414,4,1,413,351,62
-07,Tempelhof-Schöneberg,315,Urnenwahlbezirk,2127,1908,219,0,603,2,1,602,524,78
-07,Tempelhof-Schöneberg,316,Urnenwahlbezirk,2043,1870,173,0,406,6,0,406,335,71
-07,Tempelhof-Schöneberg,401,Urnenwahlbezirk,1966,1820,146,0,310,6,0,310,275,35
-07,Tempelhof-Schöneberg,402,Urnenwahlbezirk,1757,1513,244,0,443,3,1,442,410,32
-07,Tempelhof-Schöneberg,403,Urnenwahlbezirk,1650,1423,227,0,470,7,0,470,434,36
-07,Tempelhof-Schöneberg,404,Urnenwahlbezirk,1606,1454,152,0,328,3,2,326,286,40
-07,Tempelhof-Schöneberg,405,Urnenwahlbezirk,2022,1856,166,0,480,4,0,480,400,80
-07,Tempelhof-Schöneberg,406,Urnenwahlbezirk,2068,1818,250,0,406,1,0,406,307,99
-07,Tempelhof-Schöneberg,407,Urnenwahlbezirk,2150,1836,314,0,632,13,0,632,552,80
-07,Tempelhof-Schöneberg,408,Urnenwahlbezirk,1975,1822,153,0,464,1,0,464,357,107
-07,Tempelhof-Schöneberg,409,Urnenwahlbezirk,1797,1563,234,0,506,5,0,506,437,69
-07,Tempelhof-Schöneberg,410,Urnenwahlbezirk,2310,2108,202,0,480,1,1,479,373,106
-07,Tempelhof-Schöneberg,411,Urnenwahlbezirk,1702,1557,145,0,258,1,0,258,224,34
-07,Tempelhof-Schöneberg,412,Urnenwahlbezirk,1838,1698,140,0,295,3,1,294,244,50
-07,Tempelhof-Schöneberg,413,Urnenwahlbezirk,1787,1589,198,0,498,3,1,497,425,72
-07,Tempelhof-Schöneberg,414,Urnenwahlbezirk,1999,1770,229,0,358,3,1,357,294,63
-07,Tempelhof-Schöneberg,415,Urnenwahlbezirk,2072,1863,209,0,404,4,0,404,305,99
-07,Tempelhof-Schöneberg,416,Urnenwahlbezirk,2155,1897,258,0,299,0,0,299,230,69
-07,Tempelhof-Schöneberg,501,Urnenwahlbezirk,1672,1452,220,0,318,4,0,318,224,94
-07,Tempelhof-Schöneberg,502,Urnenwahlbezirk,2295,2048,247,0,477,0,2,475,372,103
-07,Tempelhof-Schöneberg,503,Urnenwahlbezirk,1939,1767,172,0,450,0,1,449,376,73
-07,Tempelhof-Schöneberg,504,Urnenwahlbezirk,2083,1939,144,0,398,0,2,396,339,57
-07,Tempelhof-Schöneberg,505,Urnenwahlbezirk,1852,1669,183,0,439,0,1,438,382,56
-07,Tempelhof-Schöneberg,506,Urnenwahlbezirk,1992,1850,142,0,361,0,0,361,302,59
-07,Tempelhof-Schöneberg,507,Urnenwahlbezirk,2086,1895,191,0,381,1,4,377,296,81
-07,Tempelhof-Schöneberg,508,Urnenwahlbezirk,2298,2188,110,0,330,0,1,329,280,49
-07,Tempelhof-Schöneberg,509,Urnenwahlbezirk,1982,1790,192,0,472,9,2,470,406,64
-07,Tempelhof-Schöneberg,510,Urnenwahlbezirk,2040,1885,155,0,334,1,0,334,282,52
-07,Tempelhof-Schöneberg,511,Urnenwahlbezirk,2165,2012,153,0,332,4,1,331,276,55
-07,Tempelhof-Schöneberg,512,Urnenwahlbezirk,1932,1744,188,0,440,1,3,437,325,112
-07,Tempelhof-Schöneberg,513,Urnenwahlbezirk,2039,1897,142,0,381,0,0,381,305,76
-07,Tempelhof-Schöneberg,514,Urnenwahlbezirk,2154,1969,185,0,405,2,3,402,298,104
-07,Tempelhof-Schöneberg,515,Urnenwahlbezirk,1886,1757,129,0,309,0,1,308,213,95
-07,Tempelhof-Schöneberg,601,Urnenwahlbezirk,1961,1797,164,0,257,0,0,257,200,57
-07,Tempelhof-Schöneberg,602,Urnenwahlbezirk,2276,2046,230,0,368,1,0,368,270,98
-07,Tempelhof-Schöneberg,603,Urnenwahlbezirk,2122,1991,131,0,481,4,4,477,375,102
-07,Tempelhof-Schöneberg,604,Urnenwahlbezirk,2195,1932,263,0,334,4,0,334,233,101
-07,Tempelhof-Schöneberg,605,Urnenwahlbezirk,1926,1693,233,0,283,0,2,281,215,66
-07,Tempelhof-Schöneberg,606,Urnenwahlbezirk,2174,1974,200,0,408,0,3,405,307,98
-07,Tempelhof-Schöneberg,607,Urnenwahlbezirk,1999,1873,126,0,248,0,0,248,171,77
-07,Tempelhof-Schöneberg,608,Urnenwahlbezirk,1967,1744,223,0,392,5,2,390,285,105
-07,Tempelhof-Schöneberg,609,Urnenwahlbezirk,1913,1726,187,0,358,5,1,357,266,91
-07,Tempelhof-Schöneberg,610,Urnenwahlbezirk,2090,1899,191,0,515,3,2,513,339,174
-07,Tempelhof-Schöneberg,611,Urnenwahlbezirk,2144,1842,302,0,402,2,0,402,272,130
-07,Tempelhof-Schöneberg,612,Urnenwahlbezirk,1737,1511,226,0,311,0,1,310,222,88
-07,Tempelhof-Schöneberg,613,Urnenwahlbezirk,2046,1855,191,0,381,0,2,379,274,105
-07,Tempelhof-Schöneberg,614,Urnenwahlbezirk,1679,1509,170,0,363,4,1,362,256,106
-07,Tempelhof-Schöneberg,615,Urnenwahlbezirk,1828,1658,170,0,364,1,1,363,258,105
-07,Tempelhof-Schöneberg,701,Urnenwahlbezirk,1821,1653,168,0,283,5,1,282,221,61
-07,Tempelhof-Schöneberg,702,Urnenwahlbezirk,1745,1583,162,0,453,1,3,450,315,135
-07,Tempelhof-Schöneberg,703,Urnenwahlbezirk,1946,1767,179,0,383,0,2,381,254,127
-07,Tempelhof-Schöneberg,704,Urnenwahlbezirk,1384,1218,166,0,189,0,1,188,131,57
-07,Tempelhof-Schöneberg,705,Urnenwahlbezirk,2062,1849,213,0,287,0,0,287,206,81
-07,Tempelhof-Schöneberg,706,Urnenwahlbezirk,1803,1673,130,0,272,2,0,272,213,59
-07,Tempelhof-Schöneberg,707,Urnenwahlbezirk,1488,1390,98,0,194,0,1,193,153,40
-07,Tempelhof-Schöneberg,708,Urnenwahlbezirk,2121,1985,136,0,224,1,2,222,167,55
-07,Tempelhof-Schöneberg,709,Urnenwahlbezirk,2253,2061,192,0,323,2,1,322,225,97
-07,Tempelhof-Schöneberg,710,Urnenwahlbezirk,1792,1549,243,0,336,4,1,335,247,88
-07,Tempelhof-Schöneberg,711,Urnenwahlbezirk,1997,1807,190,0,458,5,0,458,307,151
-07,Tempelhof-Schöneberg,712,Urnenwahlbezirk,1996,1803,193,0,510,3,0,510,322,188
-07,Tempelhof-Schöneberg,713,Urnenwahlbezirk,2041,1792,249,0,408,3,1,407,282,125
-07,Tempelhof-Schöneberg,714,Urnenwahlbezirk,2147,1946,201,0,454,0,0,454,322,132
-07,Tempelhof-Schöneberg,715,Urnenwahlbezirk,1958,1762,196,0,278,0,0,278,200,78
-07,Tempelhof-Schöneberg,801,Urnenwahlbezirk,1891,1641,250,0,485,2,1,484,334,150
-07,Tempelhof-Schöneberg,802,Urnenwahlbezirk,1852,1646,206,0,458,3,2,456,311,145
-07,Tempelhof-Schöneberg,803,Urnenwahlbezirk,1879,1687,192,0,209,1,0,209,142,67
-07,Tempelhof-Schöneberg,804,Urnenwahlbezirk,1852,1661,191,0,237,0,1,236,181,55
-07,Tempelhof-Schöneberg,805,Urnenwahlbezirk,2140,1921,219,0,419,0,1,418,288,130
-07,Tempelhof-Schöneberg,806,Urnenwahlbezirk,1833,1645,188,0,339,4,1,338,250,88
-07,Tempelhof-Schöneberg,807,Urnenwahlbezirk,2033,1805,228,0,389,1,5,384,260,124
-07,Tempelhof-Schöneberg,808,Urnenwahlbezirk,2092,1942,150,0,360,0,0,360,263,97
-07,Tempelhof-Schöneberg,809,Urnenwahlbezirk,1937,1710,227,0,305,2,0,305,209,96
-07,Tempelhof-Schöneberg,810,Urnenwahlbezirk,1765,1565,200,0,313,3,0,313,230,83
-07,Tempelhof-Schöneberg,811,Urnenwahlbezirk,1797,1654,143,0,264,1,0,264,181,83
-07,Tempelhof-Schöneberg,812,Urnenwahlbezirk,1745,1585,160,0,416,0,1,415,330,85
-07,Tempelhof-Schöneberg,813,Urnenwahlbezirk,1737,1532,205,0,360,5,2,358,262,96
-07,Tempelhof-Schöneberg,814,Urnenwahlbezirk,1608,1480,128,0,291,1,0,291,210,81
-07,Tempelhof-Schöneberg,815,Urnenwahlbezirk,1513,1298,215,0,314,0,1,313,209,104
-08,Neukölln,101,Urnenwahlbezirk,1376,1173,203,0,350,8,1,349,332,17
-08,Neukölln,102,Urnenwahlbezirk,2588,2236,352,0,775,10,1,774,745,29
-08,Neukölln,103,Urnenwahlbezirk,2841,2544,297,0,887,7,3,884,854,30
-08,Neukölln,104,Urnenwahlbezirk,2517,2225,292,0,689,5,0,689,669,20
-08,Neukölln,105,Urnenwahlbezirk,1468,1309,159,0,468,6,1,467,459,8
-08,Neukölln,106,Urnenwahlbezirk,2879,2564,315,0,849,4,1,848,814,34
-08,Neukölln,107,Urnenwahlbezirk,2625,2342,283,0,723,7,0,723,690,33
-08,Neukölln,108,Urnenwahlbezirk,1707,1535,172,0,333,1,1,332,310,22
-08,Neukölln,109,Urnenwahlbezirk,3303,2959,344,0,714,4,2,712,648,64
-08,Neukölln,110,Urnenwahlbezirk,2656,2379,277,0,780,8,3,777,737,40
-08,Neukölln,111,Urnenwahlbezirk,2257,2082,175,0,430,3,2,428,384,44
-08,Neukölln,112,Urnenwahlbezirk,2912,2659,253,0,688,0,0,688,644,44
-08,Neukölln,113,Urnenwahlbezirk,2637,2399,238,0,594,2,0,594,563,31
-08,Neukölln,114,Urnenwahlbezirk,3049,2746,303,0,801,9,0,801,766,35
-08,Neukölln,115,Urnenwahlbezirk,2652,2397,255,0,610,0,0,610,575,35
-08,Neukölln,201,Urnenwahlbezirk,1508,1315,193,0,448,4,0,448,437,11
-08,Neukölln,202,Urnenwahlbezirk,2718,2458,260,0,707,8,2,705,676,29
-08,Neukölln,203,Urnenwahlbezirk,2790,2491,299,0,721,6,1,720,691,29
-08,Neukölln,204,Urnenwahlbezirk,2853,2543,310,0,738,7,0,738,713,25
-08,Neukölln,205,Urnenwahlbezirk,2807,2486,321,0,770,6,3,767,733,34
-08,Neukölln,206,Urnenwahlbezirk,2620,2369,251,0,769,11,0,769,731,38
-08,Neukölln,207,Urnenwahlbezirk,2412,2186,226,0,728,4,1,727,698,29
-08,Neukölln,208,Urnenwahlbezirk,2931,2752,179,0,583,3,3,580,543,37
-08,Neukölln,209,Urnenwahlbezirk,2522,2280,242,0,462,5,2,460,417,43
-08,Neukölln,210,Urnenwahlbezirk,2988,2683,305,0,748,6,0,748,705,43
-08,Neukölln,211,Urnenwahlbezirk,2781,2580,201,0,612,5,3,609,568,41
-08,Neukölln,212,Urnenwahlbezirk,2291,2068,223,0,625,0,1,624,591,33
-08,Neukölln,213,Urnenwahlbezirk,2654,2404,250,0,545,6,1,544,520,24
-08,Neukölln,214,Urnenwahlbezirk,3232,2916,316,0,823,5,0,823,782,41
-08,Neukölln,301,Urnenwahlbezirk,2510,2386,124,0,354,0,0,354,286,68
-08,Neukölln,302,Urnenwahlbezirk,2738,2545,193,0,472,4,0,472,441,31
-08,Neukölln,303,Urnenwahlbezirk,2478,2300,178,0,434,4,1,433,388,45
-08,Neukölln,304,Urnenwahlbezirk,1457,1310,147,0,223,1,0,223,211,12
-08,Neukölln,305,Urnenwahlbezirk,2543,2353,190,0,367,2,1,366,316,50
-08,Neukölln,306,Urnenwahlbezirk,1439,1365,74,0,173,0,0,173,153,20
-08,Neukölln,307,Urnenwahlbezirk,3151,2994,157,0,383,0,2,381,297,84
-08,Neukölln,308,Urnenwahlbezirk,1330,1199,131,0,170,0,0,170,138,32
-08,Neukölln,309,Urnenwahlbezirk,2293,2144,149,0,277,0,0,277,237,40
-08,Neukölln,310,Urnenwahlbezirk,3099,2871,228,0,487,3,1,486,397,89
-08,Neukölln,311,Urnenwahlbezirk,1572,1439,133,0,388,0,5,383,305,78
-08,Neukölln,312,Urnenwahlbezirk,1104,1018,86,0,197,2,0,197,149,48
-08,Neukölln,313,Urnenwahlbezirk,1293,1188,105,0,120,0,0,120,86,34
-08,Neukölln,314,Urnenwahlbezirk,1541,1369,172,0,258,2,0,258,199,59
-08,Neukölln,315,Urnenwahlbezirk,2923,2583,340,0,585,4,0,585,484,101
-08,Neukölln,401,Urnenwahlbezirk,2652,2387,265,0,582,6,0,582,422,160
-08,Neukölln,402,Urnenwahlbezirk,2860,2595,265,0,361,2,1,360,309,51
-08,Neukölln,403,Urnenwahlbezirk,2254,2026,228,0,421,0,2,419,317,102
-08,Neukölln,404,Urnenwahlbezirk,1306,1232,74,0,180,0,2,178,145,33
-08,Neukölln,405,Urnenwahlbezirk,2502,2273,229,0,394,0,0,394,292,102
-08,Neukölln,406,Urnenwahlbezirk,1590,1437,153,0,348,1,0,348,244,104
-08,Neukölln,407,Urnenwahlbezirk,3011,2624,387,0,639,2,2,637,403,234
-08,Neukölln,408,Urnenwahlbezirk,2812,2515,297,0,511,1,1,510,402,108
-08,Neukölln,409,Urnenwahlbezirk,2626,2406,220,0,390,1,4,386,277,109
-08,Neukölln,410,Urnenwahlbezirk,2811,2524,287,0,627,1,2,625,438,187
-08,Neukölln,411,Urnenwahlbezirk,1389,1277,112,0,242,10,1,241,171,70
-08,Neukölln,412,Urnenwahlbezirk,2335,2165,170,0,379,1,0,379,270,109
-08,Neukölln,413,Urnenwahlbezirk,3023,2773,250,0,411,3,2,409,293,116
-08,Neukölln,414,Urnenwahlbezirk,1490,1360,130,0,292,1,0,292,204,88
-08,Neukölln,501,Urnenwahlbezirk,3379,2946,433,0,735,2,1,734,522,212
-08,Neukölln,502,Urnenwahlbezirk,2470,2193,277,0,354,2,0,354,276,78
-08,Neukölln,503,Urnenwahlbezirk,2442,2170,272,0,340,1,1,339,256,83
-08,Neukölln,504,Urnenwahlbezirk,2604,2375,229,0,430,0,0,430,318,112
-08,Neukölln,505,Urnenwahlbezirk,1434,1309,125,0,210,0,0,210,146,64
-08,Neukölln,506,Urnenwahlbezirk,2664,2398,266,0,393,0,2,391,285,106
-08,Neukölln,507,Urnenwahlbezirk,1559,1416,143,0,193,2,0,193,153,40
-08,Neukölln,508,Urnenwahlbezirk,3059,2806,253,0,495,0,0,495,333,162
-08,Neukölln,509,Urnenwahlbezirk,1646,1508,138,0,163,0,1,162,132,30
-08,Neukölln,510,Urnenwahlbezirk,2337,2151,186,0,326,0,0,326,217,109
-08,Neukölln,511,Urnenwahlbezirk,2822,2537,285,0,522,2,0,522,358,164
-08,Neukölln,512,Urnenwahlbezirk,1598,1399,199,0,314,0,0,314,209,105
-08,Neukölln,513,Urnenwahlbezirk,2750,2470,280,0,356,0,0,356,238,118
-08,Neukölln,514,Urnenwahlbezirk,2732,2556,176,0,313,0,1,312,230,82
-08,Neukölln,601,Urnenwahlbezirk,2184,2040,144,0,215,0,1,214,180,34
-08,Neukölln,602,Urnenwahlbezirk,2041,1910,131,0,312,2,2,310,252,58
-08,Neukölln,603,Urnenwahlbezirk,2312,2068,244,0,462,0,0,462,336,126
-08,Neukölln,604,Urnenwahlbezirk,1606,1393,213,0,307,1,0,307,243,64
-08,Neukölln,605,Urnenwahlbezirk,2486,2310,176,0,410,2,0,410,316,94
-08,Neukölln,606,Urnenwahlbezirk,1541,1359,182,0,230,0,3,227,183,44
-08,Neukölln,607,Urnenwahlbezirk,2691,2444,247,0,558,0,1,557,390,167
-08,Neukölln,608,Urnenwahlbezirk,2814,2514,300,0,688,4,1,687,497,190
-08,Neukölln,609,Urnenwahlbezirk,2648,2279,369,0,518,0,2,516,336,180
-08,Neukölln,610,Urnenwahlbezirk,2109,1885,224,0,388,2,0,388,274,114
-08,Neukölln,611,Urnenwahlbezirk,2307,2027,280,0,363,0,3,360,279,81
-08,Neukölln,612,Urnenwahlbezirk,3352,3051,301,0,676,3,4,672,481,191
-08,Neukölln,613,Urnenwahlbezirk,3676,3436,240,0,695,1,0,695,507,188
-09,Treptow-Köpenick,101,Urnenwahlbezirk,4691,4192,499,0,1335,13,2,1333,1226,107
-09,Treptow-Köpenick,102,Urnenwahlbezirk,3084,2818,266,0,1013,11,1,1012,950,62
-09,Treptow-Köpenick,103,Urnenwahlbezirk,4171,3657,514,0,978,12,0,978,891,87
-09,Treptow-Köpenick,104,Urnenwahlbezirk,6219,5634,585,0,1190,5,3,1187,1048,139
-09,Treptow-Köpenick,105,Urnenwahlbezirk,1982,1811,171,0,399,2,1,398,353,45
-09,Treptow-Köpenick,106,Urnenwahlbezirk,3325,3018,307,0,921,3,3,918,798,120
-09,Treptow-Köpenick,107,Urnenwahlbezirk,2023,1842,181,0,475,6,0,475,417,58
-09,Treptow-Köpenick,108,Urnenwahlbezirk,5668,5092,576,0,1247,3,5,1242,1047,195
-09,Treptow-Köpenick,109,Urnenwahlbezirk,2349,2178,171,0,525,5,0,525,454,71
-09,Treptow-Köpenick,201,Urnenwahlbezirk,1961,1764,197,0,483,1,1,482,411,71
-09,Treptow-Köpenick,202,Urnenwahlbezirk,4273,3910,363,0,894,3,2,892,759,133
-09,Treptow-Köpenick,203,Urnenwahlbezirk,1878,1753,125,0,464,0,2,462,394,68
-09,Treptow-Köpenick,204,Urnenwahlbezirk,1526,1404,122,0,300,0,1,299,262,37
-09,Treptow-Köpenick,205,Urnenwahlbezirk,3264,2929,335,0,692,0,3,689,592,97
-09,Treptow-Köpenick,206,Urnenwahlbezirk,2716,2409,307,0,661,2,0,661,547,114
-09,Treptow-Köpenick,207,Urnenwahlbezirk,6061,5450,611,0,1213,2,2,1211,1063,148
-09,Treptow-Köpenick,208,Urnenwahlbezirk,4415,4175,240,0,660,3,0,660,570,90
-09,Treptow-Köpenick,209,Urnenwahlbezirk,1516,1414,102,0,362,0,2,360,306,54
-09,Treptow-Köpenick,210,Urnenwahlbezirk,3398,3166,232,0,626,0,3,623,537,86
-09,Treptow-Köpenick,211,Urnenwahlbezirk,4921,4588,333,0,840,4,4,836,702,134
-09,Treptow-Köpenick,212,Urnenwahlbezirk,1208,1135,73,0,231,3,1,230,212,18
-09,Treptow-Köpenick,301,Urnenwahlbezirk,1752,1631,121,0,415,1,0,415,347,68
-09,Treptow-Köpenick,302,Urnenwahlbezirk,3943,3555,388,0,865,0,0,865,738,127
-09,Treptow-Köpenick,303,Urnenwahlbezirk,1761,1643,118,0,391,3,0,391,337,54
-09,Treptow-Köpenick,304,Urnenwahlbezirk,5526,5125,401,0,1057,2,2,1055,885,170
-09,Treptow-Köpenick,305,Urnenwahlbezirk,3042,2807,235,0,589,2,2,587,485,102
-09,Treptow-Köpenick,306,Urnenwahlbezirk,3104,2795,309,0,687,0,1,686,562,124
-09,Treptow-Köpenick,307,Urnenwahlbezirk,1921,1731,190,0,473,2,0,473,382,91
-09,Treptow-Köpenick,308,Urnenwahlbezirk,1912,1809,103,0,340,0,0,340,290,50
-09,Treptow-Köpenick,309,Urnenwahlbezirk,4297,3930,367,0,880,5,2,878,702,176
-09,Treptow-Köpenick,310,Urnenwahlbezirk,1964,1832,132,0,260,2,0,260,218,42
-09,Treptow-Köpenick,311,Urnenwahlbezirk,2864,2654,210,0,410,2,1,409,355,54
-09,Treptow-Köpenick,312,Urnenwahlbezirk,1936,1850,86,0,188,0,1,187,157,30
-09,Treptow-Köpenick,401,Urnenwahlbezirk,3675,3349,326,0,828,5,3,825,691,134
-09,Treptow-Köpenick,402,Urnenwahlbezirk,3491,3136,355,0,830,2,1,829,695,134
-09,Treptow-Köpenick,403,Urnenwahlbezirk,1973,1755,218,0,447,6,0,447,366,81
-09,Treptow-Köpenick,404,Urnenwahlbezirk,3447,3215,232,0,711,5,0,711,619,92
-09,Treptow-Köpenick,405,Urnenwahlbezirk,4461,4117,344,0,663,0,3,660,581,79
-09,Treptow-Köpenick,406,Urnenwahlbezirk,1255,1149,106,0,312,0,0,312,246,66
-09,Treptow-Köpenick,407,Urnenwahlbezirk,2105,1928,177,0,450,1,0,450,378,72
-09,Treptow-Köpenick,408,Urnenwahlbezirk,1286,1179,107,0,310,0,0,310,259,51
-09,Treptow-Köpenick,409,Urnenwahlbezirk,1472,1286,186,0,435,3,0,435,376,59
-09,Treptow-Köpenick,410,Urnenwahlbezirk,791,695,96,0,202,0,0,202,178,24
-09,Treptow-Köpenick,411,Urnenwahlbezirk,715,641,74,0,159,0,0,159,131,28
-09,Treptow-Köpenick,412,Urnenwahlbezirk,368,313,55,0,84,0,0,84,63,21
-09,Treptow-Köpenick,413,Urnenwahlbezirk,1881,1713,168,0,432,1,0,432,364,68
-09,Treptow-Köpenick,414,Urnenwahlbezirk,1499,1408,91,0,378,2,0,378,309,69
-09,Treptow-Köpenick,415,Urnenwahlbezirk,3009,2779,230,0,591,2,2,589,495,94
-09,Treptow-Köpenick,416,Urnenwahlbezirk,1599,1426,173,0,347,0,0,347,274,73
-09,Treptow-Köpenick,501,Urnenwahlbezirk,1525,1431,94,0,341,0,0,341,302,39
-09,Treptow-Köpenick,502,Urnenwahlbezirk,1810,1715,95,0,343,0,0,343,282,61
-09,Treptow-Köpenick,503,Urnenwahlbezirk,4605,4252,353,0,923,3,2,921,777,144
-09,Treptow-Köpenick,504,Urnenwahlbezirk,1270,1154,116,0,288,0,0,288,240,48
-09,Treptow-Köpenick,505,Urnenwahlbezirk,899,857,42,0,204,0,1,203,181,22
-09,Treptow-Köpenick,506,Urnenwahlbezirk,2818,2647,171,0,547,3,0,547,476,71
-09,Treptow-Köpenick,507,Urnenwahlbezirk,1660,1505,155,0,366,3,2,364,294,70
-09,Treptow-Köpenick,508,Urnenwahlbezirk,1514,1394,120,0,301,1,0,301,252,49
-09,Treptow-Köpenick,509,Urnenwahlbezirk,4142,3699,443,0,880,3,0,880,729,151
-09,Treptow-Köpenick,510,Urnenwahlbezirk,2133,1952,181,0,504,0,0,504,415,89
-09,Treptow-Köpenick,511,Urnenwahlbezirk,1926,1754,172,0,457,0,0,457,353,104
-09,Treptow-Köpenick,512,Urnenwahlbezirk,3604,3306,298,0,930,2,3,927,784,143
-09,Treptow-Köpenick,513,Urnenwahlbezirk,1983,1775,208,0,480,5,0,480,411,69
-09,Treptow-Köpenick,601,Urnenwahlbezirk,3327,2989,338,0,976,7,3,973,856,117
-09,Treptow-Köpenick,602,Urnenwahlbezirk,1922,1721,201,0,543,9,0,543,476,67
-09,Treptow-Köpenick,603,Urnenwahlbezirk,1400,1270,130,0,426,3,0,426,386,40
-09,Treptow-Köpenick,604,Urnenwahlbezirk,2204,1957,247,0,534,6,0,534,475,59
-09,Treptow-Köpenick,605,Urnenwahlbezirk,3613,3280,333,0,904,3,0,904,815,89
-09,Treptow-Köpenick,606,Urnenwahlbezirk,2269,2016,253,0,628,0,1,627,546,81
-09,Treptow-Köpenick,607,Urnenwahlbezirk,4559,4073,486,0,1173,5,1,1172,960,212
-09,Treptow-Köpenick,608,Urnenwahlbezirk,4230,3795,435,0,917,2,2,915,761,154
-09,Treptow-Köpenick,609,Urnenwahlbezirk,1761,1578,183,0,474,2,0,474,370,104
-09,Treptow-Köpenick,610,Urnenwahlbezirk,3057,2661,396,0,767,2,0,767,651,116
-09,Treptow-Köpenick,611,Urnenwahlbezirk,1516,1337,179,0,404,0,0,404,360,44
-09,Treptow-Köpenick,612,Urnenwahlbezirk,1496,1362,134,0,385,0,0,385,318,67
-09,Treptow-Köpenick,613,Urnenwahlbezirk,1338,1206,132,0,359,2,0,359,326,33
+1,Mitte,100,Urnenwahlbezirk,3277,2926,351,0,617,3,5,612,544,68
+1,Mitte,101,Urnenwahlbezirk,2440,2150,290,0,434,4,1,433,346,87
+1,Mitte,105,Urnenwahlbezirk,3905,3450,455,0,890,2,1,889,751,138
+1,Mitte,107,Urnenwahlbezirk,3671,3303,368,0,913,1,1,912,828,84
+1,Mitte,111,Urnenwahlbezirk,2427,2232,195,0,695,0,1,694,597,97
+1,Mitte,112,Urnenwahlbezirk,2124,1907,217,0,532,3,0,532,484,48
+1,Mitte,115,Urnenwahlbezirk,3277,2971,306,0,804,0,0,804,692,112
+1,Mitte,118,Urnenwahlbezirk,2365,2106,259,0,541,5,0,541,497,44
+1,Mitte,120,Urnenwahlbezirk,3546,3335,211,0,596,2,0,596,511,85
+1,Mitte,121,Urnenwahlbezirk,2742,2472,270,0,584,4,0,584,521,63
+1,Mitte,129,Urnenwahlbezirk,3130,2895,235,0,503,1,3,500,434,66
+1,Mitte,200,Urnenwahlbezirk,2065,1830,235,0,424,1,1,423,355,68
+1,Mitte,202,Urnenwahlbezirk,3526,3122,404,0,789,0,0,789,664,125
+1,Mitte,205,Urnenwahlbezirk,2989,2651,338,0,628,2,0,628,561,67
+1,Mitte,207,Urnenwahlbezirk,3096,2625,471,0,617,6,0,617,534,83
+1,Mitte,209,Urnenwahlbezirk,3724,3375,349,0,805,5,1,804,735,69
+1,Mitte,212,Urnenwahlbezirk,3291,2913,378,0,733,1,2,731,625,106
+1,Mitte,214,Urnenwahlbezirk,2989,2675,314,0,698,1,0,698,600,98
+1,Mitte,217,Urnenwahlbezirk,2201,1927,274,0,449,0,0,449,388,61
+1,Mitte,219,Urnenwahlbezirk,3639,3208,431,0,900,7,1,899,752,147
+1,Mitte,221,Urnenwahlbezirk,3935,3533,402,0,946,2,0,946,815,131
+1,Mitte,300,Urnenwahlbezirk,3242,2985,257,0,579,5,1,578,470,108
+1,Mitte,302,Urnenwahlbezirk,2770,2466,304,0,634,6,3,631,530,101
+1,Mitte,305,Urnenwahlbezirk,3247,2884,363,0,890,10,3,887,753,134
+1,Mitte,307,Urnenwahlbezirk,2937,2694,243,0,594,2,1,593,527,66
+1,Mitte,308,Urnenwahlbezirk,2201,2014,187,0,391,4,0,391,357,34
+1,Mitte,312,Urnenwahlbezirk,2443,2166,277,0,724,3,0,724,638,86
+1,Mitte,315,Urnenwahlbezirk,2269,1991,278,0,552,2,1,551,455,96
+1,Mitte,317,Urnenwahlbezirk,3550,3157,393,0,927,3,0,927,752,175
+1,Mitte,321,Urnenwahlbezirk,2263,1986,277,0,327,1,1,326,269,57
+1,Mitte,323,Urnenwahlbezirk,2183,1947,236,0,411,6,1,410,362,48
+1,Mitte,325,Urnenwahlbezirk,2763,2495,268,0,480,2,0,480,421,59
+1,Mitte,327,Urnenwahlbezirk,3074,2837,237,0,537,2,1,536,485,51
+1,Mitte,400,Urnenwahlbezirk,3537,3329,208,0,586,2,1,585,522,63
+1,Mitte,403,Urnenwahlbezirk,2711,2483,228,0,601,6,1,600,534,66
+1,Mitte,404,Urnenwahlbezirk,2607,2386,221,0,583,5,3,580,519,61
+1,Mitte,405,Urnenwahlbezirk,1910,1780,130,0,386,1,0,386,355,31
+1,Mitte,409,Urnenwahlbezirk,3168,2899,269,0,801,1,2,799,719,80
+1,Mitte,414,Urnenwahlbezirk,2132,1972,160,0,455,2,1,454,397,57
+1,Mitte,415,Urnenwahlbezirk,2934,2736,198,0,584,0,1,583,521,62
+1,Mitte,416,Urnenwahlbezirk,3804,3481,323,0,837,2,1,836,745,91
+1,Mitte,421,Urnenwahlbezirk,2993,2756,237,0,726,5,3,723,648,75
+1,Mitte,425,Urnenwahlbezirk,2932,2710,222,0,621,4,3,618,560,58
+1,Mitte,427,Urnenwahlbezirk,3059,2780,279,0,686,5,3,683,644,39
+1,Mitte,431,Urnenwahlbezirk,3259,3034,225,0,677,2,1,676,628,48
+1,Mitte,500,Urnenwahlbezirk,3118,2877,241,0,473,3,2,471,408,63
+1,Mitte,504,Urnenwahlbezirk,3153,2932,221,0,496,0,0,496,446,50
+1,Mitte,505,Urnenwahlbezirk,2722,2484,238,0,545,0,1,544,365,179
+1,Mitte,508,Urnenwahlbezirk,2173,2002,171,0,411,0,0,411,325,86
+1,Mitte,510,Urnenwahlbezirk,2105,1984,121,0,314,1,0,314,260,54
+1,Mitte,512,Urnenwahlbezirk,2188,2029,159,0,436,1,0,436,385,51
+1,Mitte,513,Urnenwahlbezirk,2593,2392,201,0,397,1,1,396,357,39
+1,Mitte,516,Urnenwahlbezirk,3317,3054,263,0,673,3,2,671,598,73
+1,Mitte,519,Urnenwahlbezirk,2437,2223,214,0,562,4,2,560,451,109
+1,Mitte,522,Urnenwahlbezirk,2371,2239,132,0,317,2,1,316,265,51
+1,Mitte,524,Urnenwahlbezirk,2289,2107,182,0,489,3,0,489,466,23
+1,Mitte,528,Urnenwahlbezirk,3398,3170,228,0,803,2,7,796,744,52
+1,Mitte,600,Urnenwahlbezirk,2304,2149,155,0,357,0,1,356,321,35
+1,Mitte,601,Urnenwahlbezirk,3300,3097,203,0,559,0,1,558,523,35
+1,Mitte,602,Urnenwahlbezirk,1967,1826,141,0,437,0,2,435,379,56
+1,Mitte,603,Urnenwahlbezirk,2767,2566,201,0,369,0,0,369,340,29
+1,Mitte,605,Urnenwahlbezirk,3174,2977,197,0,585,0,1,584,546,38
+1,Mitte,612,Urnenwahlbezirk,2273,2128,145,0,362,0,2,360,341,19
+1,Mitte,613,Urnenwahlbezirk,3400,3164,236,0,571,0,2,569,527,42
+1,Mitte,617,Urnenwahlbezirk,2359,2212,147,0,335,0,0,335,307,28
+1,Mitte,620,Urnenwahlbezirk,2049,1929,120,0,316,0,1,315,268,47
+1,Mitte,623,Urnenwahlbezirk,2936,2746,190,0,471,0,1,470,417,53
+1,Mitte,624,Urnenwahlbezirk,2686,2529,157,0,488,0,1,487,442,45
+1,Mitte,627,Urnenwahlbezirk,2853,2718,135,0,408,0,2,406,369,37
+1,Mitte,632,Urnenwahlbezirk,2331,2121,210,0,509,0,1,508,456,52
+1,Mitte,634,Urnenwahlbezirk,2800,2624,176,0,572,0,1,571,510,61
+2,Friedrichshain-Kreuzberg,101,Urnenwahlbezirk,1931,1825,106,0,325,0,1,324,278,46
+2,Friedrichshain-Kreuzberg,102,Urnenwahlbezirk,3273,2990,283,0,433,7,2,431,391,40
+2,Friedrichshain-Kreuzberg,103,Urnenwahlbezirk,2060,1846,214,0,547,7,0,547,520,27
+2,Friedrichshain-Kreuzberg,104,Urnenwahlbezirk,1992,1675,317,0,571,19,0,571,538,33
+2,Friedrichshain-Kreuzberg,105,Urnenwahlbezirk,2008,1773,235,0,596,5,0,596,558,38
+2,Friedrichshain-Kreuzberg,106,Urnenwahlbezirk,1732,1547,185,0,528,3,1,527,493,34
+2,Friedrichshain-Kreuzberg,107,Urnenwahlbezirk,1811,1626,185,0,483,4,0,483,454,29
+2,Friedrichshain-Kreuzberg,108,Urnenwahlbezirk,2150,1885,265,0,566,6,3,563,503,60
+2,Friedrichshain-Kreuzberg,109,Urnenwahlbezirk,1835,1603,232,0,612,5,0,612,580,32
+2,Friedrichshain-Kreuzberg,110,Urnenwahlbezirk,1956,1728,228,0,702,5,0,702,673,29
+2,Friedrichshain-Kreuzberg,111,Urnenwahlbezirk,2095,1903,192,0,718,4,0,718,675,43
+2,Friedrichshain-Kreuzberg,112,Urnenwahlbezirk,1959,1739,220,0,638,8,1,637,599,38
+2,Friedrichshain-Kreuzberg,113,Urnenwahlbezirk,1873,1604,269,0,652,9,2,650,623,27
+2,Friedrichshain-Kreuzberg,114,Urnenwahlbezirk,1914,1628,286,0,630,7,0,630,606,24
+2,Friedrichshain-Kreuzberg,115,Urnenwahlbezirk,1986,1697,289,0,718,9,1,717,658,59
+2,Friedrichshain-Kreuzberg,116,Urnenwahlbezirk,1978,1771,207,0,640,4,0,640,609,31
+2,Friedrichshain-Kreuzberg,117,Urnenwahlbezirk,1802,1573,229,0,513,12,1,512,492,20
+2,Friedrichshain-Kreuzberg,118,Urnenwahlbezirk,1915,1661,254,0,566,6,0,566,555,11
+2,Friedrichshain-Kreuzberg,119,Urnenwahlbezirk,1875,1646,229,0,649,8,2,647,619,28
+2,Friedrichshain-Kreuzberg,120,Urnenwahlbezirk,1908,1683,225,0,628,5,0,628,598,30
+2,Friedrichshain-Kreuzberg,121,Urnenwahlbezirk,1840,1612,228,0,569,12,0,569,551,18
+2,Friedrichshain-Kreuzberg,122,Urnenwahlbezirk,1783,1589,194,0,559,4,0,559,531,28
+2,Friedrichshain-Kreuzberg,123,Urnenwahlbezirk,1972,1722,250,0,620,12,0,620,604,16
+2,Friedrichshain-Kreuzberg,124,Urnenwahlbezirk,2023,1761,262,0,713,5,0,713,682,31
+2,Friedrichshain-Kreuzberg,125,Urnenwahlbezirk,1917,1705,212,0,639,7,2,637,616,21
+2,Friedrichshain-Kreuzberg,126,Urnenwahlbezirk,1881,1657,224,0,578,6,0,578,566,12
+2,Friedrichshain-Kreuzberg,127,Urnenwahlbezirk,1982,1685,297,0,668,16,0,668,659,9
+2,Friedrichshain-Kreuzberg,128,Urnenwahlbezirk,1752,1535,217,0,586,13,1,585,571,14
+2,Friedrichshain-Kreuzberg,129,Urnenwahlbezirk,2019,1767,252,0,720,9,1,719,700,19
+2,Friedrichshain-Kreuzberg,130,Urnenwahlbezirk,1798,1702,96,0,281,3,0,281,246,35
+2,Friedrichshain-Kreuzberg,131,Urnenwahlbezirk,1741,1615,126,0,339,2,1,338,306,32
+2,Friedrichshain-Kreuzberg,132,Urnenwahlbezirk,1975,1780,195,0,670,7,0,670,645,25
+2,Friedrichshain-Kreuzberg,133,Urnenwahlbezirk,1731,1506,225,0,452,10,0,452,423,29
+2,Friedrichshain-Kreuzberg,134,Urnenwahlbezirk,1954,1837,117,0,303,3,1,302,272,30
+2,Friedrichshain-Kreuzberg,135,Urnenwahlbezirk,2045,1917,128,0,337,2,0,337,300,37
+2,Friedrichshain-Kreuzberg,136,Urnenwahlbezirk,1797,1679,118,0,235,0,2,233,195,38
+2,Friedrichshain-Kreuzberg,137,Urnenwahlbezirk,3305,3099,206,0,688,2,0,688,632,56
+2,Friedrichshain-Kreuzberg,138,Urnenwahlbezirk,1906,1652,254,0,597,6,1,596,578,18
+2,Friedrichshain-Kreuzberg,139,Urnenwahlbezirk,3424,2983,441,0,1105,11,1,1104,1078,26
+2,Friedrichshain-Kreuzberg,140,Urnenwahlbezirk,3262,2893,369,0,829,7,0,829,793,36
+2,Friedrichshain-Kreuzberg,141,Urnenwahlbezirk,1705,1472,233,0,532,11,1,531,512,19
+2,Friedrichshain-Kreuzberg,142,Urnenwahlbezirk,2141,1957,184,0,580,2,5,575,491,84
+2,Friedrichshain-Kreuzberg,143,Urnenwahlbezirk,2042,1838,204,0,462,1,1,461,392,69
+2,Friedrichshain-Kreuzberg,144,Urnenwahlbezirk,2161,1941,220,0,491,0,0,491,428,63
+2,Friedrichshain-Kreuzberg,145,Urnenwahlbezirk,2150,1930,220,0,564,2,1,563,495,68
+2,Friedrichshain-Kreuzberg,146,Urnenwahlbezirk,1826,1675,151,0,443,0,1,442,360,82
+2,Friedrichshain-Kreuzberg,147,Urnenwahlbezirk,2218,2018,200,0,495,4,2,493,455,38
+2,Friedrichshain-Kreuzberg,148,Urnenwahlbezirk,2279,2079,200,0,662,6,0,662,583,79
+2,Friedrichshain-Kreuzberg,149,Urnenwahlbezirk,2048,1817,231,0,597,5,0,597,546,51
+2,Friedrichshain-Kreuzberg,150,Urnenwahlbezirk,2153,1950,203,0,566,7,0,566,503,63
+2,Friedrichshain-Kreuzberg,151,Urnenwahlbezirk,2217,1957,260,0,530,6,0,530,463,67
+2,Friedrichshain-Kreuzberg,152,Urnenwahlbezirk,2234,1998,236,0,453,0,1,452,391,61
+2,Friedrichshain-Kreuzberg,153,Urnenwahlbezirk,2034,1814,220,0,398,0,2,396,346,50
+2,Friedrichshain-Kreuzberg,154,Urnenwahlbezirk,3299,3023,276,0,700,3,0,700,596,104
+2,Friedrichshain-Kreuzberg,155,Urnenwahlbezirk,1728,1590,138,0,509,4,2,507,468,39
+2,Friedrichshain-Kreuzberg,156,Urnenwahlbezirk,1851,1694,157,0,500,7,2,498,461,37
+2,Friedrichshain-Kreuzberg,157,Urnenwahlbezirk,3302,2916,386,0,1027,1,0,1027,974,53
+2,Friedrichshain-Kreuzberg,158,Urnenwahlbezirk,1822,1653,169,0,520,2,1,519,477,42
+2,Friedrichshain-Kreuzberg,159,Urnenwahlbezirk,3480,3091,389,0,1003,12,0,1003,946,57
+2,Friedrichshain-Kreuzberg,160,Urnenwahlbezirk,3242,2842,400,0,944,11,1,943,888,55
+2,Friedrichshain-Kreuzberg,161,Urnenwahlbezirk,1733,1529,204,0,464,5,0,464,418,46
+2,Friedrichshain-Kreuzberg,162,Urnenwahlbezirk,2184,1961,223,0,694,2,1,693,657,36
+2,Friedrichshain-Kreuzberg,163,Urnenwahlbezirk,1913,1667,246,0,546,3,2,544,524,20
+2,Friedrichshain-Kreuzberg,164,Urnenwahlbezirk,1919,1724,195,0,541,16,0,541,503,38
+2,Friedrichshain-Kreuzberg,165,Urnenwahlbezirk,1787,1600,187,0,533,5,2,531,509,22
+2,Friedrichshain-Kreuzberg,166,Urnenwahlbezirk,2054,1862,192,0,644,2,1,643,598,45
+2,Friedrichshain-Kreuzberg,167,Urnenwahlbezirk,1854,1644,210,0,486,2,1,485,462,23
+2,Friedrichshain-Kreuzberg,168,Urnenwahlbezirk,1996,1831,165,0,620,3,0,620,545,75
+2,Friedrichshain-Kreuzberg,169,Urnenwahlbezirk,1983,1791,192,0,542,4,1,541,500,41
+2,Friedrichshain-Kreuzberg,170,Urnenwahlbezirk,2161,1966,195,0,620,1,0,620,569,51
+2,Friedrichshain-Kreuzberg,171,Urnenwahlbezirk,3109,2773,336,0,780,12,0,780,725,55
+2,Friedrichshain-Kreuzberg,172,Urnenwahlbezirk,2166,1886,280,0,547,12,1,546,517,29
+2,Friedrichshain-Kreuzberg,173,Urnenwahlbezirk,1897,1629,268,0,549,5,1,548,528,20
+2,Friedrichshain-Kreuzberg,174,Urnenwahlbezirk,2043,1807,236,0,681,5,0,681,646,35
+2,Friedrichshain-Kreuzberg,175,Urnenwahlbezirk,2014,1801,213,0,654,8,1,653,608,45
+2,Friedrichshain-Kreuzberg,176,Urnenwahlbezirk,1735,1558,177,0,504,1,1,503,482,21
+2,Friedrichshain-Kreuzberg,177,Urnenwahlbezirk,2080,1835,245,0,689,7,0,689,659,30
+2,Friedrichshain-Kreuzberg,178,Urnenwahlbezirk,2193,1959,234,0,726,4,0,726,673,53
+2,Friedrichshain-Kreuzberg,179,Urnenwahlbezirk,3344,2971,373,0,796,12,0,796,752,44
+2,Friedrichshain-Kreuzberg,180,Urnenwahlbezirk,1419,1282,137,0,370,9,0,370,345,25
+2,Friedrichshain-Kreuzberg,181,Urnenwahlbezirk,2305,2113,192,0,630,5,0,630,522,108
+3,Pankow,101,Urnenwahlbezirk,1798,1585,213,0,332,2,1,331,284,47
+3,Pankow,102,Urnenwahlbezirk,1891,1715,176,0,316,1,0,316,272,44
+3,Pankow,103,Urnenwahlbezirk,1892,1759,133,0,322,0,1,321,273,48
+3,Pankow,104,Urnenwahlbezirk,1614,1500,114,0,431,1,0,431,368,63
+3,Pankow,105,Urnenwahlbezirk,1931,1834,97,0,274,0,0,274,245,29
+3,Pankow,106,Urnenwahlbezirk,1810,1680,130,0,359,1,1,358,313,45
+3,Pankow,107,Urnenwahlbezirk,1540,1480,60,0,225,0,0,225,198,27
+3,Pankow,108,Urnenwahlbezirk,3201,3001,200,0,536,0,1,535,450,85
+3,Pankow,109,Urnenwahlbezirk,1214,1121,93,0,251,0,0,251,194,57
+3,Pankow,110,Urnenwahlbezirk,2776,2531,245,0,541,7,0,541,419,122
+3,Pankow,111,Urnenwahlbezirk,3200,2831,369,0,768,2,3,765,616,149
+3,Pankow,112,Urnenwahlbezirk,1773,1644,129,0,439,1,0,439,366,73
+3,Pankow,113,Urnenwahlbezirk,1756,1621,135,0,332,1,1,331,234,97
+3,Pankow,114,Urnenwahlbezirk,3160,2884,276,0,628,2,1,627,534,93
+3,Pankow,115,Urnenwahlbezirk,1438,1327,111,0,318,1,0,318,240,78
+3,Pankow,116,Urnenwahlbezirk,1082,1004,78,0,214,1,0,214,163,51
+3,Pankow,201,Urnenwahlbezirk,655,638,17,0,157,0,2,155,124,31
+3,Pankow,202,Urnenwahlbezirk,830,782,48,0,153,0,0,153,133,20
+3,Pankow,203,Urnenwahlbezirk,3659,3360,299,0,701,3,0,701,581,120
+3,Pankow,204,Urnenwahlbezirk,3647,3340,307,0,612,2,0,612,520,92
+3,Pankow,205,Urnenwahlbezirk,1758,1602,156,0,383,0,0,383,313,70
+3,Pankow,206,Urnenwahlbezirk,3543,3249,294,0,805,1,0,805,679,126
+3,Pankow,207,Urnenwahlbezirk,2976,2707,269,0,700,5,0,700,572,128
+3,Pankow,208,Urnenwahlbezirk,1703,1518,185,0,405,1,1,404,342,62
+3,Pankow,209,Urnenwahlbezirk,1868,1716,152,0,421,2,2,419,355,64
+3,Pankow,210,Urnenwahlbezirk,2805,2477,328,0,672,2,1,671,595,76
+3,Pankow,211,Urnenwahlbezirk,4896,4393,503,0,1079,6,2,1077,904,173
+3,Pankow,212,Urnenwahlbezirk,1928,1743,185,0,470,1,1,469,403,66
+3,Pankow,213,Urnenwahlbezirk,1887,1731,156,0,450,2,0,450,359,91
+3,Pankow,214,Urnenwahlbezirk,1790,1628,162,0,378,4,0,378,305,73
+3,Pankow,215,Urnenwahlbezirk,1872,1719,153,0,342,1,0,342,284,58
+3,Pankow,301,Urnenwahlbezirk,3390,3049,341,0,659,0,3,656,542,114
+3,Pankow,302,Urnenwahlbezirk,3862,3425,437,0,849,1,1,848,740,108
+3,Pankow,303,Urnenwahlbezirk,3173,2854,319,0,730,3,0,730,622,108
+3,Pankow,304,Urnenwahlbezirk,1785,1552,233,0,415,0,1,414,354,60
+3,Pankow,305,Urnenwahlbezirk,5212,4571,641,0,1393,14,1,1392,1246,146
+3,Pankow,306,Urnenwahlbezirk,2819,2519,300,0,689,4,0,689,616,73
+3,Pankow,307,Urnenwahlbezirk,1717,1516,201,0,504,5,1,503,454,49
+3,Pankow,308,Urnenwahlbezirk,1821,1625,196,0,519,9,2,517,438,79
+3,Pankow,309,Urnenwahlbezirk,1806,1591,215,0,462,6,0,462,409,53
+3,Pankow,310,Urnenwahlbezirk,5261,4654,607,0,1500,21,6,1494,1377,117
+3,Pankow,401,Urnenwahlbezirk,1921,1808,113,0,380,2,0,380,321,59
+3,Pankow,402,Urnenwahlbezirk,3569,3255,314,0,711,3,1,710,608,102
+3,Pankow,403,Urnenwahlbezirk,1815,1660,155,0,411,4,0,411,347,64
+3,Pankow,404,Urnenwahlbezirk,1326,1202,124,0,283,0,0,283,260,23
+3,Pankow,405,Urnenwahlbezirk,3103,2877,226,0,491,3,0,491,427,64
+3,Pankow,406,Urnenwahlbezirk,5334,4942,392,0,924,2,1,923,786,137
+3,Pankow,407,Urnenwahlbezirk,3140,2833,307,0,501,0,0,501,414,87
+3,Pankow,408,Urnenwahlbezirk,1717,1555,162,0,309,2,0,309,263,46
+3,Pankow,409,Urnenwahlbezirk,1661,1469,192,0,303,0,0,303,255,48
+3,Pankow,410,Urnenwahlbezirk,2047,1810,237,0,441,6,1,440,381,59
+3,Pankow,411,Urnenwahlbezirk,1892,1635,257,0,388,3,2,386,315,71
+3,Pankow,412,Urnenwahlbezirk,1914,1718,196,0,371,2,3,368,301,67
+3,Pankow,501,Urnenwahlbezirk,3374,3003,371,0,922,3,2,920,811,109
+3,Pankow,502,Urnenwahlbezirk,1308,1153,155,0,333,2,0,333,299,34
+3,Pankow,503,Urnenwahlbezirk,2936,2599,337,0,772,0,1,771,711,60
+3,Pankow,504,Urnenwahlbezirk,2751,2418,333,0,581,8,1,580,521,59
+3,Pankow,505,Urnenwahlbezirk,3105,2780,325,0,804,3,1,803,719,84
+3,Pankow,506,Urnenwahlbezirk,2930,2572,358,0,665,8,2,663,588,75
+3,Pankow,507,Urnenwahlbezirk,3085,2731,354,0,788,2,0,788,694,94
+3,Pankow,508,Urnenwahlbezirk,1628,1449,179,0,313,3,0,313,278,35
+3,Pankow,509,Urnenwahlbezirk,3390,3073,317,0,655,3,2,653,587,66
+3,Pankow,510,Urnenwahlbezirk,1138,1058,80,0,237,0,1,236,206,30
+3,Pankow,511,Urnenwahlbezirk,3071,2805,266,0,716,3,3,713,555,158
+3,Pankow,512,Urnenwahlbezirk,1460,1323,137,0,339,0,0,339,300,39
+3,Pankow,601,Urnenwahlbezirk,1907,1758,149,0,472,2,3,469,430,39
+3,Pankow,602,Urnenwahlbezirk,1813,1597,216,0,454,11,1,453,433,20
+3,Pankow,603,Urnenwahlbezirk,3502,3131,371,0,1066,9,2,1064,976,88
+3,Pankow,604,Urnenwahlbezirk,1853,1628,225,0,544,11,1,543,511,32
+3,Pankow,605,Urnenwahlbezirk,1625,1417,208,0,502,6,0,502,460,42
+3,Pankow,606,Urnenwahlbezirk,3218,2801,417,0,901,15,2,899,834,65
+3,Pankow,607,Urnenwahlbezirk,1649,1463,186,0,491,9,1,490,451,39
+3,Pankow,608,Urnenwahlbezirk,3172,2728,444,0,848,24,2,846,793,53
+3,Pankow,609,Urnenwahlbezirk,3319,2818,501,0,948,13,0,948,891,57
+3,Pankow,610,Urnenwahlbezirk,2474,2154,320,0,644,11,1,643,594,49
+3,Pankow,611,Urnenwahlbezirk,2428,2072,356,0,721,38,2,719,666,53
+3,Pankow,612,Urnenwahlbezirk,3221,2778,443,0,835,16,1,834,795,39
+3,Pankow,613,Urnenwahlbezirk,3340,2903,437,0,821,13,0,821,758,63
+3,Pankow,701,Urnenwahlbezirk,1536,1427,109,0,242,0,0,242,220,22
+3,Pankow,702,Urnenwahlbezirk,1308,1217,91,0,282,2,0,282,244,38
+3,Pankow,703,Urnenwahlbezirk,1668,1562,106,0,317,1,0,317,280,37
+3,Pankow,704,Urnenwahlbezirk,2718,2535,183,0,554,4,0,554,504,50
+3,Pankow,705,Urnenwahlbezirk,1666,1526,140,0,341,1,0,341,310,31
+3,Pankow,706,Urnenwahlbezirk,4937,4535,402,0,1063,7,1,1062,934,128
+3,Pankow,707,Urnenwahlbezirk,3342,3071,271,0,825,5,2,823,738,85
+3,Pankow,708,Urnenwahlbezirk,1975,1740,235,0,344,2,0,344,293,51
+3,Pankow,709,Urnenwahlbezirk,4790,4162,628,0,1256,11,3,1253,1165,88
+3,Pankow,710,Urnenwahlbezirk,2693,2359,334,0,718,8,1,717,662,55
+3,Pankow,711,Urnenwahlbezirk,1508,1355,153,0,438,8,0,438,403,35
+3,Pankow,712,Urnenwahlbezirk,1104,1015,89,0,251,0,0,251,224,27
+3,Pankow,801,Urnenwahlbezirk,1924,1719,205,0,406,3,0,406,355,51
+3,Pankow,802,Urnenwahlbezirk,3271,2862,409,0,912,18,2,910,842,68
+3,Pankow,803,Urnenwahlbezirk,2897,2555,342,0,818,8,0,818,750,68
+3,Pankow,804,Urnenwahlbezirk,4629,4011,618,0,1169,5,1,1168,1072,96
+3,Pankow,805,Urnenwahlbezirk,1799,1629,170,0,400,2,3,397,355,42
+3,Pankow,806,Urnenwahlbezirk,3134,2734,400,0,872,11,1,871,814,57
+3,Pankow,807,Urnenwahlbezirk,1665,1429,236,0,503,8,0,503,456,47
+3,Pankow,808,Urnenwahlbezirk,1511,1293,218,0,427,1,0,427,385,42
+3,Pankow,809,Urnenwahlbezirk,2968,2573,395,0,890,9,0,890,831,59
+3,Pankow,810,Urnenwahlbezirk,2764,2444,320,0,725,7,2,723,670,53
+3,Pankow,811,Urnenwahlbezirk,2275,1981,294,0,606,18,1,605,549,56
+3,Pankow,901,Urnenwahlbezirk,3026,2771,255,0,843,2,0,843,748,95
+3,Pankow,902,Urnenwahlbezirk,3324,3100,224,0,842,4,1,841,734,107
+3,Pankow,903,Urnenwahlbezirk,2119,1954,165,0,471,2,2,469,412,57
+3,Pankow,904,Urnenwahlbezirk,2439,2162,277,0,552,1,0,552,457,95
+3,Pankow,905,Urnenwahlbezirk,1651,1504,147,0,314,0,1,313,277,36
+3,Pankow,906,Urnenwahlbezirk,2384,2170,214,0,543,1,0,543,472,71
+3,Pankow,907,Urnenwahlbezirk,2870,2655,215,0,653,5,1,652,588,64
+3,Pankow,908,Urnenwahlbezirk,3480,3190,290,0,932,5,3,929,840,89
+3,Pankow,909,Urnenwahlbezirk,2675,2436,239,0,641,5,2,639,598,41
+3,Pankow,910,Urnenwahlbezirk,3077,2704,373,0,874,5,0,874,802,72
+3,Pankow,911,Urnenwahlbezirk,3449,3086,363,0,1056,11,2,1054,930,124
+3,Pankow,912,Urnenwahlbezirk,2468,2213,255,0,522,4,2,520,442,78
+3,Pankow,913,Urnenwahlbezirk,1261,1128,133,0,373,5,0,373,297,76
+4,Charlottenburg-Wilmersdorf,101,Urnenwahlbezirk,3317,3075,242,0,533,0,2,531,437,94
+4,Charlottenburg-Wilmersdorf,102,Urnenwahlbezirk,3572,3347,225,0,487,0,0,487,406,81
+4,Charlottenburg-Wilmersdorf,103,Urnenwahlbezirk,2443,2267,176,0,357,0,1,356,282,74
+4,Charlottenburg-Wilmersdorf,104,Urnenwahlbezirk,3069,2820,249,0,376,0,0,376,281,95
+4,Charlottenburg-Wilmersdorf,105,Urnenwahlbezirk,2575,2390,185,0,513,5,1,512,433,79
+4,Charlottenburg-Wilmersdorf,106,Urnenwahlbezirk,2811,2584,227,0,607,0,1,606,539,67
+4,Charlottenburg-Wilmersdorf,107,Urnenwahlbezirk,4402,3995,407,0,967,2,0,967,818,149
+4,Charlottenburg-Wilmersdorf,108,Urnenwahlbezirk,938,810,128,0,272,0,0,272,189,83
+4,Charlottenburg-Wilmersdorf,109,Urnenwahlbezirk,2592,2214,378,0,536,9,1,535,366,169
+4,Charlottenburg-Wilmersdorf,110,Urnenwahlbezirk,3039,2644,395,0,644,6,0,644,450,194
+4,Charlottenburg-Wilmersdorf,111,Urnenwahlbezirk,3511,3062,449,0,809,5,1,808,561,247
+4,Charlottenburg-Wilmersdorf,112,Urnenwahlbezirk,2539,2268,271,0,602,2,2,600,433,167
+4,Charlottenburg-Wilmersdorf,113,Urnenwahlbezirk,3353,3072,281,0,556,3,5,551,491,60
+4,Charlottenburg-Wilmersdorf,114,Urnenwahlbezirk,2779,2364,415,0,552,1,0,552,367,185
+4,Charlottenburg-Wilmersdorf,115,Urnenwahlbezirk,2511,2151,360,0,591,6,0,591,423,168
+4,Charlottenburg-Wilmersdorf,116,Urnenwahlbezirk,3865,3397,468,0,802,2,3,799,621,178
+4,Charlottenburg-Wilmersdorf,117,Urnenwahlbezirk,1244,1048,196,0,290,10,0,290,217,73
+4,Charlottenburg-Wilmersdorf,118,Urnenwahlbezirk,3002,2670,332,0,804,12,1,803,654,149
+4,Charlottenburg-Wilmersdorf,119,Urnenwahlbezirk,1551,1420,131,0,376,0,0,376,294,82
+4,Charlottenburg-Wilmersdorf,120,Urnenwahlbezirk,1078,941,137,0,323,3,1,322,238,84
+4,Charlottenburg-Wilmersdorf,121,Urnenwahlbezirk,2351,2136,215,0,576,4,1,575,515,60
+4,Charlottenburg-Wilmersdorf,122,Urnenwahlbezirk,2612,2380,232,0,605,3,2,603,481,122
+4,Charlottenburg-Wilmersdorf,123,Urnenwahlbezirk,2278,2030,248,0,461,2,0,461,399,62
+4,Charlottenburg-Wilmersdorf,124,Urnenwahlbezirk,2511,2280,231,0,629,5,2,627,540,87
+4,Charlottenburg-Wilmersdorf,125,Urnenwahlbezirk,2463,2239,224,0,700,1,0,700,655,45
+4,Charlottenburg-Wilmersdorf,126,Urnenwahlbezirk,2740,2448,292,0,669,2,1,668,511,157
+4,Charlottenburg-Wilmersdorf,127,Urnenwahlbezirk,1524,1340,184,0,391,1,0,391,319,72
+4,Charlottenburg-Wilmersdorf,128,Urnenwahlbezirk,2489,2266,223,0,690,0,1,689,582,107
+4,Charlottenburg-Wilmersdorf,129,Urnenwahlbezirk,2585,2301,284,0,627,0,0,627,514,113
+4,Charlottenburg-Wilmersdorf,130,Urnenwahlbezirk,1482,1320,162,0,320,1,2,318,276,42
+4,Charlottenburg-Wilmersdorf,131,Urnenwahlbezirk,2620,2349,271,0,662,3,2,660,561,99
+4,Charlottenburg-Wilmersdorf,132,Urnenwahlbezirk,2462,2191,271,0,562,2,0,562,499,63
+4,Charlottenburg-Wilmersdorf,133,Urnenwahlbezirk,2449,2196,253,0,578,5,1,577,486,91
+4,Charlottenburg-Wilmersdorf,134,Urnenwahlbezirk,1521,1377,144,0,326,2,0,326,256,70
+4,Charlottenburg-Wilmersdorf,135,Urnenwahlbezirk,2387,2142,245,0,505,2,1,504,412,92
+4,Charlottenburg-Wilmersdorf,136,Urnenwahlbezirk,2599,2333,266,0,505,0,3,502,424,78
+4,Charlottenburg-Wilmersdorf,137,Urnenwahlbezirk,2723,2384,339,0,460,2,1,459,375,84
+4,Charlottenburg-Wilmersdorf,138,Urnenwahlbezirk,2637,2431,206,0,575,1,2,573,506,67
+4,Charlottenburg-Wilmersdorf,139,Urnenwahlbezirk,2440,2177,263,0,417,8,1,416,344,72
+4,Charlottenburg-Wilmersdorf,140,Urnenwahlbezirk,2454,2147,307,0,557,5,1,556,464,92
+4,Charlottenburg-Wilmersdorf,141,Urnenwahlbezirk,2831,2488,343,0,676,14,2,674,547,127
+4,Charlottenburg-Wilmersdorf,142,Urnenwahlbezirk,2942,2542,400,0,612,7,0,612,533,79
+4,Charlottenburg-Wilmersdorf,143,Urnenwahlbezirk,2349,2064,285,0,453,3,1,452,389,63
+4,Charlottenburg-Wilmersdorf,144,Urnenwahlbezirk,2302,2040,262,0,517,3,0,517,436,81
+4,Charlottenburg-Wilmersdorf,145,Urnenwahlbezirk,2397,2096,301,0,400,5,1,399,334,65
+4,Charlottenburg-Wilmersdorf,146,Urnenwahlbezirk,2300,2067,233,0,412,2,0,412,337,75
+4,Charlottenburg-Wilmersdorf,147,Urnenwahlbezirk,2744,2427,317,0,591,6,0,591,456,135
+4,Charlottenburg-Wilmersdorf,148,Urnenwahlbezirk,1990,1726,264,0,417,30,0,417,286,131
+4,Charlottenburg-Wilmersdorf,149,Urnenwahlbezirk,2299,2058,241,0,353,0,1,352,257,95
+4,Charlottenburg-Wilmersdorf,150,Urnenwahlbezirk,2578,2319,259,0,499,0,2,497,414,83
+4,Charlottenburg-Wilmersdorf,151,Urnenwahlbezirk,2196,2002,194,0,503,1,2,501,402,99
+4,Charlottenburg-Wilmersdorf,152,Urnenwahlbezirk,1376,1237,139,0,348,3,0,348,256,92
+4,Charlottenburg-Wilmersdorf,153,Urnenwahlbezirk,2709,2480,229,0,646,6,2,644,480,164
+4,Charlottenburg-Wilmersdorf,154,Urnenwahlbezirk,2453,2178,275,0,420,4,0,420,345,75
+4,Charlottenburg-Wilmersdorf,155,Urnenwahlbezirk,3318,2868,450,0,670,8,0,670,534,136
+4,Charlottenburg-Wilmersdorf,156,Urnenwahlbezirk,2640,2423,217,0,487,3,0,487,385,102
+4,Charlottenburg-Wilmersdorf,157,Urnenwahlbezirk,2678,2382,296,0,566,4,3,563,430,133
+4,Charlottenburg-Wilmersdorf,158,Urnenwahlbezirk,2203,1995,208,0,388,0,1,387,298,89
+4,Charlottenburg-Wilmersdorf,159,Urnenwahlbezirk,2102,1828,274,0,427,1,0,427,304,123
+4,Charlottenburg-Wilmersdorf,160,Urnenwahlbezirk,2610,2289,321,0,452,10,0,452,272,180
+4,Charlottenburg-Wilmersdorf,161,Urnenwahlbezirk,3607,3179,428,0,770,2,1,769,521,248
+4,Charlottenburg-Wilmersdorf,162,Urnenwahlbezirk,2125,1867,258,0,442,1,4,438,357,81
+4,Charlottenburg-Wilmersdorf,163,Urnenwahlbezirk,2244,2012,232,0,488,5,0,488,398,90
+4,Charlottenburg-Wilmersdorf,164,Urnenwahlbezirk,2724,2479,245,0,661,2,1,660,511,149
+4,Charlottenburg-Wilmersdorf,165,Urnenwahlbezirk,2122,1830,292,0,516,2,1,515,426,89
+4,Charlottenburg-Wilmersdorf,166,Urnenwahlbezirk,3429,3002,427,0,720,12,3,717,589,128
+4,Charlottenburg-Wilmersdorf,167,Urnenwahlbezirk,2376,2056,320,0,499,7,1,498,417,81
+4,Charlottenburg-Wilmersdorf,168,Urnenwahlbezirk,2701,2388,313,0,605,4,1,604,484,120
+4,Charlottenburg-Wilmersdorf,169,Urnenwahlbezirk,2319,1993,326,0,546,5,1,545,481,64
+4,Charlottenburg-Wilmersdorf,170,Urnenwahlbezirk,2230,1963,267,0,487,6,1,486,410,76
+4,Charlottenburg-Wilmersdorf,171,Urnenwahlbezirk,3071,2665,406,0,780,7,1,779,626,153
+4,Charlottenburg-Wilmersdorf,172,Urnenwahlbezirk,2349,2050,299,0,624,12,0,624,509,115
+4,Charlottenburg-Wilmersdorf,173,Urnenwahlbezirk,2644,2340,304,0,627,10,2,625,543,82
+4,Charlottenburg-Wilmersdorf,174,Urnenwahlbezirk,2458,2238,220,0,530,1,0,530,456,74
+4,Charlottenburg-Wilmersdorf,175,Urnenwahlbezirk,2789,2518,271,0,746,6,0,746,616,130
+4,Charlottenburg-Wilmersdorf,176,Urnenwahlbezirk,3007,2700,307,0,797,3,1,796,659,137
+4,Charlottenburg-Wilmersdorf,177,Urnenwahlbezirk,2966,2694,272,0,877,3,2,875,697,178
+4,Charlottenburg-Wilmersdorf,178,Urnenwahlbezirk,2887,2547,340,0,731,2,0,731,576,155
+4,Charlottenburg-Wilmersdorf,179,Urnenwahlbezirk,2770,2428,342,0,706,1,0,706,543,163
+4,Charlottenburg-Wilmersdorf,180,Urnenwahlbezirk,2786,2477,309,0,724,1,0,724,605,119
+4,Charlottenburg-Wilmersdorf,181,Urnenwahlbezirk,1653,1500,153,0,362,1,0,362,283,79
+4,Charlottenburg-Wilmersdorf,182,Urnenwahlbezirk,1511,1308,203,0,412,1,2,410,313,97
+4,Charlottenburg-Wilmersdorf,183,Urnenwahlbezirk,1364,1230,134,0,317,1,0,317,251,66
+4,Charlottenburg-Wilmersdorf,184,Urnenwahlbezirk,2488,2248,240,0,608,5,2,606,451,155
+4,Charlottenburg-Wilmersdorf,185,Urnenwahlbezirk,1201,1081,120,0,304,3,0,304,223,81
+4,Charlottenburg-Wilmersdorf,186,Urnenwahlbezirk,2318,2064,254,0,541,1,3,538,459,79
+4,Charlottenburg-Wilmersdorf,187,Urnenwahlbezirk,1641,1502,139,0,307,1,2,305,246,59
+4,Charlottenburg-Wilmersdorf,188,Urnenwahlbezirk,1366,1219,147,0,283,2,0,283,233,50
+5,Spandau,101,Urnenwahlbezirk,876,802,74,0,145,0,0,145,120,25
+5,Spandau,102,Urnenwahlbezirk,2797,2581,216,0,386,5,2,384,304,80
+5,Spandau,103,Urnenwahlbezirk,1108,1003,105,0,317,1,0,317,247,70
+5,Spandau,104,Urnenwahlbezirk,2135,1960,175,0,357,0,1,356,255,101
+5,Spandau,105,Urnenwahlbezirk,2236,2031,205,0,293,0,1,292,220,72
+5,Spandau,106,Urnenwahlbezirk,2074,1828,246,0,435,3,2,433,298,135
+5,Spandau,107,Urnenwahlbezirk,1944,1774,170,0,366,2,0,366,301,65
+5,Spandau,108,Urnenwahlbezirk,1062,1006,56,0,201,0,1,200,153,47
+5,Spandau,109,Urnenwahlbezirk,1856,1773,83,0,268,0,0,268,203,65
+5,Spandau,110,Urnenwahlbezirk,2719,2544,175,0,369,0,0,369,294,75
+5,Spandau,111,Urnenwahlbezirk,1106,996,110,0,284,0,0,284,197,87
+5,Spandau,112,Urnenwahlbezirk,883,850,33,0,120,0,0,120,91,29
+5,Spandau,113,Urnenwahlbezirk,1101,1062,39,0,166,0,0,166,116,50
+5,Spandau,114,Urnenwahlbezirk,2976,2761,215,0,451,2,1,450,345,105
+5,Spandau,115,Urnenwahlbezirk,2094,1942,152,0,305,0,1,304,229,75
+5,Spandau,116,Urnenwahlbezirk,2658,2547,111,0,292,0,0,292,238,54
+5,Spandau,117,Urnenwahlbezirk,955,923,32,0,114,0,1,113,93,20
+5,Spandau,118,Urnenwahlbezirk,889,808,81,0,141,0,0,141,92,49
+5,Spandau,119,Urnenwahlbezirk,1770,1689,81,0,287,0,1,286,231,55
+5,Spandau,120,Urnenwahlbezirk,1121,1080,41,0,158,0,0,158,121,37
+5,Spandau,121,Urnenwahlbezirk,1380,1291,89,0,155,0,0,155,119,36
+5,Spandau,122,Urnenwahlbezirk,2498,2378,120,0,257,1,0,257,219,38
+5,Spandau,123,Urnenwahlbezirk,2248,2141,107,0,362,0,2,360,311,49
+5,Spandau,124,Urnenwahlbezirk,846,798,48,0,135,0,1,134,112,22
+5,Spandau,125,Urnenwahlbezirk,2303,2154,149,0,387,1,1,386,306,80
+5,Spandau,126,Urnenwahlbezirk,1714,1603,111,0,313,3,0,313,255,58
+5,Spandau,127,Urnenwahlbezirk,1987,1786,201,0,387,2,2,385,283,102
+5,Spandau,128,Urnenwahlbezirk,2263,2073,190,0,520,1,0,520,352,168
+5,Spandau,129,Urnenwahlbezirk,1277,1154,123,0,207,0,0,207,161,46
+5,Spandau,130,Urnenwahlbezirk,2158,1938,220,0,411,2,1,410,315,95
+5,Spandau,131,Urnenwahlbezirk,2124,1986,138,0,347,1,2,345,251,94
+5,Spandau,132,Urnenwahlbezirk,1897,1760,137,0,293,1,0,293,205,88
+5,Spandau,133,Urnenwahlbezirk,800,729,71,0,139,0,0,139,107,32
+5,Spandau,134,Urnenwahlbezirk,2872,2692,180,0,462,1,1,461,339,122
+5,Spandau,135,Urnenwahlbezirk,1732,1632,100,0,260,0,0,260,218,42
+5,Spandau,136,Urnenwahlbezirk,3127,2894,233,0,342,0,2,340,279,61
+5,Spandau,137,Urnenwahlbezirk,1738,1617,121,0,320,0,1,319,225,94
+5,Spandau,138,Urnenwahlbezirk,2625,2502,123,0,311,0,0,311,244,67
+5,Spandau,139,Urnenwahlbezirk,3239,3040,199,0,439,0,2,437,338,99
+5,Spandau,140,Urnenwahlbezirk,2422,2272,150,0,367,0,0,367,300,67
+5,Spandau,141,Urnenwahlbezirk,2476,2334,142,0,320,0,2,318,264,54
+5,Spandau,142,Urnenwahlbezirk,1695,1580,115,0,251,0,0,251,193,58
+5,Spandau,143,Urnenwahlbezirk,1915,1805,110,0,309,0,1,308,216,92
+5,Spandau,144,Urnenwahlbezirk,1991,1799,192,0,302,1,0,302,198,104
+5,Spandau,145,Urnenwahlbezirk,896,846,50,0,187,0,1,186,150,36
+5,Spandau,146,Urnenwahlbezirk,1864,1698,166,0,338,0,0,338,238,100
+5,Spandau,147,Urnenwahlbezirk,2635,2442,193,0,489,0,0,489,367,122
+5,Spandau,148,Urnenwahlbezirk,1953,1802,151,0,337,0,0,337,273,64
+5,Spandau,149,Urnenwahlbezirk,1397,1281,116,0,231,0,0,231,194,37
+5,Spandau,150,Urnenwahlbezirk,1990,1774,216,0,364,3,2,362,274,88
+5,Spandau,151,Urnenwahlbezirk,1053,1006,47,0,164,0,0,164,122,42
+5,Spandau,152,Urnenwahlbezirk,1892,1696,196,0,264,0,2,262,192,70
+5,Spandau,153,Urnenwahlbezirk,2342,2187,155,0,365,1,2,363,257,106
+5,Spandau,154,Urnenwahlbezirk,2290,2124,166,0,367,1,1,366,272,94
+5,Spandau,155,Urnenwahlbezirk,2775,2592,183,0,440,2,1,439,372,67
+5,Spandau,156,Urnenwahlbezirk,3137,2916,221,0,470,0,2,468,389,79
+5,Spandau,157,Urnenwahlbezirk,2451,2268,183,0,431,0,0,431,346,85
+5,Spandau,158,Urnenwahlbezirk,2298,2143,155,0,384,1,2,382,311,71
+5,Spandau,159,Urnenwahlbezirk,2368,2156,212,0,465,1,0,465,368,97
+5,Spandau,160,Urnenwahlbezirk,2182,2012,170,0,376,0,1,375,270,105
+5,Spandau,161,Urnenwahlbezirk,830,800,30,0,68,0,0,68,46,22
+5,Spandau,162,Urnenwahlbezirk,2114,1997,117,0,225,1,0,225,179,46
+5,Spandau,163,Urnenwahlbezirk,2173,2062,111,0,229,1,0,229,166,63
+5,Spandau,164,Urnenwahlbezirk,1058,1009,49,0,145,0,0,145,106,39
+5,Spandau,165,Urnenwahlbezirk,2063,1897,166,0,357,1,0,357,252,105
+5,Spandau,166,Urnenwahlbezirk,1891,1736,155,0,344,0,0,344,245,99
+5,Spandau,167,Urnenwahlbezirk,2327,2196,131,0,316,0,0,316,224,92
+5,Spandau,168,Urnenwahlbezirk,1117,1030,87,0,187,0,1,186,136,50
+5,Spandau,169,Urnenwahlbezirk,2033,1894,139,0,380,2,1,379,297,82
+5,Spandau,170,Urnenwahlbezirk,2230,2017,213,0,350,0,1,349,269,80
+5,Spandau,171,Urnenwahlbezirk,1236,1178,58,0,228,0,1,227,172,55
+5,Spandau,172,Urnenwahlbezirk,1081,1008,73,0,188,2,2,186,129,57
+5,Spandau,173,Urnenwahlbezirk,2656,2522,134,0,383,1,2,381,316,65
+5,Spandau,174,Urnenwahlbezirk,1301,1219,82,0,182,0,0,182,136,46
+5,Spandau,175,Urnenwahlbezirk,2271,2053,218,0,442,0,0,442,289,153
+5,Spandau,176,Urnenwahlbezirk,1193,1082,111,0,255,0,1,254,182,72
+5,Spandau,177,Urnenwahlbezirk,839,733,106,0,201,0,0,201,132,69
+5,Spandau,178,Urnenwahlbezirk,2217,1848,369,0,435,1,2,433,284,149
+5,Spandau,179,Urnenwahlbezirk,1933,1709,223,1,440,1,0,440,267,173
+5,Spandau,180,Urnenwahlbezirk,1919,1743,176,0,526,2,0,526,378,148
+5,Spandau,181,Urnenwahlbezirk,1034,923,111,0,267,0,0,267,194,73
+5,Spandau,182,Urnenwahlbezirk,894,802,92,0,174,2,0,174,140,34
+5,Spandau,183,Urnenwahlbezirk,1036,905,131,0,301,0,1,300,235,65
+5,Spandau,184,Urnenwahlbezirk,941,836,105,0,238,0,1,237,169,68
+5,Spandau,185,Urnenwahlbezirk,1020,907,113,0,294,0,0,294,225,69
+5,Spandau,186,Urnenwahlbezirk,1160,1022,138,0,293,0,2,291,189,102
+5,Spandau,187,Urnenwahlbezirk,1914,1680,234,0,406,2,0,406,289,117
+5,Spandau,188,Urnenwahlbezirk,1792,1547,245,0,362,0,0,362,255,107
+5,Spandau,189,Urnenwahlbezirk,2531,2338,193,0,617,0,0,617,423,194
+6,Steglitz-Zehlendorf,101,Urnenwahlbezirk,1864,1586,278,0,453,4,1,452,351,101
+6,Steglitz-Zehlendorf,102,Urnenwahlbezirk,1768,1498,270,0,415,3,0,415,333,82
+6,Steglitz-Zehlendorf,103,Urnenwahlbezirk,1785,1626,159,0,391,2,0,391,328,63
+6,Steglitz-Zehlendorf,104,Urnenwahlbezirk,1946,1704,242,0,510,3,0,510,419,91
+6,Steglitz-Zehlendorf,105,Urnenwahlbezirk,1586,1418,168,0,338,6,2,336,280,56
+6,Steglitz-Zehlendorf,106,Urnenwahlbezirk,1695,1536,159,0,385,1,3,382,320,62
+6,Steglitz-Zehlendorf,107,Urnenwahlbezirk,1863,1679,184,0,437,3,2,435,352,83
+6,Steglitz-Zehlendorf,108,Urnenwahlbezirk,1888,1633,255,0,484,1,2,482,372,110
+6,Steglitz-Zehlendorf,109,Urnenwahlbezirk,1879,1645,234,0,476,2,1,475,398,77
+6,Steglitz-Zehlendorf,110,Urnenwahlbezirk,1895,1690,205,0,492,2,3,489,396,93
+6,Steglitz-Zehlendorf,111,Urnenwahlbezirk,1895,1747,148,0,439,1,5,434,342,92
+6,Steglitz-Zehlendorf,112,Urnenwahlbezirk,1675,1502,173,0,386,3,1,385,322,63
+6,Steglitz-Zehlendorf,113,Urnenwahlbezirk,1807,1614,193,0,265,0,0,265,209,56
+6,Steglitz-Zehlendorf,114,Urnenwahlbezirk,1877,1651,226,0,439,7,3,436,353,83
+6,Steglitz-Zehlendorf,115,Urnenwahlbezirk,1598,1418,180,0,316,3,0,316,231,85
+6,Steglitz-Zehlendorf,116,Urnenwahlbezirk,1957,1708,249,0,446,3,1,445,376,69
+6,Steglitz-Zehlendorf,117,Urnenwahlbezirk,1775,1483,292,0,328,2,4,324,241,83
+6,Steglitz-Zehlendorf,118,Urnenwahlbezirk,1776,1532,244,0,459,6,2,457,355,102
+6,Steglitz-Zehlendorf,201,Urnenwahlbezirk,1763,1592,171,0,451,2,2,449,383,66
+6,Steglitz-Zehlendorf,202,Urnenwahlbezirk,1723,1540,183,0,352,2,3,349,291,58
+6,Steglitz-Zehlendorf,203,Urnenwahlbezirk,1847,1645,202,0,388,0,0,388,309,79
+6,Steglitz-Zehlendorf,204,Urnenwahlbezirk,1661,1486,175,0,429,1,1,428,318,110
+6,Steglitz-Zehlendorf,205,Urnenwahlbezirk,1726,1520,206,0,337,2,1,336,249,87
+6,Steglitz-Zehlendorf,206,Urnenwahlbezirk,1645,1459,186,0,329,3,0,329,236,93
+6,Steglitz-Zehlendorf,207,Urnenwahlbezirk,1537,1370,167,0,279,1,2,277,226,51
+6,Steglitz-Zehlendorf,208,Urnenwahlbezirk,1564,1411,153,0,291,0,1,290,217,73
+6,Steglitz-Zehlendorf,209,Urnenwahlbezirk,1928,1646,282,0,350,2,0,350,287,63
+6,Steglitz-Zehlendorf,210,Urnenwahlbezirk,1727,1505,222,0,379,1,1,378,293,85
+6,Steglitz-Zehlendorf,211,Urnenwahlbezirk,1697,1430,267,0,325,3,0,325,256,69
+6,Steglitz-Zehlendorf,212,Urnenwahlbezirk,1880,1697,183,0,350,2,0,350,295,55
+6,Steglitz-Zehlendorf,213,Urnenwahlbezirk,2049,1834,215,0,397,0,0,397,319,78
+6,Steglitz-Zehlendorf,214,Urnenwahlbezirk,1934,1738,196,0,405,0,0,405,324,81
+6,Steglitz-Zehlendorf,215,Urnenwahlbezirk,1690,1531,159,0,366,0,0,366,293,73
+6,Steglitz-Zehlendorf,216,Urnenwahlbezirk,1664,1446,218,0,320,2,0,320,264,56
+6,Steglitz-Zehlendorf,217,Urnenwahlbezirk,1922,1738,184,0,581,2,2,579,464,115
+6,Steglitz-Zehlendorf,218,Urnenwahlbezirk,1633,1465,168,0,311,0,0,311,240,71
+6,Steglitz-Zehlendorf,301,Urnenwahlbezirk,1719,1508,211,0,434,1,2,432,333,99
+6,Steglitz-Zehlendorf,302,Urnenwahlbezirk,1740,1463,277,0,489,3,0,489,360,129
+6,Steglitz-Zehlendorf,303,Urnenwahlbezirk,1848,1678,170,0,443,5,3,440,347,93
+6,Steglitz-Zehlendorf,304,Urnenwahlbezirk,1858,1602,256,0,539,7,2,537,401,136
+6,Steglitz-Zehlendorf,305,Urnenwahlbezirk,1641,1435,206,0,421,0,1,420,307,113
+6,Steglitz-Zehlendorf,306,Urnenwahlbezirk,1891,1654,237,0,489,0,0,489,362,127
+6,Steglitz-Zehlendorf,307,Urnenwahlbezirk,1701,1500,201,0,413,0,1,412,307,105
+6,Steglitz-Zehlendorf,308,Urnenwahlbezirk,1776,1484,292,0,481,6,4,477,316,161
+6,Steglitz-Zehlendorf,309,Urnenwahlbezirk,1795,1541,254,0,452,4,1,451,320,131
+6,Steglitz-Zehlendorf,310,Urnenwahlbezirk,1744,1522,222,0,454,0,0,454,339,115
+6,Steglitz-Zehlendorf,311,Urnenwahlbezirk,1617,1451,166,0,354,1,1,353,269,84
+6,Steglitz-Zehlendorf,312,Urnenwahlbezirk,1901,1649,252,0,426,0,1,425,303,122
+6,Steglitz-Zehlendorf,313,Urnenwahlbezirk,1638,1403,235,0,324,2,0,324,223,101
+6,Steglitz-Zehlendorf,314,Urnenwahlbezirk,2042,1825,217,0,440,2,3,437,315,122
+6,Steglitz-Zehlendorf,315,Urnenwahlbezirk,1617,1389,228,0,385,2,2,383,268,115
+6,Steglitz-Zehlendorf,316,Urnenwahlbezirk,1960,1747,213,0,473,3,2,471,357,114
+6,Steglitz-Zehlendorf,317,Urnenwahlbezirk,1890,1687,203,0,322,1,1,321,251,70
+6,Steglitz-Zehlendorf,318,Urnenwahlbezirk,2003,1731,272,0,372,0,0,372,288,84
+6,Steglitz-Zehlendorf,401,Urnenwahlbezirk,2086,1845,241,0,487,2,0,487,371,116
+6,Steglitz-Zehlendorf,402,Urnenwahlbezirk,1534,1381,153,0,357,1,0,357,258,99
+6,Steglitz-Zehlendorf,403,Urnenwahlbezirk,1743,1558,185,0,290,2,0,290,200,90
+6,Steglitz-Zehlendorf,404,Urnenwahlbezirk,1942,1714,228,0,464,1,1,463,324,139
+6,Steglitz-Zehlendorf,405,Urnenwahlbezirk,1740,1555,185,0,455,2,0,455,327,128
+6,Steglitz-Zehlendorf,406,Urnenwahlbezirk,1891,1644,247,0,444,0,1,443,348,95
+6,Steglitz-Zehlendorf,407,Urnenwahlbezirk,1969,1761,208,0,350,0,2,348,287,61
+6,Steglitz-Zehlendorf,408,Urnenwahlbezirk,1774,1522,252,0,429,3,1,428,292,136
+6,Steglitz-Zehlendorf,409,Urnenwahlbezirk,1880,1617,263,0,285,2,1,284,202,82
+6,Steglitz-Zehlendorf,410,Urnenwahlbezirk,1680,1508,172,0,300,1,2,298,226,72
+6,Steglitz-Zehlendorf,411,Urnenwahlbezirk,1688,1461,227,0,339,3,1,338,253,85
+6,Steglitz-Zehlendorf,412,Urnenwahlbezirk,1617,1473,144,0,387,1,1,386,292,94
+6,Steglitz-Zehlendorf,413,Urnenwahlbezirk,1843,1605,238,0,355,0,1,354,221,133
+6,Steglitz-Zehlendorf,414,Urnenwahlbezirk,1651,1554,97,0,238,1,1,237,185,52
+6,Steglitz-Zehlendorf,415,Urnenwahlbezirk,1676,1521,155,0,253,2,0,253,207,46
+6,Steglitz-Zehlendorf,416,Urnenwahlbezirk,1792,1546,246,0,445,7,2,443,291,152
+6,Steglitz-Zehlendorf,417,Urnenwahlbezirk,1679,1461,218,0,459,2,0,459,306,153
+6,Steglitz-Zehlendorf,501,Urnenwahlbezirk,1732,1546,186,0,351,1,0,351,248,103
+6,Steglitz-Zehlendorf,502,Urnenwahlbezirk,1628,1491,137,0,311,3,0,311,242,69
+6,Steglitz-Zehlendorf,503,Urnenwahlbezirk,1369,1210,159,0,266,1,0,266,197,69
+6,Steglitz-Zehlendorf,504,Urnenwahlbezirk,1568,1363,205,0,326,1,0,326,242,84
+6,Steglitz-Zehlendorf,505,Urnenwahlbezirk,1934,1704,230,0,472,1,2,470,323,147
+6,Steglitz-Zehlendorf,506,Urnenwahlbezirk,1721,1533,188,0,272,1,2,270,186,84
+6,Steglitz-Zehlendorf,507,Urnenwahlbezirk,1668,1563,105,0,279,0,0,279,220,59
+6,Steglitz-Zehlendorf,508,Urnenwahlbezirk,1852,1666,186,0,320,2,1,319,266,53
+6,Steglitz-Zehlendorf,509,Urnenwahlbezirk,1782,1552,230,0,374,1,3,371,252,119
+6,Steglitz-Zehlendorf,510,Urnenwahlbezirk,1912,1732,180,0,404,1,0,404,326,78
+6,Steglitz-Zehlendorf,511,Urnenwahlbezirk,1569,1364,205,0,339,0,2,337,230,107
+6,Steglitz-Zehlendorf,512,Urnenwahlbezirk,1645,1518,127,0,251,1,1,250,212,38
+6,Steglitz-Zehlendorf,513,Urnenwahlbezirk,1999,1825,174,0,349,2,1,348,253,95
+6,Steglitz-Zehlendorf,514,Urnenwahlbezirk,1714,1505,209,0,416,2,1,415,302,113
+6,Steglitz-Zehlendorf,515,Urnenwahlbezirk,1661,1478,183,0,384,0,0,384,246,138
+6,Steglitz-Zehlendorf,516,Urnenwahlbezirk,1861,1699,162,0,208,0,1,207,185,22
+6,Steglitz-Zehlendorf,517,Urnenwahlbezirk,1704,1500,204,0,228,2,1,227,175,52
+6,Steglitz-Zehlendorf,518,Urnenwahlbezirk,1683,1518,165,0,291,1,0,291,210,81
+6,Steglitz-Zehlendorf,601,Urnenwahlbezirk,1406,1205,201,0,362,5,0,362,288,74
+6,Steglitz-Zehlendorf,602,Urnenwahlbezirk,1547,1369,178,0,488,4,1,487,390,97
+6,Steglitz-Zehlendorf,603,Urnenwahlbezirk,1511,1303,208,0,360,3,1,359,265,94
+6,Steglitz-Zehlendorf,604,Urnenwahlbezirk,1812,1506,306,0,525,4,0,525,412,113
+6,Steglitz-Zehlendorf,605,Urnenwahlbezirk,1503,1339,164,0,350,0,0,350,265,85
+6,Steglitz-Zehlendorf,606,Urnenwahlbezirk,1404,1228,176,0,255,3,0,255,153,102
+6,Steglitz-Zehlendorf,607,Urnenwahlbezirk,1580,1348,232,0,323,0,0,323,183,140
+6,Steglitz-Zehlendorf,608,Urnenwahlbezirk,1508,1346,162,0,299,3,1,298,229,69
+6,Steglitz-Zehlendorf,609,Urnenwahlbezirk,1747,1529,218,0,431,0,1,430,297,133
+6,Steglitz-Zehlendorf,610,Urnenwahlbezirk,1147,961,186,0,261,3,0,261,168,93
+6,Steglitz-Zehlendorf,611,Urnenwahlbezirk,1537,1328,209,0,392,1,0,392,301,91
+6,Steglitz-Zehlendorf,612,Urnenwahlbezirk,1828,1604,224,0,406,1,0,406,311,95
+6,Steglitz-Zehlendorf,613,Urnenwahlbezirk,1687,1406,281,0,459,3,1,458,336,122
+6,Steglitz-Zehlendorf,614,Urnenwahlbezirk,1799,1552,247,0,409,0,0,409,285,124
+6,Steglitz-Zehlendorf,615,Urnenwahlbezirk,1787,1527,260,0,412,0,1,411,319,92
+6,Steglitz-Zehlendorf,616,Urnenwahlbezirk,1682,1504,178,0,450,3,2,448,355,93
+6,Steglitz-Zehlendorf,617,Urnenwahlbezirk,1746,1586,160,0,491,1,5,486,303,183
+6,Steglitz-Zehlendorf,618,Urnenwahlbezirk,1740,1489,251,0,424,3,1,423,347,76
+6,Steglitz-Zehlendorf,619,Urnenwahlbezirk,1452,1315,137,0,374,0,2,372,299,73
+6,Steglitz-Zehlendorf,701,Urnenwahlbezirk,1593,1402,191,0,410,2,1,409,290,119
+6,Steglitz-Zehlendorf,702,Urnenwahlbezirk,1891,1585,306,0,423,7,1,422,321,101
+6,Steglitz-Zehlendorf,703,Urnenwahlbezirk,1283,1150,133,0,310,0,0,310,226,84
+6,Steglitz-Zehlendorf,704,Urnenwahlbezirk,1479,1270,209,0,379,0,0,379,269,110
+6,Steglitz-Zehlendorf,705,Urnenwahlbezirk,1499,1244,255,0,284,2,0,284,223,61
+6,Steglitz-Zehlendorf,706,Urnenwahlbezirk,1754,1493,261,0,433,0,0,433,288,145
+6,Steglitz-Zehlendorf,707,Urnenwahlbezirk,1772,1516,256,0,438,3,1,437,328,109
+6,Steglitz-Zehlendorf,708,Urnenwahlbezirk,1403,1222,181,0,337,0,0,337,257,80
+6,Steglitz-Zehlendorf,709,Urnenwahlbezirk,1754,1446,308,0,392,3,1,391,273,118
+6,Steglitz-Zehlendorf,710,Urnenwahlbezirk,1727,1432,295,0,406,3,0,406,284,122
+6,Steglitz-Zehlendorf,711,Urnenwahlbezirk,1649,1433,216,0,427,7,1,426,309,117
+6,Steglitz-Zehlendorf,712,Urnenwahlbezirk,1644,1451,193,0,538,1,4,534,403,131
+6,Steglitz-Zehlendorf,713,Urnenwahlbezirk,1547,1313,234,0,359,3,1,358,242,116
+6,Steglitz-Zehlendorf,714,Urnenwahlbezirk,1309,1165,144,0,296,1,0,296,234,62
+6,Steglitz-Zehlendorf,715,Urnenwahlbezirk,1469,1234,235,0,329,1,0,329,225,104
+6,Steglitz-Zehlendorf,716,Urnenwahlbezirk,1350,1138,212,0,335,4,2,333,241,92
+6,Steglitz-Zehlendorf,717,Urnenwahlbezirk,1202,1050,152,0,301,4,0,301,240,61
+6,Steglitz-Zehlendorf,718,Urnenwahlbezirk,1886,1637,249,0,515,0,3,512,374,138
+6,Steglitz-Zehlendorf,719,Urnenwahlbezirk,1720,1473,247,0,475,3,1,474,386,88
+7,Tempelhof-Schöneberg,101,Urnenwahlbezirk,1831,1637,194,0,259,2,0,259,198,61
+7,Tempelhof-Schöneberg,102,Urnenwahlbezirk,1845,1595,250,0,275,2,0,275,245,30
+7,Tempelhof-Schöneberg,103,Urnenwahlbezirk,1912,1754,158,0,418,3,0,418,367,51
+7,Tempelhof-Schöneberg,104,Urnenwahlbezirk,1804,1647,157,0,403,4,0,403,376,27
+7,Tempelhof-Schöneberg,105,Urnenwahlbezirk,1948,1740,208,0,414,5,3,411,319,92
+7,Tempelhof-Schöneberg,106,Urnenwahlbezirk,1667,1473,194,0,421,4,1,420,368,52
+7,Tempelhof-Schöneberg,107,Urnenwahlbezirk,1747,1515,232,0,489,4,2,487,440,47
+7,Tempelhof-Schöneberg,108,Urnenwahlbezirk,1718,1536,182,0,386,6,1,385,362,23
+7,Tempelhof-Schöneberg,109,Urnenwahlbezirk,1880,1651,229,0,518,7,0,518,429,89
+7,Tempelhof-Schöneberg,110,Urnenwahlbezirk,2102,1854,248,0,495,3,0,495,416,79
+7,Tempelhof-Schöneberg,111,Urnenwahlbezirk,1763,1585,178,0,498,2,2,496,428,68
+7,Tempelhof-Schöneberg,112,Urnenwahlbezirk,1934,1670,264,0,535,4,1,534,480,54
+7,Tempelhof-Schöneberg,113,Urnenwahlbezirk,1924,1723,201,0,491,4,0,491,441,50
+7,Tempelhof-Schöneberg,114,Urnenwahlbezirk,2037,1771,266,0,462,1,0,462,391,71
+7,Tempelhof-Schöneberg,115,Urnenwahlbezirk,1947,1756,191,0,425,3,0,425,356,69
+7,Tempelhof-Schöneberg,201,Urnenwahlbezirk,1909,1660,249,0,543,2,1,542,458,84
+7,Tempelhof-Schöneberg,202,Urnenwahlbezirk,2030,1781,249,0,645,1,1,644,572,72
+7,Tempelhof-Schöneberg,203,Urnenwahlbezirk,1908,1666,242,0,547,7,0,547,499,48
+7,Tempelhof-Schöneberg,204,Urnenwahlbezirk,1715,1543,172,0,420,5,0,420,395,25
+7,Tempelhof-Schöneberg,205,Urnenwahlbezirk,1745,1545,200,0,517,8,1,516,491,25
+7,Tempelhof-Schöneberg,206,Urnenwahlbezirk,1947,1729,218,0,424,8,0,424,362,62
+7,Tempelhof-Schöneberg,207,Urnenwahlbezirk,1932,1710,222,0,456,0,0,456,369,87
+7,Tempelhof-Schöneberg,208,Urnenwahlbezirk,1790,1565,225,0,354,0,2,352,300,52
+7,Tempelhof-Schöneberg,209,Urnenwahlbezirk,2028,1801,227,0,433,3,0,433,387,46
+7,Tempelhof-Schöneberg,210,Urnenwahlbezirk,1753,1555,198,0,443,1,0,443,408,35
+7,Tempelhof-Schöneberg,211,Urnenwahlbezirk,2065,1796,269,0,542,2,0,542,523,19
+7,Tempelhof-Schöneberg,212,Urnenwahlbezirk,2069,1793,276,0,567,5,0,567,539,28
+7,Tempelhof-Schöneberg,213,Urnenwahlbezirk,2041,1831,210,0,555,2,0,555,520,35
+7,Tempelhof-Schöneberg,214,Urnenwahlbezirk,2051,1853,198,0,471,3,1,470,438,32
+7,Tempelhof-Schöneberg,215,Urnenwahlbezirk,1427,1229,198,0,450,3,0,450,420,30
+7,Tempelhof-Schöneberg,301,Urnenwahlbezirk,1997,1779,218,0,554,0,0,554,470,84
+7,Tempelhof-Schöneberg,302,Urnenwahlbezirk,1799,1620,179,0,607,2,1,606,512,94
+7,Tempelhof-Schöneberg,303,Urnenwahlbezirk,1717,1523,194,0,520,3,0,520,447,73
+7,Tempelhof-Schöneberg,304,Urnenwahlbezirk,1989,1745,244,0,439,8,1,438,378,60
+7,Tempelhof-Schöneberg,305,Urnenwahlbezirk,1810,1552,258,0,529,4,2,527,447,80
+7,Tempelhof-Schöneberg,306,Urnenwahlbezirk,1719,1531,188,0,468,4,0,468,388,80
+7,Tempelhof-Schöneberg,307,Urnenwahlbezirk,1903,1702,201,0,536,2,2,534,460,74
+7,Tempelhof-Schöneberg,308,Urnenwahlbezirk,1715,1515,200,0,525,1,2,523,442,81
+7,Tempelhof-Schöneberg,309,Urnenwahlbezirk,1650,1451,199,0,509,3,3,506,438,68
+7,Tempelhof-Schöneberg,310,Urnenwahlbezirk,1842,1607,235,0,490,1,1,489,402,87
+7,Tempelhof-Schöneberg,311,Urnenwahlbezirk,1705,1531,174,0,520,5,0,520,436,84
+7,Tempelhof-Schöneberg,312,Urnenwahlbezirk,1828,1620,208,0,510,5,1,509,438,71
+7,Tempelhof-Schöneberg,313,Urnenwahlbezirk,1809,1586,223,0,515,5,0,515,447,68
+7,Tempelhof-Schöneberg,314,Urnenwahlbezirk,1664,1474,190,0,414,4,1,413,351,62
+7,Tempelhof-Schöneberg,315,Urnenwahlbezirk,2127,1908,219,0,603,2,1,602,524,78
+7,Tempelhof-Schöneberg,316,Urnenwahlbezirk,2043,1870,173,0,406,6,0,406,335,71
+7,Tempelhof-Schöneberg,401,Urnenwahlbezirk,1966,1820,146,0,310,6,0,310,275,35
+7,Tempelhof-Schöneberg,402,Urnenwahlbezirk,1757,1513,244,0,443,3,1,442,410,32
+7,Tempelhof-Schöneberg,403,Urnenwahlbezirk,1650,1423,227,0,470,7,0,470,434,36
+7,Tempelhof-Schöneberg,404,Urnenwahlbezirk,1606,1454,152,0,328,3,2,326,286,40
+7,Tempelhof-Schöneberg,405,Urnenwahlbezirk,2022,1856,166,0,480,4,0,480,400,80
+7,Tempelhof-Schöneberg,406,Urnenwahlbezirk,2068,1818,250,0,406,1,0,406,307,99
+7,Tempelhof-Schöneberg,407,Urnenwahlbezirk,2150,1836,314,0,632,13,0,632,552,80
+7,Tempelhof-Schöneberg,408,Urnenwahlbezirk,1975,1822,153,0,464,1,0,464,357,107
+7,Tempelhof-Schöneberg,409,Urnenwahlbezirk,1797,1563,234,0,506,5,0,506,437,69
+7,Tempelhof-Schöneberg,410,Urnenwahlbezirk,2310,2108,202,0,480,1,1,479,373,106
+7,Tempelhof-Schöneberg,411,Urnenwahlbezirk,1702,1557,145,0,258,1,0,258,224,34
+7,Tempelhof-Schöneberg,412,Urnenwahlbezirk,1838,1698,140,0,295,3,1,294,244,50
+7,Tempelhof-Schöneberg,413,Urnenwahlbezirk,1787,1589,198,0,498,3,1,497,425,72
+7,Tempelhof-Schöneberg,414,Urnenwahlbezirk,1999,1770,229,0,358,3,1,357,294,63
+7,Tempelhof-Schöneberg,415,Urnenwahlbezirk,2072,1863,209,0,404,4,0,404,305,99
+7,Tempelhof-Schöneberg,416,Urnenwahlbezirk,2155,1897,258,0,299,0,0,299,230,69
+7,Tempelhof-Schöneberg,501,Urnenwahlbezirk,1672,1452,220,0,318,4,0,318,224,94
+7,Tempelhof-Schöneberg,502,Urnenwahlbezirk,2295,2048,247,0,477,0,2,475,372,103
+7,Tempelhof-Schöneberg,503,Urnenwahlbezirk,1939,1767,172,0,450,0,1,449,376,73
+7,Tempelhof-Schöneberg,504,Urnenwahlbezirk,2083,1939,144,0,398,0,2,396,339,57
+7,Tempelhof-Schöneberg,505,Urnenwahlbezirk,1852,1669,183,0,439,0,1,438,382,56
+7,Tempelhof-Schöneberg,506,Urnenwahlbezirk,1992,1850,142,0,361,0,0,361,302,59
+7,Tempelhof-Schöneberg,507,Urnenwahlbezirk,2086,1895,191,0,381,1,4,377,296,81
+7,Tempelhof-Schöneberg,508,Urnenwahlbezirk,2298,2188,110,0,330,0,1,329,280,49
+7,Tempelhof-Schöneberg,509,Urnenwahlbezirk,1982,1790,192,0,472,9,2,470,406,64
+7,Tempelhof-Schöneberg,510,Urnenwahlbezirk,2040,1885,155,0,334,1,0,334,282,52
+7,Tempelhof-Schöneberg,511,Urnenwahlbezirk,2165,2012,153,0,332,4,1,331,276,55
+7,Tempelhof-Schöneberg,512,Urnenwahlbezirk,1932,1744,188,0,440,1,3,437,325,112
+7,Tempelhof-Schöneberg,513,Urnenwahlbezirk,2039,1897,142,0,381,0,0,381,305,76
+7,Tempelhof-Schöneberg,514,Urnenwahlbezirk,2154,1969,185,0,405,2,3,402,298,104
+7,Tempelhof-Schöneberg,515,Urnenwahlbezirk,1886,1757,129,0,309,0,1,308,213,95
+7,Tempelhof-Schöneberg,601,Urnenwahlbezirk,1961,1797,164,0,257,0,0,257,200,57
+7,Tempelhof-Schöneberg,602,Urnenwahlbezirk,2276,2046,230,0,368,1,0,368,270,98
+7,Tempelhof-Schöneberg,603,Urnenwahlbezirk,2122,1991,131,0,481,4,4,477,375,102
+7,Tempelhof-Schöneberg,604,Urnenwahlbezirk,2195,1932,263,0,334,4,0,334,233,101
+7,Tempelhof-Schöneberg,605,Urnenwahlbezirk,1926,1693,233,0,283,0,2,281,215,66
+7,Tempelhof-Schöneberg,606,Urnenwahlbezirk,2174,1974,200,0,408,0,3,405,307,98
+7,Tempelhof-Schöneberg,607,Urnenwahlbezirk,1999,1873,126,0,248,0,0,248,171,77
+7,Tempelhof-Schöneberg,608,Urnenwahlbezirk,1967,1744,223,0,392,5,2,390,285,105
+7,Tempelhof-Schöneberg,609,Urnenwahlbezirk,1913,1726,187,0,358,5,1,357,266,91
+7,Tempelhof-Schöneberg,610,Urnenwahlbezirk,2090,1899,191,0,515,3,2,513,339,174
+7,Tempelhof-Schöneberg,611,Urnenwahlbezirk,2144,1842,302,0,402,2,0,402,272,130
+7,Tempelhof-Schöneberg,612,Urnenwahlbezirk,1737,1511,226,0,311,0,1,310,222,88
+7,Tempelhof-Schöneberg,613,Urnenwahlbezirk,2046,1855,191,0,381,0,2,379,274,105
+7,Tempelhof-Schöneberg,614,Urnenwahlbezirk,1679,1509,170,0,363,4,1,362,256,106
+7,Tempelhof-Schöneberg,615,Urnenwahlbezirk,1828,1658,170,0,364,1,1,363,258,105
+7,Tempelhof-Schöneberg,701,Urnenwahlbezirk,1821,1653,168,0,283,5,1,282,221,61
+7,Tempelhof-Schöneberg,702,Urnenwahlbezirk,1745,1583,162,0,453,1,3,450,315,135
+7,Tempelhof-Schöneberg,703,Urnenwahlbezirk,1946,1767,179,0,383,0,2,381,254,127
+7,Tempelhof-Schöneberg,704,Urnenwahlbezirk,1384,1218,166,0,189,0,1,188,131,57
+7,Tempelhof-Schöneberg,705,Urnenwahlbezirk,2062,1849,213,0,287,0,0,287,206,81
+7,Tempelhof-Schöneberg,706,Urnenwahlbezirk,1803,1673,130,0,272,2,0,272,213,59
+7,Tempelhof-Schöneberg,707,Urnenwahlbezirk,1488,1390,98,0,194,0,1,193,153,40
+7,Tempelhof-Schöneberg,708,Urnenwahlbezirk,2121,1985,136,0,224,1,2,222,167,55
+7,Tempelhof-Schöneberg,709,Urnenwahlbezirk,2253,2061,192,0,323,2,1,322,225,97
+7,Tempelhof-Schöneberg,710,Urnenwahlbezirk,1792,1549,243,0,336,4,1,335,247,88
+7,Tempelhof-Schöneberg,711,Urnenwahlbezirk,1997,1807,190,0,458,5,0,458,307,151
+7,Tempelhof-Schöneberg,712,Urnenwahlbezirk,1996,1803,193,0,510,3,0,510,322,188
+7,Tempelhof-Schöneberg,713,Urnenwahlbezirk,2041,1792,249,0,408,3,1,407,282,125
+7,Tempelhof-Schöneberg,714,Urnenwahlbezirk,2147,1946,201,0,454,0,0,454,322,132
+7,Tempelhof-Schöneberg,715,Urnenwahlbezirk,1958,1762,196,0,278,0,0,278,200,78
+7,Tempelhof-Schöneberg,801,Urnenwahlbezirk,1891,1641,250,0,485,2,1,484,334,150
+7,Tempelhof-Schöneberg,802,Urnenwahlbezirk,1852,1646,206,0,458,3,2,456,311,145
+7,Tempelhof-Schöneberg,803,Urnenwahlbezirk,1879,1687,192,0,209,1,0,209,142,67
+7,Tempelhof-Schöneberg,804,Urnenwahlbezirk,1852,1661,191,0,237,0,1,236,181,55
+7,Tempelhof-Schöneberg,805,Urnenwahlbezirk,2140,1921,219,0,419,0,1,418,288,130
+7,Tempelhof-Schöneberg,806,Urnenwahlbezirk,1833,1645,188,0,339,4,1,338,250,88
+7,Tempelhof-Schöneberg,807,Urnenwahlbezirk,2033,1805,228,0,389,1,5,384,260,124
+7,Tempelhof-Schöneberg,808,Urnenwahlbezirk,2092,1942,150,0,360,0,0,360,263,97
+7,Tempelhof-Schöneberg,809,Urnenwahlbezirk,1937,1710,227,0,305,2,0,305,209,96
+7,Tempelhof-Schöneberg,810,Urnenwahlbezirk,1765,1565,200,0,313,3,0,313,230,83
+7,Tempelhof-Schöneberg,811,Urnenwahlbezirk,1797,1654,143,0,264,1,0,264,181,83
+7,Tempelhof-Schöneberg,812,Urnenwahlbezirk,1745,1585,160,0,416,0,1,415,330,85
+7,Tempelhof-Schöneberg,813,Urnenwahlbezirk,1737,1532,205,0,360,5,2,358,262,96
+7,Tempelhof-Schöneberg,814,Urnenwahlbezirk,1608,1480,128,0,291,1,0,291,210,81
+7,Tempelhof-Schöneberg,815,Urnenwahlbezirk,1513,1298,215,0,314,0,1,313,209,104
+8,Neukölln,101,Urnenwahlbezirk,1376,1173,203,0,350,8,1,349,332,17
+8,Neukölln,102,Urnenwahlbezirk,2588,2236,352,0,775,10,1,774,745,29
+8,Neukölln,103,Urnenwahlbezirk,2841,2544,297,0,887,7,3,884,854,30
+8,Neukölln,104,Urnenwahlbezirk,2517,2225,292,0,689,5,0,689,669,20
+8,Neukölln,105,Urnenwahlbezirk,1468,1309,159,0,468,6,1,467,459,8
+8,Neukölln,106,Urnenwahlbezirk,2879,2564,315,0,849,4,1,848,814,34
+8,Neukölln,107,Urnenwahlbezirk,2625,2342,283,0,723,7,0,723,690,33
+8,Neukölln,108,Urnenwahlbezirk,1707,1535,172,0,333,1,1,332,310,22
+8,Neukölln,109,Urnenwahlbezirk,3303,2959,344,0,714,4,2,712,648,64
+8,Neukölln,110,Urnenwahlbezirk,2656,2379,277,0,780,8,3,777,737,40
+8,Neukölln,111,Urnenwahlbezirk,2257,2082,175,0,430,3,2,428,384,44
+8,Neukölln,112,Urnenwahlbezirk,2912,2659,253,0,688,0,0,688,644,44
+8,Neukölln,113,Urnenwahlbezirk,2637,2399,238,0,594,2,0,594,563,31
+8,Neukölln,114,Urnenwahlbezirk,3049,2746,303,0,801,9,0,801,766,35
+8,Neukölln,115,Urnenwahlbezirk,2652,2397,255,0,610,0,0,610,575,35
+8,Neukölln,201,Urnenwahlbezirk,1508,1315,193,0,448,4,0,448,437,11
+8,Neukölln,202,Urnenwahlbezirk,2718,2458,260,0,707,8,2,705,676,29
+8,Neukölln,203,Urnenwahlbezirk,2790,2491,299,0,721,6,1,720,691,29
+8,Neukölln,204,Urnenwahlbezirk,2853,2543,310,0,738,7,0,738,713,25
+8,Neukölln,205,Urnenwahlbezirk,2807,2486,321,0,770,6,3,767,733,34
+8,Neukölln,206,Urnenwahlbezirk,2620,2369,251,0,769,11,0,769,731,38
+8,Neukölln,207,Urnenwahlbezirk,2412,2186,226,0,728,4,1,727,698,29
+8,Neukölln,208,Urnenwahlbezirk,2931,2752,179,0,583,3,3,580,543,37
+8,Neukölln,209,Urnenwahlbezirk,2522,2280,242,0,462,5,2,460,417,43
+8,Neukölln,210,Urnenwahlbezirk,2988,2683,305,0,748,6,0,748,705,43
+8,Neukölln,211,Urnenwahlbezirk,2781,2580,201,0,612,5,3,609,568,41
+8,Neukölln,212,Urnenwahlbezirk,2291,2068,223,0,625,0,1,624,591,33
+8,Neukölln,213,Urnenwahlbezirk,2654,2404,250,0,545,6,1,544,520,24
+8,Neukölln,214,Urnenwahlbezirk,3232,2916,316,0,823,5,0,823,782,41
+8,Neukölln,301,Urnenwahlbezirk,2510,2386,124,0,354,0,0,354,286,68
+8,Neukölln,302,Urnenwahlbezirk,2738,2545,193,0,472,4,0,472,441,31
+8,Neukölln,303,Urnenwahlbezirk,2478,2300,178,0,434,4,1,433,388,45
+8,Neukölln,304,Urnenwahlbezirk,1457,1310,147,0,223,1,0,223,211,12
+8,Neukölln,305,Urnenwahlbezirk,2543,2353,190,0,367,2,1,366,316,50
+8,Neukölln,306,Urnenwahlbezirk,1439,1365,74,0,173,0,0,173,153,20
+8,Neukölln,307,Urnenwahlbezirk,3151,2994,157,0,383,0,2,381,297,84
+8,Neukölln,308,Urnenwahlbezirk,1330,1199,131,0,170,0,0,170,138,32
+8,Neukölln,309,Urnenwahlbezirk,2293,2144,149,0,277,0,0,277,237,40
+8,Neukölln,310,Urnenwahlbezirk,3099,2871,228,0,487,3,1,486,397,89
+8,Neukölln,311,Urnenwahlbezirk,1572,1439,133,0,388,0,5,383,305,78
+8,Neukölln,312,Urnenwahlbezirk,1104,1018,86,0,197,2,0,197,149,48
+8,Neukölln,313,Urnenwahlbezirk,1293,1188,105,0,120,0,0,120,86,34
+8,Neukölln,314,Urnenwahlbezirk,1541,1369,172,0,258,2,0,258,199,59
+8,Neukölln,315,Urnenwahlbezirk,2923,2583,340,0,585,4,0,585,484,101
+8,Neukölln,401,Urnenwahlbezirk,2652,2387,265,0,582,6,0,582,422,160
+8,Neukölln,402,Urnenwahlbezirk,2860,2595,265,0,361,2,1,360,309,51
+8,Neukölln,403,Urnenwahlbezirk,2254,2026,228,0,421,0,2,419,317,102
+8,Neukölln,404,Urnenwahlbezirk,1306,1232,74,0,180,0,2,178,145,33
+8,Neukölln,405,Urnenwahlbezirk,2502,2273,229,0,394,0,0,394,292,102
+8,Neukölln,406,Urnenwahlbezirk,1590,1437,153,0,348,1,0,348,244,104
+8,Neukölln,407,Urnenwahlbezirk,3011,2624,387,0,639,2,2,637,403,234
+8,Neukölln,408,Urnenwahlbezirk,2812,2515,297,0,511,1,1,510,402,108
+8,Neukölln,409,Urnenwahlbezirk,2626,2406,220,0,390,1,4,386,277,109
+8,Neukölln,410,Urnenwahlbezirk,2811,2524,287,0,627,1,2,625,438,187
+8,Neukölln,411,Urnenwahlbezirk,1389,1277,112,0,242,10,1,241,171,70
+8,Neukölln,412,Urnenwahlbezirk,2335,2165,170,0,379,1,0,379,270,109
+8,Neukölln,413,Urnenwahlbezirk,3023,2773,250,0,411,3,2,409,293,116
+8,Neukölln,414,Urnenwahlbezirk,1490,1360,130,0,292,1,0,292,204,88
+8,Neukölln,501,Urnenwahlbezirk,3379,2946,433,0,735,2,1,734,522,212
+8,Neukölln,502,Urnenwahlbezirk,2470,2193,277,0,354,2,0,354,276,78
+8,Neukölln,503,Urnenwahlbezirk,2442,2170,272,0,340,1,1,339,256,83
+8,Neukölln,504,Urnenwahlbezirk,2604,2375,229,0,430,0,0,430,318,112
+8,Neukölln,505,Urnenwahlbezirk,1434,1309,125,0,210,0,0,210,146,64
+8,Neukölln,506,Urnenwahlbezirk,2664,2398,266,0,393,0,2,391,285,106
+8,Neukölln,507,Urnenwahlbezirk,1559,1416,143,0,193,2,0,193,153,40
+8,Neukölln,508,Urnenwahlbezirk,3059,2806,253,0,495,0,0,495,333,162
+8,Neukölln,509,Urnenwahlbezirk,1646,1508,138,0,163,0,1,162,132,30
+8,Neukölln,510,Urnenwahlbezirk,2337,2151,186,0,326,0,0,326,217,109
+8,Neukölln,511,Urnenwahlbezirk,2822,2537,285,0,522,2,0,522,358,164
+8,Neukölln,512,Urnenwahlbezirk,1598,1399,199,0,314,0,0,314,209,105
+8,Neukölln,513,Urnenwahlbezirk,2750,2470,280,0,356,0,0,356,238,118
+8,Neukölln,514,Urnenwahlbezirk,2732,2556,176,0,313,0,1,312,230,82
+8,Neukölln,601,Urnenwahlbezirk,2184,2040,144,0,215,0,1,214,180,34
+8,Neukölln,602,Urnenwahlbezirk,2041,1910,131,0,312,2,2,310,252,58
+8,Neukölln,603,Urnenwahlbezirk,2312,2068,244,0,462,0,0,462,336,126
+8,Neukölln,604,Urnenwahlbezirk,1606,1393,213,0,307,1,0,307,243,64
+8,Neukölln,605,Urnenwahlbezirk,2486,2310,176,0,410,2,0,410,316,94
+8,Neukölln,606,Urnenwahlbezirk,1541,1359,182,0,230,0,3,227,183,44
+8,Neukölln,607,Urnenwahlbezirk,2691,2444,247,0,558,0,1,557,390,167
+8,Neukölln,608,Urnenwahlbezirk,2814,2514,300,0,688,4,1,687,497,190
+8,Neukölln,609,Urnenwahlbezirk,2648,2279,369,0,518,0,2,516,336,180
+8,Neukölln,610,Urnenwahlbezirk,2109,1885,224,0,388,2,0,388,274,114
+8,Neukölln,611,Urnenwahlbezirk,2307,2027,280,0,363,0,3,360,279,81
+8,Neukölln,612,Urnenwahlbezirk,3352,3051,301,0,676,3,4,672,481,191
+8,Neukölln,613,Urnenwahlbezirk,3676,3436,240,0,695,1,0,695,507,188
+9,Treptow-Köpenick,101,Urnenwahlbezirk,4691,4192,499,0,1335,13,2,1333,1226,107
+9,Treptow-Köpenick,102,Urnenwahlbezirk,3084,2818,266,0,1013,11,1,1012,950,62
+9,Treptow-Köpenick,103,Urnenwahlbezirk,4171,3657,514,0,978,12,0,978,891,87
+9,Treptow-Köpenick,104,Urnenwahlbezirk,6219,5634,585,0,1190,5,3,1187,1048,139
+9,Treptow-Köpenick,105,Urnenwahlbezirk,1982,1811,171,0,399,2,1,398,353,45
+9,Treptow-Köpenick,106,Urnenwahlbezirk,3325,3018,307,0,921,3,3,918,798,120
+9,Treptow-Köpenick,107,Urnenwahlbezirk,2023,1842,181,0,475,6,0,475,417,58
+9,Treptow-Köpenick,108,Urnenwahlbezirk,5668,5092,576,0,1247,3,5,1242,1047,195
+9,Treptow-Köpenick,109,Urnenwahlbezirk,2349,2178,171,0,525,5,0,525,454,71
+9,Treptow-Köpenick,201,Urnenwahlbezirk,1961,1764,197,0,483,1,1,482,411,71
+9,Treptow-Köpenick,202,Urnenwahlbezirk,4273,3910,363,0,894,3,2,892,759,133
+9,Treptow-Köpenick,203,Urnenwahlbezirk,1878,1753,125,0,464,0,2,462,394,68
+9,Treptow-Köpenick,204,Urnenwahlbezirk,1526,1404,122,0,300,0,1,299,262,37
+9,Treptow-Köpenick,205,Urnenwahlbezirk,3264,2929,335,0,692,0,3,689,592,97
+9,Treptow-Köpenick,206,Urnenwahlbezirk,2716,2409,307,0,661,2,0,661,547,114
+9,Treptow-Köpenick,207,Urnenwahlbezirk,6061,5450,611,0,1213,2,2,1211,1063,148
+9,Treptow-Köpenick,208,Urnenwahlbezirk,4415,4175,240,0,660,3,0,660,570,90
+9,Treptow-Köpenick,209,Urnenwahlbezirk,1516,1414,102,0,362,0,2,360,306,54
+9,Treptow-Köpenick,210,Urnenwahlbezirk,3398,3166,232,0,626,0,3,623,537,86
+9,Treptow-Köpenick,211,Urnenwahlbezirk,4921,4588,333,0,840,4,4,836,702,134
+9,Treptow-Köpenick,212,Urnenwahlbezirk,1208,1135,73,0,231,3,1,230,212,18
+9,Treptow-Köpenick,301,Urnenwahlbezirk,1752,1631,121,0,415,1,0,415,347,68
+9,Treptow-Köpenick,302,Urnenwahlbezirk,3943,3555,388,0,865,0,0,865,738,127
+9,Treptow-Köpenick,303,Urnenwahlbezirk,1761,1643,118,0,391,3,0,391,337,54
+9,Treptow-Köpenick,304,Urnenwahlbezirk,5526,5125,401,0,1057,2,2,1055,885,170
+9,Treptow-Köpenick,305,Urnenwahlbezirk,3042,2807,235,0,589,2,2,587,485,102
+9,Treptow-Köpenick,306,Urnenwahlbezirk,3104,2795,309,0,687,0,1,686,562,124
+9,Treptow-Köpenick,307,Urnenwahlbezirk,1921,1731,190,0,473,2,0,473,382,91
+9,Treptow-Köpenick,308,Urnenwahlbezirk,1912,1809,103,0,340,0,0,340,290,50
+9,Treptow-Köpenick,309,Urnenwahlbezirk,4297,3930,367,0,880,5,2,878,702,176
+9,Treptow-Köpenick,310,Urnenwahlbezirk,1964,1832,132,0,260,2,0,260,218,42
+9,Treptow-Köpenick,311,Urnenwahlbezirk,2864,2654,210,0,410,2,1,409,355,54
+9,Treptow-Köpenick,312,Urnenwahlbezirk,1936,1850,86,0,188,0,1,187,157,30
+9,Treptow-Köpenick,401,Urnenwahlbezirk,3675,3349,326,0,828,5,3,825,691,134
+9,Treptow-Köpenick,402,Urnenwahlbezirk,3491,3136,355,0,830,2,1,829,695,134
+9,Treptow-Köpenick,403,Urnenwahlbezirk,1973,1755,218,0,447,6,0,447,366,81
+9,Treptow-Köpenick,404,Urnenwahlbezirk,3447,3215,232,0,711,5,0,711,619,92
+9,Treptow-Köpenick,405,Urnenwahlbezirk,4461,4117,344,0,663,0,3,660,581,79
+9,Treptow-Köpenick,406,Urnenwahlbezirk,1255,1149,106,0,312,0,0,312,246,66
+9,Treptow-Köpenick,407,Urnenwahlbezirk,2105,1928,177,0,450,1,0,450,378,72
+9,Treptow-Köpenick,408,Urnenwahlbezirk,1286,1179,107,0,310,0,0,310,259,51
+9,Treptow-Köpenick,409,Urnenwahlbezirk,1472,1286,186,0,435,3,0,435,376,59
+9,Treptow-Köpenick,410,Urnenwahlbezirk,791,695,96,0,202,0,0,202,178,24
+9,Treptow-Köpenick,411,Urnenwahlbezirk,715,641,74,0,159,0,0,159,131,28
+9,Treptow-Köpenick,412,Urnenwahlbezirk,368,313,55,0,84,0,0,84,63,21
+9,Treptow-Köpenick,413,Urnenwahlbezirk,1881,1713,168,0,432,1,0,432,364,68
+9,Treptow-Köpenick,414,Urnenwahlbezirk,1499,1408,91,0,378,2,0,378,309,69
+9,Treptow-Köpenick,415,Urnenwahlbezirk,3009,2779,230,0,591,2,2,589,495,94
+9,Treptow-Köpenick,416,Urnenwahlbezirk,1599,1426,173,0,347,0,0,347,274,73
+9,Treptow-Köpenick,501,Urnenwahlbezirk,1525,1431,94,0,341,0,0,341,302,39
+9,Treptow-Köpenick,502,Urnenwahlbezirk,1810,1715,95,0,343,0,0,343,282,61
+9,Treptow-Köpenick,503,Urnenwahlbezirk,4605,4252,353,0,923,3,2,921,777,144
+9,Treptow-Köpenick,504,Urnenwahlbezirk,1270,1154,116,0,288,0,0,288,240,48
+9,Treptow-Köpenick,505,Urnenwahlbezirk,899,857,42,0,204,0,1,203,181,22
+9,Treptow-Köpenick,506,Urnenwahlbezirk,2818,2647,171,0,547,3,0,547,476,71
+9,Treptow-Köpenick,507,Urnenwahlbezirk,1660,1505,155,0,366,3,2,364,294,70
+9,Treptow-Köpenick,508,Urnenwahlbezirk,1514,1394,120,0,301,1,0,301,252,49
+9,Treptow-Köpenick,509,Urnenwahlbezirk,4142,3699,443,0,880,3,0,880,729,151
+9,Treptow-Köpenick,510,Urnenwahlbezirk,2133,1952,181,0,504,0,0,504,415,89
+9,Treptow-Köpenick,511,Urnenwahlbezirk,1926,1754,172,0,457,0,0,457,353,104
+9,Treptow-Köpenick,512,Urnenwahlbezirk,3604,3306,298,0,930,2,3,927,784,143
+9,Treptow-Köpenick,513,Urnenwahlbezirk,1983,1775,208,0,480,5,0,480,411,69
+9,Treptow-Köpenick,601,Urnenwahlbezirk,3327,2989,338,0,976,7,3,973,856,117
+9,Treptow-Köpenick,602,Urnenwahlbezirk,1922,1721,201,0,543,9,0,543,476,67
+9,Treptow-Köpenick,603,Urnenwahlbezirk,1400,1270,130,0,426,3,0,426,386,40
+9,Treptow-Köpenick,604,Urnenwahlbezirk,2204,1957,247,0,534,6,0,534,475,59
+9,Treptow-Köpenick,605,Urnenwahlbezirk,3613,3280,333,0,904,3,0,904,815,89
+9,Treptow-Köpenick,606,Urnenwahlbezirk,2269,2016,253,0,628,0,1,627,546,81
+9,Treptow-Köpenick,607,Urnenwahlbezirk,4559,4073,486,0,1173,5,1,1172,960,212
+9,Treptow-Köpenick,608,Urnenwahlbezirk,4230,3795,435,0,917,2,2,915,761,154
+9,Treptow-Köpenick,609,Urnenwahlbezirk,1761,1578,183,0,474,2,0,474,370,104
+9,Treptow-Köpenick,610,Urnenwahlbezirk,3057,2661,396,0,767,2,0,767,651,116
+9,Treptow-Köpenick,611,Urnenwahlbezirk,1516,1337,179,0,404,0,0,404,360,44
+9,Treptow-Köpenick,612,Urnenwahlbezirk,1496,1362,134,0,385,0,0,385,318,67
+9,Treptow-Köpenick,613,Urnenwahlbezirk,1338,1206,132,0,359,2,0,359,326,33
 10,Marzahn-Hellersdorf,101,Urnenwahlbezirk,1786,1731,55,0,201,0,1,200,174,26
 10,Marzahn-Hellersdorf,102,Urnenwahlbezirk,2417,2300,117,0,317,2,0,317,264,53
 10,Marzahn-Hellersdorf,103,Urnenwahlbezirk,1426,1377,49,0,183,0,0,183,155,28
@@ -1095,226 +1094,226 @@ Bezirksnummer,Bezirksname,Stimmbezirk,Stimmbezirksart,Stimmberechtigte insgesamt
 12,Reinickendorf,616,Urnenwahlbezirk,2004,1744,260,0,620,2,2,618,394,224
 12,Reinickendorf,617,Urnenwahlbezirk,1220,1098,122,0,339,0,1,338,213,125
 12,Reinickendorf,618,Urnenwahlbezirk,1109,1011,98,0,316,0,0,316,249,67
-01,Mitte,1A ,Briefwahlbezirk,0,0,0,0,1096,1096,4,1092,952,140
-01,Mitte,1B ,Briefwahlbezirk,0,0,0,0,1232,1232,1,1231,1070,161
-01,Mitte,1C ,Briefwahlbezirk,0,0,0,0,1241,1241,0,1241,1062,179
-01,Mitte,1D ,Briefwahlbezirk,0,0,0,0,1250,1250,2,1248,1019,229
-01,Mitte,1F ,Briefwahlbezirk,0,0,0,0,1245,1245,2,1243,1072,171
-01,Mitte,1G ,Briefwahlbezirk,0,0,0,0,1234,1234,5,1229,1070,159
-01,Mitte,1H ,Briefwahlbezirk,0,0,0,0,1260,1260,2,1258,1072,186
-01,Mitte,1J ,Briefwahlbezirk,0,0,0,0,1250,1250,7,1243,1058,185
-01,Mitte,1K ,Briefwahlbezirk,0,0,0,0,1240,1240,1,1239,1061,178
-01,Mitte,1L ,Briefwahlbezirk,0,0,0,0,1228,1228,2,1226,1030,196
-01,Mitte,1M ,Briefwahlbezirk,0,0,0,0,1272,1272,4,1268,1109,159
-01,Mitte,1N ,Briefwahlbezirk,0,0,0,0,1248,1248,1,1247,1085,162
-02,Friedrichshain-Kreuzberg,1A ,Briefwahlbezirk,0,0,0,0,694,694,2,692,615,77
-02,Friedrichshain-Kreuzberg,1B ,Briefwahlbezirk,0,0,0,0,689,689,0,689,654,35
-02,Friedrichshain-Kreuzberg,1C ,Briefwahlbezirk,0,0,0,0,570,570,0,570,513,57
-02,Friedrichshain-Kreuzberg,1D ,Briefwahlbezirk,0,0,0,0,656,656,0,656,612,44
-02,Friedrichshain-Kreuzberg,1E ,Briefwahlbezirk,0,0,0,0,569,569,0,569,521,48
-02,Friedrichshain-Kreuzberg,1F ,Briefwahlbezirk,0,0,0,0,704,704,0,704,661,43
-02,Friedrichshain-Kreuzberg,1G ,Briefwahlbezirk,0,0,0,0,541,541,1,540,493,47
-02,Friedrichshain-Kreuzberg,1H ,Briefwahlbezirk,0,0,0,0,581,581,0,581,546,35
-02,Friedrichshain-Kreuzberg,1J ,Briefwahlbezirk,0,0,0,0,559,559,1,558,508,50
-02,Friedrichshain-Kreuzberg,1K ,Briefwahlbezirk,0,0,0,0,578,578,1,577,539,38
-02,Friedrichshain-Kreuzberg,1L ,Briefwahlbezirk,0,0,0,0,651,651,1,650,619,31
-02,Friedrichshain-Kreuzberg,1M ,Briefwahlbezirk,0,0,0,0,682,682,0,682,636,46
-02,Friedrichshain-Kreuzberg,1N ,Briefwahlbezirk,0,0,0,0,549,549,2,547,513,34
-02,Friedrichshain-Kreuzberg,2A ,Briefwahlbezirk,0,0,0,0,561,561,0,561,505,56
-02,Friedrichshain-Kreuzberg,2B ,Briefwahlbezirk,0,0,0,0,659,659,2,657,614,43
-02,Friedrichshain-Kreuzberg,2C ,Briefwahlbezirk,0,0,0,0,744,744,1,743,690,53
-02,Friedrichshain-Kreuzberg,2D ,Briefwahlbezirk,0,0,0,0,703,703,1,702,677,25
-02,Friedrichshain-Kreuzberg,2E ,Briefwahlbezirk,0,0,0,0,574,574,0,574,516,58
-02,Friedrichshain-Kreuzberg,2F ,Briefwahlbezirk,0,0,0,0,497,497,1,496,454,42
-02,Friedrichshain-Kreuzberg,2G ,Briefwahlbezirk,0,0,0,0,534,534,0,534,490,44
-02,Friedrichshain-Kreuzberg,2H ,Briefwahlbezirk,0,0,0,0,618,618,0,618,603,15
-02,Friedrichshain-Kreuzberg,2J ,Briefwahlbezirk,0,0,0,0,599,599,1,598,551,47
-02,Friedrichshain-Kreuzberg,2K ,Briefwahlbezirk,0,0,0,0,543,543,1,542,513,29
-02,Friedrichshain-Kreuzberg,2L ,Briefwahlbezirk,0,0,0,0,570,570,1,569,532,37
-02,Friedrichshain-Kreuzberg,2M ,Briefwahlbezirk,0,0,0,0,503,503,0,503,480,23
-02,Friedrichshain-Kreuzberg,2N ,Briefwahlbezirk,0,0,0,0,461,461,1,460,428,32
-03,Pankow,1A ,Briefwahlbezirk,0,0,0,0,797,797,5,792,681,111
-03,Pankow,1B ,Briefwahlbezirk,0,0,0,0,635,635,0,635,541,94
-03,Pankow,1C ,Briefwahlbezirk,0,0,0,0,752,752,2,750,626,124
-03,Pankow,2A ,Briefwahlbezirk,0,0,0,0,869,869,5,864,700,164
-03,Pankow,2B ,Briefwahlbezirk,0,0,0,0,880,880,2,878,738,140
-03,Pankow,2C ,Briefwahlbezirk,0,0,0,0,977,977,1,976,827,149
-03,Pankow,3A ,Briefwahlbezirk,0,0,0,0,1185,1185,2,1183,1034,149
-03,Pankow,3B ,Briefwahlbezirk,0,0,0,0,875,875,1,874,794,80
-03,Pankow,3C ,Briefwahlbezirk,0,0,0,0,943,943,0,943,864,79
-03,Pankow,4A ,Briefwahlbezirk,0,0,0,0,954,954,0,954,814,140
-03,Pankow,4B ,Briefwahlbezirk,0,0,0,0,1357,1357,2,1355,1168,187
-03,Pankow,5A ,Briefwahlbezirk,0,0,0,0,1015,1015,2,1013,920,93
-03,Pankow,5B ,Briefwahlbezirk,0,0,0,0,869,869,3,866,779,87
-03,Pankow,5C ,Briefwahlbezirk,0,0,0,0,866,866,2,864,768,96
-03,Pankow,6A ,Briefwahlbezirk,0,0,0,0,1263,1263,0,1263,1160,103
-03,Pankow,6B ,Briefwahlbezirk,0,0,0,0,1128,1128,3,1125,1055,70
-03,Pankow,6C ,Briefwahlbezirk,0,0,0,0,919,919,0,919,852,67
-03,Pankow,7A ,Briefwahlbezirk,0,0,0,0,911,911,0,911,803,108
-03,Pankow,7B ,Briefwahlbezirk,0,0,0,0,872,872,3,869,791,78
-03,Pankow,7C ,Briefwahlbezirk,0,0,0,0,483,483,0,483,435,48
-03,Pankow,8A ,Briefwahlbezirk,0,0,0,0,1107,1107,5,1102,1021,81
-03,Pankow,8B ,Briefwahlbezirk,0,0,0,0,983,983,0,983,882,101
-03,Pankow,8C ,Briefwahlbezirk,0,0,0,0,782,782,2,780,698,82
-03,Pankow,9A ,Briefwahlbezirk,0,0,0,0,831,831,1,830,727,103
-03,Pankow,9B ,Briefwahlbezirk,0,0,0,0,878,878,2,876,783,93
-03,Pankow,9C ,Briefwahlbezirk,0,0,0,0,958,958,2,956,851,105
-04,Charlottenburg-Wilmersdorf,1A ,Briefwahlbezirk,0,0,0,0,712,712,1,711,578,133
-04,Charlottenburg-Wilmersdorf,1B ,Briefwahlbezirk,0,0,0,0,691,691,0,691,567,124
-04,Charlottenburg-Wilmersdorf,1C ,Briefwahlbezirk,0,0,0,0,694,694,0,694,567,127
-04,Charlottenburg-Wilmersdorf,1D ,Briefwahlbezirk,0,0,0,0,766,766,2,764,569,195
-04,Charlottenburg-Wilmersdorf,1E ,Briefwahlbezirk,0,0,0,0,732,732,0,732,549,183
-04,Charlottenburg-Wilmersdorf,1F ,Briefwahlbezirk,0,0,0,0,744,744,0,744,592,152
-04,Charlottenburg-Wilmersdorf,1G ,Briefwahlbezirk,0,0,0,0,738,738,3,735,613,122
-04,Charlottenburg-Wilmersdorf,1H ,Briefwahlbezirk,0,0,0,0,747,747,1,746,661,85
-04,Charlottenburg-Wilmersdorf,1J ,Briefwahlbezirk,0,0,0,0,736,736,2,734,598,136
-04,Charlottenburg-Wilmersdorf,1K ,Briefwahlbezirk,0,0,0,0,711,711,0,711,604,107
-04,Charlottenburg-Wilmersdorf,2A ,Briefwahlbezirk,0,0,0,0,732,732,0,732,602,130
-04,Charlottenburg-Wilmersdorf,2B ,Briefwahlbezirk,0,0,0,0,644,644,1,643,533,110
-04,Charlottenburg-Wilmersdorf,2C ,Briefwahlbezirk,0,0,0,0,694,694,1,693,589,104
-04,Charlottenburg-Wilmersdorf,2D ,Briefwahlbezirk,0,0,0,0,765,765,0,765,650,115
-04,Charlottenburg-Wilmersdorf,2E ,Briefwahlbezirk,0,0,0,0,719,719,0,719,587,132
-04,Charlottenburg-Wilmersdorf,2F ,Briefwahlbezirk,0,0,0,0,716,716,0,716,546,170
-04,Charlottenburg-Wilmersdorf,2G ,Briefwahlbezirk,0,0,0,0,606,606,1,605,457,148
-04,Charlottenburg-Wilmersdorf,2H ,Briefwahlbezirk,0,0,0,0,742,742,5,737,595,142
-04,Charlottenburg-Wilmersdorf,2J ,Briefwahlbezirk,0,0,0,0,662,662,5,657,486,171
-04,Charlottenburg-Wilmersdorf,2K ,Briefwahlbezirk,0,0,0,0,732,732,0,732,533,199
-04,Charlottenburg-Wilmersdorf,3A ,Briefwahlbezirk,0,0,0,0,662,662,0,662,545,117
-04,Charlottenburg-Wilmersdorf,3B ,Briefwahlbezirk,0,0,0,0,734,734,0,734,611,123
-04,Charlottenburg-Wilmersdorf,3C ,Briefwahlbezirk,0,0,0,0,799,799,1,798,673,125
-04,Charlottenburg-Wilmersdorf,3D ,Briefwahlbezirk,0,0,0,0,691,691,4,687,574,113
-04,Charlottenburg-Wilmersdorf,3E ,Briefwahlbezirk,0,0,0,0,720,720,4,716,596,120
-04,Charlottenburg-Wilmersdorf,3F ,Briefwahlbezirk,0,0,0,0,714,714,1,713,548,165
-04,Charlottenburg-Wilmersdorf,3G ,Briefwahlbezirk,0,0,0,0,710,710,0,710,546,164
-04,Charlottenburg-Wilmersdorf,3H ,Briefwahlbezirk,0,0,0,0,708,708,4,704,564,140
-05,Spandau,1A ,Briefwahlbezirk,0,0,0,0,880,880,0,880,694,186
-05,Spandau,1B ,Briefwahlbezirk,0,0,0,0,626,626,1,625,513,112
-05,Spandau,1C ,Briefwahlbezirk,0,0,0,0,580,580,1,579,459,120
-05,Spandau,1D ,Briefwahlbezirk,0,0,0,0,525,525,1,524,422,102
-05,Spandau,1E ,Briefwahlbezirk,0,0,0,0,887,887,0,887,719,168
-05,Spandau,1F ,Briefwahlbezirk,0,0,0,0,652,652,1,651,509,142
-05,Spandau,1G ,Briefwahlbezirk,0,0,0,0,617,617,0,617,504,113
-05,Spandau,1H ,Briefwahlbezirk,0,0,0,0,619,619,2,617,488,129
-05,Spandau,1J ,Briefwahlbezirk,0,0,0,0,807,807,3,804,633,171
-05,Spandau,1K ,Briefwahlbezirk,0,0,0,0,664,664,3,661,516,145
-05,Spandau,1L ,Briefwahlbezirk,0,0,0,0,642,642,1,641,512,129
-05,Spandau,1M ,Briefwahlbezirk,0,0,0,0,702,702,4,698,539,159
-05,Spandau,1N ,Briefwahlbezirk,0,0,0,0,690,690,0,690,530,160
-05,Spandau,1O ,Briefwahlbezirk,0,0,0,0,1027,1027,1,1026,725,301
-05,Spandau,1P ,Briefwahlbezirk,0,0,0,0,986,986,1,985,675,310
-06,Steglitz-Zehlendorf,1A ,Briefwahlbezirk,0,0,0,0,667,667,2,665,498,167
-06,Steglitz-Zehlendorf,1B ,Briefwahlbezirk,0,0,0,0,668,668,0,668,516,152
-06,Steglitz-Zehlendorf,1C ,Briefwahlbezirk,0,0,0,0,515,515,1,514,438,76
-06,Steglitz-Zehlendorf,1D ,Briefwahlbezirk,0,0,0,0,410,410,1,409,333,76
-06,Steglitz-Zehlendorf,1E ,Briefwahlbezirk,0,0,0,0,473,473,2,471,369,102
-06,Steglitz-Zehlendorf,1F ,Briefwahlbezirk,0,0,0,0,586,586,1,585,475,110
-06,Steglitz-Zehlendorf,2A ,Briefwahlbezirk,0,0,0,0,605,605,0,605,513,92
-06,Steglitz-Zehlendorf,2B ,Briefwahlbezirk,0,0,0,0,468,468,2,466,381,85
-06,Steglitz-Zehlendorf,2C ,Briefwahlbezirk,0,0,0,0,484,484,0,484,384,100
-06,Steglitz-Zehlendorf,2D ,Briefwahlbezirk,0,0,0,0,500,500,0,500,441,59
-06,Steglitz-Zehlendorf,2E ,Briefwahlbezirk,0,0,0,0,584,584,3,581,454,127
-06,Steglitz-Zehlendorf,2F ,Briefwahlbezirk,0,0,0,0,439,439,1,438,365,73
-06,Steglitz-Zehlendorf,3A ,Briefwahlbezirk,0,0,0,0,637,637,0,637,475,162
-06,Steglitz-Zehlendorf,3B ,Briefwahlbezirk,0,0,0,0,573,573,0,573,450,123
-06,Steglitz-Zehlendorf,3C ,Briefwahlbezirk,0,0,0,0,554,554,1,553,417,136
-06,Steglitz-Zehlendorf,3D ,Briefwahlbezirk,0,0,0,0,562,562,0,562,437,125
-06,Steglitz-Zehlendorf,3E ,Briefwahlbezirk,0,0,0,0,624,624,1,623,457,166
-06,Steglitz-Zehlendorf,3F ,Briefwahlbezirk,0,0,0,0,637,637,1,636,468,168
-06,Steglitz-Zehlendorf,4A ,Briefwahlbezirk,0,0,0,0,492,492,0,492,382,110
-06,Steglitz-Zehlendorf,4B ,Briefwahlbezirk,0,0,0,0,620,620,1,619,460,159
-06,Steglitz-Zehlendorf,4C ,Briefwahlbezirk,0,0,0,0,580,580,0,580,427,153
-06,Steglitz-Zehlendorf,4D ,Briefwahlbezirk,0,0,0,0,611,611,0,611,473,138
-06,Steglitz-Zehlendorf,4E ,Briefwahlbezirk,0,0,0,0,697,697,0,697,519,178
-06,Steglitz-Zehlendorf,5A ,Briefwahlbezirk,0,0,0,0,524,524,2,522,380,142
-06,Steglitz-Zehlendorf,5B ,Briefwahlbezirk,0,0,0,0,479,479,0,479,334,145
-06,Steglitz-Zehlendorf,5C ,Briefwahlbezirk,0,0,0,0,445,445,1,444,352,92
-06,Steglitz-Zehlendorf,5D ,Briefwahlbezirk,0,0,0,0,436,436,0,436,335,101
-06,Steglitz-Zehlendorf,5E ,Briefwahlbezirk,0,0,0,0,434,434,2,432,359,73
-06,Steglitz-Zehlendorf,5F ,Briefwahlbezirk,0,0,0,0,483,483,0,483,385,98
-06,Steglitz-Zehlendorf,6A ,Briefwahlbezirk,0,0,0,0,599,599,0,599,457,142
-06,Steglitz-Zehlendorf,6B ,Briefwahlbezirk,0,0,0,0,586,586,1,585,449,136
-06,Steglitz-Zehlendorf,6C ,Briefwahlbezirk,0,0,0,0,503,503,3,500,400,100
-06,Steglitz-Zehlendorf,6D ,Briefwahlbezirk,0,0,0,0,606,606,0,606,487,119
-06,Steglitz-Zehlendorf,6E ,Briefwahlbezirk,0,0,0,0,544,544,9,535,378,157
-06,Steglitz-Zehlendorf,6F ,Briefwahlbezirk,0,0,0,0,622,622,2,620,387,233
-06,Steglitz-Zehlendorf,7A ,Briefwahlbezirk,0,0,0,0,449,449,0,449,304,145
-06,Steglitz-Zehlendorf,7B ,Briefwahlbezirk,0,0,0,0,645,645,0,645,507,138
-06,Steglitz-Zehlendorf,7C ,Briefwahlbezirk,0,0,0,0,742,742,1,741,505,236
-06,Steglitz-Zehlendorf,7D ,Briefwahlbezirk,0,0,0,0,474,474,2,472,365,107
-06,Steglitz-Zehlendorf,7E ,Briefwahlbezirk,0,0,0,0,639,639,2,637,473,164
-06,Steglitz-Zehlendorf,7F ,Briefwahlbezirk,0,0,0,0,764,764,0,764,556,208
-07,Tempelhof-Schöneberg,1A ,Briefwahlbezirk,0,0,0,0,666,666,0,666,546,120
-07,Tempelhof-Schöneberg,1B ,Briefwahlbezirk,0,0,0,0,651,651,2,649,531,118
-07,Tempelhof-Schöneberg,1C ,Briefwahlbezirk,0,0,0,0,670,670,0,670,509,161
-07,Tempelhof-Schöneberg,1D ,Briefwahlbezirk,0,0,0,0,631,631,1,630,540,90
-07,Tempelhof-Schöneberg,2A ,Briefwahlbezirk,0,0,0,0,659,659,4,655,527,128
-07,Tempelhof-Schöneberg,2B ,Briefwahlbezirk,0,0,0,0,665,665,1,664,532,132
-07,Tempelhof-Schöneberg,2C ,Briefwahlbezirk,0,0,0,0,639,639,1,638,513,125
-07,Tempelhof-Schöneberg,2D ,Briefwahlbezirk,0,0,0,0,664,664,5,659,541,118
-07,Tempelhof-Schöneberg,3A ,Briefwahlbezirk,0,0,0,0,663,663,2,661,551,110
-07,Tempelhof-Schöneberg,3B ,Briefwahlbezirk,0,0,0,0,671,671,2,669,561,108
-07,Tempelhof-Schöneberg,3C ,Briefwahlbezirk,0,0,0,0,661,661,1,660,535,125
-07,Tempelhof-Schöneberg,3D ,Briefwahlbezirk,0,0,0,0,688,688,1,687,564,123
-07,Tempelhof-Schöneberg,4A ,Briefwahlbezirk,0,0,0,0,730,730,2,728,604,124
-07,Tempelhof-Schöneberg,4B ,Briefwahlbezirk,0,0,0,0,811,811,4,807,662,145
-07,Tempelhof-Schöneberg,4C ,Briefwahlbezirk,0,0,0,0,742,742,1,741,614,127
-07,Tempelhof-Schöneberg,4D ,Briefwahlbezirk,0,0,0,0,735,735,1,734,584,150
-07,Tempelhof-Schöneberg,5A ,Briefwahlbezirk,0,0,0,0,703,703,1,702,592,110
-07,Tempelhof-Schöneberg,5B ,Briefwahlbezirk,0,0,0,0,732,732,2,730,621,109
-07,Tempelhof-Schöneberg,5C ,Briefwahlbezirk,0,0,0,0,727,727,3,724,622,102
-07,Tempelhof-Schöneberg,5D ,Briefwahlbezirk,0,0,0,0,708,708,4,704,572,132
-07,Tempelhof-Schöneberg,6A ,Briefwahlbezirk,0,0,0,0,768,768,1,767,633,134
-07,Tempelhof-Schöneberg,6B ,Briefwahlbezirk,0,0,0,0,772,772,0,772,624,148
-07,Tempelhof-Schöneberg,6C ,Briefwahlbezirk,0,0,0,0,716,716,0,716,571,145
-07,Tempelhof-Schöneberg,6D ,Briefwahlbezirk,0,0,0,0,758,758,2,756,621,135
-07,Tempelhof-Schöneberg,7A ,Briefwahlbezirk,0,0,0,0,661,661,1,660,545,115
-07,Tempelhof-Schöneberg,7B ,Briefwahlbezirk,0,0,0,0,658,658,1,657,521,136
-07,Tempelhof-Schöneberg,7C ,Briefwahlbezirk,0,0,0,0,674,674,0,674,556,118
-07,Tempelhof-Schöneberg,8A ,Briefwahlbezirk,0,0,0,0,662,662,1,661,535,126
-07,Tempelhof-Schöneberg,8B ,Briefwahlbezirk,0,0,0,0,665,665,2,663,547,116
-07,Tempelhof-Schöneberg,8C ,Briefwahlbezirk,0,0,0,0,687,687,1,686,542,144
-08,Neukölln,1A ,Briefwahlbezirk,0,0,0,0,714,714,0,714,685,29
-08,Neukölln,1B ,Briefwahlbezirk,0,0,0,0,663,663,1,662,631,31
-08,Neukölln,1C ,Briefwahlbezirk,0,0,0,0,738,738,14,724,647,77
-08,Neukölln,1D ,Briefwahlbezirk,0,0,0,0,599,599,1,598,551,47
-08,Neukölln,1E ,Briefwahlbezirk,0,0,0,0,683,683,1,682,661,21
-08,Neukölln,2A ,Briefwahlbezirk,0,0,0,0,618,618,0,618,575,43
-08,Neukölln,2B ,Briefwahlbezirk,0,0,0,0,762,762,0,762,718,44
-08,Neukölln,2C ,Briefwahlbezirk,0,0,0,0,556,556,10,546,514,32
-08,Neukölln,2D ,Briefwahlbezirk,0,0,0,0,607,607,1,606,565,41
-08,Neukölln,2E ,Briefwahlbezirk,0,0,0,0,486,486,1,485,449,36
-08,Neukölln,3A ,Briefwahlbezirk,0,0,0,0,276,276,1,275,245,30
-08,Neukölln,3B ,Briefwahlbezirk,0,0,0,0,451,451,0,451,399,52
-08,Neukölln,3C ,Briefwahlbezirk,0,0,0,0,321,321,0,321,262,59
-08,Neukölln,3D ,Briefwahlbezirk,0,0,0,0,455,455,14,441,365,76
-08,Neukölln,3E ,Briefwahlbezirk,0,0,0,0,592,592,2,590,493,97
-08,Neukölln,4A ,Briefwahlbezirk,0,0,0,0,452,452,0,452,354,98
-08,Neukölln,4B ,Briefwahlbezirk,0,0,0,0,463,463,1,462,395,67
-08,Neukölln,4C ,Briefwahlbezirk,0,0,0,0,752,752,4,748,545,203
-08,Neukölln,4D ,Briefwahlbezirk,0,0,0,0,522,522,0,522,417,105
-08,Neukölln,4E ,Briefwahlbezirk,0,0,0,0,492,492,0,492,370,122
-08,Neukölln,5A ,Briefwahlbezirk,0,0,0,0,608,608,5,603,456,147
-08,Neukölln,5B ,Briefwahlbezirk,0,0,0,0,556,556,1,555,418,137
-08,Neukölln,5C ,Briefwahlbezirk,0,0,0,0,573,573,3,570,456,114
-08,Neukölln,5D ,Briefwahlbezirk,0,0,0,0,517,517,0,517,384,133
-08,Neukölln,5E ,Briefwahlbezirk,0,0,0,0,575,575,2,573,415,158
-08,Neukölln,6A ,Briefwahlbezirk,0,0,0,0,431,431,0,431,351,80
-08,Neukölln,6B ,Briefwahlbezirk,0,0,0,0,499,499,1,498,376,122
-08,Neukölln,6C ,Briefwahlbezirk,0,0,0,0,468,468,2,466,375,91
-08,Neukölln,6D ,Briefwahlbezirk,0,0,0,0,748,748,4,744,568,176
-08,Neukölln,6E ,Briefwahlbezirk,0,0,0,0,471,471,0,471,387,84
-09,Treptow-Köpenick,1A ,Briefwahlbezirk,0,0,0,0,1547,1547,2,1545,1383,162
-09,Treptow-Köpenick,1B ,Briefwahlbezirk,0,0,0,0,1141,1141,2,1139,1006,133
-09,Treptow-Köpenick,2A ,Briefwahlbezirk,0,0,0,0,1200,1200,1,1199,1027,172
-09,Treptow-Köpenick,2B ,Briefwahlbezirk,0,0,0,0,1388,1388,4,1384,1191,193
-09,Treptow-Köpenick,3A ,Briefwahlbezirk,0,0,0,0,1331,1331,2,1329,1141,188
-09,Treptow-Köpenick,3B ,Briefwahlbezirk,0,0,0,0,890,890,4,886,762,124
-09,Treptow-Köpenick,4A ,Briefwahlbezirk,0,0,0,0,1525,1525,3,1522,1310,212
-09,Treptow-Köpenick,4B ,Briefwahlbezirk,0,0,0,0,912,912,2,910,771,139
-09,Treptow-Köpenick,5A ,Briefwahlbezirk,0,0,0,0,769,769,1,768,673,95
-09,Treptow-Köpenick,5B ,Briefwahlbezirk,0,0,0,0,1378,1378,1,1377,1182,195
-09,Treptow-Köpenick,6A ,Briefwahlbezirk,0,0,0,0,1710,1710,4,1706,1495,211
-09,Treptow-Köpenick,6B ,Briefwahlbezirk,0,0,0,0,1231,1231,0,1231,1044,187
+1,Mitte,1A ,Briefwahlbezirk,0,0,0,0,1096,1096,4,1092,952,140
+1,Mitte,1B ,Briefwahlbezirk,0,0,0,0,1232,1232,1,1231,1070,161
+1,Mitte,1C ,Briefwahlbezirk,0,0,0,0,1241,1241,0,1241,1062,179
+1,Mitte,1D ,Briefwahlbezirk,0,0,0,0,1250,1250,2,1248,1019,229
+1,Mitte,1F ,Briefwahlbezirk,0,0,0,0,1245,1245,2,1243,1072,171
+1,Mitte,1G ,Briefwahlbezirk,0,0,0,0,1234,1234,5,1229,1070,159
+1,Mitte,1H ,Briefwahlbezirk,0,0,0,0,1260,1260,2,1258,1072,186
+1,Mitte,1J ,Briefwahlbezirk,0,0,0,0,1250,1250,7,1243,1058,185
+1,Mitte,1K ,Briefwahlbezirk,0,0,0,0,1240,1240,1,1239,1061,178
+1,Mitte,1L ,Briefwahlbezirk,0,0,0,0,1228,1228,2,1226,1030,196
+1,Mitte,1M ,Briefwahlbezirk,0,0,0,0,1272,1272,4,1268,1109,159
+1,Mitte,1N ,Briefwahlbezirk,0,0,0,0,1248,1248,1,1247,1085,162
+2,Friedrichshain-Kreuzberg,1A ,Briefwahlbezirk,0,0,0,0,694,694,2,692,615,77
+2,Friedrichshain-Kreuzberg,1B ,Briefwahlbezirk,0,0,0,0,689,689,0,689,654,35
+2,Friedrichshain-Kreuzberg,1C ,Briefwahlbezirk,0,0,0,0,570,570,0,570,513,57
+2,Friedrichshain-Kreuzberg,1D ,Briefwahlbezirk,0,0,0,0,656,656,0,656,612,44
+2,Friedrichshain-Kreuzberg,1E ,Briefwahlbezirk,0,0,0,0,569,569,0,569,521,48
+2,Friedrichshain-Kreuzberg,1F ,Briefwahlbezirk,0,0,0,0,704,704,0,704,661,43
+2,Friedrichshain-Kreuzberg,1G ,Briefwahlbezirk,0,0,0,0,541,541,1,540,493,47
+2,Friedrichshain-Kreuzberg,1H ,Briefwahlbezirk,0,0,0,0,581,581,0,581,546,35
+2,Friedrichshain-Kreuzberg,1J ,Briefwahlbezirk,0,0,0,0,559,559,1,558,508,50
+2,Friedrichshain-Kreuzberg,1K ,Briefwahlbezirk,0,0,0,0,578,578,1,577,539,38
+2,Friedrichshain-Kreuzberg,1L ,Briefwahlbezirk,0,0,0,0,651,651,1,650,619,31
+2,Friedrichshain-Kreuzberg,1M ,Briefwahlbezirk,0,0,0,0,682,682,0,682,636,46
+2,Friedrichshain-Kreuzberg,1N ,Briefwahlbezirk,0,0,0,0,549,549,2,547,513,34
+2,Friedrichshain-Kreuzberg,2A ,Briefwahlbezirk,0,0,0,0,561,561,0,561,505,56
+2,Friedrichshain-Kreuzberg,2B ,Briefwahlbezirk,0,0,0,0,659,659,2,657,614,43
+2,Friedrichshain-Kreuzberg,2C ,Briefwahlbezirk,0,0,0,0,744,744,1,743,690,53
+2,Friedrichshain-Kreuzberg,2D ,Briefwahlbezirk,0,0,0,0,703,703,1,702,677,25
+2,Friedrichshain-Kreuzberg,2E ,Briefwahlbezirk,0,0,0,0,574,574,0,574,516,58
+2,Friedrichshain-Kreuzberg,2F ,Briefwahlbezirk,0,0,0,0,497,497,1,496,454,42
+2,Friedrichshain-Kreuzberg,2G ,Briefwahlbezirk,0,0,0,0,534,534,0,534,490,44
+2,Friedrichshain-Kreuzberg,2H ,Briefwahlbezirk,0,0,0,0,618,618,0,618,603,15
+2,Friedrichshain-Kreuzberg,2J ,Briefwahlbezirk,0,0,0,0,599,599,1,598,551,47
+2,Friedrichshain-Kreuzberg,2K ,Briefwahlbezirk,0,0,0,0,543,543,1,542,513,29
+2,Friedrichshain-Kreuzberg,2L ,Briefwahlbezirk,0,0,0,0,570,570,1,569,532,37
+2,Friedrichshain-Kreuzberg,2M ,Briefwahlbezirk,0,0,0,0,503,503,0,503,480,23
+2,Friedrichshain-Kreuzberg,2N ,Briefwahlbezirk,0,0,0,0,461,461,1,460,428,32
+3,Pankow,1A ,Briefwahlbezirk,0,0,0,0,797,797,5,792,681,111
+3,Pankow,1B ,Briefwahlbezirk,0,0,0,0,635,635,0,635,541,94
+3,Pankow,1C ,Briefwahlbezirk,0,0,0,0,752,752,2,750,626,124
+3,Pankow,2A ,Briefwahlbezirk,0,0,0,0,869,869,5,864,700,164
+3,Pankow,2B ,Briefwahlbezirk,0,0,0,0,880,880,2,878,738,140
+3,Pankow,2C ,Briefwahlbezirk,0,0,0,0,977,977,1,976,827,149
+3,Pankow,3A ,Briefwahlbezirk,0,0,0,0,1185,1185,2,1183,1034,149
+3,Pankow,3B ,Briefwahlbezirk,0,0,0,0,875,875,1,874,794,80
+3,Pankow,3C ,Briefwahlbezirk,0,0,0,0,943,943,0,943,864,79
+3,Pankow,4A ,Briefwahlbezirk,0,0,0,0,954,954,0,954,814,140
+3,Pankow,4B ,Briefwahlbezirk,0,0,0,0,1357,1357,2,1355,1168,187
+3,Pankow,5A ,Briefwahlbezirk,0,0,0,0,1015,1015,2,1013,920,93
+3,Pankow,5B ,Briefwahlbezirk,0,0,0,0,869,869,3,866,779,87
+3,Pankow,5C ,Briefwahlbezirk,0,0,0,0,866,866,2,864,768,96
+3,Pankow,6A ,Briefwahlbezirk,0,0,0,0,1263,1263,0,1263,1160,103
+3,Pankow,6B ,Briefwahlbezirk,0,0,0,0,1128,1128,3,1125,1055,70
+3,Pankow,6C ,Briefwahlbezirk,0,0,0,0,919,919,0,919,852,67
+3,Pankow,7A ,Briefwahlbezirk,0,0,0,0,911,911,0,911,803,108
+3,Pankow,7B ,Briefwahlbezirk,0,0,0,0,872,872,3,869,791,78
+3,Pankow,7C ,Briefwahlbezirk,0,0,0,0,483,483,0,483,435,48
+3,Pankow,8A ,Briefwahlbezirk,0,0,0,0,1107,1107,5,1102,1021,81
+3,Pankow,8B ,Briefwahlbezirk,0,0,0,0,983,983,0,983,882,101
+3,Pankow,8C ,Briefwahlbezirk,0,0,0,0,782,782,2,780,698,82
+3,Pankow,9A ,Briefwahlbezirk,0,0,0,0,831,831,1,830,727,103
+3,Pankow,9B ,Briefwahlbezirk,0,0,0,0,878,878,2,876,783,93
+3,Pankow,9C ,Briefwahlbezirk,0,0,0,0,958,958,2,956,851,105
+4,Charlottenburg-Wilmersdorf,1A ,Briefwahlbezirk,0,0,0,0,712,712,1,711,578,133
+4,Charlottenburg-Wilmersdorf,1B ,Briefwahlbezirk,0,0,0,0,691,691,0,691,567,124
+4,Charlottenburg-Wilmersdorf,1C ,Briefwahlbezirk,0,0,0,0,694,694,0,694,567,127
+4,Charlottenburg-Wilmersdorf,1D ,Briefwahlbezirk,0,0,0,0,766,766,2,764,569,195
+4,Charlottenburg-Wilmersdorf,1E ,Briefwahlbezirk,0,0,0,0,732,732,0,732,549,183
+4,Charlottenburg-Wilmersdorf,1F ,Briefwahlbezirk,0,0,0,0,744,744,0,744,592,152
+4,Charlottenburg-Wilmersdorf,1G ,Briefwahlbezirk,0,0,0,0,738,738,3,735,613,122
+4,Charlottenburg-Wilmersdorf,1H ,Briefwahlbezirk,0,0,0,0,747,747,1,746,661,85
+4,Charlottenburg-Wilmersdorf,1J ,Briefwahlbezirk,0,0,0,0,736,736,2,734,598,136
+4,Charlottenburg-Wilmersdorf,1K ,Briefwahlbezirk,0,0,0,0,711,711,0,711,604,107
+4,Charlottenburg-Wilmersdorf,2A ,Briefwahlbezirk,0,0,0,0,732,732,0,732,602,130
+4,Charlottenburg-Wilmersdorf,2B ,Briefwahlbezirk,0,0,0,0,644,644,1,643,533,110
+4,Charlottenburg-Wilmersdorf,2C ,Briefwahlbezirk,0,0,0,0,694,694,1,693,589,104
+4,Charlottenburg-Wilmersdorf,2D ,Briefwahlbezirk,0,0,0,0,765,765,0,765,650,115
+4,Charlottenburg-Wilmersdorf,2E ,Briefwahlbezirk,0,0,0,0,719,719,0,719,587,132
+4,Charlottenburg-Wilmersdorf,2F ,Briefwahlbezirk,0,0,0,0,716,716,0,716,546,170
+4,Charlottenburg-Wilmersdorf,2G ,Briefwahlbezirk,0,0,0,0,606,606,1,605,457,148
+4,Charlottenburg-Wilmersdorf,2H ,Briefwahlbezirk,0,0,0,0,742,742,5,737,595,142
+4,Charlottenburg-Wilmersdorf,2J ,Briefwahlbezirk,0,0,0,0,662,662,5,657,486,171
+4,Charlottenburg-Wilmersdorf,2K ,Briefwahlbezirk,0,0,0,0,732,732,0,732,533,199
+4,Charlottenburg-Wilmersdorf,3A ,Briefwahlbezirk,0,0,0,0,662,662,0,662,545,117
+4,Charlottenburg-Wilmersdorf,3B ,Briefwahlbezirk,0,0,0,0,734,734,0,734,611,123
+4,Charlottenburg-Wilmersdorf,3C ,Briefwahlbezirk,0,0,0,0,799,799,1,798,673,125
+4,Charlottenburg-Wilmersdorf,3D ,Briefwahlbezirk,0,0,0,0,691,691,4,687,574,113
+4,Charlottenburg-Wilmersdorf,3E ,Briefwahlbezirk,0,0,0,0,720,720,4,716,596,120
+4,Charlottenburg-Wilmersdorf,3F ,Briefwahlbezirk,0,0,0,0,714,714,1,713,548,165
+4,Charlottenburg-Wilmersdorf,3G ,Briefwahlbezirk,0,0,0,0,710,710,0,710,546,164
+4,Charlottenburg-Wilmersdorf,3H ,Briefwahlbezirk,0,0,0,0,708,708,4,704,564,140
+5,Spandau,1A ,Briefwahlbezirk,0,0,0,0,880,880,0,880,694,186
+5,Spandau,1B ,Briefwahlbezirk,0,0,0,0,626,626,1,625,513,112
+5,Spandau,1C ,Briefwahlbezirk,0,0,0,0,580,580,1,579,459,120
+5,Spandau,1D ,Briefwahlbezirk,0,0,0,0,525,525,1,524,422,102
+5,Spandau,1E ,Briefwahlbezirk,0,0,0,0,887,887,0,887,719,168
+5,Spandau,1F ,Briefwahlbezirk,0,0,0,0,652,652,1,651,509,142
+5,Spandau,1G ,Briefwahlbezirk,0,0,0,0,617,617,0,617,504,113
+5,Spandau,1H ,Briefwahlbezirk,0,0,0,0,619,619,2,617,488,129
+5,Spandau,1J ,Briefwahlbezirk,0,0,0,0,807,807,3,804,633,171
+5,Spandau,1K ,Briefwahlbezirk,0,0,0,0,664,664,3,661,516,145
+5,Spandau,1L ,Briefwahlbezirk,0,0,0,0,642,642,1,641,512,129
+5,Spandau,1M ,Briefwahlbezirk,0,0,0,0,702,702,4,698,539,159
+5,Spandau,1N ,Briefwahlbezirk,0,0,0,0,690,690,0,690,530,160
+5,Spandau,1O ,Briefwahlbezirk,0,0,0,0,1027,1027,1,1026,725,301
+5,Spandau,1P ,Briefwahlbezirk,0,0,0,0,986,986,1,985,675,310
+6,Steglitz-Zehlendorf,1A ,Briefwahlbezirk,0,0,0,0,667,667,2,665,498,167
+6,Steglitz-Zehlendorf,1B ,Briefwahlbezirk,0,0,0,0,668,668,0,668,516,152
+6,Steglitz-Zehlendorf,1C ,Briefwahlbezirk,0,0,0,0,515,515,1,514,438,76
+6,Steglitz-Zehlendorf,1D ,Briefwahlbezirk,0,0,0,0,410,410,1,409,333,76
+6,Steglitz-Zehlendorf,1E ,Briefwahlbezirk,0,0,0,0,473,473,2,471,369,102
+6,Steglitz-Zehlendorf,1F ,Briefwahlbezirk,0,0,0,0,586,586,1,585,475,110
+6,Steglitz-Zehlendorf,2A ,Briefwahlbezirk,0,0,0,0,605,605,0,605,513,92
+6,Steglitz-Zehlendorf,2B ,Briefwahlbezirk,0,0,0,0,468,468,2,466,381,85
+6,Steglitz-Zehlendorf,2C ,Briefwahlbezirk,0,0,0,0,484,484,0,484,384,100
+6,Steglitz-Zehlendorf,2D ,Briefwahlbezirk,0,0,0,0,500,500,0,500,441,59
+6,Steglitz-Zehlendorf,2E ,Briefwahlbezirk,0,0,0,0,584,584,3,581,454,127
+6,Steglitz-Zehlendorf,2F ,Briefwahlbezirk,0,0,0,0,439,439,1,438,365,73
+6,Steglitz-Zehlendorf,3A ,Briefwahlbezirk,0,0,0,0,637,637,0,637,475,162
+6,Steglitz-Zehlendorf,3B ,Briefwahlbezirk,0,0,0,0,573,573,0,573,450,123
+6,Steglitz-Zehlendorf,3C ,Briefwahlbezirk,0,0,0,0,554,554,1,553,417,136
+6,Steglitz-Zehlendorf,3D ,Briefwahlbezirk,0,0,0,0,562,562,0,562,437,125
+6,Steglitz-Zehlendorf,3E ,Briefwahlbezirk,0,0,0,0,624,624,1,623,457,166
+6,Steglitz-Zehlendorf,3F ,Briefwahlbezirk,0,0,0,0,637,637,1,636,468,168
+6,Steglitz-Zehlendorf,4A ,Briefwahlbezirk,0,0,0,0,492,492,0,492,382,110
+6,Steglitz-Zehlendorf,4B ,Briefwahlbezirk,0,0,0,0,620,620,1,619,460,159
+6,Steglitz-Zehlendorf,4C ,Briefwahlbezirk,0,0,0,0,580,580,0,580,427,153
+6,Steglitz-Zehlendorf,4D ,Briefwahlbezirk,0,0,0,0,611,611,0,611,473,138
+6,Steglitz-Zehlendorf,4E ,Briefwahlbezirk,0,0,0,0,697,697,0,697,519,178
+6,Steglitz-Zehlendorf,5A ,Briefwahlbezirk,0,0,0,0,524,524,2,522,380,142
+6,Steglitz-Zehlendorf,5B ,Briefwahlbezirk,0,0,0,0,479,479,0,479,334,145
+6,Steglitz-Zehlendorf,5C ,Briefwahlbezirk,0,0,0,0,445,445,1,444,352,92
+6,Steglitz-Zehlendorf,5D ,Briefwahlbezirk,0,0,0,0,436,436,0,436,335,101
+6,Steglitz-Zehlendorf,5E ,Briefwahlbezirk,0,0,0,0,434,434,2,432,359,73
+6,Steglitz-Zehlendorf,5F ,Briefwahlbezirk,0,0,0,0,483,483,0,483,385,98
+6,Steglitz-Zehlendorf,6A ,Briefwahlbezirk,0,0,0,0,599,599,0,599,457,142
+6,Steglitz-Zehlendorf,6B ,Briefwahlbezirk,0,0,0,0,586,586,1,585,449,136
+6,Steglitz-Zehlendorf,6C ,Briefwahlbezirk,0,0,0,0,503,503,3,500,400,100
+6,Steglitz-Zehlendorf,6D ,Briefwahlbezirk,0,0,0,0,606,606,0,606,487,119
+6,Steglitz-Zehlendorf,6E ,Briefwahlbezirk,0,0,0,0,544,544,9,535,378,157
+6,Steglitz-Zehlendorf,6F ,Briefwahlbezirk,0,0,0,0,622,622,2,620,387,233
+6,Steglitz-Zehlendorf,7A ,Briefwahlbezirk,0,0,0,0,449,449,0,449,304,145
+6,Steglitz-Zehlendorf,7B ,Briefwahlbezirk,0,0,0,0,645,645,0,645,507,138
+6,Steglitz-Zehlendorf,7C ,Briefwahlbezirk,0,0,0,0,742,742,1,741,505,236
+6,Steglitz-Zehlendorf,7D ,Briefwahlbezirk,0,0,0,0,474,474,2,472,365,107
+6,Steglitz-Zehlendorf,7E ,Briefwahlbezirk,0,0,0,0,639,639,2,637,473,164
+6,Steglitz-Zehlendorf,7F ,Briefwahlbezirk,0,0,0,0,764,764,0,764,556,208
+7,Tempelhof-Schöneberg,1A ,Briefwahlbezirk,0,0,0,0,666,666,0,666,546,120
+7,Tempelhof-Schöneberg,1B ,Briefwahlbezirk,0,0,0,0,651,651,2,649,531,118
+7,Tempelhof-Schöneberg,1C ,Briefwahlbezirk,0,0,0,0,670,670,0,670,509,161
+7,Tempelhof-Schöneberg,1D ,Briefwahlbezirk,0,0,0,0,631,631,1,630,540,90
+7,Tempelhof-Schöneberg,2A ,Briefwahlbezirk,0,0,0,0,659,659,4,655,527,128
+7,Tempelhof-Schöneberg,2B ,Briefwahlbezirk,0,0,0,0,665,665,1,664,532,132
+7,Tempelhof-Schöneberg,2C ,Briefwahlbezirk,0,0,0,0,639,639,1,638,513,125
+7,Tempelhof-Schöneberg,2D ,Briefwahlbezirk,0,0,0,0,664,664,5,659,541,118
+7,Tempelhof-Schöneberg,3A ,Briefwahlbezirk,0,0,0,0,663,663,2,661,551,110
+7,Tempelhof-Schöneberg,3B ,Briefwahlbezirk,0,0,0,0,671,671,2,669,561,108
+7,Tempelhof-Schöneberg,3C ,Briefwahlbezirk,0,0,0,0,661,661,1,660,535,125
+7,Tempelhof-Schöneberg,3D ,Briefwahlbezirk,0,0,0,0,688,688,1,687,564,123
+7,Tempelhof-Schöneberg,4A ,Briefwahlbezirk,0,0,0,0,730,730,2,728,604,124
+7,Tempelhof-Schöneberg,4B ,Briefwahlbezirk,0,0,0,0,811,811,4,807,662,145
+7,Tempelhof-Schöneberg,4C ,Briefwahlbezirk,0,0,0,0,742,742,1,741,614,127
+7,Tempelhof-Schöneberg,4D ,Briefwahlbezirk,0,0,0,0,735,735,1,734,584,150
+7,Tempelhof-Schöneberg,5A ,Briefwahlbezirk,0,0,0,0,703,703,1,702,592,110
+7,Tempelhof-Schöneberg,5B ,Briefwahlbezirk,0,0,0,0,732,732,2,730,621,109
+7,Tempelhof-Schöneberg,5C ,Briefwahlbezirk,0,0,0,0,727,727,3,724,622,102
+7,Tempelhof-Schöneberg,5D ,Briefwahlbezirk,0,0,0,0,708,708,4,704,572,132
+7,Tempelhof-Schöneberg,6A ,Briefwahlbezirk,0,0,0,0,768,768,1,767,633,134
+7,Tempelhof-Schöneberg,6B ,Briefwahlbezirk,0,0,0,0,772,772,0,772,624,148
+7,Tempelhof-Schöneberg,6C ,Briefwahlbezirk,0,0,0,0,716,716,0,716,571,145
+7,Tempelhof-Schöneberg,6D ,Briefwahlbezirk,0,0,0,0,758,758,2,756,621,135
+7,Tempelhof-Schöneberg,7A ,Briefwahlbezirk,0,0,0,0,661,661,1,660,545,115
+7,Tempelhof-Schöneberg,7B ,Briefwahlbezirk,0,0,0,0,658,658,1,657,521,136
+7,Tempelhof-Schöneberg,7C ,Briefwahlbezirk,0,0,0,0,674,674,0,674,556,118
+7,Tempelhof-Schöneberg,8A ,Briefwahlbezirk,0,0,0,0,662,662,1,661,535,126
+7,Tempelhof-Schöneberg,8B ,Briefwahlbezirk,0,0,0,0,665,665,2,663,547,116
+7,Tempelhof-Schöneberg,8C ,Briefwahlbezirk,0,0,0,0,687,687,1,686,542,144
+8,Neukölln,1A ,Briefwahlbezirk,0,0,0,0,714,714,0,714,685,29
+8,Neukölln,1B ,Briefwahlbezirk,0,0,0,0,663,663,1,662,631,31
+8,Neukölln,1C ,Briefwahlbezirk,0,0,0,0,738,738,14,724,647,77
+8,Neukölln,1D ,Briefwahlbezirk,0,0,0,0,599,599,1,598,551,47
+8,Neukölln,1E ,Briefwahlbezirk,0,0,0,0,683,683,1,682,661,21
+8,Neukölln,2A ,Briefwahlbezirk,0,0,0,0,618,618,0,618,575,43
+8,Neukölln,2B ,Briefwahlbezirk,0,0,0,0,762,762,0,762,718,44
+8,Neukölln,2C ,Briefwahlbezirk,0,0,0,0,556,556,10,546,514,32
+8,Neukölln,2D ,Briefwahlbezirk,0,0,0,0,607,607,1,606,565,41
+8,Neukölln,2E ,Briefwahlbezirk,0,0,0,0,486,486,1,485,449,36
+8,Neukölln,3A ,Briefwahlbezirk,0,0,0,0,276,276,1,275,245,30
+8,Neukölln,3B ,Briefwahlbezirk,0,0,0,0,451,451,0,451,399,52
+8,Neukölln,3C ,Briefwahlbezirk,0,0,0,0,321,321,0,321,262,59
+8,Neukölln,3D ,Briefwahlbezirk,0,0,0,0,455,455,14,441,365,76
+8,Neukölln,3E ,Briefwahlbezirk,0,0,0,0,592,592,2,590,493,97
+8,Neukölln,4A ,Briefwahlbezirk,0,0,0,0,452,452,0,452,354,98
+8,Neukölln,4B ,Briefwahlbezirk,0,0,0,0,463,463,1,462,395,67
+8,Neukölln,4C ,Briefwahlbezirk,0,0,0,0,752,752,4,748,545,203
+8,Neukölln,4D ,Briefwahlbezirk,0,0,0,0,522,522,0,522,417,105
+8,Neukölln,4E ,Briefwahlbezirk,0,0,0,0,492,492,0,492,370,122
+8,Neukölln,5A ,Briefwahlbezirk,0,0,0,0,608,608,5,603,456,147
+8,Neukölln,5B ,Briefwahlbezirk,0,0,0,0,556,556,1,555,418,137
+8,Neukölln,5C ,Briefwahlbezirk,0,0,0,0,573,573,3,570,456,114
+8,Neukölln,5D ,Briefwahlbezirk,0,0,0,0,517,517,0,517,384,133
+8,Neukölln,5E ,Briefwahlbezirk,0,0,0,0,575,575,2,573,415,158
+8,Neukölln,6A ,Briefwahlbezirk,0,0,0,0,431,431,0,431,351,80
+8,Neukölln,6B ,Briefwahlbezirk,0,0,0,0,499,499,1,498,376,122
+8,Neukölln,6C ,Briefwahlbezirk,0,0,0,0,468,468,2,466,375,91
+8,Neukölln,6D ,Briefwahlbezirk,0,0,0,0,748,748,4,744,568,176
+8,Neukölln,6E ,Briefwahlbezirk,0,0,0,0,471,471,0,471,387,84
+9,Treptow-Köpenick,1A ,Briefwahlbezirk,0,0,0,0,1547,1547,2,1545,1383,162
+9,Treptow-Köpenick,1B ,Briefwahlbezirk,0,0,0,0,1141,1141,2,1139,1006,133
+9,Treptow-Köpenick,2A ,Briefwahlbezirk,0,0,0,0,1200,1200,1,1199,1027,172
+9,Treptow-Köpenick,2B ,Briefwahlbezirk,0,0,0,0,1388,1388,4,1384,1191,193
+9,Treptow-Köpenick,3A ,Briefwahlbezirk,0,0,0,0,1331,1331,2,1329,1141,188
+9,Treptow-Köpenick,3B ,Briefwahlbezirk,0,0,0,0,890,890,4,886,762,124
+9,Treptow-Köpenick,4A ,Briefwahlbezirk,0,0,0,0,1525,1525,3,1522,1310,212
+9,Treptow-Köpenick,4B ,Briefwahlbezirk,0,0,0,0,912,912,2,910,771,139
+9,Treptow-Köpenick,5A ,Briefwahlbezirk,0,0,0,0,769,769,1,768,673,95
+9,Treptow-Köpenick,5B ,Briefwahlbezirk,0,0,0,0,1378,1378,1,1377,1182,195
+9,Treptow-Köpenick,6A ,Briefwahlbezirk,0,0,0,0,1710,1710,4,1706,1495,211
+9,Treptow-Köpenick,6B ,Briefwahlbezirk,0,0,0,0,1231,1231,0,1231,1044,187
 10,Marzahn-Hellersdorf,1A ,Briefwahlbezirk,0,0,0,0,885,885,0,885,726,159
 10,Marzahn-Hellersdorf,1B ,Briefwahlbezirk,0,0,0,0,872,872,0,872,735,137
 10,Marzahn-Hellersdorf,1C ,Briefwahlbezirk,0,0,0,0,823,823,1,822,693,129

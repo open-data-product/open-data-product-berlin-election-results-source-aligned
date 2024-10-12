@@ -15441,6 +15441,7 @@ input_ports:
               - { name: vote_yes, type: int }
               - { name: vote_no, type: int }
               - name: aufn
+            skip_rows: 1
   - id: berlin-election-results-referendum-deutsche-wohnen-und-co-enteignen
     files:
       - source_file_name: DL_BE_VE2021.xlsx
@@ -15470,6 +15471,7 @@ input_ports:
               - { name: vote_yes, type: int }
               - { name: vote_no, type: int }
               - name: aufn
+            skip_rows: 1
   - id: berlin-election-results-referendum-on-the-continued-operation-of-tegel-airport
     files:
       - source_file_name: DL_BE_EE_WB_VE2017.xlsx
@@ -15497,6 +15499,7 @@ input_ports:
               - { name: valid_votes, type: int }
               - { name: vote_yes, type: int }
               - { name: vote_no, type: int }
+            skip_rows: 1
   - id: berlin-election-results-referendum-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     files:
       - source_file_name: DL_BE_VE2011.xlsx
@@ -15519,6 +15522,7 @@ input_ports:
               - { name: valid_votes, type: int }
               - { name: vote_yes, type: int }
               - { name: vote_no, type: int }
+            skip_rows: 1
   - id: berlin-election-results-referendum-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     files:
       - source_file_name: DL_BE_VE2009.xlsx
@@ -15541,6 +15545,7 @@ input_ports:
               - { name: valid_votes, type: int }
               - { name: vote_yes, type: int }
               - { name: vote_no, type: int }
+            skip_rows: 1
   - id: berlin-election-results-referendum-on-the-preservation-of-tempelhofer-feld
     files:
       - source_file_name: DL_BE_VE2014.xlsx
@@ -15567,6 +15572,7 @@ input_ports:
               - { name: question_2_valid_votes, type: int }
               - { name: question_2_vote_yes, type: int }
               - { name: question_2_vote_no, type: int }
+            skip_rows: 1
   - id: berlin-election-results-referendum-on-the-remunicipalisation-of-berlins-energy-supply
     files:
       - source_file_name: DL_BE_VE2013.xlsx
@@ -15589,6 +15595,7 @@ input_ports:
               - { name: valid_votes, type: int }
               - { name: vote_yes, type: int }
               - { name: vote_no, type: int }
+            skip_rows: 1
   - id: berlin-election-results-referendum-tempelhof-bleibt-verkehrsflughafen
     files:
       - source_file_name: DL_BE_VE2008.xlsx
@@ -15611,3 +15618,4 @@ input_ports:
               - { name: valid_votes, type: int }
               - { name: vote_yes, type: int }
               - { name: vote_no, type: int }
+            skip_rows: 1
