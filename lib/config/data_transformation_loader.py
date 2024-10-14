@@ -15,6 +15,7 @@ from lib.tracking_decorator import TrackingDecorator
 class Name:
     name: str
     type: Optional[str] = "str"
+    zfill: Optional[int] = None
 
 
 @dataclass

@@ -13,11 +13,14 @@ DIE RECHTE,664,0,x,x, x ,x
 III. Weg,511,0,x,x, x ,x
 SGP,431,0,428,0,801,0.1
 Sonstige,x,x,21842,1.5,29917,2.1
+nan,nan,nan,nan,nan,nan,nan
+nan,Berlin-Ost,nan,nan,nan,nan,nan
 Wahlberechtigte,1048760,x,1031698,x,1021693,x
 Wählende³,626543,59.7,706445,68.5,643973,63
 Briefwählende,185042,29.5,326192,46.2,278606,43.3
 Ungültige Stimmen,5576,0.9,10769,98.5,4658,0.7
 Gültige Stimmen,620967,99.1,695676,1.5,638709,99.3
+davon,nan,nan,nan,nan,nan,nan
 GRÜNE,152694,24.6,137075,19.7,104901,16.4
 CDU,67328,10.8,95739,13.8,154993,24.3
 SPD,75887,12.2,142565,20.5,104603,16.4

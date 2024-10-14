@@ -1,8 +1,10 @@
 feature,federal_election_2017,federal_election_2017_percentage,european_election_2019,european_election_2019_percentage,berlin_election_2023,berlin_election_2023_percentage
+Wahlberechtigte               ,2503070.0,nan,25084435.0,nan,2431776.0,nan
 Wählende ,1892134.0,75.6,1520678.0,60.6,1529558.0,62.9
 Briefwählende,631774.0,33.4,469793.0,30.9,680471.0,44.5
 Ungültige Stimmen,23092.0,1.2,13321.0,0.9,11039.0,0.7
 Gültige Stimmen               ,1869042.0,98.8,1507357.0,99.1,1516860.0,99.3
+davon,nan,nan,nan,nan,nan,nan
 CDU,424321.0,22.7,229352.0,15.2,428228.0,28.2
 DIE LINKE,351170.0,18.8,179943.0,11.9,185119.0,12.2
 SPD,334253.0,17.9,211717.0,14.0,279017.0,18.4

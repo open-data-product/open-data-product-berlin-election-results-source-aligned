@@ -10,7 +10,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -75,7 +75,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -122,7 +122,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -1756,7 +1756,7 @@ input_ports:
             sheet_name: 2011_Zweitstimmen
             names:
               - name: id
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -1790,7 +1790,7 @@ input_ports:
             sheet_name: 2013_Zweitstimme
             names:
               - name: id
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -1825,7 +1825,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: id
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -2427,7 +2427,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -2497,7 +2497,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -2555,7 +2555,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -6307,7 +6307,7 @@ input_ports:
             sheet_name: 2016_Zweitstimme
             names:
               - name: id
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -6340,7 +6340,7 @@ input_ports:
             sheet_name: 2017_Zweitstimme
             names:
               - name: id
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -6373,7 +6373,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -7563,7 +7563,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -7620,7 +7620,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -9855,7 +9855,7 @@ input_ports:
             sheet_name: 2016_Zweitstimme
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -9888,7 +9888,7 @@ input_ports:
             sheet_name: 2013_Zweitstimme
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -10311,7 +10311,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -10372,7 +10372,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -12514,7 +12514,7 @@ input_ports:
             sheet_name: 2016_Zweitstimme
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -12548,7 +12548,7 @@ input_ports:
             sheet_name: 2017_Zweitstimme
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -12969,7 +12969,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -13145,7 +13145,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -13205,7 +13205,7 @@ input_ports:
             sheet_name: 2017_Zweitstimme
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -13238,7 +13238,7 @@ input_ports:
             sheet_name: 2014
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -13269,7 +13269,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -14706,7 +14706,7 @@ input_ports:
             sheet_name: Berlin_Europawahl_W
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_type
               - name: electoral_district_id
@@ -14805,7 +14805,7 @@ input_ports:
             sheet_name: 2019
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -14836,7 +14836,7 @@ input_ports:
             sheet_name: Daten
             names:
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -15420,7 +15420,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv
             sheet_name: VE
             names:
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15443,7 +15443,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv
             sheet_name: VE
             names:
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15466,7 +15466,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
             sheet_name: VE
             names:
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15489,7 +15489,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv
             sheet_name: VE
             names:
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15512,7 +15512,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
             sheet_name: VE
             names:
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15541,7 +15541,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15569,7 +15569,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15599,7 +15599,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - name: district_id
+              - { name: district_id, zfill: 2}
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type

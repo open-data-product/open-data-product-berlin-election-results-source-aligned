@@ -5,6 +5,8 @@ GRÜNE,278964.0,130,1309199,27.7004,27.0,1.0,28.0
 DIE LINKE,185119.0,130,1309199,18.3818,18.0,0.0,18.0
 AfD,137871.0,130,1309199,13.6902,13.0,1.0,14.0
 Insgesamt,1309199.0,x,x,x,127.0,3.0,130.0
+nan,nan,nan,nan,nan,nan,nan,nan
+SPD,nan,nan,nan,nan,nan,nan,nan
 Mitte ,19746.0,28,279017,1.9816,1.0,1.0,2.0
 "Friedrichshain-
 Kreuzberg",15682.0,28,279017,1.5737,1.0,1.0,2.0
@@ -22,6 +24,8 @@ Hellersdorf ",17456.0,28,279017,1.7517,1.0,1.0,2.0
 Lichtenberg  ,18958.0,28,279017,1.9025,1.0,1.0,2.0
 Reinickendorf ,21488.0,28,279017,2.1564,2.0,0.0,2.0
 Insgesamt,279017.0,x,x,x,21.0,7.0,28.0
+nan,nan,nan,nan,nan,nan,nan,nan
+CDU,nan,nan,nan,nan,nan,nan,nan
 Mitte ,24133.0,42,428228,2.3669,2.0,0.0,2.0
 "Friedrichshain-
 Kreuzberg",14317.0,42,428228,1.4042,1.0,1.0,2.0

@@ -10,6 +10,7 @@ SPD,8.0,3701.875,"Niessen, Alexander"
 SPD,9.0,3290.556,"Fabre, Sandrine"
 SPD,10.0,2961.5,"Semler, Volker"
 SPD,11.0,2692.273,"Kölsch, Juliana"
+nan,nan,nan,nan
 CDU,1.0,56636.0,"Richter-Kotowski, 
 Cerstin-Ullrike"
 CDU,2.0,28318.0,"Rögner-Francke, Horst-René"
@@ -35,6 +36,7 @@ CDU,19.0,2980.842,"Heinze, Eleonora"
 CDU,20.0,2831.8,"Hahnfeld, Ute"
 CDU,21.0,2696.952,"Klein, Dennis"
 CDU,22.0,2574.364,"Zwilling, Michael"
+nan,nan,nan,nan
 GRÜNE,1.0,33946.0,"Schellenberg, Maren"
 GRÜNE,2.0,16973.0,"Aykal, Urban"
 GRÜNE,3.0,11315.333,"Mertens, Susanne"
@@ -48,11 +50,14 @@ GRÜNE,10.0,3394.6,"Dr. Kosmas, Konstantinos"
 GRÜNE,11.0,3086.0,"Martens, Johanna"
 GRÜNE,12.0,2828.833,"Tekemen, Kulhimete Emre"
 GRÜNE,13.0,2611.231,"Bayar, Gülşah"
+nan,nan,nan,nan
 DIE LINKE,1.0,7348.0,"Imhof-Speckmann, Pia"
 DIE LINKE,2.0,3674.0,"Egginger-Gonzalez, Dennis"
+nan,nan,nan,nan
 AfD,1.0,8729.0,"Döhnert, Peer Lars"
 AfD,2.0,4364.5,"Graffstädt, Volker"
 AfD,3.0,2909.667,"Wolf, Felix"
+nan,nan,nan,nan
 FDP,1.0,10258.0,"Specht-Habbel, Mathia"
 FDP,2.0,5129.0,"Grawert, Sören"
 FDP,3.0,3419.333,"Zastrow, Holger"

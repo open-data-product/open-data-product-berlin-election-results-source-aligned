@@ -14,6 +14,7 @@ SPD,11.0,1926.0,"Soykan, Ayse"
 SPD,12.0,1765.5,"Ziesak, Uwe"
 SPD,13.0,1629.692,"Erez-Hübner, Hannah"
 SPD,14.0,1513.286,"Anders, Jochen"
+nan,nan,nan,nan
 CDU,1.0,35825.0,"Bewig, Frank"
 CDU,2.0,17912.5,"Meißner, Bettina"
 CDU,3.0,11941.667,"Bathe, Beate"
@@ -37,22 +38,27 @@ CDU,20.0,1791.25,"Dr. Nas, Ersin"
 CDU,21.0,1705.952,"Schill, Thomas"
 CDU,22.0,1628.409,"Gowitzke, Andrea"
 CDU,23.0,1557.609,"Rösike, Ingo"
+nan,nan,nan,nan
 GRÜNE,1.0,8994.0,"Wieczorek-Hahn, Elmas"
 GRÜNE,2.0,4497.0,"Gellert, Oliver"
 GRÜNE,3.0,2998.0,"Freifrau von Münchhausen, Tatjana"
 GRÜNE,4.0,2248.5,"Dr. Kopytziok, Norbert"
 GRÜNE,5.0,1798.8,"Kossok-Spieß, Dara"
 GRÜNE,6.0,1499.0,"Sonnenberg-Westeson, Christoph"
+nan,nan,nan,nan
 DIE LINKE,1.0,3811.0,"Leschewitz, Lars"
 DIE LINKE,2.0,1905.5,"Knepel, Sabine"
+nan,nan,nan,nan
 AfD,1.0,10067.0,"Otti, Andreas"
 AfD,2.0,5033.5,"Meckelein, Dieter"
 AfD,3.0,3355.667,"Müller, Christian"
 AfD,4.0,2516.75,"Tabor, Tommy"
 AfD,5.0,2013.4,"Werner, Wolfgang"
 AfD,6.0,1677.833,"Garnis, Lukas"
+nan,nan,nan,nan
 FDP,1.0,3690.0,"Unger, Matthias"
 FDP,2.0,1845.0,"Eshraghi, Leonardo"
+nan,nan,nan,nan
 Tierschutzpartei,1.0,3895.0,"Spiegeler Castañeda, 
 Aida Paola"
 Tierschutzpartei,2.0,1947.5,"Weber, Roman Lennert"

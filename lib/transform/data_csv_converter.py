@@ -4,6 +4,9 @@ import pandas as pd
 
 from lib.config.data_transformation_loader import DataTransformation
 from lib.tracking_decorator import TrackingDecorator
+import warnings
+
+warnings.simplefilter(action="ignore", category=FutureWarning)
 
 
 @TrackingDecorator.track_time
@@ -54,6 +57,20 @@ def convert_data_to_csv(
                     dataframe = dataframe.astype(
                         {name.name: name.type for name in dataset.names},
                         errors="ignore",
+                    )
+
+                    dataframe = (
+                        dataframe[[name.name for name in dataset.names]]
+                        .astype(str)
+                        .apply(
+                            lambda col: col.str.zfill(
+                                next(
+                                    name.zfill if name.zfill is not None else 0
+                                    for name in dataset.names
+                                    if name.name == col.name
+                                )
+                            )
+                        )
                     )
 
                     if dataset.drop_columns:
