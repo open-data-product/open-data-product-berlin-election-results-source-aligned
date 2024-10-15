@@ -1,10 +1,10 @@
 import os
+import warnings
 
 import pandas as pd
 
 from lib.config.data_transformation_loader import DataTransformation
 from lib.tracking_decorator import TrackingDecorator
-import warnings
 
 warnings.simplefilter(action="ignore", category=FutureWarning)
 
@@ -54,13 +54,24 @@ def convert_data_to_csv(
                         skiprows=dataset.skip_rows,
                     )
 
+                    # Apply type
                     dataframe = dataframe.astype(
                         {name.name: name.type for name in dataset.names},
                         errors="ignore",
                     )
 
+                    # Apply remove
+                    dataframe = dataframe.drop(
+                        [name.name for name in dataset.names if name.remove],
+                        axis=1,
+                        errors="ignore",
+                    )
+
+                    # Apply zfill
                     dataframe = (
-                        dataframe[[name.name for name in dataset.names]]
+                        dataframe[
+                            [name.name for name in dataset.names if not name.remove]
+                        ]
                         .astype(str)
                         .apply(
                             lambda col: col.str.zfill(
@@ -73,10 +84,6 @@ def convert_data_to_csv(
                         )
                     )
 
-                    if dataset.drop_columns:
-                        dataframe = dataframe.drop(
-                            columns=dataset.drop_columns, errors="ignore"
-                        )
                     if dataset.head:
                         dataframe = dataframe.head(dataset.head)
 

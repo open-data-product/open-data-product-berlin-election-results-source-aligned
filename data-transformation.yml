@@ -126,7 +126,7 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
-              - name: electoral_district_berlin_election_id
+              - { name: electoral_district_berlin_election_id, remove: True }
               - name: electoral_district_federal_election_id
               - name: berlin_east_west
               - { name: eligible_voters, type: int }
@@ -190,8 +190,6 @@ input_ports:
               - { name: party_pne, type: int }
               - { name: party_banc, type: int }
             skip_rows: 1
-            drop_columns:
-              - electoral_district_berlin_election_id
       - source_file_name: SB_B07-02-01_2016j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data.xlsx
         datasets:

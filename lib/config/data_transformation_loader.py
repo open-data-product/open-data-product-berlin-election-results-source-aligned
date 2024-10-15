@@ -15,6 +15,7 @@ from lib.tracking_decorator import TrackingDecorator
 class Name:
     name: str
     type: Optional[str] = "str"
+    remove: Optional[bool] = None
     zfill: Optional[int] = None
 
 
@@ -26,7 +27,6 @@ class Dataset:
     names: Optional[List[Name]] = field(default_factory=list)
     skip_rows: Optional[int] = 0
     skip_cols: Optional[int] = 0
-    drop_columns: Optional[List[str]] = field(default_factory=list)
     head: Optional[int] = None
 
 
