@@ -84,6 +84,14 @@ def convert_data_to_csv(
                         )
                     )
 
+                    # Apply value mapping
+                    for name in [
+                        name for name in dataset.names if name.value_mapping is not None
+                    ]:
+                        dataframe[name.name] = dataframe[name.name].map(
+                            name.value_mapping
+                        )
+
                     if dataset.head:
                         dataframe = dataframe.head(dataset.head)
 
