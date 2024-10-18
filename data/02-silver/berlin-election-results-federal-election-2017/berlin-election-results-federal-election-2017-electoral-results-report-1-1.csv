@@ -1,9 +1,9 @@
 feature,federal_election_2013,federal_election_2013_percentage,european_election_2014,european_election_2014_percentage,berlin_election_2016,berlin_election_2016_percentage
-Wahlberechtigte               ,2505718.0,nan,2519758.0,nan,2485379.0,nan
-Wähler                        ,1815415.0,72.5,1177832.0,46.7,1662476.0,66.9
-Briefwähler                  ,509121.0,28.0,335916.0,28.5,485879.0,29.2
+Wahlberechtigte,2505718.0,nan,2519758.0,nan,2485379.0,nan
+Wähler,1815415.0,72.5,1177832.0,46.7,1662476.0,66.9
+Briefwähler,509121.0,28.0,335916.0,28.5,485879.0,29.2
 Ungültige Stimmen,27694.0,1.5,18166.0,1.5,25694.0,1.5
-Gültige Stimmen               ,1787721.0,98.5,1159666.0,98.5,1635169.0,98.5
+Gültige Stimmen,1787721.0,98.5,1159666.0,98.5,1635169.0,98.5
 davon,nan,nan,nan,nan,nan,nan
 CDU,508643.0,28.5,232274.0,20.0,287997.0,17.6
 SPD,439387.0,24.6,278694.0,24.0,352430.0,21.6

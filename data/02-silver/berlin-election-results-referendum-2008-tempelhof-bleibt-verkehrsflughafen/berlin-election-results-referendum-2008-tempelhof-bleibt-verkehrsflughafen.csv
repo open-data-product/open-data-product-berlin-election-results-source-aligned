@@ -1,24 +1,24 @@
 district_id,district_name,electoral_district_id,electoral_district_type,eligible_voters,eligible_voters_a1,eligible_voters_a2,eligible_voters_a3,voters,voters_b1,invalid_votes,valid_votes,vote_yes,vote_no
-01,Mitte,1A ,postal_voting_district,0,0,0,0,521,521,1,520,293,227
-01,Mitte,1B ,postal_voting_district,0,0,0,0,541,541,1,540,333,207
-01,Mitte,1C ,postal_voting_district,0,0,0,0,539,539,2,537,310,227
-01,Mitte,1D ,postal_voting_district,0,0,0,0,544,544,2,542,306,236
-01,Mitte,1E ,postal_voting_district,0,0,0,0,544,544,2,542,353,189
-01,Mitte,1F ,postal_voting_district,0,0,0,0,1097,1097,1,1096,676,420
-01,Mitte,1G ,postal_voting_district,0,0,0,0,1053,1053,0,1053,632,421
-01,Mitte,1H ,postal_voting_district,0,0,0,0,1091,1091,1,1090,664,426
-01,Mitte,1J ,postal_voting_district,0,0,0,0,1101,1101,1,1100,669,431
-01,Mitte,1K ,postal_voting_district,0,0,0,0,1095,1095,1,1094,711,383
-01,Mitte,1L ,postal_voting_district,0,0,0,0,1082,1082,4,1078,663,415
-01,Mitte,1M ,postal_voting_district,0,0,0,0,1067,1067,1,1066,657,409
-01,Mitte,1N ,postal_voting_district,0,0,0,0,1093,1093,1,1092,677,415
-01,Mitte,1O ,postal_voting_district,0,0,0,0,1080,1080,2,1078,674,404
-01,Mitte,1P ,postal_voting_district,0,0,0,0,1072,1072,1,1071,677,394
-01,Mitte,1Q ,postal_voting_district,0,0,0,0,543,543,1,542,353,189
-01,Mitte,1R ,postal_voting_district,0,0,0,0,544,544,1,543,306,237
-01,Mitte,1S ,postal_voting_district,0,0,0,0,539,539,1,538,310,228
-01,Mitte,1T ,postal_voting_district,0,0,0,0,541,541,0,541,333,208
-01,Mitte,1U ,postal_voting_district,0,0,0,0,521,521,0,521,293,228
+01,Mitte,1A,postal_voting_district,0,0,0,0,521,521,1,520,293,227
+01,Mitte,1B,postal_voting_district,0,0,0,0,541,541,1,540,333,207
+01,Mitte,1C,postal_voting_district,0,0,0,0,539,539,2,537,310,227
+01,Mitte,1D,postal_voting_district,0,0,0,0,544,544,2,542,306,236
+01,Mitte,1E,postal_voting_district,0,0,0,0,544,544,2,542,353,189
+01,Mitte,1F,postal_voting_district,0,0,0,0,1097,1097,1,1096,676,420
+01,Mitte,1G,postal_voting_district,0,0,0,0,1053,1053,0,1053,632,421
+01,Mitte,1H,postal_voting_district,0,0,0,0,1091,1091,1,1090,664,426
+01,Mitte,1J,postal_voting_district,0,0,0,0,1101,1101,1,1100,669,431
+01,Mitte,1K,postal_voting_district,0,0,0,0,1095,1095,1,1094,711,383
+01,Mitte,1L,postal_voting_district,0,0,0,0,1082,1082,4,1078,663,415
+01,Mitte,1M,postal_voting_district,0,0,0,0,1067,1067,1,1066,657,409
+01,Mitte,1N,postal_voting_district,0,0,0,0,1093,1093,1,1092,677,415
+01,Mitte,1O,postal_voting_district,0,0,0,0,1080,1080,2,1078,674,404
+01,Mitte,1P,postal_voting_district,0,0,0,0,1072,1072,1,1071,677,394
+01,Mitte,1Q,postal_voting_district,0,0,0,0,543,543,1,542,353,189
+01,Mitte,1R,postal_voting_district,0,0,0,0,544,544,1,543,306,237
+01,Mitte,1S,postal_voting_district,0,0,0,0,539,539,1,538,310,228
+01,Mitte,1T,postal_voting_district,0,0,0,0,541,541,0,541,333,208
+01,Mitte,1U,postal_voting_district,0,0,0,0,521,521,0,521,293,228
 01,Mitte,100,electoral_district,3071,2814,257,0,594,1,2,592,291,301
 01,Mitte,101,electoral_district,2429,2096,333,0,533,4,3,530,281,249
 01,Mitte,105,electoral_district,3960,3565,395,0,882,1,2,880,410,470
@@ -90,22 +90,22 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 01,Mitte,627,electoral_district,2706,2596,110,0,462,1,1,461,313,148
 01,Mitte,632,electoral_district,2260,2097,163,0,556,0,2,554,348,206
 01,Mitte,634,electoral_district,2429,2322,107,0,453,1,2,451,257,194
-02,Friedrichshain-Kreuzberg,1A ,postal_voting_district,0,0,0,0,686,686,2,684,349,335
-02,Friedrichshain-Kreuzberg,1B ,postal_voting_district,0,0,0,0,810,810,1,809,399,410
-02,Friedrichshain-Kreuzberg,1C ,postal_voting_district,0,0,0,0,853,853,0,853,386,467
-02,Friedrichshain-Kreuzberg,1D ,postal_voting_district,0,0,0,0,793,793,4,789,339,450
-02,Friedrichshain-Kreuzberg,1E ,postal_voting_district,0,0,0,0,803,803,1,802,326,476
-02,Friedrichshain-Kreuzberg,1F ,postal_voting_district,0,0,0,0,693,693,3,690,304,386
-02,Friedrichshain-Kreuzberg,1G ,postal_voting_district,0,0,0,0,690,690,1,689,300,389
-02,Friedrichshain-Kreuzberg,1H ,postal_voting_district,0,0,0,0,788,788,3,785,351,434
-02,Friedrichshain-Kreuzberg,1J ,postal_voting_district,0,0,0,0,683,683,0,683,279,404
-02,Friedrichshain-Kreuzberg,1K ,postal_voting_district,0,0,0,0,656,656,3,653,278,375
-02,Friedrichshain-Kreuzberg,1L ,postal_voting_district,0,0,0,0,674,674,0,674,282,392
-02,Friedrichshain-Kreuzberg,1M ,postal_voting_district,0,0,0,0,682,682,3,679,277,402
-02,Friedrichshain-Kreuzberg,1N ,postal_voting_district,0,0,0,0,688,688,1,687,262,425
-02,Friedrichshain-Kreuzberg,1O ,postal_voting_district,0,0,0,0,678,678,2,676,295,381
-02,Friedrichshain-Kreuzberg,1P ,postal_voting_district,0,0,0,0,682,682,0,682,271,411
-02,Friedrichshain-Kreuzberg,1Q ,postal_voting_district,0,0,0,0,683,683,2,681,288,393
+02,Friedrichshain-Kreuzberg,1A,postal_voting_district,0,0,0,0,686,686,2,684,349,335
+02,Friedrichshain-Kreuzberg,1B,postal_voting_district,0,0,0,0,810,810,1,809,399,410
+02,Friedrichshain-Kreuzberg,1C,postal_voting_district,0,0,0,0,853,853,0,853,386,467
+02,Friedrichshain-Kreuzberg,1D,postal_voting_district,0,0,0,0,793,793,4,789,339,450
+02,Friedrichshain-Kreuzberg,1E,postal_voting_district,0,0,0,0,803,803,1,802,326,476
+02,Friedrichshain-Kreuzberg,1F,postal_voting_district,0,0,0,0,693,693,3,690,304,386
+02,Friedrichshain-Kreuzberg,1G,postal_voting_district,0,0,0,0,690,690,1,689,300,389
+02,Friedrichshain-Kreuzberg,1H,postal_voting_district,0,0,0,0,788,788,3,785,351,434
+02,Friedrichshain-Kreuzberg,1J,postal_voting_district,0,0,0,0,683,683,0,683,279,404
+02,Friedrichshain-Kreuzberg,1K,postal_voting_district,0,0,0,0,656,656,3,653,278,375
+02,Friedrichshain-Kreuzberg,1L,postal_voting_district,0,0,0,0,674,674,0,674,282,392
+02,Friedrichshain-Kreuzberg,1M,postal_voting_district,0,0,0,0,682,682,3,679,277,402
+02,Friedrichshain-Kreuzberg,1N,postal_voting_district,0,0,0,0,688,688,1,687,262,425
+02,Friedrichshain-Kreuzberg,1O,postal_voting_district,0,0,0,0,678,678,2,676,295,381
+02,Friedrichshain-Kreuzberg,1P,postal_voting_district,0,0,0,0,682,682,0,682,271,411
+02,Friedrichshain-Kreuzberg,1Q,postal_voting_district,0,0,0,0,683,683,2,681,288,393
 02,Friedrichshain-Kreuzberg,101,electoral_district,1915,1815,100,0,372,1,5,367,204,163
 02,Friedrichshain-Kreuzberg,102,electoral_district,982,908,74,0,201,0,0,201,120,81
 02,Friedrichshain-Kreuzberg,103,electoral_district,705,655,50,0,170,2,0,170,119,51
@@ -193,21 +193,21 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 02,Friedrichshain-Kreuzberg,185,electoral_district,2427,2170,257,0,555,0,1,554,163,391
 02,Friedrichshain-Kreuzberg,186,electoral_district,2061,1891,170,0,446,1,3,443,99,344
 02,Friedrichshain-Kreuzberg,187,electoral_district,2381,2154,227,0,406,0,1,405,115,290
-03,Pankow,1A ,postal_voting_district,0,0,0,0,1300,1300,0,1300,485,815
-03,Pankow,1B ,postal_voting_district,0,0,0,0,1240,1240,1,1239,449,790
-03,Pankow,2A ,postal_voting_district,0,0,0,0,1218,1218,2,1216,446,770
-03,Pankow,2B ,postal_voting_district,0,0,0,0,1254,1254,1,1253,432,821
-03,Pankow,3B ,postal_voting_district,0,0,0,0,1414,1414,1,1413,483,930
-03,Pankow,4A ,postal_voting_district,0,0,0,0,1109,1109,1,1108,389,719
-03,Pankow,5B ,postal_voting_district,0,0,0,0,1216,1216,0,1216,403,813
-03,Pankow,6A ,postal_voting_district,0,0,0,0,1318,1318,2,1316,461,855
-03,Pankow,6B ,postal_voting_district,0,0,0,0,1243,1243,0,1243,433,810
-03,Pankow,7A ,postal_voting_district,0,0,0,0,1191,1191,1,1190,454,736
-03,Pankow,7B ,postal_voting_district,0,0,0,0,1188,1188,0,1188,447,741
-03,Pankow,8A ,postal_voting_district,0,0,0,0,1208,1208,1,1207,424,783
-03,Pankow,8B ,postal_voting_district,0,0,0,0,1217,1217,2,1215,430,785
-03,Pankow,9A ,postal_voting_district,0,0,0,0,1247,1247,2,1245,435,810
-03,Pankow,9B ,postal_voting_district,0,0,0,0,1225,1225,2,1223,441,782
+03,Pankow,1A,postal_voting_district,0,0,0,0,1300,1300,0,1300,485,815
+03,Pankow,1B,postal_voting_district,0,0,0,0,1240,1240,1,1239,449,790
+03,Pankow,2A,postal_voting_district,0,0,0,0,1218,1218,2,1216,446,770
+03,Pankow,2B,postal_voting_district,0,0,0,0,1254,1254,1,1253,432,821
+03,Pankow,3B,postal_voting_district,0,0,0,0,1414,1414,1,1413,483,930
+03,Pankow,4A,postal_voting_district,0,0,0,0,1109,1109,1,1108,389,719
+03,Pankow,5B,postal_voting_district,0,0,0,0,1216,1216,0,1216,403,813
+03,Pankow,6A,postal_voting_district,0,0,0,0,1318,1318,2,1316,461,855
+03,Pankow,6B,postal_voting_district,0,0,0,0,1243,1243,0,1243,433,810
+03,Pankow,7A,postal_voting_district,0,0,0,0,1191,1191,1,1190,454,736
+03,Pankow,7B,postal_voting_district,0,0,0,0,1188,1188,0,1188,447,741
+03,Pankow,8A,postal_voting_district,0,0,0,0,1208,1208,1,1207,424,783
+03,Pankow,8B,postal_voting_district,0,0,0,0,1217,1217,2,1215,430,785
+03,Pankow,9A,postal_voting_district,0,0,0,0,1247,1247,2,1245,435,810
+03,Pankow,9B,postal_voting_district,0,0,0,0,1225,1225,2,1223,441,782
 03,Pankow,101,electoral_district,2349,2162,187,0,475,0,1,474,209,265
 03,Pankow,102,electoral_district,2241,2098,143,0,358,0,2,356,122,234
 03,Pankow,103,electoral_district,1574,1472,102,0,339,0,2,337,103,234
@@ -362,31 +362,31 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 03,Pankow,917,electoral_district,2425,2243,182,0,547,0,2,545,160,385
 03,Pankow,918,electoral_district,2508,2356,152,0,422,0,1,421,137,284
 03,Pankow,919,electoral_district,2058,1932,126,0,313,0,1,312,93,219
-04,Charlottenburg-Wilmersdorf,1A ,postal_voting_district,0,0,0,0,1141,1141,1,1140,857,283
-04,Charlottenburg-Wilmersdorf,1B ,postal_voting_district,0,0,0,0,1076,1076,1,1075,861,214
-04,Charlottenburg-Wilmersdorf,1C ,postal_voting_district,0,0,0,0,1044,1044,0,1044,806,238
-04,Charlottenburg-Wilmersdorf,1D ,postal_voting_district,0,0,0,0,1105,1105,1,1104,817,287
-04,Charlottenburg-Wilmersdorf,1E ,postal_voting_district,0,0,0,0,1007,1007,2,1005,736,269
-04,Charlottenburg-Wilmersdorf,1F ,postal_voting_district,0,0,0,0,1099,1099,1,1098,818,280
-04,Charlottenburg-Wilmersdorf,1G ,postal_voting_district,0,0,0,0,1047,1047,0,1047,794,253
-04,Charlottenburg-Wilmersdorf,1H ,postal_voting_district,0,0,0,0,938,938,4,934,733,201
-04,Charlottenburg-Wilmersdorf,1J ,postal_voting_district,0,0,0,0,1018,1018,0,1018,794,224
-04,Charlottenburg-Wilmersdorf,1K ,postal_voting_district,0,0,0,0,1106,1106,0,1106,800,306
-04,Charlottenburg-Wilmersdorf,1L ,postal_voting_district,0,0,0,0,1062,1062,2,1060,767,293
-04,Charlottenburg-Wilmersdorf,1M ,postal_voting_district,0,0,0,0,1027,1027,0,1027,792,235
-04,Charlottenburg-Wilmersdorf,1N ,postal_voting_district,0,0,0,0,986,986,6,980,728,252
-04,Charlottenburg-Wilmersdorf,1O ,postal_voting_district,0,0,0,0,1090,1090,0,1090,849,241
-04,Charlottenburg-Wilmersdorf,1P ,postal_voting_district,0,0,0,0,1096,1096,2,1094,821,273
-04,Charlottenburg-Wilmersdorf,1Q ,postal_voting_district,0,0,0,0,1150,1150,1,1149,850,299
-04,Charlottenburg-Wilmersdorf,1R ,postal_voting_district,0,0,0,0,1207,1207,2,1205,911,294
-04,Charlottenburg-Wilmersdorf,1S ,postal_voting_district,0,0,0,0,1114,1114,2,1112,845,267
-04,Charlottenburg-Wilmersdorf,1T ,postal_voting_district,0,0,0,0,1085,1085,0,1085,807,278
-04,Charlottenburg-Wilmersdorf,1U ,postal_voting_district,0,0,0,0,1106,1106,0,1106,840,266
-04,Charlottenburg-Wilmersdorf,1V ,postal_voting_district,0,0,0,0,973,973,0,973,749,224
-04,Charlottenburg-Wilmersdorf,1W ,postal_voting_district,0,0,0,0,1068,1068,1,1067,808,259
-04,Charlottenburg-Wilmersdorf,1X ,postal_voting_district,0,0,0,0,965,965,1,964,719,245
-04,Charlottenburg-Wilmersdorf,1Y ,postal_voting_district,0,0,0,0,999,999,5,994,730,264
-04,Charlottenburg-Wilmersdorf,1Z ,postal_voting_district,0,0,0,0,1032,1032,1,1031,785,246
+04,Charlottenburg-Wilmersdorf,1A,postal_voting_district,0,0,0,0,1141,1141,1,1140,857,283
+04,Charlottenburg-Wilmersdorf,1B,postal_voting_district,0,0,0,0,1076,1076,1,1075,861,214
+04,Charlottenburg-Wilmersdorf,1C,postal_voting_district,0,0,0,0,1044,1044,0,1044,806,238
+04,Charlottenburg-Wilmersdorf,1D,postal_voting_district,0,0,0,0,1105,1105,1,1104,817,287
+04,Charlottenburg-Wilmersdorf,1E,postal_voting_district,0,0,0,0,1007,1007,2,1005,736,269
+04,Charlottenburg-Wilmersdorf,1F,postal_voting_district,0,0,0,0,1099,1099,1,1098,818,280
+04,Charlottenburg-Wilmersdorf,1G,postal_voting_district,0,0,0,0,1047,1047,0,1047,794,253
+04,Charlottenburg-Wilmersdorf,1H,postal_voting_district,0,0,0,0,938,938,4,934,733,201
+04,Charlottenburg-Wilmersdorf,1J,postal_voting_district,0,0,0,0,1018,1018,0,1018,794,224
+04,Charlottenburg-Wilmersdorf,1K,postal_voting_district,0,0,0,0,1106,1106,0,1106,800,306
+04,Charlottenburg-Wilmersdorf,1L,postal_voting_district,0,0,0,0,1062,1062,2,1060,767,293
+04,Charlottenburg-Wilmersdorf,1M,postal_voting_district,0,0,0,0,1027,1027,0,1027,792,235
+04,Charlottenburg-Wilmersdorf,1N,postal_voting_district,0,0,0,0,986,986,6,980,728,252
+04,Charlottenburg-Wilmersdorf,1O,postal_voting_district,0,0,0,0,1090,1090,0,1090,849,241
+04,Charlottenburg-Wilmersdorf,1P,postal_voting_district,0,0,0,0,1096,1096,2,1094,821,273
+04,Charlottenburg-Wilmersdorf,1Q,postal_voting_district,0,0,0,0,1150,1150,1,1149,850,299
+04,Charlottenburg-Wilmersdorf,1R,postal_voting_district,0,0,0,0,1207,1207,2,1205,911,294
+04,Charlottenburg-Wilmersdorf,1S,postal_voting_district,0,0,0,0,1114,1114,2,1112,845,267
+04,Charlottenburg-Wilmersdorf,1T,postal_voting_district,0,0,0,0,1085,1085,0,1085,807,278
+04,Charlottenburg-Wilmersdorf,1U,postal_voting_district,0,0,0,0,1106,1106,0,1106,840,266
+04,Charlottenburg-Wilmersdorf,1V,postal_voting_district,0,0,0,0,973,973,0,973,749,224
+04,Charlottenburg-Wilmersdorf,1W,postal_voting_district,0,0,0,0,1068,1068,1,1067,808,259
+04,Charlottenburg-Wilmersdorf,1X,postal_voting_district,0,0,0,0,965,965,1,964,719,245
+04,Charlottenburg-Wilmersdorf,1Y,postal_voting_district,0,0,0,0,999,999,5,994,730,264
+04,Charlottenburg-Wilmersdorf,1Z,postal_voting_district,0,0,0,0,1032,1032,1,1031,785,246
 04,Charlottenburg-Wilmersdorf,101,electoral_district,1761,1633,128,0,471,0,1,470,386,84
 04,Charlottenburg-Wilmersdorf,102,electoral_district,2019,1841,178,0,470,0,1,469,396,73
 04,Charlottenburg-Wilmersdorf,103,electoral_district,1583,1440,143,0,414,0,0,414,337,77
@@ -518,26 +518,26 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 04,Charlottenburg-Wilmersdorf,229,electoral_district,1598,1341,257,0,435,0,3,432,274,158
 04,Charlottenburg-Wilmersdorf,230,electoral_district,1805,1591,214,0,430,0,1,429,316,113
 04,Charlottenburg-Wilmersdorf,231,electoral_district,1490,1351,139,0,309,0,0,309,223,86
-05,Spandau,1A ,postal_voting_district,0,0,0,0,680,680,2,678,548,130
-05,Spandau,1B ,postal_voting_district,0,0,0,0,826,826,1,825,662,163
-05,Spandau,1C ,postal_voting_district,0,0,0,0,777,777,1,776,625,151
-05,Spandau,1D ,postal_voting_district,0,0,0,0,811,811,0,811,629,182
-05,Spandau,1E ,postal_voting_district,0,0,0,0,741,741,0,741,557,184
-05,Spandau,1F ,postal_voting_district,0,0,0,0,654,654,0,654,510,144
-05,Spandau,1G ,postal_voting_district,0,0,0,0,628,628,0,628,500,128
-05,Spandau,1H ,postal_voting_district,0,0,0,0,492,492,0,492,402,90
-05,Spandau,1I ,postal_voting_district,0,0,0,0,698,698,0,698,544,154
-05,Spandau,1K ,postal_voting_district,0,0,0,0,693,693,1,692,535,157
-05,Spandau,1L ,postal_voting_district,0,0,0,0,717,717,2,715,588,127
-05,Spandau,1M ,postal_voting_district,0,0,0,0,736,736,0,736,567,169
-05,Spandau,1N ,postal_voting_district,0,0,0,0,777,777,1,776,629,147
-05,Spandau,1O ,postal_voting_district,0,0,0,0,786,786,1,785,638,147
-05,Spandau,1P ,postal_voting_district,0,0,0,0,767,767,0,767,610,157
-05,Spandau,1Q ,postal_voting_district,0,0,0,0,727,727,1,726,559,167
-05,Spandau,1R ,postal_voting_district,0,0,0,0,780,780,2,778,620,158
-05,Spandau,1S ,postal_voting_district,0,0,0,0,836,836,2,834,657,177
-05,Spandau,1T ,postal_voting_district,0,0,0,0,783,783,2,781,590,191
-05,Spandau,1U ,postal_voting_district,0,0,0,0,734,734,0,734,553,181
+05,Spandau,1A,postal_voting_district,0,0,0,0,680,680,2,678,548,130
+05,Spandau,1B,postal_voting_district,0,0,0,0,826,826,1,825,662,163
+05,Spandau,1C,postal_voting_district,0,0,0,0,777,777,1,776,625,151
+05,Spandau,1D,postal_voting_district,0,0,0,0,811,811,0,811,629,182
+05,Spandau,1E,postal_voting_district,0,0,0,0,741,741,0,741,557,184
+05,Spandau,1F,postal_voting_district,0,0,0,0,654,654,0,654,510,144
+05,Spandau,1G,postal_voting_district,0,0,0,0,628,628,0,628,500,128
+05,Spandau,1H,postal_voting_district,0,0,0,0,492,492,0,492,402,90
+05,Spandau,1I,postal_voting_district,0,0,0,0,698,698,0,698,544,154
+05,Spandau,1K,postal_voting_district,0,0,0,0,693,693,1,692,535,157
+05,Spandau,1L,postal_voting_district,0,0,0,0,717,717,2,715,588,127
+05,Spandau,1M,postal_voting_district,0,0,0,0,736,736,0,736,567,169
+05,Spandau,1N,postal_voting_district,0,0,0,0,777,777,1,776,629,147
+05,Spandau,1O,postal_voting_district,0,0,0,0,786,786,1,785,638,147
+05,Spandau,1P,postal_voting_district,0,0,0,0,767,767,0,767,610,157
+05,Spandau,1Q,postal_voting_district,0,0,0,0,727,727,1,726,559,167
+05,Spandau,1R,postal_voting_district,0,0,0,0,780,780,2,778,620,158
+05,Spandau,1S,postal_voting_district,0,0,0,0,836,836,2,834,657,177
+05,Spandau,1T,postal_voting_district,0,0,0,0,783,783,2,781,590,191
+05,Spandau,1U,postal_voting_district,0,0,0,0,734,734,0,734,553,181
 05,Spandau,101,electoral_district,852,796,56,0,212,1,1,211,109,102
 05,Spandau,102,electoral_district,1399,1230,169,0,466,0,3,463,314,149
 05,Spandau,103,electoral_district,824,757,67,0,242,0,0,242,150,92
@@ -637,45 +637,45 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 05,Spandau,197,electoral_district,1949,1653,296,0,722,4,0,722,595,127
 05,Spandau,198,electoral_district,1841,1494,347,0,698,0,0,698,525,173
 05,Spandau,199,electoral_district,1921,1679,242,0,746,1,0,746,564,182
-06,Steglitz-Zehlendorf,1A ,postal_voting_district,0,0,0,0,664,664,2,662,529,133
-06,Steglitz-Zehlendorf,1B ,postal_voting_district,0,0,0,0,656,656,2,654,472,182
-06,Steglitz-Zehlendorf,1C ,postal_voting_district,0,0,0,0,850,850,0,850,645,205
-06,Steglitz-Zehlendorf,1D ,postal_voting_district,0,0,0,0,840,840,3,837,660,177
-06,Steglitz-Zehlendorf,1E ,postal_voting_district,0,0,0,0,850,850,0,850,667,183
-06,Steglitz-Zehlendorf,1F ,postal_voting_district,0,0,0,0,831,831,6,825,597,228
-06,Steglitz-Zehlendorf,1G ,postal_voting_district,0,0,0,0,848,848,0,848,601,247
-06,Steglitz-Zehlendorf,1H ,postal_voting_district,0,0,0,0,845,845,0,845,663,182
-06,Steglitz-Zehlendorf,1J ,postal_voting_district,0,0,0,0,845,845,1,844,661,183
-06,Steglitz-Zehlendorf,1K ,postal_voting_district,0,0,0,0,842,842,1,841,634,207
-06,Steglitz-Zehlendorf,1L ,postal_voting_district,0,0,0,0,853,853,1,852,699,153
-06,Steglitz-Zehlendorf,1M ,postal_voting_district,0,0,0,0,849,849,2,847,646,201
-06,Steglitz-Zehlendorf,1N ,postal_voting_district,0,0,0,0,846,846,0,846,633,213
-06,Steglitz-Zehlendorf,1O ,postal_voting_district,0,0,0,0,839,839,3,836,627,209
-06,Steglitz-Zehlendorf,1P ,postal_voting_district,0,0,0,0,839,839,1,838,653,185
-06,Steglitz-Zehlendorf,1Q ,postal_voting_district,0,0,0,0,782,782,1,781,588,193
-06,Steglitz-Zehlendorf,1R ,postal_voting_district,0,0,0,0,853,853,1,852,697,155
-06,Steglitz-Zehlendorf,1S ,postal_voting_district,0,0,0,0,837,837,2,835,638,197
-06,Steglitz-Zehlendorf,1T ,postal_voting_district,0,0,0,0,840,840,0,840,658,182
-06,Steglitz-Zehlendorf,1U ,postal_voting_district,0,0,0,0,850,850,1,849,654,195
-06,Steglitz-Zehlendorf,1V ,postal_voting_district,0,0,0,0,852,852,2,850,684,166
-06,Steglitz-Zehlendorf,1W ,postal_voting_district,0,0,0,0,816,816,1,815,613,202
-06,Steglitz-Zehlendorf,1X ,postal_voting_district,0,0,0,0,847,847,1,846,624,222
-06,Steglitz-Zehlendorf,1Y ,postal_voting_district,0,0,0,0,839,839,0,839,670,169
-06,Steglitz-Zehlendorf,1Z ,postal_voting_district,0,0,0,0,831,831,2,829,691,138
-06,Steglitz-Zehlendorf,2A ,postal_voting_district,0,0,0,0,846,846,1,845,651,194
-06,Steglitz-Zehlendorf,2B ,postal_voting_district,0,0,0,0,877,877,2,875,661,214
-06,Steglitz-Zehlendorf,2C ,postal_voting_district,0,0,0,0,851,851,0,851,651,200
-06,Steglitz-Zehlendorf,2D ,postal_voting_district,0,0,0,0,848,848,0,848,658,190
-06,Steglitz-Zehlendorf,2E ,postal_voting_district,0,0,0,0,872,872,1,871,680,191
-06,Steglitz-Zehlendorf,2F ,postal_voting_district,0,0,0,0,849,849,1,848,655,193
-06,Steglitz-Zehlendorf,2G ,postal_voting_district,0,0,0,0,837,837,0,837,705,132
-06,Steglitz-Zehlendorf,2H ,postal_voting_district,0,0,0,0,847,847,1,846,615,231
-06,Steglitz-Zehlendorf,2J ,postal_voting_district,0,0,0,0,837,837,2,835,645,190
-06,Steglitz-Zehlendorf,2K ,postal_voting_district,0,0,0,0,829,829,2,827,658,169
-06,Steglitz-Zehlendorf,2L ,postal_voting_district,0,0,0,0,824,824,2,822,670,152
-06,Steglitz-Zehlendorf,2M ,postal_voting_district,0,0,0,0,820,820,0,820,652,168
-06,Steglitz-Zehlendorf,2N ,postal_voting_district,0,0,0,0,805,805,0,805,652,153
-06,Steglitz-Zehlendorf,2O ,postal_voting_district,0,0,0,0,834,834,1,833,667,166
+06,Steglitz-Zehlendorf,1A,postal_voting_district,0,0,0,0,664,664,2,662,529,133
+06,Steglitz-Zehlendorf,1B,postal_voting_district,0,0,0,0,656,656,2,654,472,182
+06,Steglitz-Zehlendorf,1C,postal_voting_district,0,0,0,0,850,850,0,850,645,205
+06,Steglitz-Zehlendorf,1D,postal_voting_district,0,0,0,0,840,840,3,837,660,177
+06,Steglitz-Zehlendorf,1E,postal_voting_district,0,0,0,0,850,850,0,850,667,183
+06,Steglitz-Zehlendorf,1F,postal_voting_district,0,0,0,0,831,831,6,825,597,228
+06,Steglitz-Zehlendorf,1G,postal_voting_district,0,0,0,0,848,848,0,848,601,247
+06,Steglitz-Zehlendorf,1H,postal_voting_district,0,0,0,0,845,845,0,845,663,182
+06,Steglitz-Zehlendorf,1J,postal_voting_district,0,0,0,0,845,845,1,844,661,183
+06,Steglitz-Zehlendorf,1K,postal_voting_district,0,0,0,0,842,842,1,841,634,207
+06,Steglitz-Zehlendorf,1L,postal_voting_district,0,0,0,0,853,853,1,852,699,153
+06,Steglitz-Zehlendorf,1M,postal_voting_district,0,0,0,0,849,849,2,847,646,201
+06,Steglitz-Zehlendorf,1N,postal_voting_district,0,0,0,0,846,846,0,846,633,213
+06,Steglitz-Zehlendorf,1O,postal_voting_district,0,0,0,0,839,839,3,836,627,209
+06,Steglitz-Zehlendorf,1P,postal_voting_district,0,0,0,0,839,839,1,838,653,185
+06,Steglitz-Zehlendorf,1Q,postal_voting_district,0,0,0,0,782,782,1,781,588,193
+06,Steglitz-Zehlendorf,1R,postal_voting_district,0,0,0,0,853,853,1,852,697,155
+06,Steglitz-Zehlendorf,1S,postal_voting_district,0,0,0,0,837,837,2,835,638,197
+06,Steglitz-Zehlendorf,1T,postal_voting_district,0,0,0,0,840,840,0,840,658,182
+06,Steglitz-Zehlendorf,1U,postal_voting_district,0,0,0,0,850,850,1,849,654,195
+06,Steglitz-Zehlendorf,1V,postal_voting_district,0,0,0,0,852,852,2,850,684,166
+06,Steglitz-Zehlendorf,1W,postal_voting_district,0,0,0,0,816,816,1,815,613,202
+06,Steglitz-Zehlendorf,1X,postal_voting_district,0,0,0,0,847,847,1,846,624,222
+06,Steglitz-Zehlendorf,1Y,postal_voting_district,0,0,0,0,839,839,0,839,670,169
+06,Steglitz-Zehlendorf,1Z,postal_voting_district,0,0,0,0,831,831,2,829,691,138
+06,Steglitz-Zehlendorf,2A,postal_voting_district,0,0,0,0,846,846,1,845,651,194
+06,Steglitz-Zehlendorf,2B,postal_voting_district,0,0,0,0,877,877,2,875,661,214
+06,Steglitz-Zehlendorf,2C,postal_voting_district,0,0,0,0,851,851,0,851,651,200
+06,Steglitz-Zehlendorf,2D,postal_voting_district,0,0,0,0,848,848,0,848,658,190
+06,Steglitz-Zehlendorf,2E,postal_voting_district,0,0,0,0,872,872,1,871,680,191
+06,Steglitz-Zehlendorf,2F,postal_voting_district,0,0,0,0,849,849,1,848,655,193
+06,Steglitz-Zehlendorf,2G,postal_voting_district,0,0,0,0,837,837,0,837,705,132
+06,Steglitz-Zehlendorf,2H,postal_voting_district,0,0,0,0,847,847,1,846,615,231
+06,Steglitz-Zehlendorf,2J,postal_voting_district,0,0,0,0,837,837,2,835,645,190
+06,Steglitz-Zehlendorf,2K,postal_voting_district,0,0,0,0,829,829,2,827,658,169
+06,Steglitz-Zehlendorf,2L,postal_voting_district,0,0,0,0,824,824,2,822,670,152
+06,Steglitz-Zehlendorf,2M,postal_voting_district,0,0,0,0,820,820,0,820,652,168
+06,Steglitz-Zehlendorf,2N,postal_voting_district,0,0,0,0,805,805,0,805,652,153
+06,Steglitz-Zehlendorf,2O,postal_voting_district,0,0,0,0,834,834,1,833,667,166
 06,Steglitz-Zehlendorf,001,electoral_district,1844,1468,376,0,655,8,2,653,395,258
 06,Steglitz-Zehlendorf,002,electoral_district,2341,2009,332,0,759,2,1,758,456,302
 06,Steglitz-Zehlendorf,003,electoral_district,2459,2074,385,0,841,3,0,841,433,408
@@ -804,46 +804,46 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 06,Steglitz-Zehlendorf,126,electoral_district,971,781,190,0,400,1,1,399,294,105
 06,Steglitz-Zehlendorf,127,electoral_district,1152,909,243,0,386,2,1,385,284,101
 06,Steglitz-Zehlendorf,128,electoral_district,1177,932,245,0,497,3,0,497,369,128
-07,Tempelhof-Schöneberg,1A ,postal_voting_district,0,0,0,0,917,917,2,915,696,219
-07,Tempelhof-Schöneberg,1B ,postal_voting_district,0,0,0,0,540,540,22,518,361,157
-07,Tempelhof-Schöneberg,1C ,postal_voting_district,0,0,0,0,921,921,3,918,676,242
-07,Tempelhof-Schöneberg,1D ,postal_voting_district,0,0,0,0,900,900,2,898,655,243
-07,Tempelhof-Schöneberg,1E ,postal_voting_district,0,0,0,0,900,900,1,899,672,227
-07,Tempelhof-Schöneberg,1F ,postal_voting_district,0,0,0,0,878,878,0,878,635,243
-07,Tempelhof-Schöneberg,1G ,postal_voting_district,0,0,0,0,893,893,0,893,696,197
-07,Tempelhof-Schöneberg,1H ,postal_voting_district,0,0,0,0,904,904,1,903,629,274
-07,Tempelhof-Schöneberg,1I ,postal_voting_district,0,0,0,0,958,958,0,958,642,316
-07,Tempelhof-Schöneberg,1K ,postal_voting_district,0,0,0,0,956,956,3,953,671,282
-07,Tempelhof-Schöneberg,1L ,postal_voting_district,0,0,0,0,902,902,1,901,652,249
-07,Tempelhof-Schöneberg,1M ,postal_voting_district,0,0,0,0,877,877,1,876,639,237
-07,Tempelhof-Schöneberg,1N ,postal_voting_district,0,0,0,0,927,927,3,924,627,297
-07,Tempelhof-Schöneberg,1O ,postal_voting_district,0,0,0,0,923,923,15,908,696,212
-07,Tempelhof-Schöneberg,1P ,postal_voting_district,0,0,0,0,929,929,2,927,563,364
-07,Tempelhof-Schöneberg,1Q ,postal_voting_district,0,0,0,0,901,901,0,901,646,255
-07,Tempelhof-Schöneberg,1R ,postal_voting_district,0,0,0,0,900,900,0,900,677,223
-07,Tempelhof-Schöneberg,1S ,postal_voting_district,0,0,0,0,926,926,1,925,656,269
-07,Tempelhof-Schöneberg,1T ,postal_voting_district,0,0,0,0,921,921,0,921,703,218
-07,Tempelhof-Schöneberg,1U ,postal_voting_district,0,0,0,0,916,916,2,914,659,255
-07,Tempelhof-Schöneberg,1V ,postal_voting_district,0,0,0,0,917,917,0,917,709,208
-07,Tempelhof-Schöneberg,1W ,postal_voting_district,0,0,0,0,922,922,1,921,693,228
-07,Tempelhof-Schöneberg,1X ,postal_voting_district,0,0,0,0,887,887,1,886,660,226
-07,Tempelhof-Schöneberg,1Y ,postal_voting_district,0,0,0,0,890,890,3,887,672,215
-07,Tempelhof-Schöneberg,1Z ,postal_voting_district,0,0,0,0,872,872,8,864,625,239
-07,Tempelhof-Schöneberg,2A ,postal_voting_district,0,0,0,0,884,884,1,883,670,213
-07,Tempelhof-Schöneberg,2B ,postal_voting_district,0,0,0,0,863,863,0,863,653,210
-07,Tempelhof-Schöneberg,2C ,postal_voting_district,0,0,0,0,872,872,0,872,691,181
-07,Tempelhof-Schöneberg,2D ,postal_voting_district,0,0,0,0,847,847,1,846,657,189
-07,Tempelhof-Schöneberg,2E ,postal_voting_district,0,0,0,0,895,895,2,893,683,210
-07,Tempelhof-Schöneberg,2F ,postal_voting_district,0,0,0,0,891,891,1,890,689,201
-07,Tempelhof-Schöneberg,2G ,postal_voting_district,0,0,0,0,880,880,0,880,577,303
-07,Tempelhof-Schöneberg,2H ,postal_voting_district,0,0,0,0,871,871,1,870,630,240
-07,Tempelhof-Schöneberg,2I ,postal_voting_district,0,0,0,0,849,849,5,844,613,231
-07,Tempelhof-Schöneberg,2K ,postal_voting_district,0,0,0,0,443,443,2,441,328,113
-07,Tempelhof-Schöneberg,2L ,postal_voting_district,0,0,0,0,850,850,4,846,615,231
-07,Tempelhof-Schöneberg,2M ,postal_voting_district,0,0,0,0,879,879,3,876,658,218
-07,Tempelhof-Schöneberg,2N ,postal_voting_district,0,0,0,0,882,882,1,881,602,279
-07,Tempelhof-Schöneberg,2O ,postal_voting_district,0,0,0,0,862,862,0,862,620,242
-07,Tempelhof-Schöneberg,2P ,postal_voting_district,0,0,0,0,683,683,1,682,493,189
+07,Tempelhof-Schöneberg,1A,postal_voting_district,0,0,0,0,917,917,2,915,696,219
+07,Tempelhof-Schöneberg,1B,postal_voting_district,0,0,0,0,540,540,22,518,361,157
+07,Tempelhof-Schöneberg,1C,postal_voting_district,0,0,0,0,921,921,3,918,676,242
+07,Tempelhof-Schöneberg,1D,postal_voting_district,0,0,0,0,900,900,2,898,655,243
+07,Tempelhof-Schöneberg,1E,postal_voting_district,0,0,0,0,900,900,1,899,672,227
+07,Tempelhof-Schöneberg,1F,postal_voting_district,0,0,0,0,878,878,0,878,635,243
+07,Tempelhof-Schöneberg,1G,postal_voting_district,0,0,0,0,893,893,0,893,696,197
+07,Tempelhof-Schöneberg,1H,postal_voting_district,0,0,0,0,904,904,1,903,629,274
+07,Tempelhof-Schöneberg,1I,postal_voting_district,0,0,0,0,958,958,0,958,642,316
+07,Tempelhof-Schöneberg,1K,postal_voting_district,0,0,0,0,956,956,3,953,671,282
+07,Tempelhof-Schöneberg,1L,postal_voting_district,0,0,0,0,902,902,1,901,652,249
+07,Tempelhof-Schöneberg,1M,postal_voting_district,0,0,0,0,877,877,1,876,639,237
+07,Tempelhof-Schöneberg,1N,postal_voting_district,0,0,0,0,927,927,3,924,627,297
+07,Tempelhof-Schöneberg,1O,postal_voting_district,0,0,0,0,923,923,15,908,696,212
+07,Tempelhof-Schöneberg,1P,postal_voting_district,0,0,0,0,929,929,2,927,563,364
+07,Tempelhof-Schöneberg,1Q,postal_voting_district,0,0,0,0,901,901,0,901,646,255
+07,Tempelhof-Schöneberg,1R,postal_voting_district,0,0,0,0,900,900,0,900,677,223
+07,Tempelhof-Schöneberg,1S,postal_voting_district,0,0,0,0,926,926,1,925,656,269
+07,Tempelhof-Schöneberg,1T,postal_voting_district,0,0,0,0,921,921,0,921,703,218
+07,Tempelhof-Schöneberg,1U,postal_voting_district,0,0,0,0,916,916,2,914,659,255
+07,Tempelhof-Schöneberg,1V,postal_voting_district,0,0,0,0,917,917,0,917,709,208
+07,Tempelhof-Schöneberg,1W,postal_voting_district,0,0,0,0,922,922,1,921,693,228
+07,Tempelhof-Schöneberg,1X,postal_voting_district,0,0,0,0,887,887,1,886,660,226
+07,Tempelhof-Schöneberg,1Y,postal_voting_district,0,0,0,0,890,890,3,887,672,215
+07,Tempelhof-Schöneberg,1Z,postal_voting_district,0,0,0,0,872,872,8,864,625,239
+07,Tempelhof-Schöneberg,2A,postal_voting_district,0,0,0,0,884,884,1,883,670,213
+07,Tempelhof-Schöneberg,2B,postal_voting_district,0,0,0,0,863,863,0,863,653,210
+07,Tempelhof-Schöneberg,2C,postal_voting_district,0,0,0,0,872,872,0,872,691,181
+07,Tempelhof-Schöneberg,2D,postal_voting_district,0,0,0,0,847,847,1,846,657,189
+07,Tempelhof-Schöneberg,2E,postal_voting_district,0,0,0,0,895,895,2,893,683,210
+07,Tempelhof-Schöneberg,2F,postal_voting_district,0,0,0,0,891,891,1,890,689,201
+07,Tempelhof-Schöneberg,2G,postal_voting_district,0,0,0,0,880,880,0,880,577,303
+07,Tempelhof-Schöneberg,2H,postal_voting_district,0,0,0,0,871,871,1,870,630,240
+07,Tempelhof-Schöneberg,2I,postal_voting_district,0,0,0,0,849,849,5,844,613,231
+07,Tempelhof-Schöneberg,2K,postal_voting_district,0,0,0,0,443,443,2,441,328,113
+07,Tempelhof-Schöneberg,2L,postal_voting_district,0,0,0,0,850,850,4,846,615,231
+07,Tempelhof-Schöneberg,2M,postal_voting_district,0,0,0,0,879,879,3,876,658,218
+07,Tempelhof-Schöneberg,2N,postal_voting_district,0,0,0,0,882,882,1,881,602,279
+07,Tempelhof-Schöneberg,2O,postal_voting_district,0,0,0,0,862,862,0,862,620,242
+07,Tempelhof-Schöneberg,2P,postal_voting_district,0,0,0,0,683,683,1,682,493,189
 07,Tempelhof-Schöneberg,899,electoral_district,1014,803,211,0,455,0,0,455,392,63
 07,Tempelhof-Schöneberg,900,electoral_district,2253,1948,305,0,508,0,0,508,371,137
 07,Tempelhof-Schöneberg,901,electoral_district,3244,2835,409,0,570,0,0,570,337,233
@@ -945,24 +945,24 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 07,Tempelhof-Schöneberg,997,electoral_district,1141,952,189,0,403,0,0,403,327,76
 07,Tempelhof-Schöneberg,998,electoral_district,1150,928,222,0,462,0,0,462,378,84
 07,Tempelhof-Schöneberg,999,electoral_district,1059,893,166,0,291,0,0,291,247,44
-08,Neukölln,1A ,postal_voting_district,0,0,0,0,1292,1292,2,1290,977,313
-08,Neukölln,1B ,postal_voting_district,0,0,0,0,1070,1070,3,1067,828,239
-08,Neukölln,1C ,postal_voting_district,0,0,0,0,1083,1083,1,1082,857,225
-08,Neukölln,1D ,postal_voting_district,0,0,0,0,1104,1104,14,1090,832,258
-08,Neukölln,1E ,postal_voting_district,0,0,0,0,1081,1081,2,1079,855,224
-08,Neukölln,1F ,postal_voting_district,0,0,0,0,1081,1081,0,1081,812,269
-08,Neukölln,1G ,postal_voting_district,0,0,0,0,1078,1078,0,1078,834,244
-08,Neukölln,1H ,postal_voting_district,0,0,0,0,1081,1081,2,1079,868,211
-08,Neukölln,1I ,postal_voting_district,0,0,0,0,1074,1074,3,1071,849,222
-08,Neukölln,1K ,postal_voting_district,0,0,0,0,1081,1081,2,1079,803,276
-08,Neukölln,1L ,postal_voting_district,0,0,0,0,1053,1053,4,1049,794,255
-08,Neukölln,1M ,postal_voting_district,0,0,0,0,1125,1125,22,1103,799,304
-08,Neukölln,1N ,postal_voting_district,0,0,0,0,1084,1084,0,1084,831,253
-08,Neukölln,1O ,postal_voting_district,0,0,0,0,1071,1071,2,1069,844,225
-08,Neukölln,1P ,postal_voting_district,0,0,0,0,1071,1071,3,1068,822,246
-08,Neukölln,1Q ,postal_voting_district,0,0,0,0,1069,1069,1,1068,804,264
-08,Neukölln,1R ,postal_voting_district,0,0,0,0,1074,1074,4,1070,851,219
-08,Neukölln,1S ,postal_voting_district,0,0,0,0,1172,1172,0,1172,901,271
+08,Neukölln,1A,postal_voting_district,0,0,0,0,1292,1292,2,1290,977,313
+08,Neukölln,1B,postal_voting_district,0,0,0,0,1070,1070,3,1067,828,239
+08,Neukölln,1C,postal_voting_district,0,0,0,0,1083,1083,1,1082,857,225
+08,Neukölln,1D,postal_voting_district,0,0,0,0,1104,1104,14,1090,832,258
+08,Neukölln,1E,postal_voting_district,0,0,0,0,1081,1081,2,1079,855,224
+08,Neukölln,1F,postal_voting_district,0,0,0,0,1081,1081,0,1081,812,269
+08,Neukölln,1G,postal_voting_district,0,0,0,0,1078,1078,0,1078,834,244
+08,Neukölln,1H,postal_voting_district,0,0,0,0,1081,1081,2,1079,868,211
+08,Neukölln,1I,postal_voting_district,0,0,0,0,1074,1074,3,1071,849,222
+08,Neukölln,1K,postal_voting_district,0,0,0,0,1081,1081,2,1079,803,276
+08,Neukölln,1L,postal_voting_district,0,0,0,0,1053,1053,4,1049,794,255
+08,Neukölln,1M,postal_voting_district,0,0,0,0,1125,1125,22,1103,799,304
+08,Neukölln,1N,postal_voting_district,0,0,0,0,1084,1084,0,1084,831,253
+08,Neukölln,1O,postal_voting_district,0,0,0,0,1071,1071,2,1069,844,225
+08,Neukölln,1P,postal_voting_district,0,0,0,0,1071,1071,3,1068,822,246
+08,Neukölln,1Q,postal_voting_district,0,0,0,0,1069,1069,1,1068,804,264
+08,Neukölln,1R,postal_voting_district,0,0,0,0,1074,1074,4,1070,851,219
+08,Neukölln,1S,postal_voting_district,0,0,0,0,1172,1172,0,1172,901,271
 08,Neukölln,101,electoral_district,3723,3354,369,0,919,0,7,912,372,540
 08,Neukölln,104,electoral_district,3987,3608,379,0,944,0,3,941,406,535
 08,Neukölln,105,electoral_district,2602,2419,183,0,692,1,1,691,309,382
@@ -1039,18 +1039,18 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 08,Neukölln,623,electoral_district,3392,2893,499,0,1313,0,1,1312,1061,251
 08,Neukölln,628,electoral_district,3400,3062,338,0,1243,1,1,1242,986,256
 08,Neukölln,632,electoral_district,1001,880,121,0,357,0,0,357,294,63
-09,Treptow-Köpenick,1A ,postal_voting_district,0,0,0,0,1272,1272,1,1271,543,728
-09,Treptow-Köpenick,1B ,postal_voting_district,0,0,0,0,1245,1245,1,1244,546,698
-09,Treptow-Köpenick,1C ,postal_voting_district,0,0,0,0,1252,1252,0,1252,547,705
-09,Treptow-Köpenick,1D ,postal_voting_district,0,0,0,0,1228,1228,4,1224,509,715
-09,Treptow-Köpenick,1E ,postal_voting_district,0,0,0,0,1213,1213,0,1213,703,510
-09,Treptow-Köpenick,1F ,postal_voting_district,0,0,0,0,1230,1230,1,1229,509,720
-09,Treptow-Köpenick,1G ,postal_voting_district,0,0,0,0,1201,1201,0,1201,572,629
-09,Treptow-Köpenick,1H ,postal_voting_district,0,0,0,0,1231,1231,4,1227,508,719
-09,Treptow-Köpenick,1J ,postal_voting_district,0,0,0,0,1257,1257,3,1254,541,713
-09,Treptow-Köpenick,1K ,postal_voting_district,0,0,0,0,1245,1245,2,1243,549,694
-09,Treptow-Köpenick,1L ,postal_voting_district,0,0,0,0,1243,1243,4,1239,551,688
-09,Treptow-Köpenick,1M ,postal_voting_district,0,0,0,0,1257,1257,1,1256,579,677
+09,Treptow-Köpenick,1A,postal_voting_district,0,0,0,0,1272,1272,1,1271,543,728
+09,Treptow-Köpenick,1B,postal_voting_district,0,0,0,0,1245,1245,1,1244,546,698
+09,Treptow-Köpenick,1C,postal_voting_district,0,0,0,0,1252,1252,0,1252,547,705
+09,Treptow-Köpenick,1D,postal_voting_district,0,0,0,0,1228,1228,4,1224,509,715
+09,Treptow-Köpenick,1E,postal_voting_district,0,0,0,0,1213,1213,0,1213,703,510
+09,Treptow-Köpenick,1F,postal_voting_district,0,0,0,0,1230,1230,1,1229,509,720
+09,Treptow-Köpenick,1G,postal_voting_district,0,0,0,0,1201,1201,0,1201,572,629
+09,Treptow-Köpenick,1H,postal_voting_district,0,0,0,0,1231,1231,4,1227,508,719
+09,Treptow-Köpenick,1J,postal_voting_district,0,0,0,0,1257,1257,3,1254,541,713
+09,Treptow-Köpenick,1K,postal_voting_district,0,0,0,0,1245,1245,2,1243,549,694
+09,Treptow-Köpenick,1L,postal_voting_district,0,0,0,0,1243,1243,4,1239,551,688
+09,Treptow-Köpenick,1M,postal_voting_district,0,0,0,0,1257,1257,1,1256,579,677
 09,Treptow-Köpenick,101,electoral_district,1922,1742,180,0,484,1,3,481,177,304
 09,Treptow-Köpenick,103,electoral_district,2438,2221,217,0,615,2,0,615,226,389
 09,Treptow-Köpenick,104,electoral_district,3322,3085,237,0,867,3,6,861,274,587
@@ -1154,16 +1154,16 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 09,Treptow-Köpenick,631,electoral_district,1867,1702,165,0,549,1,3,546,353,193
 09,Treptow-Köpenick,633,electoral_district,1324,1237,87,0,400,3,2,398,268,130
 09,Treptow-Köpenick,634,electoral_district,1264,1144,120,0,455,0,0,455,308,147
-10,Marzahn-Hellersdorf,1A ,postal_voting_district,0,0,0,0,1034,1034,3,1031,329,702
-10,Marzahn-Hellersdorf,1B ,postal_voting_district,0,0,0,0,1026,1026,1,1025,347,678
-10,Marzahn-Hellersdorf,1C ,postal_voting_district,0,0,0,0,1020,1020,1,1019,386,633
-10,Marzahn-Hellersdorf,1D ,postal_voting_district,0,0,0,0,1023,1023,0,1023,346,677
-10,Marzahn-Hellersdorf,1E ,postal_voting_district,0,0,0,0,1051,1051,41,1010,343,667
-10,Marzahn-Hellersdorf,1F ,postal_voting_district,0,0,0,0,1017,1017,2,1015,369,646
-10,Marzahn-Hellersdorf,1G ,postal_voting_district,0,0,0,0,1055,1055,3,1052,343,709
-10,Marzahn-Hellersdorf,1H ,postal_voting_district,0,0,0,0,1113,1113,5,1108,372,736
-10,Marzahn-Hellersdorf,1J ,postal_voting_district,0,0,0,0,1013,1013,4,1009,348,661
-10,Marzahn-Hellersdorf,1K ,postal_voting_district,0,0,0,0,1113,1113,2,1111,366,745
+10,Marzahn-Hellersdorf,1A,postal_voting_district,0,0,0,0,1034,1034,3,1031,329,702
+10,Marzahn-Hellersdorf,1B,postal_voting_district,0,0,0,0,1026,1026,1,1025,347,678
+10,Marzahn-Hellersdorf,1C,postal_voting_district,0,0,0,0,1020,1020,1,1019,386,633
+10,Marzahn-Hellersdorf,1D,postal_voting_district,0,0,0,0,1023,1023,0,1023,346,677
+10,Marzahn-Hellersdorf,1E,postal_voting_district,0,0,0,0,1051,1051,41,1010,343,667
+10,Marzahn-Hellersdorf,1F,postal_voting_district,0,0,0,0,1017,1017,2,1015,369,646
+10,Marzahn-Hellersdorf,1G,postal_voting_district,0,0,0,0,1055,1055,3,1052,343,709
+10,Marzahn-Hellersdorf,1H,postal_voting_district,0,0,0,0,1113,1113,5,1108,372,736
+10,Marzahn-Hellersdorf,1J,postal_voting_district,0,0,0,0,1013,1013,4,1009,348,661
+10,Marzahn-Hellersdorf,1K,postal_voting_district,0,0,0,0,1113,1113,2,1111,366,745
 10,Marzahn-Hellersdorf,101,electoral_district,4318,4168,150,0,518,2,2,516,191,325
 10,Marzahn-Hellersdorf,102,electoral_district,4098,3967,131,0,503,0,1,502,194,308
 10,Marzahn-Hellersdorf,103,electoral_district,5406,5183,223,0,722,4,2,720,239,481
@@ -1236,16 +1236,16 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 10,Marzahn-Hellersdorf,708,electoral_district,2603,2483,120,0,382,0,1,381,116,265
 10,Marzahn-Hellersdorf,709,electoral_district,3482,3325,157,0,429,2,1,428,166,262
 10,Marzahn-Hellersdorf,710,electoral_district,2080,1992,88,0,274,1,0,274,85,189
-11,Lichtenberg,1A ,postal_voting_district,0,0,0,0,1099,1099,2,1097,370,727
-11,Lichtenberg,1B ,postal_voting_district,0,0,0,0,1221,1221,2,1219,368,851
-11,Lichtenberg,1C ,postal_voting_district,0,0,0,0,1174,1174,1,1173,325,848
-11,Lichtenberg,1D ,postal_voting_district,0,0,0,0,1221,1221,3,1218,349,869
-11,Lichtenberg,1E ,postal_voting_district,0,0,0,0,1042,1042,2,1040,297,743
-11,Lichtenberg,1F ,postal_voting_district,0,0,0,0,991,991,5,986,242,744
-11,Lichtenberg,1G ,postal_voting_district,0,0,0,0,1155,1155,0,1155,338,817
-11,Lichtenberg,1H ,postal_voting_district,0,0,0,0,1200,1200,1,1199,381,818
-11,Lichtenberg,1J ,postal_voting_district,0,0,0,0,1188,1188,2,1186,405,781
-11,Lichtenberg,1K ,postal_voting_district,0,0,0,0,1905,1905,5,1900,637,1263
+11,Lichtenberg,1A,postal_voting_district,0,0,0,0,1099,1099,2,1097,370,727
+11,Lichtenberg,1B,postal_voting_district,0,0,0,0,1221,1221,2,1219,368,851
+11,Lichtenberg,1C,postal_voting_district,0,0,0,0,1174,1174,1,1173,325,848
+11,Lichtenberg,1D,postal_voting_district,0,0,0,0,1221,1221,3,1218,349,869
+11,Lichtenberg,1E,postal_voting_district,0,0,0,0,1042,1042,2,1040,297,743
+11,Lichtenberg,1F,postal_voting_district,0,0,0,0,991,991,5,986,242,744
+11,Lichtenberg,1G,postal_voting_district,0,0,0,0,1155,1155,0,1155,338,817
+11,Lichtenberg,1H,postal_voting_district,0,0,0,0,1200,1200,1,1199,381,818
+11,Lichtenberg,1J,postal_voting_district,0,0,0,0,1188,1188,2,1186,405,781
+11,Lichtenberg,1K,postal_voting_district,0,0,0,0,1905,1905,5,1900,637,1263
 11,Lichtenberg,101,electoral_district,1498,1398,100,0,249,0,1,248,69,179
 11,Lichtenberg,102,electoral_district,1155,1078,77,0,245,0,0,245,57,188
 11,Lichtenberg,103,electoral_district,3338,3151,187,0,608,0,1,607,168,439
@@ -1319,30 +1319,30 @@ district_id,district_name,electoral_district_id,electoral_district_type,eligible
 11,Lichtenberg,627,electoral_district,1455,1330,125,0,485,0,0,485,96,389
 11,Lichtenberg,628,electoral_district,2476,2217,259,0,813,0,2,811,208,603
 11,Lichtenberg,630,electoral_district,1719,1595,124,0,606,0,0,606,206,400
-12,Reinickendorf,1A ,postal_voting_district,0,0,0,0,807,807,1,806,645,161
-12,Reinickendorf,1B ,postal_voting_district,0,0,0,0,784,784,21,763,607,156
-12,Reinickendorf,1C ,postal_voting_district,0,0,0,0,788,788,0,788,629,159
-12,Reinickendorf,1D ,postal_voting_district,0,0,0,0,707,707,1,706,551,155
-12,Reinickendorf,1E ,postal_voting_district,0,0,0,0,766,766,0,766,634,132
-12,Reinickendorf,1F ,postal_voting_district,0,0,0,0,777,777,3,774,597,177
-12,Reinickendorf,1G ,postal_voting_district,0,0,0,0,775,775,0,775,621,154
-12,Reinickendorf,1H ,postal_voting_district,0,0,0,0,769,769,0,769,617,152
-12,Reinickendorf,1I ,postal_voting_district,0,0,0,0,768,768,3,765,597,168
-12,Reinickendorf,1K ,postal_voting_district,0,0,0,0,808,808,1,807,643,164
-12,Reinickendorf,1L ,postal_voting_district,0,0,0,0,763,763,0,763,601,162
-12,Reinickendorf,1M ,postal_voting_district,0,0,0,0,761,761,0,761,595,166
-12,Reinickendorf,1N ,postal_voting_district,0,0,0,0,721,721,0,721,607,114
-12,Reinickendorf,1O ,postal_voting_district,0,0,0,0,761,761,0,761,582,179
-12,Reinickendorf,1P ,postal_voting_district,0,0,0,0,775,775,1,774,616,158
-12,Reinickendorf,1Q ,postal_voting_district,0,0,0,0,781,781,2,779,654,125
-12,Reinickendorf,1R ,postal_voting_district,0,0,0,0,764,764,1,763,605,158
-12,Reinickendorf,1S ,postal_voting_district,0,0,0,0,768,768,2,766,592,174
-12,Reinickendorf,1T ,postal_voting_district,0,0,0,0,759,759,1,758,576,182
-12,Reinickendorf,1U ,postal_voting_district,0,0,0,0,835,835,5,830,663,167
-12,Reinickendorf,1V ,postal_voting_district,0,0,0,0,768,768,2,766,595,171
-12,Reinickendorf,1W ,postal_voting_district,0,0,0,0,774,774,0,774,601,173
-12,Reinickendorf,1X ,postal_voting_district,0,0,0,0,765,765,0,765,597,168
-12,Reinickendorf,1Y ,postal_voting_district,0,0,0,0,778,778,0,778,629,149
+12,Reinickendorf,1A,postal_voting_district,0,0,0,0,807,807,1,806,645,161
+12,Reinickendorf,1B,postal_voting_district,0,0,0,0,784,784,21,763,607,156
+12,Reinickendorf,1C,postal_voting_district,0,0,0,0,788,788,0,788,629,159
+12,Reinickendorf,1D,postal_voting_district,0,0,0,0,707,707,1,706,551,155
+12,Reinickendorf,1E,postal_voting_district,0,0,0,0,766,766,0,766,634,132
+12,Reinickendorf,1F,postal_voting_district,0,0,0,0,777,777,3,774,597,177
+12,Reinickendorf,1G,postal_voting_district,0,0,0,0,775,775,0,775,621,154
+12,Reinickendorf,1H,postal_voting_district,0,0,0,0,769,769,0,769,617,152
+12,Reinickendorf,1I,postal_voting_district,0,0,0,0,768,768,3,765,597,168
+12,Reinickendorf,1K,postal_voting_district,0,0,0,0,808,808,1,807,643,164
+12,Reinickendorf,1L,postal_voting_district,0,0,0,0,763,763,0,763,601,162
+12,Reinickendorf,1M,postal_voting_district,0,0,0,0,761,761,0,761,595,166
+12,Reinickendorf,1N,postal_voting_district,0,0,0,0,721,721,0,721,607,114
+12,Reinickendorf,1O,postal_voting_district,0,0,0,0,761,761,0,761,582,179
+12,Reinickendorf,1P,postal_voting_district,0,0,0,0,775,775,1,774,616,158
+12,Reinickendorf,1Q,postal_voting_district,0,0,0,0,781,781,2,779,654,125
+12,Reinickendorf,1R,postal_voting_district,0,0,0,0,764,764,1,763,605,158
+12,Reinickendorf,1S,postal_voting_district,0,0,0,0,768,768,2,766,592,174
+12,Reinickendorf,1T,postal_voting_district,0,0,0,0,759,759,1,758,576,182
+12,Reinickendorf,1U,postal_voting_district,0,0,0,0,835,835,5,830,663,167
+12,Reinickendorf,1V,postal_voting_district,0,0,0,0,768,768,2,766,595,171
+12,Reinickendorf,1W,postal_voting_district,0,0,0,0,774,774,0,774,601,173
+12,Reinickendorf,1X,postal_voting_district,0,0,0,0,765,765,0,765,597,168
+12,Reinickendorf,1Y,postal_voting_district,0,0,0,0,778,778,0,778,629,149
 12,Reinickendorf,101,electoral_district,2306,2102,204,0,691,0,0,691,522,169
 12,Reinickendorf,102,electoral_district,1552,1422,130,0,430,0,0,430,333,97
 12,Reinickendorf,106,electoral_district,1991,1877,114,0,456,0,1,455,333,122

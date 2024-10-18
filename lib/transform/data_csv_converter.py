@@ -54,7 +54,10 @@ def convert_data_to_csv(
                         skiprows=dataset.skip_rows,
                     )
 
-                    # Apply type
+                    # Apply trim
+                    dataframe = dataframe.applymap(lambda col: col.strip() if isinstance(col, str) else col)
+
+                    # Apply data type
                     dataframe = dataframe.astype(
                         {name.name: name.type for name in dataset.names},
                         errors="ignore",
