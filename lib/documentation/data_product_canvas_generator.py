@@ -1,7 +1,7 @@
 import os
 
 from lib.config.data_product_manifest_loader import DataProductManifest
-from lib.config.data_transformation_loader import DataTransformation
+from lib.config.data_transformation_silver_loader import DataTransformation
 from lib.tracking_decorator import TrackingDecorator
 
 SCHEMA_AS_TABLE = True

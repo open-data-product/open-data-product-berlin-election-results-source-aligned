@@ -3,7 +3,7 @@ import warnings
 
 import pandas as pd
 
-from lib.config.data_transformation_loader import DataTransformation
+from lib.config.data_transformation_silver_loader import DataTransformation
 from lib.tracking_decorator import TrackingDecorator
 
 warnings.simplefilter(action="ignore", category=FutureWarning)
