@@ -15,6 +15,7 @@ from lib.tracking_decorator import TrackingDecorator
 class Name:
     name: str
     type: Optional[str] = "keep"
+    copy: Optional[str] = None
     concat: Optional[List[str]] = None
     numerator: Optional[str] = None
     denominator: Optional[str] = None
@@ -24,6 +25,7 @@ class Name:
 class File:
     source_file_name: str
     target_file_name: str
+    aggregate_by: Optional[str]
     names: Optional[List[Name]] = field(default_factory=list)
 
 
@@ -75,7 +77,9 @@ class Loader(yaml.SafeLoader):
 
 @TrackingDecorator.track_time
 def load_data_transformation_gold(config_path) -> DataTransformation:
-    data_transformation_path = os.path.join(config_path, "data-transformation-03-gold.yml")
+    data_transformation_path = os.path.join(
+        config_path, "data-transformation-03-gold.yml"
+    )
 
     if os.path.exists(data_transformation_path):
         with open(data_transformation_path, "r") as file:

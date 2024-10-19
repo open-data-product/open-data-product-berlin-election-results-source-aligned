@@ -50,7 +50,9 @@ def main(argv):
     docs_path = os.path.join(script_path, "docs")
 
     data_product_manifest = load_data_product_manifest(config_path=script_path)
-    data_transformation_silver = load_data_transformation_silver(config_path=script_path)
+    data_transformation_silver = load_data_transformation_silver(
+        config_path=script_path
+    )
     data_transformation_gold = load_data_transformation_gold(config_path=script_path)
 
     #

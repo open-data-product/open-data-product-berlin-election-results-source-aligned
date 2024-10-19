@@ -55,7 +55,9 @@ def convert_data_to_csv(
                     )
 
                     # Apply trim
-                    dataframe = dataframe.applymap(lambda col: col.strip() if isinstance(col, str) else col)
+                    dataframe = dataframe.applymap(
+                        lambda col: col.strip() if isinstance(col, str) else col
+                    )
 
                     # Apply data type
                     dataframe = dataframe.astype(

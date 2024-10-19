@@ -3,6 +3,7 @@ from tracking_decorator import TrackingDecorator
 import os
 import pandas as pd
 
+
 @TrackingDecorator.track_time
 def aggregate_data(
     data_transformation: DataTransformation,
@@ -18,7 +19,9 @@ def aggregate_data(
             source_file_path = os.path.join(
                 source_path, input_port.id, file.source_file_name
             )
-            target_file_path = os.path.join(results_path, input_port.id, file.target_file_name)
+            target_file_path = os.path.join(
+                results_path, input_port.id, file.target_file_name
+            )
 
             if not clean and os.path.exists(target_file_path):
                 if not quiet:
@@ -30,16 +33,37 @@ def aggregate_data(
                 dataframe = read_csv_file(source_file_path)
 
                 # Apply filter
-                dataframe = dataframe.filter(items=[name.name for name in file.names if name.type == "keep"])
+                dataframe = dataframe.filter(
+                    items=[name.name for name in file.names if name.type == "keep"]
+                )
+
+                # Apply aggregation
+                if file.aggregate_by is not None:
+                    dataframe = dataframe.apply(pd.to_numeric, errors="ignore")
+                    dataframe = dataframe.groupby(
+                        file.aggregate_by, as_index=False
+                    ).sum()
+
+                # Apply copy
+                for name in [name for name in file.names if name.type == "copy"]:
+                    dataframe[name.name] = dataframe[name.copy]
+                    dataframe.insert(0, name.name, dataframe.pop(name.name))
 
                 # Apply concatenation
-                for name in [name for name in file.names if name.type == "concatenation"]:
+                for name in [
+                    name for name in file.names if name.type == "concatenation"
+                ]:
                     dataframe[name.name] = dataframe[name.concat].agg("".join, axis=1)
                     dataframe.insert(0, name.name, dataframe.pop(name.name))
 
                 # Apply fraction
                 for name in [name for name in file.names if name.type == "fraction"]:
-                    dataframe[name.name] = dataframe[name.numerator].astype(float).divide(dataframe[name.denominator].astype(float)).fillna(0)
+                    dataframe[name.name] = (
+                        dataframe[name.numerator]
+                        .astype(float)
+                        .divide(dataframe[name.denominator].astype(float))
+                        .fillna(0)
+                    )
 
                 if dataframe.shape[0] > 0:
                     os.makedirs(
@@ -55,6 +79,7 @@ def aggregate_data(
 
                     if not quiet:
                         print(f"✗️ Empty {os.path.basename(target_file_path)}")
+
             except Exception as e:
                 exception += 1
                 print(f"✗️ Exception: {str(e)}")
@@ -66,6 +91,7 @@ def aggregate_data(
 #
 # Helpers
 #
+
 
 def read_csv_file(file_path):
     if os.path.exists(file_path):
