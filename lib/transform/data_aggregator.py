@@ -12,7 +12,7 @@ def aggregate_data(
     clean=False,
     quiet=False,
 ):
-    already_exists, converted, empty, exception = 0, 0, 0, 0
+    already_exists, converted, exception = 0, 0, 0
 
     for input_port in data_transformation.input_ports or []:
         for file in input_port.files or []:
@@ -30,42 +30,47 @@ def aggregate_data(
                 continue
 
             try:
-                dataframe = read_csv_file(source_file_path)
+                with open(source_file_path, "r") as csv_file:
+                    # Read csv file
+                    dataframe = pd.read_csv(csv_file, dtype=str)
 
-                # Apply filter
-                dataframe = dataframe.filter(
-                    items=[name.name for name in file.names if name.type == "keep"]
-                )
-
-                # Apply aggregation
-                if file.aggregate_by is not None:
-                    dataframe = dataframe.apply(pd.to_numeric, errors="ignore")
-                    dataframe = dataframe.groupby(
-                        file.aggregate_by, as_index=False
-                    ).sum()
-
-                # Apply copy
-                for name in [name for name in file.names if name.type == "copy"]:
-                    dataframe[name.name] = dataframe[name.copy]
-                    dataframe.insert(0, name.name, dataframe.pop(name.name))
-
-                # Apply concatenation
-                for name in [
-                    name for name in file.names if name.type == "concatenation"
-                ]:
-                    dataframe[name.name] = dataframe[name.concat].agg("".join, axis=1)
-                    dataframe.insert(0, name.name, dataframe.pop(name.name))
-
-                # Apply fraction
-                for name in [name for name in file.names if name.type == "fraction"]:
-                    dataframe[name.name] = (
-                        dataframe[name.numerator]
-                        .astype(float)
-                        .divide(dataframe[name.denominator].astype(float))
-                        .fillna(0)
+                    # Apply filter
+                    dataframe = dataframe.filter(
+                        items=[name.name for name in file.names if name.type == "keep"]
                     )
 
-                if dataframe.shape[0] > 0:
+                    # Apply aggregation
+                    if file.aggregate_by is not None:
+                        dataframe = dataframe.apply(pd.to_numeric, errors="ignore")
+                        dataframe = dataframe.groupby(
+                            file.aggregate_by, as_index=False
+                        ).sum()
+
+                    # Apply copy
+                    for name in [name for name in file.names if name.type == "copy"]:
+                        dataframe[name.name] = dataframe[name.copy]
+                        dataframe.insert(0, name.name, dataframe.pop(name.name))
+
+                    # Apply concatenation
+                    for name in [
+                        name for name in file.names if name.type == "concatenation"
+                    ]:
+                        dataframe[name.name] = dataframe[name.concat].agg(
+                            "".join, axis=1
+                        )
+                        dataframe.insert(0, name.name, dataframe.pop(name.name))
+
+                    # Apply fraction
+                    for name in [
+                        name for name in file.names if name.type == "fraction"
+                    ]:
+                        dataframe[name.name] = (
+                            dataframe[name.numerator]
+                            .astype(float)
+                            .divide(dataframe[name.denominator].astype(float))
+                            .fillna(0)
+                        )
+
                     os.makedirs(
                         os.path.join(results_path, input_port.id), exist_ok=True
                     )
@@ -74,28 +79,10 @@ def aggregate_data(
 
                     if not quiet:
                         print(f"✓ Convert {os.path.basename(target_file_path)}")
-                else:
-                    empty += 1
-
-                    if not quiet:
-                        print(f"✗️ Empty {os.path.basename(target_file_path)}")
 
             except Exception as e:
                 exception += 1
                 print(f"✗️ Exception: {str(e)}")
     print(
-        f"aggregate_data finished with already_exists: {already_exists}, converted: {converted}, empty: {empty}, exception: {exception}"
+        f"aggregate_data finished with already_exists: {already_exists}, converted: {converted}, exception: {exception}"
     )
-
-
-#
-# Helpers
-#
-
-
-def read_csv_file(file_path):
-    if os.path.exists(file_path):
-        with open(file_path, "r") as csv_file:
-            return pd.read_csv(csv_file, dtype=str)
-    else:
-        return None

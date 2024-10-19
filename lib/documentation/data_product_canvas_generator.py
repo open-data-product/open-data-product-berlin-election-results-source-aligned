@@ -1,7 +1,6 @@
 import os
 
 from lib.config.data_product_manifest_loader import DataProductManifest
-from lib.config.data_transformation_silver_loader import DataTransformation
 from lib.tracking_decorator import TrackingDecorator
 
 SCHEMA_AS_TABLE = True
@@ -10,7 +9,6 @@ SCHEMA_AS_TABLE = True
 @TrackingDecorator.track_time
 def generate_data_product_canvas(
     data_product_manifest: DataProductManifest,
-    data_transformation: DataTransformation,
     docs_path,
 ):
     data_product_canvas_path = os.path.join(docs_path, "data-product-canvas.md")

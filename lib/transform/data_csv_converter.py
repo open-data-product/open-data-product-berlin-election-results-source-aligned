@@ -17,7 +17,7 @@ def convert_data_to_csv(
     clean=False,
     quiet=False,
 ):
-    already_exists, converted, empty, exception = 0, 0, 0, 0
+    already_exists, converted, exception = 0, 0, 0
 
     for input_port in data_transformation.input_ports or []:
         for file in input_port.files or []:
@@ -39,6 +39,7 @@ def convert_data_to_csv(
                 engine = "openpyxl" if source_file_extension == ".xlsx" else None
 
                 try:
+                    # Read Excel file
                     dataframe = pd.read_excel(
                         source_file_path,
                         engine=engine,
@@ -102,24 +103,18 @@ def convert_data_to_csv(
 
                     dataframe = dataframe.dropna()
 
-                    if dataframe.shape[0] > 0:
-                        os.makedirs(
-                            os.path.join(results_path, input_port.id), exist_ok=True
-                        )
-                        dataframe.to_csv(target_file_path, index=False)
-                        converted += 1
+                    os.makedirs(
+                        os.path.join(results_path, input_port.id), exist_ok=True
+                    )
+                    dataframe.to_csv(target_file_path, index=False)
+                    converted += 1
 
-                        if not quiet:
-                            print(f"✓ Convert {os.path.basename(target_file_path)}")
-                    else:
-                        empty += 1
-
-                        if not quiet:
-                            print(f"✗️ Empty {os.path.basename(target_file_path)}")
+                    if not quiet:
+                        print(f"✓ Convert {os.path.basename(target_file_path)}")
                 except Exception as e:
                     exception += 1
                     print(f"✗️ Exception: {str(e)}")
 
     print(
-        f"convert_data_to_csv finished with already_exists: {already_exists}, converted: {converted}, empty: {empty}, exception: {exception}"
+        f"convert_data_to_csv finished with already_exists: {already_exists}, converted: {converted}, exception: {exception}"
     )

@@ -111,7 +111,6 @@ def main(argv):
 
     generate_data_product_canvas(
         data_product_manifest=data_product_manifest,
-        data_transformation=data_transformation_silver,
         docs_path=docs_path,
     )
 
