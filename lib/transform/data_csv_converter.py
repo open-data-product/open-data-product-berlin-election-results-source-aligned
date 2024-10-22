@@ -103,9 +103,7 @@ def convert_data_to_csv(
 
                     dataframe = dataframe.dropna()
 
-                    os.makedirs(
-                        os.path.join(results_path, input_port.id), exist_ok=True
-                    )
+                    os.makedirs(os.path.dirname(target_file_path), exist_ok=True)
                     dataframe.to_csv(target_file_path, index=False)
                     converted += 1
 
