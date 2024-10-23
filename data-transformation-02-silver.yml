@@ -126,7 +126,7 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
-              - { name: electoral_district_berlin_election_id, remove: True }
+              - { name: electoral_district_berlin_election_id, action: remove }
               - name: electoral_district_federal_election_id
               - name: berlin_east_west
               - { name: eligible_voters, type: int }

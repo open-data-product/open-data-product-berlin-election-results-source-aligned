@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-03-15
+* updated: 2025-03-16
 
 ## Input Ports
 
@@ -213,26 +213,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
 * license: GPLv3
-* updated: 2025-03-15
-
-**Schema**
-
-| Name | Description |
-| --- | --- |
-| id | combined ID of the district + the electoral (5 digits) |
-| district_id | ID of the district (2 digits) |
-| electoral_district_id | ID of the electoral district (3 digits) |
-| eligible_voters | number of eligible voters |
-| voters | number of actual voters |
-| invalid_votes | number of invalid votes |
-| valid_votes | number of valid votes |
-| vote_yes | number of valid votes voting yes |
-| vote_no | number of valid votes voting no |
-| voter_turnout | percentage of eligible voters that have actually voted |
-| invalid_votes_percentage | percentage of invalid votes |
-| valid_votes_percentage | percentage of valid votes |
-| vote_yes_percentage | percentage of votes voting yes |
-| vote_no_percentage | percentage of votes voting no |
+* updated: 2025-03-16
 
 **Files**
 

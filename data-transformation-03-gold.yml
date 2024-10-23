@@ -6,24 +6,24 @@ input_ports:
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, type: "copy", copy: district_id}
-          - name: district_id
+          - {name: id, action: "copy", copy: district_id, zfill: 2}
+          - { name: district_id, zfill: 2}
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, type: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, type: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, type: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, type: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, type: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv
         names:
-          - {name: id, type: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - name: district_id
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
+          - { name: district_id, zfill: 2}
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -31,8 +31,8 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, type: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, type: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, type: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, type: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, type: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }

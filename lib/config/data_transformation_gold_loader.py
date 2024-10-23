@@ -14,7 +14,10 @@ from lib.tracking_decorator import TrackingDecorator
 @dataclass
 class Name:
     name: str
-    type: Optional[str] = "keep"
+    action: Optional[str] = "keep"
+    type: Optional[str] = "str"
+    remove: Optional[bool] = None
+    zfill: Optional[int] = None
     copy: Optional[str] = None
     concat: Optional[List[str]] = None
     numerator: Optional[str] = None

@@ -55,6 +55,8 @@ def convert_data_to_csv(
                         skiprows=dataset.skip_rows,
                     )
 
+                    names = dataset.names
+
                     # Apply trim
                     dataframe = dataframe.applymap(
                         lambda col: col.strip() if isinstance(col, str) else col
@@ -62,28 +64,30 @@ def convert_data_to_csv(
 
                     # Apply data type
                     dataframe = dataframe.astype(
-                        {name.name: name.type for name in dataset.names},
+                        {
+                            name.name: name.type
+                            for name in names
+                            if name.action == "keep"
+                        },
                         errors="ignore",
                     )
 
-                    # Apply remove
-                    dataframe = dataframe.drop(
-                        [name.name for name in dataset.names if name.remove],
-                        axis=1,
-                        errors="ignore",
+                    # Apply filter
+                    dataframe = dataframe.filter(
+                        items=[name.name for name in names if name.action == "keep"]
                     )
 
                     # Apply zfill
                     dataframe = (
                         dataframe[
-                            [name.name for name in dataset.names if not name.remove]
+                            [name.name for name in names if name.action == "keep"]
                         ]
                         .astype(str)
                         .apply(
                             lambda col: col.str.zfill(
                                 next(
                                     name.zfill if name.zfill is not None else 0
-                                    for name in dataset.names
+                                    for name in names
                                     if name.name == col.name
                                 )
                             )
@@ -92,7 +96,7 @@ def convert_data_to_csv(
 
                     # Apply value mapping
                     for name in [
-                        name for name in dataset.names if name.value_mapping is not None
+                        name for name in names if name.value_mapping is not None
                     ]:
                         dataframe[name.name] = dataframe[name.name].map(
                             name.value_mapping

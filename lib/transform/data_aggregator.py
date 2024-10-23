@@ -34,9 +34,26 @@ def aggregate_data(
                     # Read csv file
                     dataframe = pd.read_csv(csv_file, dtype=str)
 
+                    names = file.names
+
+                    # Apply trim
+                    dataframe = dataframe.applymap(
+                        lambda col: col.strip() if isinstance(col, str) else col
+                    )
+
+                    # Apply data type
+                    dataframe = dataframe.astype(
+                        {
+                            name.name: name.type
+                            for name in names
+                            if name.action == "keep"
+                        },
+                        errors="ignore",
+                    )
+
                     # Apply filter
                     dataframe = dataframe.filter(
-                        items=[name.name for name in file.names if name.type == "keep"]
+                        items=[name.name for name in names if name.action == "keep"]
                     )
 
                     # Apply aggregation
@@ -46,14 +63,31 @@ def aggregate_data(
                             file.aggregate_by, as_index=False
                         ).sum()
 
+                    # Apply zfill
+                    dataframe = (
+                        dataframe[
+                            [name.name for name in names if name.action == "keep"]
+                        ]
+                        .astype(str)
+                        .apply(
+                            lambda col: col.str.zfill(
+                                next(
+                                    name.zfill if name.zfill is not None else 0
+                                    for name in names
+                                    if name.name == col.name
+                                )
+                            )
+                        )
+                    )
+
                     # Apply copy
-                    for name in [name for name in file.names if name.type == "copy"]:
+                    for name in [name for name in names if name.action == "copy"]:
                         dataframe[name.name] = dataframe[name.copy]
                         dataframe.insert(0, name.name, dataframe.pop(name.name))
 
                     # Apply concatenation
                     for name in [
-                        name for name in file.names if name.type == "concatenation"
+                        name for name in names if name.action == "concatenation"
                     ]:
                         dataframe[name.name] = dataframe[name.concat].agg(
                             "".join, axis=1
@@ -61,9 +95,7 @@ def aggregate_data(
                         dataframe.insert(0, name.name, dataframe.pop(name.name))
 
                     # Apply fraction
-                    for name in [
-                        name for name in file.names if name.type == "fraction"
-                    ]:
+                    for name in [name for name in names if name.action == "fraction"]:
                         dataframe[name.name] = (
                             dataframe[name.numerator]
                             .astype(float)

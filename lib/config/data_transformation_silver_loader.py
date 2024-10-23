@@ -14,8 +14,8 @@ from lib.tracking_decorator import TrackingDecorator
 @dataclass
 class Name:
     name: str
+    action: Optional[str] = "keep"
     type: Optional[str] = "str"
-    remove: Optional[bool] = None
     zfill: Optional[int] = None
     value_mapping: Optional[dict] = None
 
