@@ -30,9 +30,8 @@ def convert_data_to_csv(
                 )
 
                 if not clean and os.path.exists(target_file_path):
-                    if not quiet:
-                        already_exists += 1
-                        print(f"✓ Already exists {dataset.target_file_name}")
+                    already_exists += 1
+                    not quiet and print(f"✓ Already exists {dataset.target_file_name}")
                     continue
 
                 _, source_file_extension = os.path.splitext(source_file_path)
@@ -111,8 +110,7 @@ def convert_data_to_csv(
                     dataframe.to_csv(target_file_path, index=False)
                     converted += 1
 
-                    if not quiet:
-                        print(f"✓ Convert {os.path.basename(target_file_path)}")
+                    not quiet and print(f"✓ Convert {os.path.basename(target_file_path)}")
                 except Exception as e:
                     exception += 1
                     print(f"✗️ Exception: {str(e)}")

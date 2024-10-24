@@ -29,16 +29,14 @@ def copy_data(
                             os.path.join(results_path, input_port.id), exist_ok=True
                         )
                         shutil.copyfile(source_file_path, target_file_path)
-                        if not quiet:
-                            print(
+                        not quiet and print(
                                 f"✓ Copy {os.path.basename(source_file_path)} to {os.path.basename(target_file_path)}"
                             )
                     else:
-                        if not quiet:
-                            print(
+                        not quiet and print(
                                 f"✓ Already exists {os.path.basename(target_file_path)}"
                             )
                 else:
-                    print(
+                    not quiet and print(
                         f"✗️ Error: Source file does not exist {os.path.basename(source_file_path)}"
                     )
