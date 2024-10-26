@@ -30,12 +30,12 @@ def copy_data(
                         )
                         shutil.copyfile(source_file_path, target_file_path)
                         not quiet and print(
-                                f"✓ Copy {os.path.basename(source_file_path)} to {os.path.basename(target_file_path)}"
-                            )
+                            f"✓ Copy {os.path.basename(source_file_path)} to {os.path.basename(target_file_path)}"
+                        )
                     else:
                         not quiet and print(
-                                f"✓ Already exists {os.path.basename(target_file_path)}"
-                            )
+                            f"✓ Already exists {os.path.basename(target_file_path)}"
+                        )
                 else:
                     not quiet and print(
                         f"✗️ Error: Source file does not exist {os.path.basename(source_file_path)}"
