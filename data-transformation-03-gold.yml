@@ -144,3 +144,55 @@ input_ports:
           - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
           - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
           - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+  - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
+    files:
+      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
+        target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv
+        aggregate_by: district_id
+        names:
+          - {name: id, action: "copy", copy: district_id, zfill: 2}
+          - { name: district_id, zfill: 2}
+          - name: eligible_voters
+          - name: voters
+          - name: question_1_invalid_votes
+          - name: question_1_valid_votes
+          - name: question_1_vote_yes
+          - name: question_1_vote_no
+          - name: question_2_invalid_votes
+          - name: question_2_valid_votes
+          - name: question_2_vote_yes
+          - name: question_2_vote_no
+          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
+          - { name: question_1_invalid_votes_percentage, action: "fraction", numerator: question_1_invalid_votes, denominator: voters }
+          - { name: question_1_valid_votes_percentage, action: "fraction", numerator: question_1_valid_votes, denominator: voters }
+          - { name: question_1_vote_yes_percentage, action: "fraction", numerator: question_1_vote_yes, denominator: voters }
+          - { name: question_1_vote_no_percentage, action: "fraction", numerator: question_1_vote_no, denominator: voters }
+          - { name: question_2_invalid_votes_percentage, action: "fraction", numerator: question_2_invalid_votes, denominator: voters }
+          - { name: question_2_valid_votes_percentage, action: "fraction", numerator: question_2_valid_votes, denominator: voters }
+          - { name: question_2_vote_yes_percentage, action: "fraction", numerator: question_2_vote_yes, denominator: voters }
+          - { name: question_2_vote_no_percentage, action: "fraction", numerator: question_2_vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
+        target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv
+        names:
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
+          - { name: district_id, zfill: 2}
+          - name: electoral_district_id
+          - name: eligible_voters
+          - name: voters
+          - name: question_1_invalid_votes
+          - name: question_1_valid_votes
+          - name: question_1_vote_yes
+          - name: question_1_vote_no
+          - name: question_2_invalid_votes
+          - name: question_2_valid_votes
+          - name: question_2_vote_yes
+          - name: question_2_vote_no
+          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
+          - { name: question_1_invalid_votes_percentage, action: "fraction", numerator: question_1_invalid_votes, denominator: voters }
+          - { name: question_1_valid_votes_percentage, action: "fraction", numerator: question_1_valid_votes, denominator: voters }
+          - { name: question_1_vote_yes_percentage, action: "fraction", numerator: question_1_vote_yes, denominator: voters }
+          - { name: question_1_vote_no_percentage, action: "fraction", numerator: question_1_vote_no, denominator: voters }
+          - { name: question_2_invalid_votes_percentage, action: "fraction", numerator: question_2_invalid_votes, denominator: voters }
+          - { name: question_2_valid_votes_percentage, action: "fraction", numerator: question_2_valid_votes, denominator: voters }
+          - { name: question_2_vote_yes_percentage, action: "fraction", numerator: question_2_vote_yes, denominator: voters }
+          - { name: question_2_vote_no_percentage, action: "fraction", numerator: question_2_vote_no, denominator: voters }
