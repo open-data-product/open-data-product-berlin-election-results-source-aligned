@@ -268,6 +268,18 @@
 * [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv)
 * [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2017 On The Continued Operation Of Tegel Airport
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
+* license: GPLv3
+* updated: 2025-03-17
+
+**Files**
+
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv)
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv)
+
 ## Classification
 
 **The nature of the exposed data (source-aligned, aggregate, consumer-aligned)**
