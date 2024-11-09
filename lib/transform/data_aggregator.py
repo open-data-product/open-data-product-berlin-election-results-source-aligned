@@ -94,11 +94,12 @@ def aggregate_data(
                         dataframe.insert(0, name.name, dataframe.pop(name.name))
 
                     # Apply fraction
-                    for name in [name for name in names if name.action == "fraction"]:
+                    for name in [name for name in names if name.action == "percentage"]:
                         dataframe[name.name] = (
                             dataframe[name.numerator]
                             .astype(float)
                             .divide(dataframe[name.denominator].astype(float))
+                            .multiply(100)
                             .fillna(0)
                         )
 

@@ -14,11 +14,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv
         names:
@@ -31,11 +31,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
   - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     files:
       - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv
@@ -50,11 +50,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv
         target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.csv
         names:
@@ -67,11 +67,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
   - id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     files:
       - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
@@ -86,11 +86,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
         target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.csv
         names:
@@ -103,11 +103,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
   - id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
     files:
       - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv
@@ -122,11 +122,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv
         target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.csv
         names:
@@ -139,11 +139,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
   - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
     files:
       - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
@@ -162,15 +162,15 @@ input_ports:
           - name: question_2_valid_votes
           - name: question_2_vote_yes
           - name: question_2_vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: question_1_invalid_votes_percentage, action: "fraction", numerator: question_1_invalid_votes, denominator: voters }
-          - { name: question_1_valid_votes_percentage, action: "fraction", numerator: question_1_valid_votes, denominator: voters }
-          - { name: question_1_vote_yes_percentage, action: "fraction", numerator: question_1_vote_yes, denominator: voters }
-          - { name: question_1_vote_no_percentage, action: "fraction", numerator: question_1_vote_no, denominator: voters }
-          - { name: question_2_invalid_votes_percentage, action: "fraction", numerator: question_2_invalid_votes, denominator: voters }
-          - { name: question_2_valid_votes_percentage, action: "fraction", numerator: question_2_valid_votes, denominator: voters }
-          - { name: question_2_vote_yes_percentage, action: "fraction", numerator: question_2_vote_yes, denominator: voters }
-          - { name: question_2_vote_no_percentage, action: "fraction", numerator: question_2_vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: question_1_invalid_votes_percentage, action: "percentage", numerator: question_1_invalid_votes, denominator: voters }
+          - { name: question_1_valid_votes_percentage, action: "percentage", numerator: question_1_valid_votes, denominator: voters }
+          - { name: question_1_vote_yes_percentage, action: "percentage", numerator: question_1_vote_yes, denominator: voters }
+          - { name: question_1_vote_no_percentage, action: "percentage", numerator: question_1_vote_no, denominator: voters }
+          - { name: question_2_invalid_votes_percentage, action: "percentage", numerator: question_2_invalid_votes, denominator: voters }
+          - { name: question_2_valid_votes_percentage, action: "percentage", numerator: question_2_valid_votes, denominator: voters }
+          - { name: question_2_vote_yes_percentage, action: "percentage", numerator: question_2_vote_yes, denominator: voters }
+          - { name: question_2_vote_no_percentage, action: "percentage", numerator: question_2_vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
         target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv
         names:
@@ -187,15 +187,15 @@ input_ports:
           - name: question_2_valid_votes
           - name: question_2_vote_yes
           - name: question_2_vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: question_1_invalid_votes_percentage, action: "fraction", numerator: question_1_invalid_votes, denominator: voters }
-          - { name: question_1_valid_votes_percentage, action: "fraction", numerator: question_1_valid_votes, denominator: voters }
-          - { name: question_1_vote_yes_percentage, action: "fraction", numerator: question_1_vote_yes, denominator: voters }
-          - { name: question_1_vote_no_percentage, action: "fraction", numerator: question_1_vote_no, denominator: voters }
-          - { name: question_2_invalid_votes_percentage, action: "fraction", numerator: question_2_invalid_votes, denominator: voters }
-          - { name: question_2_valid_votes_percentage, action: "fraction", numerator: question_2_valid_votes, denominator: voters }
-          - { name: question_2_vote_yes_percentage, action: "fraction", numerator: question_2_vote_yes, denominator: voters }
-          - { name: question_2_vote_no_percentage, action: "fraction", numerator: question_2_vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: question_1_invalid_votes_percentage, action: "percentage", numerator: question_1_invalid_votes, denominator: voters }
+          - { name: question_1_valid_votes_percentage, action: "percentage", numerator: question_1_valid_votes, denominator: voters }
+          - { name: question_1_vote_yes_percentage, action: "percentage", numerator: question_1_vote_yes, denominator: voters }
+          - { name: question_1_vote_no_percentage, action: "percentage", numerator: question_1_vote_no, denominator: voters }
+          - { name: question_2_invalid_votes_percentage, action: "percentage", numerator: question_2_invalid_votes, denominator: voters }
+          - { name: question_2_valid_votes_percentage, action: "percentage", numerator: question_2_valid_votes, denominator: voters }
+          - { name: question_2_vote_yes_percentage, action: "percentage", numerator: question_2_vote_yes, denominator: voters }
+          - { name: question_2_vote_no_percentage, action: "percentage", numerator: question_2_vote_no, denominator: voters }
   - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
     files:
       - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport.csv
@@ -210,11 +210,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport.csv
         target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv
         names:
@@ -227,11 +227,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
   - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
     files:
       - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen.csv
@@ -246,11 +246,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen.csv
         target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv
         names:
@@ -263,11 +263,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
   - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
     files:
       - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral.csv
@@ -282,11 +282,11 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
       - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral.csv
         target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv
         names:
@@ -299,8 +299,8 @@ input_ports:
           - name: valid_votes
           - name: vote_yes
           - name: vote_no
-          - { name: voter_turnout, action: "fraction", numerator: voters, denominator: eligible_voters }
-          - { name: invalid_votes_percentage, action: "fraction", numerator: invalid_votes, denominator: voters }
-          - { name: valid_votes_percentage, action: "fraction", numerator: valid_votes, denominator: voters }
-          - { name: vote_yes_percentage, action: "fraction", numerator: vote_yes, denominator: voters }
-          - { name: vote_no_percentage, action: "fraction", numerator: vote_no, denominator: voters }
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
