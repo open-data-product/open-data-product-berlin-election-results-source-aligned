@@ -7,5 +7,7 @@
 
 **/__pycache__/
 **/*.zip
+**/~*.xlsx
 
 /data/01-bronze
+/data/02-silver/**/*.xlsx
