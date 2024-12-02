@@ -15517,6 +15517,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
               - { name: eligible_voters, type: int }
               - { name: eligible_voters_a1, type: int }
               - { name: eligible_voters_a2, type: int }
