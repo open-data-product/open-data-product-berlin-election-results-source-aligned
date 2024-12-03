@@ -1,0 +1,2 @@
+id,eligible_voters,voters,invalid_votes,valid_votes,vote_yes,vote_no,voter_turnout,invalid_votes_percentage,valid_votes_percentage,vote_yes_percentage,vote_no_percentage
+0,2445699,713095,1370,711725,345004,366721,29.157103960871716,0.19212026448088965,99.80787973551911,48.38121147953638,51.42666825598272

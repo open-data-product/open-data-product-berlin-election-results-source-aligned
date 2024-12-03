@@ -1,7 +1,9 @@
+import os
+
+import pandas as pd
+
 from config.data_transformation_gold_loader import DataTransformation
 from tracking_decorator import TrackingDecorator
-import os
-import pandas as pd
 
 
 @TrackingDecorator.track_time
@@ -45,7 +47,7 @@ def aggregate_data(
                         {
                             name.name: name.type
                             for name in names
-                            if name.action == "keep"
+                            if name.name in dataframe.columns and name.action == "keep"
                         },
                         errors="ignore",
                     )
@@ -57,10 +59,16 @@ def aggregate_data(
 
                     # Apply aggregation
                     if file.aggregate_by is not None:
-                        dataframe = dataframe.apply(pd.to_numeric, errors="ignore")
-                        dataframe = dataframe.groupby(
-                            file.aggregate_by, as_index=False
-                        ).sum()
+                        if file.aggregate_by != "total":
+                            dataframe = dataframe.apply(pd.to_numeric, errors="ignore")
+                            dataframe = dataframe.groupby(
+                                file.aggregate_by, as_index=False
+                            ).sum()
+                        else:
+                            dataframe = dataframe.apply(pd.to_numeric, errors="ignore")
+                            dataframe = pd.DataFrame(dataframe.sum()).transpose()
+                            dataframe["id"] = 0
+                            dataframe.insert(0, "id", dataframe.pop("id"))
 
                     # Apply zfill
                     dataframe = (

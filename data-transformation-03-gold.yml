@@ -3,11 +3,27 @@ input_ports:
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     files:
       - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv
+        target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: invalid_votes
+          - name: valid_votes
+          - name: vote_yes
+          - name: vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
@@ -22,8 +38,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv
         target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -39,11 +55,27 @@ input_ports:
   - id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
     files:
       - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv
+        target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: invalid_votes
+          - name: valid_votes
+          - name: vote_yes
+          - name: vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv
         target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
@@ -58,8 +90,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv
         target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -75,11 +107,27 @@ input_ports:
   - id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
     files:
       - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
+        target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: invalid_votes
+          - name: valid_votes
+          - name: vote_yes
+          - name: vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
         target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
@@ -94,8 +142,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
         target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -111,11 +159,27 @@ input_ports:
   - id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
     files:
       - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv
+        target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: invalid_votes
+          - name: valid_votes
+          - name: vote_yes
+          - name: vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv
         target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
@@ -130,8 +194,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv
         target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -147,11 +211,35 @@ input_ports:
   - id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
     files:
       - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
+        target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: question_1_invalid_votes
+          - name: question_1_valid_votes
+          - name: question_1_vote_yes
+          - name: question_1_vote_no
+          - name: question_2_invalid_votes
+          - name: question_2_valid_votes
+          - name: question_2_vote_yes
+          - name: question_2_vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: question_1_invalid_votes_percentage, action: "percentage", numerator: question_1_invalid_votes, denominator: voters }
+          - { name: question_1_valid_votes_percentage, action: "percentage", numerator: question_1_valid_votes, denominator: voters }
+          - { name: question_1_vote_yes_percentage, action: "percentage", numerator: question_1_vote_yes, denominator: voters }
+          - { name: question_1_vote_no_percentage, action: "percentage", numerator: question_1_vote_no, denominator: voters }
+          - { name: question_2_invalid_votes_percentage, action: "percentage", numerator: question_2_invalid_votes, denominator: voters }
+          - { name: question_2_valid_votes_percentage, action: "percentage", numerator: question_2_valid_votes, denominator: voters }
+          - { name: question_2_vote_yes_percentage, action: "percentage", numerator: question_2_vote_yes, denominator: voters }
+          - { name: question_2_vote_no_percentage, action: "percentage", numerator: question_2_vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
         target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: question_1_invalid_votes
@@ -174,8 +262,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
         target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -199,11 +287,27 @@ input_ports:
   - id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
     files:
       - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport.csv
+        target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: invalid_votes
+          - name: valid_votes
+          - name: vote_yes
+          - name: vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport.csv
         target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
@@ -218,8 +322,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport.csv
         target_file_name: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -235,11 +339,27 @@ input_ports:
   - id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
     files:
       - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen.csv
+        target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: invalid_votes
+          - name: valid_votes
+          - name: vote_yes
+          - name: vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen.csv
         target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
@@ -254,8 +374,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen.csv
         target_file_name: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
@@ -271,11 +391,27 @@ input_ports:
   - id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
     files:
       - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral.csv
+        target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: voters
+          - name: invalid_votes
+          - name: valid_votes
+          - name: vote_yes
+          - name: vote_no
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+          - { name: vote_yes_percentage, action: "percentage", numerator: vote_yes, denominator: voters }
+          - { name: vote_no_percentage, action: "percentage", numerator: vote_no, denominator: voters }
+      - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral.csv
         target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv
         aggregate_by: district_id
         names:
-          - {name: id, action: "copy", copy: district_id, zfill: 2}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
           - name: eligible_voters
           - name: voters
           - name: invalid_votes
@@ -290,8 +426,8 @@ input_ports:
       - source_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral.csv
         target_file_name: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv
         names:
-          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ]}
-          - { name: district_id, zfill: 2}
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
           - name: voters
