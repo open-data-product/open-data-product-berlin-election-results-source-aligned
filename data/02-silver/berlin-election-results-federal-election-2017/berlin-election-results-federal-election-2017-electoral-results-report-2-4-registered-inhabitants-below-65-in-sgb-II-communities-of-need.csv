@@ -1,15 +1,12 @@
 electoral_district_id,electoral_district_name,total,in_sgb_II_communities_of_need,in_sgb_II_communities_of_need_percentage
 76.0,Berlin-Pankow,270459.0,28895.0,10.7
 77.0,Berlin-Reinickendorf,194967.0,44955.0,23.1
-78.0,"Berlin-Spandau –
-Charlottenburg Nord",209235.0,54352.0,26.0
+78.0,Berlin-Spandau –Charlottenburg Nord,209235.0,54352.0,26.0
 79.0,Berlin-Steglitz-Zehlendorf,222813.0,21258.0,9.5
 80.0,Berlin-Charlottenburg-Wilmersdorf,227055.0,26845.0,11.8
-81.0,"Berlin-Tempelhof-
-Schöneberg",270424.0,50380.0,18.6
+81.0,Berlin-Tempelhof-Schöneberg,270424.0,50380.0,18.6
 82.0,Berlin-Neukölln,270819.0,78321.0,28.9
-83.0,"Berlin-Friedrichshain-Kreuzberg –
-Prenzlauer Berg Ost",311119.0,60417.0,19.4
+83.0,Berlin-Friedrichshain-Kreuzberg –Prenzlauer Berg Ost,311119.0,60417.0,19.4
 84.0,Berlin-Treptow-Köpenick,194408.0,26429.0,13.6
 85.0,Berlin-Marzahn-Hellersdorf,211693.0,48216.0,22.8
 86.0,Berlin-Lichtenberg,220281.0,42657.0,19.4

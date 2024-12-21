@@ -1,8 +1,6 @@
 feature,berlin_election_2023_first_votes,berlin_election_2023_first_votes_percentage,berlin_election_2023_second_votes,berlin_election_2023_second_votes_percentage,berlin_election_2016_first_votes,berlin_election_2016_first_votes_percentage,berlin_election_2016_second_votes,berlin_election_2016_second_votes_percentage,difference_first_votes,difference_first_votes_percentage,difference_second_votes,difference_second_votes_percentage
 nan,Erststimmen,nan,Zweitstimmen,nan,Erststimmen,nan,Zweitstimmen,nan,Erststimmen,nan,Zweitstimmen,nan
-nan,Anzahl,%,Anzahl,%,Anzahl,%,Anzahl,%,Anzahl,"Prozent-
-punkte",Anzahl,"Prozent-
-punkte"
+nan,Anzahl,%,Anzahl,%,Anzahl,%,Anzahl,%,Anzahl,Prozent-punkte,Anzahl,Prozent-punkte
 nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
 Wahlberechtigte,1410083,x,1410083,x,1447955,x,1447955,x,-37872,x,-37872,x
 ohne Wahlschein,962631,68.3,962631,68.3,1123608,77.6,1123608,77.6,-160977,-9.3,-160977,-9.3

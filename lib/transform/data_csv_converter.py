@@ -56,6 +56,13 @@ def convert_data_to_csv(
 
                     names = dataset.names
 
+                    # Replace line breaks
+                    dataframe = dataframe.applymap(
+                        lambda x: x.replace("\n", "").replace("\r", "")
+                        if isinstance(x, str)
+                        else x
+                    )
+
                     # Apply trim
                     dataframe = dataframe.applymap(
                         lambda col: col.strip() if isinstance(col, str) else col

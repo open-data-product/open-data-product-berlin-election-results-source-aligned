@@ -2,11 +2,9 @@ party,name,year_of_birth,profession,direct_mandate_list_mandate,electoral_distri
 SPD,"Dr. Lasić, Maja",1979,Mitglied des Abgeordnetenhauses,L,Mitte
 SPD,"Schulz, Mathias",1985,Referent in der Bundesverwaltung,L,Mitte
 SPD,"Heinemann, Sven",1978,Grundsatzreferent,L,Friedrichshain-Kreuzberg
-SPD,"Aydin, Sevim",1972,"Referentin Senatsverwaltung für 
-Inneres und Sport",L,Friedrichshain-Kreuzberg
+SPD,"Aydin, Sevim",1972,Referentin Senatsverwaltung für Inneres und Sport,L,Friedrichshain-Kreuzberg
 SPD,"Schopf, Tino",1974,Personaltrainer,D,Pankow
-SPD,"Schneider, Torsten",1969,"Parlamentarischer Geschäftsführer, 
-Mitglied des Abgeordnetenhauses",L,Pankow
+SPD,"Schneider, Torsten",1969,"Parlamentarischer Geschäftsführer, Mitglied des Abgeordnetenhauses",L,Pankow
 SPD,"Vierecke, Linda",1982,Journalistin/Medientrainerin,L,Pankow
 SPD,"Buchner, Dennis",1977,Mitglied des Abgeordnetenhauses,L,Pankow
 SPD,"Becker, Franziska",1967,Mitglied des Abgeordnetenhauses,L,Charlottenburg-Wilmersdorf
@@ -15,19 +13,16 @@ SPD,"Radziwill, Ülker",1966,Mitglied des Abgeordnetenhauses,L,Charlottenburg-Wi
 SPD,"Saleh, Raed",1977,Mitglied des Abgeordnetenhauses,L,Spandau
 SPD,"Atli, Sebahat",1971,Sachbearbeiterin,L,Spandau
 SPD,"Dr. Czyborra, Ina Maria",1966,Mitglied des Abgeordnetenhauses,L,Steglitz-Zehlendorf
-SPD,"Kollatz, Matthias",1957,"Finanzsenator und Mitglied 
-des Abgeordnetenhauses",L,Steglitz-Zehlendorf
+SPD,"Kollatz, Matthias",1957,Finanzsenator und Mitglied des Abgeordnetenhauses,L,Steglitz-Zehlendorf
 SPD,"Golm, Mirjam",1970,Kreisgeschäftsführerin,L,Steglitz-Zehlendorf
 SPD,"Matz, Martin",1965,Staatssekretär,L,Steglitz-Zehlendorf
 SPD,"Özdemir, Orkan",1982,Grundsatzreferent,D,Tempelhof-Schöneberg
 SPD,"Rauchfuß, Lars",1986,Angestellter bei der Senatskanzlei,L,Tempelhof-Schöneberg
-SPD,"Kühnemann-Grunow, 
-Melanie",1972,Mitglied des Abgeordnetenhauses,L,Tempelhof-Schöneberg
+SPD,"Kühnemann-Grunow, Melanie",1972,Mitglied des Abgeordnetenhauses,L,Tempelhof-Schöneberg
 SPD,"Biel, Michael",1980,Angestellter,L,Tempelhof-Schöneberg
 SPD,"Çağlar, Derya",1982,"Projektleiterin/Jobcoach, Mitglied des Abgeordnetenhauses",D,Neukölln
 SPD,"Giffey, Franziska",1978,Bundesministerin,L,Neukölln
-SPD,"Fischer, Fabian",1986,"Wissenschaftlicher Mitarbeiter 
-im Deutschen Bundestag",L,Neukölln
+SPD,"Fischer, Fabian",1986,Wissenschaftlicher Mitarbeiter im Deutschen Bundestag,L,Neukölln
 SPD,"Düsterhöft, Lars",1981,Mitglied des Abgeordnetenhauses,D,Treptow-Köpenick
 SPD,"Haußdörfer, Ellen",1980,Angestellte im öffentlichen Dienst,L,Treptow-Köpenick
 SPD,"Wolff, Dunja",1962,selbstständig/Sachbearbeiterin,L,Treptow-Köpenick
@@ -54,23 +49,16 @@ CDU,"Mock-Stümer, Peer",1967,Diplom-Kaufmann,D,Charlottenburg-Wilmersdorf
 CDU,"Bung, Stefanie",1978,Projektmanagerin,D,Charlottenburg-Wilmersdorf
 CDU,"Meißner, Bettina",1970,Bankkauffrau,D,Spandau
 CDU,"Dr. Nas, Ersin",1978,Rechtsanwalt,D,Spandau
-CDU,"Brauner, Kerstin",1976,"Rechtsanwältin und 
-Fraktionsgeschäftsführerin",D,Spandau
+CDU,"Brauner, Kerstin",1976,Rechtsanwältin und Fraktionsgeschäftsführerin,D,Spandau
 CDU,"Melzer, Heiko",1976,Mitglied Abgeordnetenhaus von Berlin,D,Spandau
 CDU,"Wegner, Kai",1972,Bundestagsabgeordneter,D,Spandau
-CDU,"Dr. Wein, Claudia",1958,"Stabstelle der Geschäftsführung 
-Gemeinnütziger Krankenhäuser",D,Steglitz-Zehlendorf
-CDU,"Cywinski, Tom Jan Filip",1987,"Geschäftsstellenleiter des 
-Freundeskreises der Charité",D,Steglitz-Zehlendorf
+CDU,"Dr. Wein, Claudia",1958,Stabstelle der Geschäftsführung Gemeinnütziger Krankenhäuser,D,Steglitz-Zehlendorf
+CDU,"Cywinski, Tom Jan Filip",1987,Geschäftsstellenleiter des Freundeskreises der Charité,D,Steglitz-Zehlendorf
 CDU,"Goiny, Christian",1965,Geschäftsführer,D,Steglitz-Zehlendorf
-CDU,"Seibeld, Cornelia 
-Simone Michaela",1974,"Mitglied des Abgeordnetenhauses 
-und Rechtsanwältin",L,Steglitz-Zehlendorf
+CDU,"Seibeld, Cornelia Simone Michaela",1974,Mitglied des Abgeordnetenhauses und Rechtsanwältin,L,Steglitz-Zehlendorf
 CDU,"Friederici, Oliver",1970,"Personalleiter, Mitglied AGH",D,Steglitz-Zehlendorf
-CDU,"Grasse, Adrian",1975,"Angestellter Siemens AG, 
-Mitglied des Abgeordnetenhauses",D,Steglitz-Zehlendorf
-CDU,"Standfuß, Stephan 
-Carsten Günter",1972,"Selbstständiger IT-Berater, Mitglied AGH",L,Steglitz-Zehlendorf
+CDU,"Grasse, Adrian",1975,"Angestellter Siemens AG, Mitglied des Abgeordnetenhauses",D,Steglitz-Zehlendorf
+CDU,"Standfuß, Stephan Carsten Günter",1972,"Selbstständiger IT-Berater, Mitglied AGH",L,Steglitz-Zehlendorf
 CDU,"Luhmann, Frank",1986,Selbstständiger Bestatter,D,Tempelhof-Schöneberg
 CDU,"Simon, Roman",1974,"Jurist, Abgeordneter",D,Tempelhof-Schöneberg
 CDU,"Körber, Scott",1971,Verwaltungsbeamter,D,Tempelhof-Schöneberg
@@ -90,8 +78,7 @@ CDU,"Herrmann, Alexander",1975,Rechtsanwalt,D,Marzahn-Hellersdorf
 CDU,"Freymark, Danny",1983,Mitglied des Abgeordnetenhauses,D,Lichtenberg
 CDU,"Dr. Pätzold, Martin",1984,Geschäftsführer einer Stiftung,D,Lichtenberg
 CDU,"Haustein, Dennis",1990,Niederlassungsleiter,D,Lichtenberg
-CDU,"Usik, Lilia",1989,"Wissenschaftliche Mitarbeiterin 
-im Deutschen Bundestag",D,Lichtenberg
+CDU,"Usik, Lilia",1989,Wissenschaftliche Mitarbeiterin im Deutschen Bundestag,D,Lichtenberg
 CDU,"Dregger, Burkard",1964,Rechtsanwalt,D,Reinickendorf
 CDU,"Demirbüken-Wegner, Emine",1961,Mitglied des Abgeordnetenhauses,D,Reinickendorf
 CDU,"Schmidt, Stephan",1973,Referent,D,Reinickendorf
@@ -99,16 +86,13 @@ CDU,"Wohlert, Björn",1988,Referent für Onlinekommunikation,D,Reinickendorf
 CDU,"Dietmann, Michael",1968,Bankkaufmann,D,Reinickendorf
 CDU,"Balzer, Frank",1964,Bezirksbürgermeister,D,Reinickendorf
 GRÜNE,"Jarasch, Bettina",1968,Mitglied des Abgeordnetenhauses,L,x
-GRÜNE,"Kapek, Antje",1976,"Fraktionsvorsitzende 
-Bündnis 90/Die GRÜNEN",L,x
-GRÜNE,"Dr. Haghanipour, Bahar",1984,"Referentin und 
-Bereichsleiterin (Deutscher Frauenrat)",L,x
+GRÜNE,"Kapek, Antje",1976,Fraktionsvorsitzende Bündnis 90/Die GRÜNEN,L,x
+GRÜNE,"Dr. Haghanipour, Bahar",1984,Referentin und Bereichsleiterin (Deutscher Frauenrat),L,x
 GRÜNE,"Wesener, Daniel",1975,Politiker,L,x
 GRÜNE,"Graf, Werner",1980,Landesvorsitzender,L,x
 GRÜNE,"Schedlich, Klara",2000,Studentin,L,x
 GRÜNE,"Ziller, Stefan",1981,Mitglied des Abgeordnetenhauses,L,x
-GRÜNE,"Ahmadi, Gollaleh",1982,"Büroleiterin bei Mitglied des 
-Abgeordnetenhauses",L,x
+GRÜNE,"Ahmadi, Gollaleh",1982,Büroleiterin bei Mitglied des Abgeordnetenhauses,L,x
 GRÜNE,"Dr. Taschner, Stefan",1969,Mitglied des Abgeordnetenhauses,L,x
 GRÜNE,"Wahlen, Catrin",1972,Büromitarbeiterin,L,x
 GRÜNE,"Tomiak, June",1997,Studentin/Abgeordnete,L,x
@@ -120,8 +104,7 @@ GRÜNE,"Omar, Jian",1985,Politischer Referent,D,Mitte
 GRÜNE,"Kurt, Taylan",1988,Referent,D,Mitte
 GRÜNE,"Bozkurt, Tuba",1983,Beraterin,D,Mitte
 GRÜNE,"Neugebauer, Laura",1995,Studentin,D,Mitte
-GRÜNE,"Schmidberger, Katrin",1982,"Politikerin, 
-Mitglied des Abgeordnetenhauses",D,Friedrichshain-Kreuzberg
+GRÜNE,"Schmidberger, Katrin",1982,"Politikerin, Mitglied des Abgeordnetenhauses",D,Friedrichshain-Kreuzberg
 GRÜNE,"Burkert-Eulitz, Marianne",1972,Abgeordnete und Rechtsanwältin,D,Friedrichshain-Kreuzberg
 GRÜNE,"Dr. Altuğ, Turgut",1965,Geschäftsführer,D,Friedrichshain-Kreuzberg
 GRÜNE,"Franco, Vasili",1992,Wissenschaftlicher Mitarbeiter,D,Friedrichshain-Kreuzberg

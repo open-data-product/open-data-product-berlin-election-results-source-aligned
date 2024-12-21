@@ -1,6 +1,5 @@
 type,berlin_total,berlin_male,berlin_female,berlin_east_total,berlin_east_male,berlin_east_female,berlin_west_total,berlin_west_male,berlin_west_female
-"Stimmzettel leer oder 
-durchgestrichen",-22.1,-19.6,-24.1,-21.5,-19.5,-23.3,-22,-18.9,-24.4
+Stimmzettel leer oder durchgestrichen,-22.1,-19.6,-24.1,-21.5,-19.5,-23.3,-22,-18.9,-24.4
 Stimmzettel mehrere Kreuze,11.9,7.2,15.2,14.2,13,14.9,10,2.7,15.5
 Sonstige Ursachen,10.2,12.3,8.8,7.2,6.5,8.3,12,16.2,8.9
 Insgesamt,x,x,x,x,x,x,x,x,x
