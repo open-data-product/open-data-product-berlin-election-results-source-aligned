@@ -218,6 +218,7 @@ input_ports:
               - { name: party_die_linke, type: float }
               - { name: party_piraten, type: float }
             skip_rows: 7
+            head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-3-berlin-election-by-district-second-vote.csv
             sheet_name: 1.2+1.3
             names:
@@ -235,6 +236,7 @@ input_ports:
               - { name: party_fdp, type: float }
               - { name: others, type: float }
             skip_rows: 27
+            head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-4-berlin-election-2011-by-district.csv
             sheet_name: 1.4+1.5
             names:
@@ -252,16 +254,17 @@ input_ports:
               - { name: equalizing_mandates_die_linke, type: int }
               - { name: equalizing_mandates_piraten, type: int }
             skip_rows: 7
+            head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-5-berlin-election-since-1990-second-vote.csv
             sheet_name: 1.4+1.5
             names:
               - name: year
               - { name: party_spd, type: float }
-              - { name: arty_cdu, type: float }
-              - { name: arty_die_linke, type: float }
-              - { name: arty_grüne, type: float }
-              - { name: arty_fdp, type: float }
-              - { name: arty_piraten, type: float }
+              - { name: party_cdu, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_fdp, type: float }
+              - { name: party_piraten, type: float }
             skip_rows: 33
             skip_cols: 14
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-01-mitte.csv
@@ -1816,6 +1819,7 @@ input_ports:
               - { name: party_afd_percentage, type: float }
               - { name: others, type: int }
               - { name: others_percentage, type: float }
+            skip_rows: 1
       - source_file_name: DL_BE_AH2016_Strukturdaten.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-structural-data.xlsx
         datasets:
@@ -1890,6 +1894,7 @@ input_ports:
               - { name: inhabitants_below_65_in_2014_percentage, type: float }
               - { name: inhabitants_in_sgb_II_in_2014, type: int }
               - { name: inhabitants_in_sgb_II_in_2014_percentage, type: float }
+            skip_rows: 1
       - source_file_name: SB_B07-02-05_2016j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics.xlsx
         datasets:
@@ -7613,6 +7618,7 @@ input_ports:
               - { name: individual_applicant, type: int }
               - { name: individual_applicant_parteifrei_für_die_menschen, type: int }
               - { name: individual_applicant_parteifrei_und_bürgerbestimmt, type: int }
+            skip_rows: 1
           - target_file_name: berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
             sheet_name: BE_W2
             names:
@@ -7670,6 +7676,7 @@ input_ports:
               - { name: individual_applicant, type: int }
               - { name: individual_applicant_parteifrei_für_die_menschen, type: int }
               - { name: individual_applicant_parteifrei_und_bürgerbestimmt, type: int }
+            skip_rows: 1
       - source_file_name: SB_B07-01-01_2017j04_BE.xlsx
         target_file_name: berlin-election-results-federal-election-2017-electoral-results-report.xlsx
         datasets:
@@ -9879,6 +9886,7 @@ input_ports:
               - { name: party_fdp_percentage, type: float }
               - { name: others, type: int }
               - { name: others_percentage, type: float }
+            skip_rows: 1
       - source_file_name: DL_BE_BT2017_BT2013.xlsx
         target_file_name: berlin-election-results-federal-election-2017-converted-results-federal-election-2013.xlsx
         datasets:
@@ -9912,6 +9920,7 @@ input_ports:
               - { name: party_fdp_percentage, type: float }
               - { name: others, type: int }
               - { name: others_percentage, type: float }
+            skip_rows: 1
       - source_file_name: bundestagswahlen-lange-reihe.xlsx
         target_file_name: berlin-election-results-federal-election-2017-long-series.xlsx
         datasets:
@@ -10365,7 +10374,8 @@ input_ports:
               - { name: other_applicant_9, type: int }
               - name: aufn
               - name: partial_election_repetition
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
+            skip_rows: 1
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-second-votes.csv
             sheet_name: BE_W2
             names:
               - name: address
@@ -10412,6 +10422,7 @@ input_ports:
               - { name: party_volt, type: int }
               - name: aufn
               - name: partial_election_repetition
+            skip_rows: 1
       - source_file_name: SB_B07-01-01_2024j04_BE.xlsx
         target_file_name: berlin-election-results-federal-election-2021-electoral-results-report.xlsx
         datasets:
@@ -13196,6 +13207,7 @@ input_ports:
               - { name: party_partei_für_die_tiere, type: int }
               - { name: party_gesundheitsforschung, type: int }
               - { name: party_volt, type: int }
+            skip_rows: 1
       - source_file_name: DL_BE_EU2019_BT2017.xlsx
         target_file_name: berlin-election-results-european-election-2019-converted-results-federal-election-2017.xlsx
         datasets:
@@ -13229,6 +13241,7 @@ input_ports:
               - { name: party_fdp_percentage, type: float }
               - { name: others, type: int }
               - { name: others_percentage, type: float }
+            skip_rows: 1
       - source_file_name: DL_BE_EU2019_EU2014.xlsx
         target_file_name: berlin-election-results-european-election-2019-converted-results-european-election-2014.xlsx
         datasets:
@@ -13260,6 +13273,7 @@ input_ports:
               - { name: party_fdp_percentage, type: float }
               - { name: others, type: int }
               - { name: others_percentage, type: float }
+            skip_rows: 1
       - source_file_name: DL_BE_EU2019_Strukturdaten.xlsx
         target_file_name: berlin-election-results-european-election-2019-structural-data.xlsx
         datasets:
