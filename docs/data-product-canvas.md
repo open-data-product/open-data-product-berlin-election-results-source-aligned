@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 ## Input Ports
 
@@ -208,12 +208,31 @@
 
 ## Output Ports
 
+### Berlin Election Results Berlin Election 2016
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2016
+* license: GPLv3
+* updated: 2025-05-12
+
+**Files**
+
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016/berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv)
+
 ### Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen
 
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
@@ -226,7 +245,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
@@ -239,7 +258,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
@@ -252,7 +271,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
@@ -265,7 +284,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
@@ -278,7 +297,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
@@ -291,7 +310,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
@@ -304,7 +323,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral
 * license: GPLv3
-* updated: 2025-04-27
+* updated: 2025-05-12
 
 **Files**
 
