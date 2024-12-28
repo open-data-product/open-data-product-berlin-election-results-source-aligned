@@ -942,3 +942,497 @@ input_ports:
           - name: party_ökolinx-arl_b_f-k
           - name: party_pne
           - name: party_banc
+  - id: berlin-election-results-berlin-election-2023
+    files:
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_graue_panther
+          - name: party_npd
+          - name: party_gesundheitsforschung
+          - name: party_lkr
+          - name: party_dkp
+          - name: party_sgp
+          - name: party_büso
+          - name: party_menschliche_welt
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_bildet_berlin
+          - name: party_dl
+          - name: party_deutsche_konservative
+          - name: party_die_grauen
+          - name: party_neue_demokraten
+          - name: party_rep
+          - name: party_du
+          - name: party_bündnis21
+          - name: party_die_frauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_team_todenhöfer
+          - name: party_volt
+          - name: individual_applicant_1
+          - name: individual_applicant_2
+          - name: individual_applicant_3
+          - name: individual_applicant_4
+          - name: individual_applicant_5
+          - name: individual_applicant_6
+          - name: individual_applicant_7
+          - name: individual_applicant_8
+          - name: individual_applicant_9
+          - name: individual_applicant_10
+          - name: individual_applicant_11
+          - name: individual_applicant_12
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.csv
+        aggregate_by: district_id
+        names:
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_graue_panther
+          - name: party_npd
+          - name: party_gesundheitsforschung
+          - name: party_lkr
+          - name: party_dkp
+          - name: party_sgp
+          - name: party_büso
+          - name: party_menschliche_welt
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_bildet_berlin
+          - name: party_dl
+          - name: party_deutsche_konservative
+          - name: party_die_grauen
+          - name: party_neue_demokraten
+          - name: party_rep
+          - name: party_du
+          - name: party_bündnis21
+          - name: party_die_frauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_team_todenhöfer
+          - name: party_volt
+          - name: individual_applicant_1
+          - name: individual_applicant_2
+          - name: individual_applicant_3
+          - name: individual_applicant_4
+          - name: individual_applicant_5
+          - name: individual_applicant_6
+          - name: individual_applicant_7
+          - name: individual_applicant_8
+          - name: individual_applicant_9
+          - name: individual_applicant_10
+          - name: individual_applicant_11
+          - name: individual_applicant_12
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.csv
+        names:
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
+          - name: electoral_district_id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_graue_panther
+          - name: party_npd
+          - name: party_gesundheitsforschung
+          - name: party_lkr
+          - name: party_dkp
+          - name: party_sgp
+          - name: party_büso
+          - name: party_menschliche_welt
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_bildet_berlin
+          - name: party_dl
+          - name: party_deutsche_konservative
+          - name: party_die_grauen
+          - name: party_neue_demokraten
+          - name: party_rep
+          - name: party_du
+          - name: party_bündnis21
+          - name: party_die_frauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_team_todenhöfer
+          - name: party_volt
+          - name: individual_applicant_1
+          - name: individual_applicant_2
+          - name: individual_applicant_3
+          - name: individual_applicant_4
+          - name: individual_applicant_5
+          - name: individual_applicant_6
+          - name: individual_applicant_7
+          - name: individual_applicant_8
+          - name: individual_applicant_9
+          - name: individual_applicant_10
+          - name: individual_applicant_11
+          - name: individual_applicant_12
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_graue_panther
+          - name: party_npd
+          - name: party_gesundheitsforschung
+          - name: party_lkr
+          - name: party_dkp
+          - name: party_sgp
+          - name: party_büso
+          - name: party_menschliche_welt
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_bildet_berlin
+          - name: party_dl
+          - name: party_deutsche_konservative
+          - name: party_die_grauen
+          - name: party_neue_demokraten
+          - name: party_rep
+          - name: party_du
+          - name: party_bündnis21
+          - name: party_die_frauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_team_todenhöfer
+          - name: party_volt
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv
+        aggregate_by: district_id
+        names:
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_graue_panther
+          - name: party_npd
+          - name: party_gesundheitsforschung
+          - name: party_lkr
+          - name: party_dkp
+          - name: party_sgp
+          - name: party_büso
+          - name: party_menschliche_welt
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_bildet_berlin
+          - name: party_dl
+          - name: party_deutsche_konservative
+          - name: party_die_grauen
+          - name: party_neue_demokraten
+          - name: party_rep
+          - name: party_du
+          - name: party_bündnis21
+          - name: party_die_frauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_team_todenhöfer
+          - name: party_volt
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv
+        names:
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
+          - name: electoral_district_id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_graue_panther
+          - name: party_npd
+          - name: party_gesundheitsforschung
+          - name: party_lkr
+          - name: party_dkp
+          - name: party_sgp
+          - name: party_büso
+          - name: party_menschliche_welt
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_bildet_berlin
+          - name: party_dl
+          - name: party_deutsche_konservative
+          - name: party_die_grauen
+          - name: party_neue_demokraten
+          - name: party_rep
+          - name: party_du
+          - name: party_bündnis21
+          - name: party_die_frauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_team_todenhöfer
+          - name: party_volt
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_npd
+          - name: party_lkr
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_die_grauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_volt
+          - name: voters_alliance_wsb_f_k
+          - name: voters_alliance_die_waehlbaren.de
+          - name: voters_alliance_olf
+          - name: voters_alliance_bärlä
+          - name: voters_alliance_wsB_spandau
+          - name: voters_alliance_tkbb
+          - name: voters_alliance_wsb
+          - name: voters_alliance_wiss
+          - name: voters_alliance_wsb
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv
+        aggregate_by: district_id
+        names:
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_npd
+          - name: party_lkr
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_die_grauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_volt
+          - name: voters_alliance_wsb_f_k
+          - name: voters_alliance_die_waehlbaren.de
+          - name: voters_alliance_olf
+          - name: voters_alliance_bärlä
+          - name: voters_alliance_wsB_spandau
+          - name: voters_alliance_tkbb
+          - name: voters_alliance_wsb
+          - name: voters_alliance_wiss
+          - name: voters_alliance_wsb
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council.csv
+        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv
+        names:
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
+          - name: electoral_district_id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: valid_votes
+          - name: invalid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_fdp
+          - name: party_die_partei
+          - name: party_tierschutzpartei
+          - name: party_piraten
+          - name: party_npd
+          - name: party_lkr
+          - name: party_b
+          - name: party_ödp
+          - name: party_die_basis
+          - name: party_die_grauen
+          - name: party_freie_wähler
+          - name: party_klimaliste_berlin
+          - name: party_ld
+          - name: party_mieterpartei
+          - name: party_die_humanisten
+          - name: party_volt
+          - name: voters_alliance_wsb_f_k
+          - name: voters_alliance_die_waehlbaren.de
+          - name: voters_alliance_olf
+          - name: voters_alliance_bärlä
+          - name: voters_alliance_wsB_spandau
+          - name: voters_alliance_tkbb
+          - name: voters_alliance_wsb
+          - name: voters_alliance_wiss
+          - name: voters_alliance_wsb
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
