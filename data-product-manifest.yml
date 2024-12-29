@@ -245,6 +245,22 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv
+  - id: berlin-election-results-federal-election-2017
+    metadata:
+      name: Berlin Election Results Federal Election 2017
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2017
+      license: GPLv3
+      updated: 2025-05-12
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-first-vote-city.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-first-vote-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-first-vote-electoral-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-second-vote-city.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-second-vote-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017/berlin-election-results-federal-election-2017-electoral-results-second-vote-electoral-districts.csv
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     metadata:
       name: Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen

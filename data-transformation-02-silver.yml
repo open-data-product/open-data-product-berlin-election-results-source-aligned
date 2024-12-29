@@ -4378,7 +4378,7 @@ input_ports:
               - name: electoral_district
               - { name: list_position, type: int }
             skip_rows: 5
-          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-1-second-votes.csv
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-1-second-vote.csv
             sheet_name: 5.1
             names:
               - name: feature
@@ -4445,7 +4445,7 @@ input_ports:
               - { name: difference_second_votes, type: int }
               - { name: difference_second_votes_percentage, type: float }
             skip_rows: 5
-          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-6-1-first-votes.csv
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-6-1-first-vote.csv
             sheet_name: 6.1
             names:
               - name: feature
@@ -4457,7 +4457,7 @@ input_ports:
               - { name: postal_voting_percentage, type: float }
               - { name: postal_voting_percentage_of_total, type: float }
             skip_rows: 6
-          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-6-2-second-votes.csv
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-6-2-second-vote.csv
             sheet_name: 6.2
             names:
               - name: feature
@@ -7561,7 +7561,7 @@ input_ports:
       - source_file_name: DL_BE_EE_WB_BU2017.xlsx
         target_file_name: berlin-election-results-federal-election-2017-electoral-results.xlsx
         datasets:
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-first-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-first-vote.csv
             sheet_name: BE_W1
             names:
               - name: address
@@ -7619,7 +7619,7 @@ input_ports:
               - { name: individual_applicant_parteifrei_für_die_menschen, type: int }
               - { name: individual_applicant_parteifrei_und_bürgerbestimmt, type: int }
             skip_rows: 1
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-second-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-second-vote.csv
             sheet_name: BE_W2
             names:
               - name: address
@@ -7804,7 +7804,7 @@ input_ports:
               - { name: party_grüne, type: int }
             skip_rows: 34
             head: 3
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-1-6-second-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-1-6-second-vote.csv
             sheet_name: 1.6
             names:
               - { name: year, type: int }
@@ -9823,7 +9823,7 @@ input_ports:
               - { name: berlin_west_female, type: float }
             skip_rows: 7
             head: 7
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-12-invalid-first-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-12-invalid-first-vote.csv
             sheet_name: 12
             names:
               - name: type
@@ -9838,7 +9838,7 @@ input_ports:
               - { name: berlin_west_female, type: float }
             skip_rows: 16
             head: 4
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-12-invalid-second-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-statistics-12-invalid-second-vote.csv
             sheet_name: 12
             names:
               - name: type
@@ -10313,7 +10313,7 @@ input_ports:
       - source_file_name: DL_BE_BU2024.xlsx
         target_file_name: berlin-election-results-federal-election-2021-electoral-results.xlsx
         datasets:
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-first-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-first-vote.csv
             sheet_name: BE_W1
             names:
               - name: address
@@ -10375,7 +10375,7 @@ input_ports:
               - name: aufn
               - name: partial_election_repetition
             skip_rows: 1
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-second-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-second-vote.csv
             sheet_name: BE_W2
             names:
               - name: address
@@ -10533,7 +10533,7 @@ input_ports:
               - { name: party_fdp, type: int }
             skip_rows: 34
             head: 3
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-6-second-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-6-second-vote.csv
             sheet_name: 1.6
             names:
               - { name: year, type: int }
@@ -12441,7 +12441,7 @@ input_ports:
               - { name: others, type: float }
             skip_rows: 55
             head: 6
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-11-invalid-first-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-11-invalid-first-vote.csv
             sheet_name: 11
             names:
               - name: age
@@ -12456,7 +12456,7 @@ input_ports:
               - { name: berlin_west_female, type: float }
             skip_rows: 7
             head: 7
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-11-invalid-second-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-11-invalid-second-vote.csv
             sheet_name: 11
             names:
               - name: age
@@ -12486,7 +12486,7 @@ input_ports:
               - { name: berlin_west_female, type: float }
             skip_rows: 7
             head: 7
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-12-invalid-first-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-12-invalid-first-vote.csv
             sheet_name: 12
             names:
               - name: type
@@ -12501,7 +12501,7 @@ input_ports:
               - { name: berlin_west_female, type: float }
             skip_rows: 16
             head: 4
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-12-invalid-second-votes.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-statistics-12-invalid-second-vote.csv
             sheet_name: 12
             names:
               - name: type
