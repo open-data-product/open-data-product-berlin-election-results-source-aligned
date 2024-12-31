@@ -245,6 +245,19 @@ output_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023/berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv
+  - id: berlin-election-results-european-election-2019
+    metadata:
+      name: Berlin Election Results European Election 2019
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2019
+      license: GPLv3
+      updated: 2025-05-13
+      schema:
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-electoral-results-city.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-electoral-results-districts.csv
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019/berlin-election-results-european-election-2019-electoral-results-electoral-districts.csv
   - id: berlin-election-results-federal-election-2017
     metadata:
       name: Berlin Election Results Federal Election 2017

@@ -2060,3 +2060,169 @@ input_ports:
           - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
           - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
           - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+  - id: berlin-election-results-european-election-2019
+    files:
+      - source_file_name: berlin-election-results-european-election-2019-electoral-results.csv
+        target_file_name: berlin-election-results-european-election-2019-electoral-results-city.csv
+        aggregate_by: total
+        names:
+          - name: id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: invalid_votes
+          - name: valid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_piraten
+          - name: party_fdp
+          - name: party_tierschutzpartei
+          - name: party_die_partei
+          - name: party_npd
+          - name: party_familie
+          - name: party_volksabstimmung
+          - name: party_ödp
+          - name: party_freie_wähler
+          - name: party_dkp
+          - name: party_mlpd
+          - name: party_sgp
+          - name: party_bp
+          - name: party_tierschutz_hier
+          - name: party_tierschutzallianz
+          - name: party_bündnis_c
+          - name: party_big
+          - name: party_die_direkte
+          - name: party_diem25
+          - name: party_III_weg
+          - name: party_die_grauen
+          - name: party_die_rechte
+          - name: party_die_violetten
+          - name: party_liebe
+          - name: party_die_frauen
+          - name: party_graue_panther
+          - name: party_lkr
+          - name: party_menschliche_welt
+          - name: party_nl
+          - name: party_ökolinx
+          - name: party_partei_für_die_tiere
+          - name: party_gesundheitsforschung
+          - name: party_volt
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-european-election-2019-electoral-results.csv
+        target_file_name: berlin-election-results-european-election-2019-electoral-results-districts.csv
+        aggregate_by: district_id
+        names:
+          - { name: id, action: "copy", copy: district_id, zfill: 2 }
+          - { name: district_id, zfill: 2 }
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: invalid_votes
+          - name: valid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_piraten
+          - name: party_fdp
+          - name: party_tierschutzpartei
+          - name: party_die_partei
+          - name: party_npd
+          - name: party_familie
+          - name: party_volksabstimmung
+          - name: party_ödp
+          - name: party_freie_wähler
+          - name: party_dkp
+          - name: party_mlpd
+          - name: party_sgp
+          - name: party_bp
+          - name: party_tierschutz_hier
+          - name: party_tierschutzallianz
+          - name: party_bündnis_c
+          - name: party_big
+          - name: party_die_direkte
+          - name: party_diem25
+          - name: party_III_weg
+          - name: party_die_grauen
+          - name: party_die_rechte
+          - name: party_die_violetten
+          - name: party_liebe
+          - name: party_die_frauen
+          - name: party_graue_panther
+          - name: party_lkr
+          - name: party_menschliche_welt
+          - name: party_nl
+          - name: party_ökolinx
+          - name: party_partei_für_die_tiere
+          - name: party_gesundheitsforschung
+          - name: party_volt
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
+      - source_file_name: berlin-election-results-european-election-2019-electoral-results.csv
+        target_file_name: berlin-election-results-european-election-2019-electoral-results-electoral-districts.csv
+        names:
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
+          - { name: district_id, zfill: 2 }
+          - name: electoral_district_id
+          - name: eligible_voters
+          - name: eligible_voters_a1
+          - name: eligible_voters_a2
+          - name: eligible_voters_a3
+          - name: voters
+          - name: voters_b1
+          - name: invalid_votes
+          - name: valid_votes
+          - name: party_spd
+          - name: party_cdu
+          - name: party_grüne
+          - name: party_die_linke
+          - name: party_afd
+          - name: party_piraten
+          - name: party_fdp
+          - name: party_tierschutzpartei
+          - name: party_die_partei
+          - name: party_npd
+          - name: party_familie
+          - name: party_volksabstimmung
+          - name: party_ödp
+          - name: party_freie_wähler
+          - name: party_dkp
+          - name: party_mlpd
+          - name: party_sgp
+          - name: party_bp
+          - name: party_tierschutz_hier
+          - name: party_tierschutzallianz
+          - name: party_bündnis_c
+          - name: party_big
+          - name: party_die_direkte
+          - name: party_diem25
+          - name: party_III_weg
+          - name: party_die_grauen
+          - name: party_die_rechte
+          - name: party_die_violetten
+          - name: party_liebe
+          - name: party_die_frauen
+          - name: party_graue_panther
+          - name: party_lkr
+          - name: party_menschliche_welt
+          - name: party_nl
+          - name: party_ökolinx
+          - name: party_partei_für_die_tiere
+          - name: party_gesundheitsforschung
+          - name: party_volt
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
