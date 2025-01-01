@@ -14712,9 +14712,9 @@ input_ports:
               - { name: party_v_partei3_percentage, type: float }
             skip_rows: 2
       - source_file_name: DL_BE_EU2024.xlsx
-        target_file_name: berlin-election-results-european-election-2025-electoral-results.xlsx
+        target_file_name: berlin-election-results-european-election-2024-electoral-results.xlsx
         datasets:
-          - target_file_name: berlin-election-results-european-election-2025-electoral-results.csv
+          - target_file_name: berlin-election-results-european-election-2024-electoral-results.csv
             sheet_name: Berlin_Europawahl_W
             names:
               - name: address
@@ -14810,6 +14810,7 @@ input_ports:
               - { name: party_v_partei3, type: int }
               - { name: party_v_partei3_percentage, type: float }
               - name: aufn
+            skip_rows: 1
       - source_file_name: DL_BE_EU2024_EU2019.xlsx
         target_file_name: berlin-election-results-european-election-2024-converted-results-european-election-2019.xlsx
         datasets:
