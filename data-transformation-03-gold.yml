@@ -663,6 +663,9 @@ input_ports:
           - name: party_menschliche_welt
           - name: party_mieterpartei
           - name: party_gesundheitsforschung
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
       - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote.csv
         target_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv
         aggregate_by: district_id
@@ -704,6 +707,9 @@ input_ports:
           - name: party_menschliche_welt
           - name: party_mieterpartei
           - name: party_gesundheitsforschung
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
       - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote.csv
         target_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv
         names:
@@ -744,6 +750,9 @@ input_ports:
           - name: party_menschliche_welt
           - name: party_mieterpartei
           - name: party_gesundheitsforschung
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
       - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council.csv
         target_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council-city.csv
         aggregate_by: total
@@ -809,6 +818,9 @@ input_ports:
           - name: party_ökolinx-arl_b_f-k
           - name: party_pne
           - name: party_banc
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
       - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council.csv
         target_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.csv
         aggregate_by: district_id
@@ -876,6 +888,9 @@ input_ports:
           - name: party_ökolinx-arl_b_f-k
           - name: party_pne
           - name: party_banc
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
       - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council.csv
         target_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv
         names:
@@ -942,6 +957,9 @@ input_ports:
           - name: party_ökolinx-arl_b_f-k
           - name: party_pne
           - name: party_banc
+          - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
+          - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
+          - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
   - id: berlin-election-results-berlin-election-2023
     files:
       - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
