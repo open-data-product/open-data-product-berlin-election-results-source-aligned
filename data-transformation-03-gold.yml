@@ -707,7 +707,7 @@ input_ports:
       - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote.csv
         target_file_name: berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv
         names:
-          - { name: id, action: "district_id", concat: [ district_id, electoral_district_id ] }
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
           - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
@@ -879,7 +879,7 @@ input_ports:
       - source_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council.csv
         target_file_name: berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.csv
         names:
-          - { name: id, action: "district_id", concat: [ district_id, electoral_district_id ] }
+          - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
           - { name: district_id, zfill: 2 }
           - name: electoral_district_id
           - name: eligible_voters
