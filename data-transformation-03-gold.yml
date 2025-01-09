@@ -672,7 +672,6 @@ input_ports:
         names:
           - { name: id, action: "copy", copy: district_id, zfill: 2 }
           - { name: district_id, zfill: 2 }
-          - name: electoral_district_id
           - name: eligible_voters
           - name: eligible_voters_a1
           - name: eligible_voters_a2
@@ -827,7 +826,6 @@ input_ports:
         names:
           - { name: id, action: "copy", copy: district_id, zfill: 2 }
           - { name: district_id, zfill: 2 }
-          - name: electoral_district_id
           - name: eligible_voters
           - name: eligible_voters_a1
           - name: eligible_voters_a2
@@ -1831,8 +1829,6 @@ input_ports:
           - name: other_applicant_7
           - name: other_applicant_8
           - name: other_applicant_9
-          - name: aufn
-          - name: partial_election_repetition
           - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
           - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
           - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
@@ -1888,8 +1884,6 @@ input_ports:
           - name: other_applicant_7
           - name: other_applicant_8
           - name: other_applicant_9
-          - name: aufn
-          - name: partial_election_repetition
           - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
           - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
           - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
@@ -1945,8 +1939,6 @@ input_ports:
           - name: other_applicant_7
           - name: other_applicant_8
           - name: other_applicant_9
-          - name: aufn
-          - name: partial_election_repetition
           - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
           - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
           - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
@@ -1987,8 +1979,6 @@ input_ports:
           - name: party_die_humanisten
           - name: party_team_todenhöfer
           - name: party_volt
-          - name: aufn
-          - name: partial_election_repetition
           - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
           - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
           - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
@@ -2030,8 +2020,6 @@ input_ports:
           - name: party_die_humanisten
           - name: party_team_todenhöfer
           - name: party_volt
-          - name: aufn
-          - name: partial_election_repetition
           - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
           - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
           - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
@@ -2073,8 +2061,6 @@ input_ports:
           - name: party_die_humanisten
           - name: party_team_todenhöfer
           - name: party_volt
-          - name: aufn
-          - name: partial_election_repetition
           - { name: voter_turnout, action: "percentage", numerator: voters, denominator: eligible_voters }
           - { name: invalid_votes_percentage, action: "percentage", numerator: invalid_votes, denominator: voters }
           - { name: valid_votes_percentage, action: "percentage", numerator: valid_votes, denominator: voters }
