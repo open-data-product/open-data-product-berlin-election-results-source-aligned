@@ -1,8 +1,8 @@
 type,berlin_total,berlin_male,berlin_female,berlin_east_total,berlin_east_male,berlin_east_female,berlin_west_total,berlin_west_male,berlin_west_female
-Erst- und Zweitstimmenseite leer oder durchgestrichen,22,23.2,21.1,23.7,23.0,24.1,20.9,23.3,19.1
-"Erststimmenseite leer oderdurchgestrichen, Zweit-stimmenseite mehrere Kreuze",3.2,2.1,4.0,2.4,1.2,3.2,3.7,2.6,4.5
+Erst- und Zweitstimmenseite leer oder durchgestrichen,22,23.2,21.1,23.7,23,24.1,20.9,23.3,19.1
+"Erststimmenseite leer oderdurchgestrichen, Zweit-stimmenseite mehrere Kreuze",3.2,2.1,4,2.4,1.2,3.2,3.7,2.6,4.5
 "Zweitstimmenseite leer oder durchgestrichen, Erst-stimmenseite mehrere Kreuze",2.4,2.5,2.3,2.3,2.4,2.3,2.4,2.6,2.3
-Beide Seiten mehrere Kreuze,6.1,6.3,5.9,6.7,6.9,6.5,5.8,6.0,5.6
-"Eine Seite leer oder durch-gestrichen, auf der anderenSeite sonstige Ursachen",0.1,0.1,0.0,0.2,0.4,0.0,0.0,0.0,0.0
-Beide Seiten sonstige Ursachen,0.5,0.6,0.3,1.2,1.7,0.8,0.0,0.0,0.0
+Beide Seiten mehrere Kreuze,6.1,6.3,5.9,6.7,6.9,6.5,5.8,6,5.6
+"Eine Seite leer oder durch-gestrichen, auf der anderenSeite sonstige Ursachen",0.1,0.1,0,0.2,0.4,0,0,0,0
+Beide Seiten sonstige Ursachen,0.5,0.6,0.3,1.2,1.7,0.8,0,0,0
 Zusammen,34.2,34.9,33.6,36.4,35.5,36.9,32.7,34.5,31.4

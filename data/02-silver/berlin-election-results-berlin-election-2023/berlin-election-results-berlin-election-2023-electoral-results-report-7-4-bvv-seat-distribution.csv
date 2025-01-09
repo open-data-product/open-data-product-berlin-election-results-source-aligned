@@ -1,12 +1,12 @@
 party,01_mitte,02_friedrichshain_kreuzberg,03_pankow,04_charlottenburg_wilmersdorf,05_spandau,06_steglitz_zehlendorf,07_tempelhof_schöneberg,08_neukölln,09_treptow_köpenick,10_marzahn_hellersdorf,11_lichtenberg,12_reinickendorf,total
-7 Ergebnisse der Wahlen zu den Bezirksverordnetenversammlungen    in Berlin am 12. Februar 2023,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-7.4 Sitzverteilung in den Bezirksverordnetenversammlungen von Berlin        nach den Wahlen am 12. Februar 2023,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-Partei,Bezirke,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,Berlin
-nan,Mitte,Friedrichshain-Kreuzberg,Pankow,Charlottenburg-Wilmersdorf,Spandau,Steglitz-Zehlendorf,Tempelhof-Schöneberg,Neukölln,Treptow-Köpenick,Marzahn-Hellersdorf,Lichtenberg,Reinickendorf,nan
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-nan,Sitze,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+7 Ergebnisse der Wahlen zu den Bezirksverordnetenversammlungen    in Berlin am 12. Februar 2023,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+7.4 Sitzverteilung in den Bezirksverordnetenversammlungen von Berlin        nach den Wahlen am 12. Februar 2023,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Partei,Bezirke,,,,,,,,,,,,Berlin
+,Mitte,Friedrichshain-Kreuzberg,Pankow,Charlottenburg-Wilmersdorf,Spandau,Steglitz-Zehlendorf,Tempelhof-Schöneberg,Neukölln,Treptow-Köpenick,Marzahn-Hellersdorf,Lichtenberg,Reinickendorf,
+,,,,,,,,,,,,,
+,Sitze,,,,,,,,,,,,
 SPD,10,8,9,12,14,11,12,15,13,10,9,13,136
 CDU,12,8,12,18,23,22,19,17,14,19,15,25,204
 GRÜNE,18,21,15,14,6,13,14,10,7,3,7,7,135
@@ -16,15 +16,15 @@ FDP,2,2,2,4,2,4,2,0,2,0,0,2,22
 Die PARTEI,0,2,0,0,0,0,0,0,0,0,0,0,2
 Tierschutzpartei,0,0,0,0,2,0,0,0,2,2,2,0,8
 Insgesamt,55,55,55,55,55,55,55,55,55,55,55,55,660
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-7 Ergebnisse der Wahlen zu den Bezirksverordnetenversammlungen    in Berlin am 12. Februar 2023,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-7.5 Mitglieder der Bezirksämter nach den Wahlen zu den        Bezirksverordnetenversammlungen in Berlin am 12. Februar 2023,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-Partei,Bezirke,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,Berlin
-nan,Mitte,Friedrichshain-Kreuzberg,Pankow,Charlottenburg-Wilmersdorf,Spandau,Steglitz-Zehlendorf,Tempelhof-Schöneberg,Neukölln,Treptow-Köpenick,Marzahn-Hellersdorf,Lichtenberg,Reinickendorf,nan
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-nan,Sitze,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+,,,,,,,,,,,,,
+7 Ergebnisse der Wahlen zu den Bezirksverordnetenversammlungen    in Berlin am 12. Februar 2023,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+7.5 Mitglieder der Bezirksämter nach den Wahlen zu den        Bezirksverordnetenversammlungen in Berlin am 12. Februar 2023,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Partei,Bezirke,,,,,,,,,,,,Berlin
+,Mitte,Friedrichshain-Kreuzberg,Pankow,Charlottenburg-Wilmersdorf,Spandau,Steglitz-Zehlendorf,Tempelhof-Schöneberg,Neukölln,Treptow-Köpenick,Marzahn-Hellersdorf,Lichtenberg,Reinickendorf,
+,,,,,,,,,,,,,
+,Sitze,,,,,,,,,,,,
 SPD,1,1,1,1,2,1,1,2,1,1,1,2,15
 CDU,2,1,2,3,3,3,3,2,2,3,2,3,29
 GRÜNE,2,3,2,2,0,2,2,1,1,0,1,1,17

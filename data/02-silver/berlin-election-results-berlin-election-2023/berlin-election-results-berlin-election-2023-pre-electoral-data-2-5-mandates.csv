@@ -1,14 +1,14 @@
 district,total,party_spd,party_cdu,party_grüne,party_die_linke,party_afd,party_fdp,surplus_mandates_spd,surplus_mandates_cdu,compensation_mandates_cdu,compensation_mandates_grüne,compensation_mandates_die_linke,compensation_mandates_die_afd,compensation_mandates_die_fdp
-Mitte,9.0,2,1,5.0,0.0,0.0,1,0,0,x,x,x,x,0
-Friedrichshain-Kreuzberg,9.0,2,1,5.0,1.0,0.0,0,0,0,x,x,x,x,0
-Pankow,11.0,3,2,5.0,0.0,0.0,1,0,0,x,x,x,x,0
-Charlottenburg-Wilmersdorf,10.0,3,3,3.0,0.0,0.0,1,0,0,x,x,x,x,0
-Spandau,6.0,3,2,0.0,0.0,0.0,1,1,0,x,x,x,x,0
-Steglitz-Zehlendorf,11.0,3,5,1.0,0.0,0.0,2,0,1,x,x,x,x,1
-Tempelhof-Schöneberg,10.0,3,3,3.0,0.0,0.0,1,0,0,x,x,x,x,0
-Neukölln,9.0,4,2,2.0,0.0,0.0,1,1,0,x,x,x,x,1
-Treptow-Köpenick,9.0,5,2,0.0,1.0,0.0,1,2,0,x,x,x,x,0
-Marzahn-Hellersdorf,9.0,2,3,0.0,1.0,2.0,1,0,1,x,x,x,x,0
-Lichtenberg,9.0,3,2,0.0,3.0,0.0,1,0,0,x,x,x,x,0
-Reinickendorf,8.0,3,4,0.0,0.0,0.0,1,0,1,x,x,x,x,0
-Landesliste ²,37.0,x,x,8.0,18.0,11.0,x,x,x,x,4,3,1,x
+Mitte,9,2,1,5,0,0,1,0,0,x,x,x,x,0
+Friedrichshain-Kreuzberg,9,2,1,5,1,0,0,0,0,x,x,x,x,0
+Pankow,11,3,2,5,0,0,1,0,0,x,x,x,x,0
+Charlottenburg-Wilmersdorf,10,3,3,3,0,0,1,0,0,x,x,x,x,0
+Spandau,6,3,2,0,0,0,1,1,0,x,x,x,x,0
+Steglitz-Zehlendorf,11,3,5,1,0,0,2,0,1,x,x,x,x,1
+Tempelhof-Schöneberg,10,3,3,3,0,0,1,0,0,x,x,x,x,0
+Neukölln,9,4,2,2,0,0,1,1,0,x,x,x,x,1
+Treptow-Köpenick,9,5,2,0,1,0,1,2,0,x,x,x,x,0
+Marzahn-Hellersdorf,9,2,3,0,1,2,1,0,1,x,x,x,x,0
+Lichtenberg,9,3,2,0,3,0,1,0,0,x,x,x,x,0
+Reinickendorf,8,3,4,0,0,0,1,0,1,x,x,x,x,0
+Landesliste ²,37,x,x,8,18,11,x,x,x,x,4,3,1,x

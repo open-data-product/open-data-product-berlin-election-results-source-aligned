@@ -1,7 +1,7 @@
 district,total,between_18_and_25_total,between_18_and_25_percentage,between_25_and_35_total,between_25_and_35_percentage,between_35_and_45_total,between_35_and_45_percentage,between_45_and_60_total,between_45_and_60_percentage,between_60_and_70_total,between_60_and_70_percentage,between_70_and_above_total,between_70_an_above_percentage
-6,27774,4264.0,15.4,8280.0,29.8,3978.0,14.3,5798.0,20.9,2481.0,8.9,2973.0,10.7
-7,27637,3576.0,12.9,7596.0,27.5,4375.0,15.8,6116.0,22.1,2710.0,9.8,3264.0,11.8
-Insgesamt,205479,21032.0,10.2,50258.0,24.5,32908.0,16.0,49455.0,24.1,21793.0,10.6,30033.0,14.6
-nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-nan,Friedrichshain-Kreuzberg,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
-1,34438,2694.0,7.8,8071.0,23.4,7157.0,20.8,10112.0,29.4,3717.0,10.8,2687.0,7.8
+6,27774,4264,15.4,8280,29.8,3978,14.3,5798,20.9,2481,8.9,2973,10.7
+7,27637,3576,12.9,7596,27.5,4375,15.8,6116,22.1,2710,9.8,3264,11.8
+Insgesamt,205479,21032,10.2,50258,24.5,32908,16,49455,24.1,21793,10.6,30033,14.6
+,,,,,,,,,,,,,
+,Friedrichshain-Kreuzberg,,,,,,,,,,,,
+1,34438,2694,7.8,8071,23.4,7157,20.8,10112,29.4,3717,10.8,2687,7.8

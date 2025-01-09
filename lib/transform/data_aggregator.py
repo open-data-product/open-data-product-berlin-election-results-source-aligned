@@ -33,7 +33,7 @@ def aggregate_data(
             try:
                 with open(source_file_path, "r") as csv_file:
                     # Read csv file
-                    dataframe = pd.read_csv(csv_file, dtype=str)
+                    dataframe = pd.read_csv(csv_file, dtype=str, keep_default_na=False)
 
                     names = file.names
 

@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 ## Input Ports
 
@@ -213,7 +213,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2016
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -232,7 +232,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2023
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -251,7 +251,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2019
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -264,7 +264,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2024
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -277,7 +277,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2017
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -293,7 +293,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2021
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -309,7 +309,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -322,7 +322,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -335,7 +335,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -348,7 +348,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -361,7 +361,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -374,7 +374,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -387,7 +387,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 
@@ -400,7 +400,7 @@
 * owner: Open Lifeworlds
 * url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral
 * license: GPLv3
-* updated: 2025-05-15
+* updated: 2025-05-16
 
 **Files**
 

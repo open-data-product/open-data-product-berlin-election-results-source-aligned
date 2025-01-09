@@ -52,6 +52,7 @@ def convert_data_to_csv(
                             )
                         ),
                         skiprows=dataset.skip_rows,
+                        keep_default_na=False,
                     )
 
                     names = dataset.names

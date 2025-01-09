@@ -1,13 +1,13 @@
 electoral_district_id,electoral_district_name,eligible_voters,voters,valid_votes,party_cdu,party_spd,party_die_linke,party_grüne,party_afd,party_fdp,others
-75.0,Berlin-Mitte,x,46.0,98.6,15.2,23.1,17.0,24.7,5.9,3.1,11.0
-76.0,Berlin-Pankow,x,46.8,98.8,13.9,22.2,22.6,21.7,7.1,2.1,10.4
-77.0,Berlin-Reinickendorf,x,44.5,98.3,31.7,27.8,6.1,12.9,10.0,3.5,7.9
-78.0,Berlin-Spandau –Charlottenburg Nord,x,40.2,98.2,28.7,29.8,7.4,12.1,9.9,2.8,9.2
-79.0,Berlin-Steglitz-Zehlendorf,x,57.1,98.8,28.6,26.2,6.0,19.1,8.5,4.8,6.8
-80.0,Berlin-Charlottenburg-Wilmersdorf,x,55.1,98.8,23.8,27.8,8.0,20.9,7.7,4.9,6.9
-81.0,Berlin-Tempelhof-Schöneberg,x,53.6,98.4,23.5,25.8,9.3,22.2,7.1,2.9,9.1
-82.0,Berlin-Neukölln,x,46.5,97.7,20.8,23.4,13.8,20.9,7.5,1.8,11.9
-83.0,Berlin-Friedrichshain-Kreuzberg –Prenzlauer Berg Ost,x,53.3,98.6,8.4,19.1,22.2,32.1,3.8,1.8,12.4
-84.0,Berlin-Treptow-Köpenick,x,44.0,98.3,15.7,22.0,27.0,11.8,10.1,1.4,12.1
-85.0,Berlin-Marzahn-Hellersdorf,x,33.4,98.3,17.0,20.5,31.3,6.5,11.7,1.3,11.7
-86.0,Berlin-Lichtenberg,x,37.2,98.3,13.9,20.4,33.3,10.2,9.3,1.2,11.7
+75,Berlin-Mitte,x,46,98.6,15.2,23.1,17,24.7,5.9,3.1,11
+76,Berlin-Pankow,x,46.8,98.8,13.9,22.2,22.6,21.7,7.1,2.1,10.4
+77,Berlin-Reinickendorf,x,44.5,98.3,31.7,27.8,6.1,12.9,10,3.5,7.9
+78,Berlin-Spandau –Charlottenburg Nord,x,40.2,98.2,28.7,29.8,7.4,12.1,9.9,2.8,9.2
+79,Berlin-Steglitz-Zehlendorf,x,57.1,98.8,28.6,26.2,6,19.1,8.5,4.8,6.8
+80,Berlin-Charlottenburg-Wilmersdorf,x,55.1,98.8,23.8,27.8,8,20.9,7.7,4.9,6.9
+81,Berlin-Tempelhof-Schöneberg,x,53.6,98.4,23.5,25.8,9.3,22.2,7.1,2.9,9.1
+82,Berlin-Neukölln,x,46.5,97.7,20.8,23.4,13.8,20.9,7.5,1.8,11.9
+83,Berlin-Friedrichshain-Kreuzberg –Prenzlauer Berg Ost,x,53.3,98.6,8.4,19.1,22.2,32.1,3.8,1.8,12.4
+84,Berlin-Treptow-Köpenick,x,44,98.3,15.7,22,27,11.8,10.1,1.4,12.1
+85,Berlin-Marzahn-Hellersdorf,x,33.4,98.3,17,20.5,31.3,6.5,11.7,1.3,11.7
+86,Berlin-Lichtenberg,x,37.2,98.3,13.9,20.4,33.3,10.2,9.3,1.2,11.7
