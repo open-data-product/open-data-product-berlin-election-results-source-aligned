@@ -204,6 +204,7 @@ input_ports:
               - { name: federal_election_2013, type: int }
               - { name: federal_election_2013_percentage, type: float }
             skip_rows: 6
+            head: 15
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-2-berlin-election-by-district-first-vote.csv
             sheet_name: 1.2+1.3
             names:
@@ -766,7 +767,7 @@ input_ports:
               - { name: germans_between_18_and_65_percentage, type: float }
               - { name: germans_above_65, type: int }
               - { name: germans_above_65_percentage, type: float }
-            skip_rows: 7
+            skip_rows: 10
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.2
@@ -1015,7 +1016,7 @@ input_ports:
               - { name: between_16_and_18_total, type: int }
               - { name: between_16_and_18_percentage, type: float }
             skip_rows: 19
-            head: 7
+            head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-03-pankow.csv
             sheet_name: 2.4
             names:
@@ -1378,7 +1379,7 @@ input_ports:
               - { name: between_60_and_70_percentage, type: float }
               - { name: between_70_and_above_total, type: int }
               - { name: between_70_an_above_percentage, type: float }
-            skip_rows: 14
+            skip_rows: 114
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-7-registered-inhabitants-december-2015-by-constituency-association.csv
             sheet_name: 2.7
@@ -1450,7 +1451,7 @@ input_ports:
               - { name: simple_residential_area, type: float }
               - { name: medium_residential_area, type: float }
               - { name: good_residential_area, type: float }
-            skip_rows: 29
+            skip_rows: 27
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.8
@@ -1941,7 +1942,7 @@ input_ports:
               - { name: 2016_vs_2011_total, type: float }
               - { name: 2016_vs_2011_male, type: float }
               - { name: 2016_vs_2011_female, type: float }
-            skip_rows: 33
+            skip_rows: 34
             head: 10
           - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-ballot-paper-recipients-by-age-and-sex.csv
             sheet_name: 2
@@ -1971,7 +1972,7 @@ input_ports:
               - { name: 2016_vs_2011_total, type: float }
               - { name: 2016_vs_2011_male, type: float }
               - { name: 2016_vs_2011_female, type: float }
-            skip_rows: 20
+            skip_rows: 21
             head: 10
           - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-ballot-paper-recipients-by-age-and-sex-berlin-west.csv
             sheet_name: 2
@@ -1986,7 +1987,7 @@ input_ports:
               - { name: 2016_vs_2011_total, type: float }
               - { name: 2016_vs_2011_male, type: float }
               - { name: 2016_vs_2011_female, type: float }
-            skip_rows: 33
+            skip_rows: 34
             head: 10
           - target_file_name: berlin-election-results-berlin-election-2016-electoral-statistics-voter-turnout-by-age-and-sex.csv
             sheet_name: 3
@@ -4174,6 +4175,7 @@ input_ports:
               - { name: mandates_fraction, type: int }
               - { name: mandates_total, type: int }
             skip_rows: 7
+            head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-4-3-overhang-mandates-spd.csv
             sheet_name: 4.3
             names:
@@ -4396,6 +4398,7 @@ input_ports:
               - { name: 12_reinickendorf, type: int }
               - { name: total, type: int }
             skip_rows: 7
+            head: 36
           - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-2-second-votes-by-electoral-districts.csv
             sheet_name: 5.2
             names:
@@ -4427,7 +4430,7 @@ input_ports:
               - { name: difference_first_votes_percentage, type: float }
               - { name: difference_second_votes, type: int }
               - { name: difference_second_votes_percentage, type: float }
-            skip_rows: 5
+            skip_rows: 8
           - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-5-4-election-results-west-berlin.csv
             sheet_name: 5.4
             names:
@@ -4444,7 +4447,7 @@ input_ports:
               - { name: difference_first_votes_percentage, type: float }
               - { name: difference_second_votes, type: int }
               - { name: difference_second_votes_percentage, type: float }
-            skip_rows: 5
+            skip_rows: 8
           - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-6-1-first-vote.csv
             sheet_name: 6.1
             names:
@@ -4480,6 +4483,7 @@ input_ports:
               - { name: difference, type: int }
               - { name: difference_percentage, type: float }
             skip_rows: 7
+            head: 37
           - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-2-1-bvv-mitte-1-election-results-comparison.csv
             sheet_name: 7.2.1
             names:
@@ -4822,6 +4826,7 @@ input_ports:
               - { name: 12_reinickendorf, type: int }
               - { name: total, type: int }
             skip_rows: 8
+            head: 33
           - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-4-bvv-seat-distribution.csv
             sheet_name: 7.4+7.5
             names:
@@ -4839,6 +4844,8 @@ input_ports:
               - { name: 11_lichtenberg, type: int }
               - { name: 12_reinickendorf, type: int }
               - { name: total, type: int }
+            skip_rows: 8
+            head: 8
           - target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report-7-5-bvv-elected-members.csv
             sheet_name: 7.4+7.5
             names:
@@ -4874,6 +4881,7 @@ input_ports:
               - { name: european_election_2019, type: int }
               - { name: european_election_2019_percentage, type: float }
             skip_rows: 5
+            head: 13
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-1-berlin-election-2021-first-vote.csv
             sheet_name: 2.1+2.2
             names:
@@ -5057,8 +5065,8 @@ input_ports:
               - { name: party_afd, type: float }
               - { name: party_fdp, type: float }
               - { name: others, type: float }
-            skip_rows: 50
-            head: 54
+            skip_rows: 49
+            head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-06-steglitz-zehlendorf.csv
             sheet_name: 2.7
             names:
@@ -5261,8 +5269,8 @@ input_ports:
               - { name: party_afd, type: float }
               - { name: party_fdp, type: float }
               - { name: others, type: float }
-            skip_rows: 50
-            head: 54
+            skip_rows: 49
+            head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-06-steglitz-zehlendorf.csv
             sheet_name: 2.8
             names:
@@ -7154,7 +7162,7 @@ input_ports:
               - { name: comparison_female, type: float }
             skip_rows: 26
             head: 6
-          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-7-invalid-votes.csv
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-7-invalid-votes-2023.csv
             sheet_name: 7
             names:
               - name: reason
@@ -7167,8 +7175,38 @@ input_ports:
               - { name: berlin_west_total, type: float }
               - { name: berlin_west_male_diverse, type: float }
               - { name: berlin_west_female, type: float }
-            skip_rows: 6
-            head: 3
+            skip_rows: 7
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-7-invalid-votes-2016.csv
+            sheet_name: 7
+            names:
+              - name: reason
+              - { name: berlin_total, type: float }
+              - { name: berlin_male_diverse, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male_diverse, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male_diverse, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 16
+            head: 6
+          - target_file_name: berlin-election-results-berlin-election-2023-electoral-statistics-7-invalid-votes-comparison.csv
+            sheet_name: 7
+            names:
+              - name: reason
+              - { name: berlin_total, type: float }
+              - { name: berlin_male_diverse, type: float }
+              - { name: berlin_female, type: float }
+              - { name: berlin_east_total, type: float }
+              - { name: berlin_east_male_diverse, type: float }
+              - { name: berlin_east_female, type: float }
+              - { name: berlin_west_total, type: float }
+              - { name: berlin_west_male_diverse, type: float }
+              - { name: berlin_west_female, type: float }
+            skip_rows: 25
+            head: 6
       - source_file_name: abgeordnetenhauswahlen-lange-reihe-2023-berlin.xlsx
         target_file_name: berlin-election-results-berlin-election-2023-long-series.xlsx
         datasets:
@@ -7921,7 +7959,7 @@ input_ports:
               - { name: between_60_and_70_percentage, type: float }
               - { name: between_above_70, type: float }
               - { name: between_above_70_percentage, type: float }
-            skip_rows: 9
+            skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
             sheet_name: 2.3
@@ -7953,7 +7991,7 @@ input_ports:
               - { name: total, type: int }
               - { name: in_sgb_II_communities_of_need, type: int }
               - { name: in_sgb_II_communities_of_need_percentage, type: float }
-            skip_rows: 8
+            skip_rows: 7
             skip_cols: 1
             head: 12
       - source_file_name: SB_B07-01-05_2017j04_BE.xlsx
@@ -10531,8 +10569,8 @@ input_ports:
               - { name: party_grüne, type: int }
               - { name: party_afd, type: int }
               - { name: party_fdp, type: int }
-            skip_rows: 34
-            head: 3
+            skip_rows: 35
+            head: 2
           - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-6-second-vote.csv
             sheet_name: 1.6
             names:
@@ -10648,7 +10686,7 @@ input_ports:
               - { name: between_60_and_70_percentage, type: float }
               - { name: between_above_70, type: float }
               - { name: between_above_70_percentage, type: float }
-            skip_rows: 9
+            skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
             sheet_name: 2.3
@@ -15285,8 +15323,8 @@ input_ports:
               - { name: federal_election_2021_percentage, type: float }
               - { name: berlin_election_2023, type: int }
               - { name: berlin_election_2023_percentage, type: float }
-            skip_rows: 40
-            head: 31
+            skip_rows: 56
+            head: 46
           - target_file_name: berlin-election-results-european-election-2024-electoral-results-report-1-1-electoral-results-berlin-west.csv
             sheet_name: 1.1
             names:
@@ -15297,8 +15335,8 @@ input_ports:
               - { name: federal_election_2021_percentage, type: float }
               - { name: berlin_election_2023, type: int }
               - { name: berlin_election_2023_percentage, type: float }
-            skip_rows: 73
-            head: 31
+            skip_rows: 105
+            head: 47
           - target_file_name: berlin-election-results-european-election-2024-electoral-results-report-1-2-voter-turnout-and-valid-votes-total.csv
             sheet_name: 1.2
             names:
@@ -15424,7 +15462,7 @@ input_ports:
               - { name: 11_lichtenberg, type: int }
               - { name: 12_reinickendorf, type: int }
             skip_rows: 7
-            head: 28
+            head: 27
   - id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
     files:
       - source_file_name: DL_BE_VE2008.xlsx

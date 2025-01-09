@@ -1,4 +1,5 @@
 electoral_district_id,electoral_district_name,total,in_sgb_II_communities_of_need,in_sgb_II_communities_of_need_percentage
+75,Berlin-Mitte,315410,82769,26.2
 76,Berlin-Pankow,270459,28895,10.7
 77,Berlin-Reinickendorf,194967,44955,23.1
 78,Berlin-Spandau –Charlottenburg Nord,209235,54352,26
@@ -10,4 +11,3 @@ electoral_district_id,electoral_district_name,total,in_sgb_II_communities_of_nee
 84,Berlin-Treptow-Köpenick,194408,26429,13.6
 85,Berlin-Marzahn-Hellersdorf,211693,48216,22.8
 86,Berlin-Lichtenberg,220281,42657,19.4
-,,,,

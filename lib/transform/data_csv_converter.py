@@ -109,10 +109,14 @@ def convert_data_to_csv(
                             name.value_mapping
                         )
 
+                    # Apply head
                     if dataset.head:
                         dataframe = dataframe.head(dataset.head)
 
-                    dataframe = dataframe.dropna()
+                    # Apply removal of empty rows
+                    dataframe = dataframe.replace("davon", "")
+                    dataframe = dataframe[~(dataframe == "").all(axis=1)]
+                    dataframe = dataframe.dropna(how="all")
 
                     os.makedirs(os.path.dirname(target_file_path), exist_ok=True)
                     dataframe.to_csv(target_file_path, index=False)
