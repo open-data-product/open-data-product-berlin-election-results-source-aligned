@@ -10403,7 +10403,7 @@ input_ports:
               - { name: other_applicant_1, type: int }
               - { name: other_applicant_2, type: int }
               - { name: other_applicant_3, type: int }
-              - { name: other_applicant_meschliche_welt, type: int }
+              - { name: other_applicant_menschliche_welt, type: int }
               - { name: other_applicant_4, type: int }
               - { name: other_applicant_5, type: int }
               - { name: other_applicant_6, type: int }

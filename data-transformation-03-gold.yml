@@ -1822,7 +1822,7 @@ input_ports:
           - name: other_applicant_1
           - name: other_applicant_2
           - name: other_applicant_3
-          - name: other_applicant_meschliche_welt
+          - name: other_applicant_menschliche_welt
           - name: other_applicant_4
           - name: other_applicant_5
           - name: other_applicant_6
@@ -1877,7 +1877,7 @@ input_ports:
           - name: other_applicant_1
           - name: other_applicant_2
           - name: other_applicant_3
-          - name: other_applicant_meschliche_welt
+          - name: other_applicant_menschliche_welt
           - name: other_applicant_4
           - name: other_applicant_5
           - name: other_applicant_6
@@ -1932,7 +1932,7 @@ input_ports:
           - name: other_applicant_1
           - name: other_applicant_2
           - name: other_applicant_3
-          - name: other_applicant_meschliche_welt
+          - name: other_applicant_menschliche_welt
           - name: other_applicant_4
           - name: other_applicant_5
           - name: other_applicant_6
