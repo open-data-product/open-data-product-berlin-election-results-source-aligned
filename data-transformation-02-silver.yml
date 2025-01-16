@@ -14706,8 +14706,8 @@ input_ports:
               - { name: party_familie_percentage, type: float }
               - { name: party_ödp, type: int }
               - { name: party_ödp_percentage, type: float }
-              - { name: party_freie_wäher, type: int }
-              - { name: party_freie_wäher_percentage, type: float }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_freie_wähler_percentage, type: float }
               - { name: party_tierschutz_hier, type: int }
               - { name: party_tierschutz_hier_percentage, type: float }
               - { name: party_big, type: int }
@@ -14805,8 +14805,8 @@ input_ports:
               - { name: party_familie_percentage, type: float }
               - { name: party_ödp, type: int }
               - { name: party_ödp_percentage, type: float }
-              - { name: party_freie_wäher, type: int }
-              - { name: party_freie_wäher_percentage, type: float }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_freie_wähler_percentage, type: float }
               - { name: party_tierschutz_hier, type: int }
               - { name: party_tierschutz_hier_percentage, type: float }
               - { name: party_big, type: int }

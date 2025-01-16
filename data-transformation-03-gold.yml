@@ -2258,7 +2258,7 @@ input_ports:
           - name: party_piraten
           - name: party_familie
           - name: party_ödp
-          - name: party_freie_wäher
+          - name: party_freie_wähler
           - name: party_tierschutz_hier
           - name: party_big
           - name: party_verjüngungsforschung
@@ -2310,7 +2310,7 @@ input_ports:
           - name: party_piraten
           - name: party_familie
           - name: party_ödp
-          - name: party_freie_wäher
+          - name: party_freie_wähler
           - name: party_tierschutz_hier
           - name: party_big
           - name: party_verjüngungsforschung
@@ -2362,7 +2362,7 @@ input_ports:
           - name: party_piraten
           - name: party_familie
           - name: party_ödp
-          - name: party_freie_wäher
+          - name: party_freie_wähler
           - name: party_tierschutz_hier
           - name: party_big
           - name: party_verjüngungsforschung
