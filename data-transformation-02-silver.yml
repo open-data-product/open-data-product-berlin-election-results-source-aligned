@@ -2600,11 +2600,10 @@ input_ports:
               - { name: voters_alliance_die_waehlbaren.de, type: int }
               - { name: voters_alliance_olf, type: int }
               - { name: voters_alliance_bärlä, type: int }
-              - { name: voters_alliance_wsB_spandau, type: int }
+              - { name: voters_alliance_wsb_spandau, type: int }
               - { name: voters_alliance_tkbb, type: int }
               - { name: voters_alliance_wsb, type: int }
               - { name: voters_alliance_wiss, type: int }
-              - { name: voters_alliance_wsb, type: int }
             skip_rows: 1
       - source_file_name: SB_B07-02-03_2023j05_BE.xlsx
         target_file_name: berlin-election-results-berlin-election-2023-electoral-results-report.xlsx
