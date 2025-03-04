@@ -15500,6 +15500,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+                value_mapping:
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - { name: eligible_voters, type: int }
               - { name: eligible_voters_a1, type: int }
               - { name: eligible_voters_a2, type: int }
@@ -15523,6 +15526,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+                value_mapping:
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - { name: eligible_voters, type: int }
               - { name: eligible_voters_a1, type: int }
               - { name: eligible_voters_a2, type: int }
@@ -15546,6 +15552,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+                value_mapping:
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - { name: eligible_voters, type: int }
               - { name: eligible_voters_a1, type: int }
               - { name: eligible_voters_a2, type: int }
@@ -15569,6 +15578,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+                value_mapping:
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - name: electoral_district_berlin_election_id
               - name: electoral_district_federal_election_id
               - name: berlin_east_west
@@ -15601,6 +15613,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+                value_mapping:
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - name: electoral_district_berlin_election_id
               - name: electoral_district_federal_election_id
               - name: berlin_east_west
@@ -15629,6 +15644,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+                value_mapping:
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - name: postal_voting_district_id
               - name: electoral_district_berlin_election_id
               - name: electoral_district_federal_election_id
@@ -15659,6 +15677,9 @@ input_ports:
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
+                value_mapping:
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - name: postal_voting_district_id
               - name: electoral_district_berlin_election_id
               - name: electoral_district_federal_election_id
