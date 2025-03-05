@@ -1868,8 +1868,8 @@ input_ports:
               - { name: germans_between_45_and_60_percentage, type: float }
               - { name: germans_between_60_and_70, type: int }
               - { name: germans_between_60_and_70_percentage, type: float }
-              - { name: germans_between_above_70, type: int }
-              - { name: germans_between_above_70_percentage, type: float }
+              - { name: germans_above_70, type: int }
+              - { name: germans_above_70_percentage, type: float }
               - { name: germans_above_18_with_migration_background, type: int }
               - { name: germans_above_18_with_migration_background_percentage, type: float }
               - { name: germans_above_18_single, type: int }
@@ -6427,8 +6427,8 @@ input_ports:
               - { name: germans_between_45_and_60_percentage, type: float }
               - { name: germans_between_60_and_70, type: int }
               - { name: germans_between_60_and_70_percentage, type: float }
-              - { name: germans_between_above_70, type: int }
-              - { name: germans_between_above_70_percentage, type: float }
+              - { name: germans_above_70, type: int }
+              - { name: germans_above_70_percentage, type: float }
               - { name: germans_above_16_female, type: int }
               - { name: germans_above_16_female_percentage, type: float }
               - { name: germans_above_18_female, type: int }
@@ -7854,7 +7854,7 @@ input_ports:
             skip_rows: 5
             skip_cols: 15
             head: 7
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-1-7-european-election-results-by-federal-election-electoral-districts.csv
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-1-7-european-election-2014-second-votes.csv
             sheet_name: 1.7
             names:
               - name: electoral_district_id
@@ -7871,24 +7871,7 @@ input_ports:
               - { name: others, type: int }
             skip_rows: 6
             head: 12
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-1-7-european-election-results-by-federal-election-electoral-districts-percentage.csv
-            sheet_name: 1.7
-            names:
-              - name: electoral_district_id
-              - name: electoral_district_name
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: float }
-              - { name: valid_votes, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 23
-            head: 12
-          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-1-8-berlin-election-results-by-federal-election-electoral-districts.csv
+          - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-1-8-berlin-election-2016-second-votes.csv
             sheet_name: 1.8
             names:
               - name: electoral_district_id
@@ -7956,8 +7939,8 @@ input_ports:
               - { name: between_45_and_60_percentage, type: int }
               - { name: between_60_and_70, type: float }
               - { name: between_60_and_70_percentage, type: float }
-              - { name: between_above_70, type: float }
-              - { name: between_above_70_percentage, type: float }
+              - { name: above_70, type: float }
+              - { name: above_70_percentage, type: float }
             skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-federal-election-2017-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
@@ -10583,7 +10566,7 @@ input_ports:
             skip_rows: 5
             skip_cols: 15
             head: 8
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-7-european-election-results-by-federal-election-electoral-districts.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-7-federal-election-2017-second-votes.csv
             sheet_name: 1.7
             names:
               - name: district_name
@@ -10599,23 +10582,7 @@ input_ports:
               - { name: others, type: int }
             skip_rows: 6
             head: 12
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-7-european-election-results-by-federal-election-electoral-districts-percentage.csv
-            sheet_name: 1.7
-            names:
-              - name: district_name
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: float }
-              - { name: valid_votes, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_spd, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
-            skip_rows: 23
-            head: 12
-          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-8-berlin-election-results-by-federal-election-electoral-districts.csv
+          - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-1-8-berlin-election-2023-second-votes.csv
             sheet_name: 1.8
             names:
               - name: electoral_district_id
@@ -10683,8 +10650,8 @@ input_ports:
               - { name: between_45_and_60_percentage, type: int }
               - { name: between_60_and_70, type: float }
               - { name: between_60_and_70_percentage, type: float }
-              - { name: between_above_70, type: float }
-              - { name: between_above_70_percentage, type: float }
+              - { name: above_70, type: float }
+              - { name: above_70_percentage, type: float }
             skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-federal-election-2021-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
@@ -13059,8 +13026,8 @@ input_ports:
               - { name: germans_between_45_and_60_percentage, type: float }
               - { name: germans_between_60_and_70, type: int }
               - { name: germans_between_60_and_70_percentage, type: float }
-              - { name: germans_between_above_70, type: int }
-              - { name: germans_between_above_70_percentage, type: float }
+              - { name: germans_above_70, type: int }
+              - { name: germans_above_70_percentage, type: float }
               - { name: germans_above_16_female, type: int }
               - { name: germans_above_16_female_percentage, type: float }
               - { name: germans_above_18_female, type: int }
@@ -13089,6 +13056,877 @@ input_ports:
               - { name: inhabitants_in_sgb_II_in_2021, type: int }
               - { name: inhabitants_in_sgb_II_in_2021_percentage, type: float }
               - name: partial_election_repetition
+  - id: berlin-election-results-federal-election-2025
+    files:
+      - source_file_name: DL_BE_BU2025.xlsx
+        target_file_name: berlin-election-results-federal-election-2025-electoral-results.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-first-vote.csv
+            sheet_name: BE_W1
+            names:
+              - name: address
+              - name: vote_type
+              - { name: district_id, zfill: 2}
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: valid_votes, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_team_todenhöfer, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_volt, type: int }
+              - { name: party_mlpd, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_bündnis_deutschland, type: int }
+              - { name: party_bsw, type: int }
+              - { name: party_mera25, type: int }
+              - { name: party_pdf, type: int }
+              - { name: party_pape, type: int }
+              - { name: party_wendt, type: int }
+              - { name: party_thomas, type: int }
+              - { name: party_heider, type: int }
+              - name: aufn
+            skip_rows: 1
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-second-vote.csv
+            sheet_name: BE_W2
+            names:
+              - name: address
+              - name: vote_type
+              - { name: district_id, zfill: 2}
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - name: berlin_east_west
+              - { name: eligible_voters, type: int }
+              - { name: eligible_voters_a1, type: int }
+              - { name: eligible_voters_a2, type: int }
+              - { name: eligible_voters_a3, type: int }
+              - { name: voters, type: int }
+              - { name: voters_b1, type: int }
+              - { name: valid_votes, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_tierschutzpartei, type: int }
+              - { name: party_die_partei, type: int }
+              - { name: party_team_todenhöfer, type: int }
+              - { name: party_freie_wähler, type: int }
+              - { name: party_volt, type: int }
+              - { name: party_mlpd, type: int }
+              - { name: party_büso, type: int }
+              - { name: party_sgp, type: int }
+              - { name: party_bündnis_deutschland, type: int }
+              - { name: party_bsw, type: int }
+              - { name: party_mera25, type: int }
+              - { name: party_pdf, type: int }
+              - name: aufn
+            skip_rows: 1
+      - source_file_name: SB_B07-01-01_2025j04_BE.xlsx
+        target_file_name: berlin-election-results-federal-election-2025-electoral-results-report.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-1.csv
+            sheet_name: 1.1
+            names:
+              - name: feature
+              - { name: federal_election_2021, type: int }
+              - { name: federal_election_2021_percentage, type: float }
+              - { name: european_election_2024, type: int }
+              - { name: european_election_2024_percentage, type: float }
+              - { name: berlin_election_2023, type: int }
+              - { name: berlin_election_2023_percentage, type: float }
+            skip_rows: 6
+            head: 31
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-2-first-votes-total.csv
+            sheet_name: 1.2
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_first_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 7
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-2-first-votes-percentage.csv
+            sheet_name: 1.2
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_first_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-3-second-votes-total.csv
+            sheet_name: 1.3
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_second_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 7
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-3-second-votes-percentage.csv
+            sheet_name: 1.3
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_second_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 23
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-4-berlin-members-in-german-bundestag.csv
+            sheet_name: 1.4+1.5
+            names:
+              - name: election_date
+              - { name: total, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: party_fdv, type: int }
+            skip_rows: 5
+            head: 20
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-5-mandate-distribution.csv
+            sheet_name: 1.4+1.5
+            names:
+              - name: feature
+              - { name: total, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+            skip_rows: 35
+            head: 2
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-6-second-vote.csv
+            sheet_name: 1.6
+            names:
+              - { name: year, type: int }
+              - { name: party_cdu, type: float }
+              - { name: party_die_linke, type: float }
+              - { name: party_spd, type: float }
+              - { name: party_grüne, type: float }
+              - { name: party_fdp, type: float }
+              - { name: party_afd, type: float }
+            skip_rows: 5
+            skip_cols: 15
+            head: 9
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-7-federal-election-2021-second-votes.csv
+            sheet_name: 1.7
+            names:
+              - name: district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 6
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-1-8-berlin-election-results-2023-second-vote.csv
+            sheet_name: 1.8
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_grüne, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_die_linke, type: int }
+              - { name: party_afd, type: int }
+              - { name: party_fdp, type: int }
+              - { name: others, type: int }
+            skip_rows: 6
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-2-1-registered-inhabitants.csv
+            sheet_name: 2.1
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: total, type: int }
+              - { name: below_6, type: int }
+              - { name: below_6_percentage, type: float }
+              - { name: between_6_and_18, type: int }
+              - { name: between_6_and_18_percentage, type: float }
+              - { name: between_18_and_65, type: int }
+              - { name: between_18_and_65_percentage, type: float }
+              - { name: above_65, type: int }
+              - { name: above_65_percentage, type: float }
+              - { name: foreigners, type: int }
+              - { name: foreigners_percentage, type: float }
+            skip_rows: 9
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-2-2-registered-inhabitants-above-18.csv
+            sheet_name: 2.2
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: total, type: int }
+              - { name: between_18_and_25, type: int }
+              - { name: between_18_and_25_percentage, type: float }
+              - { name: between_25_and_35, type: int }
+              - { name: between_25_and_35_percentage, type: float }
+              - { name: between_35_and_45, type: int }
+              - { name: between_35_and_45_percentage, type: float }
+              - { name: between_45_and_60, type: int }
+              - { name: between_45_and_60_percentage, type: int }
+              - { name: between_60_and_70, type: float }
+              - { name: between_60_and_70_percentage, type: float }
+              - { name: above_70, type: float }
+              - { name: above_70_percentage, type: float }
+            skip_rows: 8
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
+            sheet_name: 2.3
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: total, type: int }
+              - { name: female_percentage, type: float }
+              - { name: migration_background_percentage, type: float }
+              - { name: single_percentage, type: float }
+              - { name: married_percentage, type: float }
+              - { name: widowed_percentage, type: float }
+              - { name: divorced_percentage, type: float }
+              - { name: civil_partnership_percentage, type: float }
+              - { name: protestant_percentage, type: float }
+              - { name: catholic_percentage, type: float }
+              - { name: comparison_to_2025, type: float }
+            skip_rows: 8
+            skip_cols: 1
+            head: 12
+          - target_file_name: berlin-election-results-federal-election-2025-electoral-results-report-2-4-registered-inhabitants-below-65-in-sgb-II-communities-of-need.csv
+            sheet_name: 2.4
+            names:
+              - name: electoral_district_id
+              - name: electoral_district_name
+              - { name: total, type: int }
+              - { name: in_sgb_II_communities_of_need, type: int }
+              - { name: in_sgb_II_communities_of_need_percentage, type: float }
+            skip_rows: 7
+            head: 12
+      - source_file_name: DL_BE_BT2025_AH2023-1.xlsx
+        target_file_name: berlin-election-results-federal-election-2025-converted-results-berlin-election-2023.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2025-converted-results-berlin-election-2023.csv
+            sheet_name: 2023_Zweitstimme
+            names:
+              - name: address
+              - { name: district_id, zfill: 2}
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: berlin_east_west
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_grüne, type: int }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_cdu, type: int }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_die_linke, type: int }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd, type: int }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp, type: int }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others, type: int }
+              - { name: others_percentage, type: float }
+      - source_file_name: DL_BE_BT2025_BT2021.xlsx
+        target_file_name: berlin-election-results-federal-election-2025-converted-results-federal-election-2021.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2025-converted-results-federal-election-2021.csv
+            sheet_name: 2021+2024_Zweitstimme
+            names:
+              - name: address
+              - { name: district_id, zfill: 2}
+              - name: district_name
+              - name: electoral_district_id
+              - name: electoral_district_type
+              - name: postal_voting_district_id
+              - name: berlin_east_west
+              - name: electoral_district_berlin_election_id
+              - name: electoral_district_federal_election_id
+              - { name: eligible_voters, type: int }
+              - { name: voters, type: int }
+              - { name: invalid_votes, type: int }
+              - { name: valid_votes, type: int }
+              - { name: party_spd, type: int }
+              - { name: party_spd_percentage, type: float }
+              - { name: party_grüne, type: int }
+              - { name: party_grüne_percentage, type: float }
+              - { name: party_afd, type: int }
+              - { name: party_cdu, type: int }
+              - { name: party_cdu_percentage, type: float }
+              - { name: party_die_linke, type: int }
+              - { name: party_die_linke_percentage, type: float }
+              - { name: party_afd_percentage, type: float }
+              - { name: party_fdp, type: int }
+              - { name: party_fdp_percentage, type: float }
+              - { name: others, type: int }
+              - { name: others_percentage, type: float }
+      - source_file_name: bundestagswahlen-lange-reihe.xlsx
+        target_file_name: berlin-election-results-federal-election-2025-long-series.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-1-eligible-voters-and-voters-total.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2025, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-1-eligible-voters-and-voters-comparison-to-previous.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-1-eligible-voters-and-voters-comparison-to-1990.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-1-eligible-voters-and-voters-percentage.csv
+            sheet_name: 1
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-2-second-votes-total.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2025, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-2-second-votes-comparison-to-previous.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-2-second-votes-comparison-to-1990.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-2-second-votes-percentage.csv
+            sheet_name: 2
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-3-eligible-voters-berlin-east-and-voters-total.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2025, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-previous.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-3-eligible-voters-and-voters-berlin-east-comparison-to-1990.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-3-eligible-voters-and-voters-berlin-east-percentage.csv
+            sheet_name: 3
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-4-second-votes-berlin-east-total.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2025, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-4-second-votes-berlin-east-comparison-to-previous.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-4-second-votes-berlin-east-comparison-to-1990.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-4-second-votes-berlin-east-percentage.csv
+            sheet_name: 4
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-5-eligible-voters-berlin-west-and-voters-total.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2025, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-previous.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 11
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-5-eligible-voters-and-voters-berlin-west-comparison-to-1990.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 17
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-5-eligible-voters-and-voters-berlin-west-percentage.csv
+            sheet_name: 5
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 23
+            skip_cols: 1
+            head: 4
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-6-second-votes-berlin-west-total.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: int }
+              - { name: year_1994, type: int }
+              - { name: year_1998, type: int }
+              - { name: year_2002, type: int }
+              - { name: year_2005, type: int }
+              - { name: year_2009, type: int }
+              - { name: year_2013, type: int }
+              - { name: year_2017, type: int }
+              - { name: year_2021, type: int }
+              - { name: year_2025, type: int }
+            skip_rows: 5
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-6-second-votes-berlin-west-comparison-to-previous.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 15
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-6-second-votes-berlin-west-comparison-to-1990.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 25
+            skip_cols: 1
+            head: 8
+          - target_file_name: berlin-election-results-federal-election-2025-long-series-6-second-votes-berlin-west-percentage.csv
+            sheet_name: 6
+            names:
+              - name: feature
+              - { name: year_1990, type: float }
+              - { name: year_1994, type: float }
+              - { name: year_1998, type: float }
+              - { name: year_2002, type: float }
+              - { name: year_2005, type: float }
+              - { name: year_2009, type: float }
+              - { name: year_2013, type: float }
+              - { name: year_2017, type: float }
+              - { name: year_2021, type: float }
+              - { name: year_2025, type: float }
+            skip_rows: 35
+            skip_cols: 1
+            head: 8
+      - source_file_name: DL_BE_BTW2025_Strukturdaten.xlsx
+        target_file_name: berlin-election-results-federal-election-2025-structural-data.xlsx
+        datasets:
+          - target_file_name: berlin-election-results-berlin-election-2025-structural-data.csv
+            sheet_name: Daten
+            names:
+              - name: address
+              - { name: district_id, zfill: 2 }
+              - name: district_name
+              - name: electoral_district_id
+              - name: postal_voting_district_id
+              - name: berlin_east_west
+              - name: electoral_district_federal_election_id
+              - name: electoral_district_berlin_election_id
+              - { name: inhabitants_total, type: int }
+              - { name: inhabitants_below_6, type: int }
+              - { name: inhabitants_below_6_percentage, type: float }
+              - { name: inhabitants_between_6_and_18, type: int }
+              - { name: inhabitants_between_6_and_18_percentage, type: float }
+              - { name: inhabitants_between_18_and_65, type: int }
+              - { name: inhabitants_between_18_and_65_percentage, type: float }
+              - { name: inhabitants_above_65, type: int }
+              - { name: inhabitants_above_65_percentage, type: float }
+              - { name: foreigners, type: int }
+              - { name: foreigners_percentage, type: float }
+              - { name: eu_citizens, type: int }
+              - { name: eu_citizens_percentage, type: float }
+              - { name: eu_citizens_above_16, type: int }
+              - { name: eu_citizens_above_16_percentage, type: float }
+              - { name: eu_citizens_above_18, type: int }
+              - { name: eu_citizens_above_18_percentage, type: float }
+              - { name: germans_total, type: int }
+              - { name: germans_percentage, type: float }
+              - { name: germans_below_6, type: int }
+              - { name: germans_below_6_percentage, type: float }
+              - { name: germans_between_6_and_18, type: int }
+              - { name: germans_between_6_and_18_percentage, type: float }
+              - { name: germans_above_16, type: int }
+              - { name: germans_above_16_percentage, type: float }
+              - { name: germans_above_18, type: int }
+              - { name: germans_above_18_percentage, type: float }
+              - { name: germans_between_18_and_25, type: int }
+              - { name: germans_between_18_and_25_percentage, type: float }
+              - { name: germans_between_25_and_35, type: int }
+              - { name: germans_between_25_and_35_percentage, type: float }
+              - { name: germans_between_35_and_45, type: int }
+              - { name: germans_between_35_and_45_percentage, type: float }
+              - { name: germans_between_45_and_60, type: int }
+              - { name: germans_between_45_and_60_percentage, type: float }
+              - { name: germans_between_60_and_70, type: int }
+              - { name: germans_between_60_and_70_percentage, type: float }
+              - { name: germans_above_70, type: int }
+              - { name: germans_above_70_percentage, type: float }
+              - { name: germans_above_16_female, type: int }
+              - { name: germans_above_16_female_percentage, type: float }
+              - { name: germans_above_18_female, type: int }
+              - { name: germans_above_18_female_percentage, type: float }
+              - { name: germans_above_16_with_migration_background, type: int }
+              - { name: germans_above_16_with_migration_background_percentage, type: float }
+              - { name: germans_above_18_with_migration_background, type: int }
+              - { name: germans_above_18_with_migration_background_percentage, type: float }
+              - { name: germans_above_18_single, type: int }
+              - { name: germans_above_18_single_percentage, type: float }
+              - { name: germans_above_18_married, type: int }
+              - { name: germans_above_18_married_percentage, type: float }
+              - { name: germans_above_18_widowed, type: int }
+              - { name: germans_above_18_widowed_percentage, type: float }
+              - { name: germans_above_18_divorced, type: int }
+              - { name: germans_above_18_divorced_percentage, type: float }
+              - { name: germans_above_18_registered_civil_partnership, type: int }
+              - { name: germans_above_18_registered_civil_partnership_percentage, type: float }
+              - { name: germans_above_18_protestant, type: int }
+              - { name: germans_above_18_protestant_percentage, type: float }
+              - { name: germans_above_18_catholic, type: int }
+              - { name: germans_above_18_catholic_percentage, type: float }
+              - { name: germans_above_18_comparison_to_2023, type: int }
+              - { name: germans_above_18_comparison_to_2023_percentage, type: float }
+              - { name: inhabitants_above_65_in_2023, type: int }
+              - { name: inhabitants_in_sgb_II_in_2023, type: int }
+              - { name: inhabitants_in_sgb_II_in_2023_percentage, type: float }
   - id: berlin-election-results-european-election-2019
     files:
       - source_file_name: DL_BE_2_EU2019.xlsx
@@ -13350,8 +14188,8 @@ input_ports:
               - { name: germans_between_45_and_60_percentage, type: float }
               - { name: germans_between_60_and_70, type: int }
               - { name: germans_between_60_and_70_percentage, type: float }
-              - { name: germans_between_above_70, type: int }
-              - { name: germans_between_above_70_percentage, type: float }
+              - { name: germans_above_70, type: int }
+              - { name: germans_above_70_percentage, type: float }
               - { name: germans_above_18_female, type: int }
               - { name: germans_above_18_female_percentage, type: float }
               - { name: germans_above_18_with_migration_background, type: int }
@@ -13805,8 +14643,8 @@ input_ports:
               - { name: between_45_and_60_percentage, type: int }
               - { name: between_60_and_70, type: float }
               - { name: between_60_and_70_percentage, type: float }
-              - { name: between_above_70, type: float }
-              - { name: between_above_70_percentage, type: float }
+              - { name: above_70, type: float }
+              - { name: above_70_percentage, type: float }
             skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-european-election-2019-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
@@ -14930,8 +15768,8 @@ input_ports:
               - { name: germans_between_45_and_60_percentage, type: float }
               - { name: germans_between_60_and_70, type: int }
               - { name: germans_between_60_and_70_percentage, type: float }
-              - { name: germans_between_above_70, type: int }
-              - { name: germans_between_above_70_percentage, type: float }
+              - { name: germans_above_70, type: int }
+              - { name: germans_above_70_percentage, type: float }
               - { name: germans_above_16_female, type: int }
               - { name: germans_above_16_female_percentage, type: float }
               - { name: germans_above_18_female, type: int }
@@ -15414,8 +16252,8 @@ input_ports:
               - { name: between_45_and_60_percentage, type: int }
               - { name: between_60_and_70, type: float }
               - { name: between_60_and_70_percentage, type: float }
-              - { name: between_above_70, type: float }
-              - { name: between_above_70_percentage, type: float }
+              - { name: above_70, type: float }
+              - { name: above_70_percentage, type: float }
             skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-european-election-2024-electoral-results-report-2-3-registered-german-inhabitants-above-18.csv
