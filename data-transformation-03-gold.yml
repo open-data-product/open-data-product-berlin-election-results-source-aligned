@@ -2952,24 +2952,24 @@ input_ports:
           - name: party_bsw
           - name: party_mera25
           - name: party_pdf
-          - { name: party_spd, action: "percentage", numerator: party_spd, denominator: valid_votes }
-          - { name: party_grüne, action: "percentage", numerator: party_grüne, denominator: valid_votes }
-          - { name: party_cdu, action: "percentage", numerator: party_cdu, denominator: valid_votes }
-          - { name: party_die_linke, action: "percentage", numerator: party_die_linke, denominator: valid_votes }
-          - { name: party_afd, action: "percentage", numerator: party_afd, denominator: valid_votes }
-          - { name: party_fdp, action: "percentage", numerator: party_fdp, denominator: valid_votes }
-          - { name: party_tierschutzpartei, action: "percentage", numerator: party_tierschutzpartei, denominator: valid_votes }
-          - { name: party_die_partei, action: "percentage", numerator: party_die_partei, denominator: valid_votes }
-          - { name: party_team_todenhöfer, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
-          - { name: party_freie_wähler, action: "percentage", numerator: party_freie_wähler, denominator: valid_votes }
-          - { name: party_volt, action: "percentage", numerator: party_volt, denominator: valid_votes }
-          - { name: party_mlpd, action: "percentage", numerator: party_mlpd, denominator: valid_votes }
-          - { name: party_büso, action: "percentage", numerator: party_büso, denominator: valid_votes }
-          - { name: party_sgp, action: "percentage", numerator: party_sgp, denominator: valid_votes }
-          - { name: party_bündnis_deutschland, action: "percentage", numerator: party_bündnis_deutschland, denominator: valid_votes }
-          - { name: party_bsw, action: "percentage", numerator: party_bsw, denominator: valid_votes }
-          - { name: party_mera25, action: "percentage", numerator: party_mera25, denominator: valid_votes }
-          - { name: party_pdf, action: "percentage", numerator: party_pdf, denominator: valid_votes }
+          - { name: party_spd_percentage, action: "percentage", numerator: party_spd, denominator: valid_votes }
+          - { name: party_grüne_percentage, action: "percentage", numerator: party_grüne, denominator: valid_votes }
+          - { name: party_cdu_percentage, action: "percentage", numerator: party_cdu, denominator: valid_votes }
+          - { name: party_die_linke_percentage, action: "percentage", numerator: party_die_linke, denominator: valid_votes }
+          - { name: party_afd_percentage, action: "percentage", numerator: party_afd, denominator: valid_votes }
+          - { name: party_fdp_percentage, action: "percentage", numerator: party_fdp, denominator: valid_votes }
+          - { name: party_tierschutzpartei_percentage, action: "percentage", numerator: party_tierschutzpartei, denominator: valid_votes }
+          - { name: party_die_partei_percentage, action: "percentage", numerator: party_die_partei, denominator: valid_votes }
+          - { name: party_team_todenhöfer_percentage, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
+          - { name: party_freie_wähler_percentage, action: "percentage", numerator: party_freie_wähler, denominator: valid_votes }
+          - { name: party_volt_percentage, action: "percentage", numerator: party_volt, denominator: valid_votes }
+          - { name: party_mlpd_percentage, action: "percentage", numerator: party_mlpd, denominator: valid_votes }
+          - { name: party_büso_percentage, action: "percentage", numerator: party_büso, denominator: valid_votes }
+          - { name: party_sgp_percentage, action: "percentage", numerator: party_sgp, denominator: valid_votes }
+          - { name: party_bündnis_deutschland_percentage, action: "percentage", numerator: party_bündnis_deutschland, denominator: valid_votes }
+          - { name: party_bsw_percentage, action: "percentage", numerator: party_bsw, denominator: valid_votes }
+          - { name: party_mera25_percentage, action: "percentage", numerator: party_mera25, denominator: valid_votes }
+          - { name: party_pdf_percentage, action: "percentage", numerator: party_pdf, denominator: valid_votes }
       - source_file_name: berlin-election-results-federal-election-2025-electoral-results-second-vote.csv
         target_file_name: berlin-election-results-federal-election-2025-electoral-results-second-vote-districts.csv
         aggregate_by: district_id
@@ -3005,24 +3005,24 @@ input_ports:
           - name: party_bsw
           - name: party_mera25
           - name: party_pdf
-          - { name: party_spd, action: "percentage", numerator: party_spd, denominator: valid_votes }
-          - { name: party_grüne, action: "percentage", numerator: party_grüne, denominator: valid_votes }
-          - { name: party_cdu, action: "percentage", numerator: party_cdu, denominator: valid_votes }
-          - { name: party_die_linke, action: "percentage", numerator: party_die_linke, denominator: valid_votes }
-          - { name: party_afd, action: "percentage", numerator: party_afd, denominator: valid_votes }
-          - { name: party_fdp, action: "percentage", numerator: party_fdp, denominator: valid_votes }
-          - { name: party_tierschutzpartei, action: "percentage", numerator: party_tierschutzpartei, denominator: valid_votes }
-          - { name: party_die_partei, action: "percentage", numerator: party_die_partei, denominator: valid_votes }
-          - { name: party_team_todenhöfer, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
-          - { name: party_freie_wähler, action: "percentage", numerator: party_freie_wähler, denominator: valid_votes }
-          - { name: party_volt, action: "percentage", numerator: party_volt, denominator: valid_votes }
-          - { name: party_mlpd, action: "percentage", numerator: party_mlpd, denominator: valid_votes }
-          - { name: party_büso, action: "percentage", numerator: party_büso, denominator: valid_votes }
-          - { name: party_sgp, action: "percentage", numerator: party_sgp, denominator: valid_votes }
-          - { name: party_bündnis_deutschland, action: "percentage", numerator: party_bündnis_deutschland, denominator: valid_votes }
-          - { name: party_bsw, action: "percentage", numerator: party_bsw, denominator: valid_votes }
-          - { name: party_mera25, action: "percentage", numerator: party_mera25, denominator: valid_votes }
-          - { name: party_pdf, action: "percentage", numerator: party_pdf, denominator: valid_votes }
+          - { name: party_spd_percentage, action: "percentage", numerator: party_spd, denominator: valid_votes }
+          - { name: party_grüne_percentage, action: "percentage", numerator: party_grüne, denominator: valid_votes }
+          - { name: party_cdu_percentage, action: "percentage", numerator: party_cdu, denominator: valid_votes }
+          - { name: party_die_linke_percentage, action: "percentage", numerator: party_die_linke, denominator: valid_votes }
+          - { name: party_afd_percentage, action: "percentage", numerator: party_afd, denominator: valid_votes }
+          - { name: party_fdp_percentage, action: "percentage", numerator: party_fdp, denominator: valid_votes }
+          - { name: party_tierschutzpartei_percentage, action: "percentage", numerator: party_tierschutzpartei, denominator: valid_votes }
+          - { name: party_die_partei_percentage, action: "percentage", numerator: party_die_partei, denominator: valid_votes }
+          - { name: party_team_todenhöfer_percentage, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
+          - { name: party_freie_wähler_percentage, action: "percentage", numerator: party_freie_wähler, denominator: valid_votes }
+          - { name: party_volt_percentage, action: "percentage", numerator: party_volt, denominator: valid_votes }
+          - { name: party_mlpd_percentage, action: "percentage", numerator: party_mlpd, denominator: valid_votes }
+          - { name: party_büso_percentage, action: "percentage", numerator: party_büso, denominator: valid_votes }
+          - { name: party_sgp_percentage, action: "percentage", numerator: party_sgp, denominator: valid_votes }
+          - { name: party_bündnis_deutschland_percentage, action: "percentage", numerator: party_bündnis_deutschland, denominator: valid_votes }
+          - { name: party_bsw_percentage, action: "percentage", numerator: party_bsw, denominator: valid_votes }
+          - { name: party_mera25_percentage, action: "percentage", numerator: party_mera25, denominator: valid_votes }
+          - { name: party_pdf_percentage, action: "percentage", numerator: party_pdf, denominator: valid_votes }
       - source_file_name: berlin-election-results-federal-election-2025-electoral-results-second-vote.csv
         target_file_name: berlin-election-results-federal-election-2025-electoral-results-second-vote-electoral-districts.csv
         names:
@@ -3058,24 +3058,24 @@ input_ports:
           - name: party_bsw
           - name: party_mera25
           - name: party_pdf
-          - { name: party_spd, action: "percentage", numerator: party_spd, denominator: valid_votes }
-          - { name: party_grüne, action: "percentage", numerator: party_grüne, denominator: valid_votes }
-          - { name: party_cdu, action: "percentage", numerator: party_cdu, denominator: valid_votes }
-          - { name: party_die_linke, action: "percentage", numerator: party_die_linke, denominator: valid_votes }
-          - { name: party_afd, action: "percentage", numerator: party_afd, denominator: valid_votes }
-          - { name: party_fdp, action: "percentage", numerator: party_fdp, denominator: valid_votes }
-          - { name: party_tierschutzpartei, action: "percentage", numerator: party_tierschutzpartei, denominator: valid_votes }
-          - { name: party_die_partei, action: "percentage", numerator: party_die_partei, denominator: valid_votes }
-          - { name: party_team_todenhöfer, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
-          - { name: party_freie_wähler, action: "percentage", numerator: party_freie_wähler, denominator: valid_votes }
-          - { name: party_volt, action: "percentage", numerator: party_volt, denominator: valid_votes }
-          - { name: party_mlpd, action: "percentage", numerator: party_mlpd, denominator: valid_votes }
-          - { name: party_büso, action: "percentage", numerator: party_büso, denominator: valid_votes }
-          - { name: party_sgp, action: "percentage", numerator: party_sgp, denominator: valid_votes }
-          - { name: party_bündnis_deutschland, action: "percentage", numerator: party_bündnis_deutschland, denominator: valid_votes }
-          - { name: party_bsw, action: "percentage", numerator: party_bsw, denominator: valid_votes }
-          - { name: party_mera25, action: "percentage", numerator: party_mera25, denominator: valid_votes }
-          - { name: party_pdf, action: "percentage", numerator: party_pdf, denominator: valid_votes }
+          - { name: party_spd_percentage, action: "percentage", numerator: party_spd, denominator: valid_votes }
+          - { name: party_grüne_percentage, action: "percentage", numerator: party_grüne, denominator: valid_votes }
+          - { name: party_cdu_percentage, action: "percentage", numerator: party_cdu, denominator: valid_votes }
+          - { name: party_die_linke_percentage, action: "percentage", numerator: party_die_linke, denominator: valid_votes }
+          - { name: party_afd_percentage, action: "percentage", numerator: party_afd, denominator: valid_votes }
+          - { name: party_fdp_percentage, action: "percentage", numerator: party_fdp, denominator: valid_votes }
+          - { name: party_tierschutzpartei_percentage, action: "percentage", numerator: party_tierschutzpartei, denominator: valid_votes }
+          - { name: party_die_partei_percentage, action: "percentage", numerator: party_die_partei, denominator: valid_votes }
+          - { name: party_team_todenhöfer_percentage, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
+          - { name: party_freie_wähler_percentage, action: "percentage", numerator: party_freie_wähler, denominator: valid_votes }
+          - { name: party_volt_percentage, action: "percentage", numerator: party_volt, denominator: valid_votes }
+          - { name: party_mlpd_percentage, action: "percentage", numerator: party_mlpd, denominator: valid_votes }
+          - { name: party_büso_percentage, action: "percentage", numerator: party_büso, denominator: valid_votes }
+          - { name: party_sgp_percentage, action: "percentage", numerator: party_sgp, denominator: valid_votes }
+          - { name: party_bündnis_deutschland_percentage, action: "percentage", numerator: party_bündnis_deutschland, denominator: valid_votes }
+          - { name: party_bsw_percentage, action: "percentage", numerator: party_bsw, denominator: valid_votes }
+          - { name: party_mera25_percentage, action: "percentage", numerator: party_mera25, denominator: valid_votes }
+          - { name: party_pdf_percentage, action: "percentage", numerator: party_pdf, denominator: valid_votes }
   - id: berlin-election-results-european-election-2019
     files:
       - source_file_name: berlin-election-results-european-election-2019-electoral-results.csv
