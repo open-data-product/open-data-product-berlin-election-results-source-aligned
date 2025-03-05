@@ -1,4 +1,4 @@
-electoral_district_id,electoral_district_name,total,between_18_and_25,between_18_and_25_percentage,between_25_and_35,between_25_and_35_percentage,between_35_and_45,between_35_and_45_percentage,between_45_and_60,between_45_and_60_percentage,between_60_and_70,between_60_and_70_percentage,between_above_70,between_above_70_percentage
+electoral_district_id,electoral_district_name,total,between_18_and_25,between_18_and_25_percentage,between_25_and_35,between_25_and_35_percentage,between_35_and_45,between_35_and_45_percentage,between_45_and_60,between_45_and_60_percentage,between_60_and_70,between_60_and_70_percentage,above_70,above_70_percentage
 75,Berlin-Mitte,205543,20902,10.2,50229,24.4,33266,16.2,49205,23.9,22482,10.9,29459,14.3
 76,Berlin-Pankow,236084,13671,5.8,45151,19.1,47633,20.2,68210,28.9,24843,10.5,36576,15.5
 77,Berlin-Reinickendorf,182483,14964,8.2,24057,13.2,20882,11.4,49861,27.3,28366,15.5,44353,24.3
