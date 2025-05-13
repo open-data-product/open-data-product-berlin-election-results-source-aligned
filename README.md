@@ -15,7 +15,7 @@
 
 ## About The Project
 
-See [data product canvas](docs/data-product-canvas.md).
+See [data product canvas](docs/data-product-canvas.md) and [ODPS canvas](./docs/odps-canvas.md).
 
 ### Built With
 
@@ -38,25 +38,32 @@ Run this command to generate and activate a virtual environment.
 
 ```shell
 uv venv
+source .venv/bin/activate
+```
+
+Run this command to re-install the Open Data Product Python library.
+
+```shell
+uv pip install --no-cache-dir git+https://github.com/open-data-product/open-data-product-python-lib.git
 ```
 
 Run this command to start the main script.
 
-```shell script
-python main.py [OPTION]...
+```shell
+Usage: main.py [OPTIONS]
 
-  -h, --help                           show this help
-  -c, --clean                          clean intermediate results before start
-  -q, --quiet                          do not log outputs
-
-Examples:
-  python main.py -c
+Options:
+  --clean BOOLEAN  Regenerate results
+  --quiet BOOLEAN  Do not log outputs
+  --help           Show this message and exit.
 ```
 
 ## Roadmap
 
-See the [open issues](https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/issues) for a list of proposed features (and
- known issues).
+See
+the [open issues](https://github.com/open-data-product/open-data-product-berlin-microcensus-housing-situation-source-aligned/issues)
+for a list of proposed features (and
+known issues).
 
 ## License
 
