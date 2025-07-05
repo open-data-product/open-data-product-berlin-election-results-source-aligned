@@ -1,4 +1,160 @@
 ---
+attribute_groups:
+  berlin-election-2011-by-district-second-vote: &berlin-election-2011-by-district-second-vote
+    - name: constituency_association
+    - { name: eligible_voters, type: int }
+    - { name: voters, type: int }
+    - { name: voter_turnout, type: int }
+    - { name: valid_votes, type: int }
+    - { name: party_spd, type: float }
+    - { name: party_cdu, type: float }
+    - { name: party_grüne, type: float }
+    - { name: party_die_linke, type: float }
+    - { name: party_piraten, type: float }
+    - { name: party_npd, type: float }
+    - { name: party_fdp, type: float }
+    - { name: others, type: float }
+  federal-election-2013-by-district-second-vote: &federal-election-2013-by-district-second-vote
+    - name: constituency_association
+    - { name: eligible_voters, type: int }
+    - { name: voters, type: int }
+    - { name: voter_turnout, type: float }
+    - { name: valid_votes, type: int }
+    - { name: party_spd, type: float }
+    - { name: party_cdu, type: float }
+    - { name: party_grüne, type: float }
+    - { name: party_die_linke, type: float }
+    - { name: party_piraten, type: float }
+    - { name: party_npd, type: float }
+    - { name: party_fdp, type: float }
+    - { name: party_afd, type: float }
+    - { name: others, type: float }
+  berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency: &berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
+    - name: district
+    - { name: total, type: int }
+    - { name: foreigners, type: int }
+    - { name: foreigners_percentage, type: float }
+    - { name: foreigners_from_eu_percentage, type: float }
+    - { name: germans_total, type: int }
+    - { name: germans_below_6, type: int }
+    - { name: germans_below_6_percentage, type: float }
+    - { name: germans_between_6_and_18, type: int }
+    - { name: germans_between_6_and_18_percentage, type: float }
+    - { name: germans_between_18_and_65, type: int }
+    - { name: germans_between_18_and_65_percentage, type: float }
+    - { name: germans_above_65, type: int }
+    - { name: germans_above_65_percentage, type: float }
+  berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency: &berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
+    - name: district
+    - { name: total, type: int }
+    - { name: female_total, type: int }
+    - { name: female_percentage, type: float }
+    - { name: eu_foreigners_total, type: int }
+    - { name: eu_foreigners_percentage, type: float }
+    - { name: between_16_and_18_total, type: int }
+    - { name: between_16_and_18_percentage, type: float }
+  berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency: &berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
+    - name: district
+    - { name: total, type: int }
+    - { name: between_18_and_25_total, type: int }
+    - { name: between_18_and_25_percentage, type: float }
+    - { name: between_25_and_35_total, type: int }
+    - { name: between_25_and_35_percentage, type: float }
+    - { name: between_35_and_45_total, type: int }
+    - { name: between_35_and_45_percentage, type: float }
+    - { name: between_45_and_60_total, type: int }
+    - { name: between_45_and_60_percentage, type: float }
+    - { name: between_60_and_70_total, type: int }
+    - { name: between_60_and_70_percentage, type: float }
+    - { name: between_70_and_above_total, type: int }
+    - { name: between_70_an_above_percentage, type: float }
+  berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency: &berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
+    - name: district
+    - { name: total, type: int }
+    - { name: migration_background_percentage, type: float }
+    - { name: single_percentage, type: float }
+    - { name: marriage_percentage, type: float }
+    - { name: widowed_percentage, type: float }
+    - { name: divorced_percentage, type: float }
+    - { name: civil_partnership_percentage, type: float }
+    - { name: evangelical_percentage, type: float }
+    - { name: roman_catholic_percentage, type: float }
+    - { name: simple_residential_area, type: float }
+    - { name: medium_residential_area, type: float }
+    - { name: good_residential_area, type: float }
+  berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency: &berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
+    - name: district
+    - { name: below_65, type: int }
+    - { name: residents_in_sgb_II_communities_of_need, type: int }
+    - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+  berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote: &berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
+    - name: electoral_district_id
+    - { name: eligible_voters, type: int }
+    - { name: voters, type: int }
+    - { name: voter_turnout, type: float }
+    - { name: valid_votes, type: int }
+    - { name: party_spd, type: float }
+    - { name: party_cdu, type: float }
+    - { name: party_grüne, type: float }
+    - { name: party_die_linke, type: float }
+    - { name: party_afd, type: float }
+    - { name: party_fdp, type: float }
+    - { name: others, type: float }
+  berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022: &berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
+    - name: electoral_district_id
+    - { name: total, type: int }
+    - { name: foreigners, type: int }
+    - { name: foreigners_percentage, type: float }
+    - { name: foreigners_from_eu_percentage, type: float }
+    - { name: germans_total, type: int }
+    - { name: germans_below_6, type: int }
+    - { name: germans_below_6_percentage, type: float }
+    - { name: germans_between_6_and_18, type: int }
+    - { name: germans_between_6_and_18_percentage, type: float }
+    - { name: germans_between_18_and_70, type: int }
+    - { name: germans_between_18_and_70_percentage, type: float }
+    - { name: germans_above_70, type: int }
+    - { name: germans_above_70_percentage, type: float }
+  berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022: &berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
+              - name: electoral_district_id
+              - { name: total, type: int }
+              - { name: germans_above_16_female, type: int }
+              - { name: germans_above_16_female_percentage, type: float }
+              - { name: foreigners_from_eu, type: int }
+              - { name: foreigners_from_eu_percentage, type: float }
+              - { name: between_16_and_18, type: int }
+              - { name: between_16_and_18_percentage, type: float }
+  berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022: &berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
+              - name: electoral_district_id
+              - { name: total, type: int }
+              - { name: between_18_and_25, type: int }
+              - { name: between_18_and_25_percentage, type: float }
+              - { name: between_25_and_35, type: int }
+              - { name: between_25_and_35_percentage, type: float }
+              - { name: between_35_and_45, type: int }
+              - { name: between_35_and_45_percentage, type: float }
+              - { name: between_45_and_60, type: int }
+              - { name: between_45_and_60_percentage, type: float }
+              - { name: between_60_and_70, type: int }
+              - { name: between_60_and_70_percentage, type: float }
+              - { name: 70_and-above, type: int }
+              - { name: 70_and-above_percentage, type: float }
+  berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022: &berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
+              - name: electoral_district_id
+              - { name: total, type: int }
+              - { name: with_migration_background_percentage, type: int }
+              - { name: single_percentage, type: float }
+              - { name: married_percentage, type: float }
+              - { name: widowed_percentage, type: float }
+              - { name: divorced_percentage, type: float }
+              - { name: civil_partnership_percentage, type: float }
+              - { name: evangelical_percentage, type: float }
+              - { name: roman_catholic_percentage, type: float }
+  berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022: &berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
+              - name: electoral_district_id
+              - { name: below_65, type: int }
+              - { name: residents_in_sgb_II_communities_of_need, type: int }
+              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
 input_ports:
   - id: berlin-election-results-berlin-election-2016
     files:
@@ -10,7 +166,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -75,7 +231,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -122,11 +278,11 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
-              - { name: electoral_district_berlin_election_id, action: remove }
+              - name: electoral_district_berlin_election_id
               - name: electoral_district_federal_election_id
               - name: berlin_east_west
               - { name: eligible_voters, type: int }
@@ -270,218 +426,62 @@ input_ports:
             skip_cols: 14
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-01-mitte.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 8
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-02-friedrichshain-kreuzberg.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 18
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-03-pankow.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 26
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-04-charlottenburg-wilmersdorf.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 38
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-05-spandau.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 48
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-06-steglitz-zehlendorf.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 56
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-07-tempelhof-schöneberg.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 66
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-08-neukölln.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 76
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-09-treptow-köpenick.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 86
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-10-marzahn-hellersdorf.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 95
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-11-lichtenberg.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 104
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-6-berlin-election-2011-by-district-second-vote-12-reinickendorf.csv
             sheet_name: 1.6
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: int }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2011-by-district-second-vote
             skip_rows: 113
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-7-federal-election-2013-by-district-second-vote.csv
@@ -505,1231 +505,382 @@ input_ports:
             head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-01-mitte.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 7
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-02-friedrichshain-kreuzberg.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 17
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-03-pankow.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 25
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-04-charlottenburg-wilmersdorf.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 37
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-05-spandau.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 47
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-06-steglitz-zehlendorf.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 55
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-07-tempelhof-schöneberg.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 65
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-08-neukölln.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 75
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-09-treptow-köpenick.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 85
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-10-marzahn-hellersdorf.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 94
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-11-lichtenberg.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 103
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-1-8-federal-election-2013-by-district-second-vote-12-reinickendorf.csv
             sheet_name: 1.8
-            names:
-              - name: constituency_association
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_piraten, type: float }
-              - { name: party_npd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: party_afd, type: float }
-              - { name: others, type: float }
+            names: *federal-election-2013-by-district-second-vote
             skip_rows: 112
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-1-registered-inhabitants-december-2015-by-constituency-association.csv
             sheet_name: 2.1
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 9
             head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-01-mitte.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 10
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 20
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-03-pankow.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 28
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 40
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-05-spandau.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 50
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-06-steglitz-zehlendorf.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 58
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-07-tempelhof-schöneberg.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 68
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-08-neukölln.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 78
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-09-treptow-köpenick.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 88
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-10-marzahn-hellersdorf.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 97
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-11-lichtenberg.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 106
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv
             sheet_name: 2.2
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_65, type: int }
-              - { name: germans_between_18_and_65_percentage, type: float }
-              - { name: germans_above_65, type: int }
-              - { name: germans_above_65_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-2-registered-inhabitants-december-2015-by-constituency
             skip_rows: 115
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-3-registered-inhabitants-december-2015-by-constituency-association.csv
             sheet_name: 2.3
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-01-mitte.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 9
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 19
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-03-pankow.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 27
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 39
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-06-steglitz-zehlendorf.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 57
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-07-tempelhof-schöneberg.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 67
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-08-neukölln.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 77
             head: 8
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-09-treptow-köpenick.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 87
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-10-marzahn-hellersdorf.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 96
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-11-lichtenberg.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 105
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv
             sheet_name: 2.4
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: female_total, type: int }
-              - { name: female_percentage, type: float }
-              - { name: eu_foreigners_total, type: int }
-              - { name: eu_foreigners_percentage, type: float }
-              - { name: between_16_and_18_total, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-4-registered-inhabitants-december-2015-by-constituency
             skip_rows: 114
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-5-registered-inhabitants-december-2015-by-constituency-association.csv
             sheet_name: 2.5
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-01-mitte.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 9
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 19
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-03-pankow.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 27
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 39
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-05-spandau.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 49
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-06-steglitz-zehlendorf.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 57
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-07-tempelhof-schöneberg.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 67
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-08-neukölln.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 77
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-09-treptow-köpenick.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 87
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-10-marzahn-hellersdorf.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 96
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-11-lichtenberg.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 105
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv
             sheet_name: 2.6
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: between_18_and_25_total, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35_total, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45_total, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60_total, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70_total, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: between_70_and_above_total, type: int }
-              - { name: between_70_an_above_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-6-registered-inhabitants-december-2015-by-constituency
             skip_rows: 114
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-7-registered-inhabitants-december-2015-by-constituency-association.csv
             sheet_name: 2.7
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 8
             head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-01-mitte.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 9
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 19
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-03-pankow.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 27
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 39
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-05-spandau.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 49
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-06-steglitz-zehlendorf.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 57
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-07-tempelhof-schöneberg.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 67
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-08-neukölln.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 77
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-09-treptow-köpenick.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 87
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-10-marzahn-hellersdorf.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 96
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-11-lichtenberg.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 105
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv
             sheet_name: 2.8
-            names:
-              - name: district
-              - { name: total, type: int }
-              - { name: migration_background_percentage, type: float }
-              - { name: single_percentage, type: float }
-              - { name: marriage_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
-              - { name: simple_residential_area, type: float }
-              - { name: medium_residential_area, type: float }
-              - { name: good_residential_area, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-8-registered-inhabitants-december-2015-by-constituency
             skip_rows: 114
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-9-registered-inhabitants-december-2015-by-constituency-association.csv
             sheet_name: 2.9
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 7
             head: 12
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-01-mitte.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 8
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 18
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-03-pankow.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 26
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 38
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-05-spandau.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 48
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-06-steglitz-zehlendorf.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 56
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-07-tempelhof-schöneberg.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 66
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-08-neukölln.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 76
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-09-treptow-köpenick.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 86
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-10-marzahn-hellersdorf.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 95
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-11-lichtenberg.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 104
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency-12-reinickendorf.csv
             sheet_name: 2.10
-            names:
-              - name: district
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2016-pre-electoral-data-2-10-registered-inhabitants-december-2015-by-constituency
             skip_rows: 113
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2016-pre-electoral-data-2-11-registered-inhabitants-december-2015-by-constituency-association.csv
@@ -1758,7 +909,7 @@ input_ports:
             sheet_name: 2011_Zweitstimmen
             names:
               - name: id
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -1792,7 +943,7 @@ input_ports:
             sheet_name: 2013_Zweitstimme
             names:
               - name: id
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -1828,7 +979,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: id
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -2431,7 +1582,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -2501,7 +1652,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -2559,7 +1710,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -4983,1312 +4134,422 @@ input_ports:
             skip_cols: 17
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-01-mitte.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 8
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 18
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-03-pankow.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 27
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 39
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-05-spandau.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 49
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-06-steglitz-zehlendorf.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 57
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-07-tempelhof-schöneberg.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 67
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-08-neukölln.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 77
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-09-treptow-köpenick.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 86
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-10-marzahn-hellersdorf.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 95
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-11-lichtenberg.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 104
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote-12-reinickendorf.csv
             sheet_name: 2.7
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 113
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-01-mitte.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 8
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-02-friedrichshain-kreuzberg.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 18
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-03-pankow.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 27
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-04-charlottenburg-wilmersdorf.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 39
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-05-spandau.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 49
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-06-steglitz-zehlendorf.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 57
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-07-tempelhof-schöneberg.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 67
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-08-neukölln.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 77
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-09-treptow-köpenick.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 86
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-10-marzahn-hellersdorf.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 95
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-11-lichtenberg.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 104
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-2-8-berlin-election-2016-second-vote-12-reinickendorf.csv
             sheet_name: 2.8
-            names:
-              - name: electoral_district_id
-              - { name: eligible_voters, type: int }
-              - { name: voters, type: int }
-              - { name: voter_turnout, type: float }
-              - { name: valid_votes, type: int }
-              - { name: party_spd, type: float }
-              - { name: party_cdu, type: float }
-              - { name: party_grüne, type: float }
-              - { name: party_die_linke, type: float }
-              - { name: party_afd, type: float }
-              - { name: party_fdp, type: float }
-              - { name: others, type: float }
+            names: *berlin-election-2023-pre-electoral-data-2-7-berlin-election-2021-second-vote
             skip_rows: 113
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-01-mitte.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 10
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-02-friedrichshain-kreuzberg.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 20
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-03-pankow.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 29
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-04-charlottenburg-wilmersdorf.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 41
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-05-spandau.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 51
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-06-steglitz-zehlendorf.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 59
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-07-tempelhof-schöneberg.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 69
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-08-neukölln.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 79
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-09-treptow-köpenick.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 88
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-10-marzahn-hellersdorf.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 97
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-11-lichtenberg.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 106
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022-12-reinickendorf.csv
             sheet_name: 3.1
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: foreigners, type: int }
-              - { name: foreigners_percentage, type: float }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: germans_total, type: int }
-              - { name: germans_below_6, type: int }
-              - { name: germans_below_6_percentage, type: float }
-              - { name: germans_between_6_and_18, type: int }
-              - { name: germans_between_6_and_18_percentage, type: float }
-              - { name: germans_between_18_and_70, type: int }
-              - { name: germans_between_18_and_70_percentage, type: float }
-              - { name: germans_above_70, type: int }
-              - { name: germans_above_70_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-1-registered-inhabitants-june-2022
             skip_rows: 115
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-01-mitte.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 9
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-02-friedrichshain-kreuzberg.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 19
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-03-pankow.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 28
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-04-charlottenburg-wilmersdorf.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 40
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-05-spandau.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 50
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-06-steglitz-zehlendorf.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 58
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-07-tempelhof-schöneberg.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 68
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-08-neukölln.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 78
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-09-treptow-köpenick.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 87
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-10-marzahn-hellersdorf.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 96
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-11-lichtenberg.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 105
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022-12-reinickendorf.csv
             sheet_name: 3.2
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: germans_above_16_female, type: int }
-              - { name: germans_above_16_female_percentage, type: float }
-              - { name: foreigners_from_eu, type: int }
-              - { name: foreigners_from_eu_percentage, type: float }
-              - { name: between_16_and_18, type: int }
-              - { name: between_16_and_18_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-2-registered-inhabitants-june-2022
             skip_rows: 114
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-01-mitte.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 9
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-02-friedrichshain-kreuzberg.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 19
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-03-pankow.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 28
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-04-charlottenburg-wilmersdorf.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 40
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-05-spandau.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 50
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-06-steglitz-zehlendorf.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 58
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-07-tempelhof-schöneberg.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 68
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-08-neukölln.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 78
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-09-treptow-köpenick.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 87
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-10-marzahn-hellersdorf.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 96
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-11-lichtenberg.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 105
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022-12-reinickendorf.csv
             sheet_name: 3.3
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: between_18_and_25, type: int }
-              - { name: between_18_and_25_percentage, type: float }
-              - { name: between_25_and_35, type: int }
-              - { name: between_25_and_35_percentage, type: float }
-              - { name: between_35_and_45, type: int }
-              - { name: between_35_and_45_percentage, type: float }
-              - { name: between_45_and_60, type: int }
-              - { name: between_45_and_60_percentage, type: float }
-              - { name: between_60_and_70, type: int }
-              - { name: between_60_and_70_percentage, type: float }
-              - { name: 70_and-above, type: int }
-              - { name: 70_and-above_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-3-registered-inhabitants-june-2022
             skip_rows: 114
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-01-mitte.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 9
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-02-friedrichshain-kreuzberg.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 19
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-03-pankow.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 28
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-04-charlottenburg-wilmersdorf.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 40
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-05-spandau.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 50
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-06-steglitz-zehlendorf.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 58
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-07-tempelhof-schöneberg.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 68
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-08-neukölln.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 78
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-09-treptow-köpenick.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 87
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-10-marzahn-hellersdorf.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 96
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-11-lichtenberg.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 105
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022-12-reinickendorf.csv
             sheet_name: 3.4
-            names:
-              - name: electoral_district_id
-              - { name: total, type: int }
-              - { name: with_migration_background_percentage, type: int }
-              - { name: single_percentage, type: float }
-              - { name: married_percentage, type: float }
-              - { name: widowed_percentage, type: float }
-              - { name: divorced_percentage, type: float }
-              - { name: civil_partnership_percentage, type: float }
-              - { name: evangelical_percentage, type: float }
-              - { name: roman_catholic_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-4-registered-inhabitants-june-2022
             skip_rows: 114
             head: 6
-
-
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-01-mitte.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 9
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-02-friedrichshain-kreuzberg.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 19
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-03-pankow.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 28
             head: 9
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-04-charlottenburg-wilmersdorf.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 40
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-05-spandau.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 49
             head: 5
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-06-steglitz-zehlendorf.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 57
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-07-tempelhof-schöneberg.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 67
             head: 7
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-08-neukölln.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 77
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-09-treptow-köpenick.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 86
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-10-marzahn-hellersdorf.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 95
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-11-lichtenberg.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 104
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022-12-reinickendorf.csv
             sheet_name: 3.5
-            names:
-              - name: electoral_district_id
-              - { name: below_65, type: int }
-              - { name: residents_in_sgb_II_communities_of_need, type: int }
-              - { name: residents_in_sgb_II_communities_of_need_percentage, type: float }
+            names: *berlin-election-2023-pre-electoral-data-3-5-registered-inhabitants-june-2022
             skip_rows: 113
             head: 6
           - target_file_name: berlin-election-results-berlin-election-2023-pre-electoral-data-3-6-registered-inhabitants-june-2022.csv
@@ -6317,7 +4578,7 @@ input_ports:
             sheet_name: 2016_Zweitstimme
             names:
               - name: id
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -6350,7 +4611,7 @@ input_ports:
             sheet_name: 2017_Zweitstimme
             names:
               - name: id
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -6383,7 +4644,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -7603,7 +5864,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -7661,7 +5922,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -9880,7 +8141,7 @@ input_ports:
             sheet_name: 2016_Zweitstimme
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -9914,7 +8175,7 @@ input_ports:
             sheet_name: 2013_Zweitstimme
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -10338,7 +8599,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -10400,7 +8661,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -12527,7 +10788,7 @@ input_ports:
             sheet_name: 2016_Zweitstimme
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -12561,7 +10822,7 @@ input_ports:
             sheet_name: 2017_Zweitstimme
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -12982,7 +11243,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -13066,7 +11327,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -13111,7 +11372,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -13377,7 +11638,7 @@ input_ports:
             sheet_name: 2023_Zweitstimme
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -13410,7 +11671,7 @@ input_ports:
             sheet_name: 2021+2024_Zweitstimme
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -14029,7 +12290,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -14090,7 +12351,7 @@ input_ports:
             sheet_name: 2017_Zweitstimme
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -14124,7 +12385,7 @@ input_ports:
             sheet_name: 2014
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -14156,7 +12417,7 @@ input_ports:
             sheet_name: Strukturdaten
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -15593,7 +13854,7 @@ input_ports:
             sheet_name: Berlin_Europawahl_W
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_type
               - name: electoral_district_id
@@ -15693,7 +13954,7 @@ input_ports:
             sheet_name: 2019
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -15724,7 +13985,7 @@ input_ports:
             sheet_name: Daten
             names:
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: postal_voting_district_id
@@ -16308,13 +14569,13 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen.csv
             sheet_name: VE
             names:
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
                 value_mapping:
-                    Urnenwahlbezirk: electoral_district
-                    Briefwahlbezirk: postal_voting_district
+                  Urnenwahlbezirk: electoral_district
+                  Briefwahlbezirk: postal_voting_district
               - { name: eligible_voters, type: int }
               - { name: eligible_voters_a1, type: int }
               - { name: eligible_voters_a2, type: int }
@@ -16334,7 +14595,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion.csv
             sheet_name: VE
             names:
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -16360,7 +14621,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe.csv
             sheet_name: VE
             names:
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -16386,7 +14647,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply.csv
             sheet_name: VE
             names:
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -16412,7 +14673,7 @@ input_ports:
           - target_file_name: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld.csv
             sheet_name: VE
             names:
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -16447,7 +14708,7 @@ input_ports:
             names:
               - name: address
               - name: vote_type
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -16478,7 +14739,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
@@ -16511,7 +14772,7 @@ input_ports:
             names:
               - name: vote_type
               - name: address
-              - { name: district_id, zfill: 2}
+              - { name: district_id, zfill: 2 }
               - name: district_name
               - name: electoral_district_id
               - name: electoral_district_type
