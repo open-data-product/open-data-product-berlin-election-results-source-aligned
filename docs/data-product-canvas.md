@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 ## Input Ports
 
@@ -231,7 +231,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2016-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -250,7 +250,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2023-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -269,7 +269,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2019-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -282,7 +282,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2024-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -295,7 +295,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2017-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -311,7 +311,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2021-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -327,7 +327,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2025-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -343,7 +343,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -356,7 +356,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -369,7 +369,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -382,7 +382,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -395,7 +395,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -408,7 +408,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -421,7 +421,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 
@@ -434,7 +434,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv
 * license: GPLv3
-* updated: 2025-10-27
+* updated: 2025-10-28
 
 **Files**
 

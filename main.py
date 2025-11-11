@@ -33,7 +33,6 @@ from opendataproduct.document.odps_canvas_generator import generate_odps_canvas
 from opendataproduct.extract.data_extractor import extract_data
 from opendataproduct.transform.data_aggregator import aggregate_data
 from opendataproduct.transform.data_copier import copy_data
-from opendataproduct.transform.data_csv_aggregator import aggregate_csv_data
 from opendataproduct.transform.data_csv_converter import convert_data_to_csv
 
 file_path = os.path.realpath(__file__)
