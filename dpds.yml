@@ -1,0 +1,610 @@
+---
+dataProductDescriptor: data-product-descriptor
+info:
+  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:berlin-election-results-source-aligned:1.0
+  name: Berlin Election Results
+  version: '1.0'
+  domain: domain
+  owner:
+    id: Open Data product
+    name: Open Data product
+  id: berlin-election-results-source-aligned
+  entityType:
+  displayName: Berlin Election Results
+  description: This data product provides Berlin election results
+  contactPoints:
+interfaceComponents:
+  outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-berlin-election-2016-csv
+      fullyQualifiedName: berlin-election-results-berlin-election-2016-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-berlin-election-2016-parquet
+      fullyQualifiedName: berlin-election-results-berlin-election-2016-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-berlin-election-2023-csv
+      fullyQualifiedName: berlin-election-results-berlin-election-2023-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-berlin-election-2023-parquet
+      fullyQualifiedName: berlin-election-results-berlin-election-2023-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-european-election-2019-csv
+      fullyQualifiedName: berlin-election-results-european-election-2019-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-european-election-2019-parquet
+      fullyQualifiedName: berlin-election-results-european-election-2019-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-european-election-2024-csv
+      fullyQualifiedName: berlin-election-results-european-election-2024-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-european-election-2024-parquet
+      fullyQualifiedName: berlin-election-results-european-election-2024-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2017-csv
+      fullyQualifiedName: berlin-election-results-federal-election-2017-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2017-parquet
+      fullyQualifiedName: berlin-election-results-federal-election-2017-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2021-csv
+      fullyQualifiedName: berlin-election-results-federal-election-2021-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2021-parquet
+      fullyQualifiedName: berlin-election-results-federal-election-2021-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2025-csv
+      fullyQualifiedName: berlin-election-results-federal-election-2025-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2025-parquet
+      fullyQualifiedName: berlin-election-results-federal-election-2025-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-csv
+      fullyQualifiedName: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-csv
+      fullyQualifiedName: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-csv
+      fullyQualifiedName: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-csv
+      fullyQualifiedName: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-csv
+      fullyQualifiedName: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-csv
+      fullyQualifiedName: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-csv
+      fullyQualifiedName: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv
+      fullyQualifiedName: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-parquet
+      fullyQualifiedName: berlin-election-results-referendum-2023-berlin-2030-klimaneutral-parquet
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  inputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-berlin-election-2016
+      fullyQualifiedName: berlin-election-results-berlin-election-2016
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-berlin-election-2023
+      fullyQualifiedName: berlin-election-results-berlin-election-2023
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2017
+      fullyQualifiedName: berlin-election-results-federal-election-2017
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2021
+      fullyQualifiedName: berlin-election-results-federal-election-2021
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-federal-election-2025
+      fullyQualifiedName: berlin-election-results-federal-election-2025
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-european-election-2019
+      fullyQualifiedName: berlin-election-results-european-election-2019
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-european-election-2024
+      fullyQualifiedName: berlin-election-results-european-election-2024
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
+      fullyQualifiedName: berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
+      fullyQualifiedName: berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
+      fullyQualifiedName: berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
+      fullyQualifiedName: berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
+      fullyQualifiedName: berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
+      fullyQualifiedName: berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
+      fullyQualifiedName: berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
+      fullyQualifiedName: berlin-election-results-referendum-2023-berlin-2030-klimaneutral
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  discoveryPorts:
+  observabilityPorts:
+  controlPorts:
+internalComponents:
+components:
+tags:
+externalDocs:

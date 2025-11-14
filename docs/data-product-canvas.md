@@ -7,7 +7,7 @@
 * description: This data product provides Berlin election results
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 ## Input Ports
 
@@ -231,7 +231,7 @@
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2016-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -245,12 +245,31 @@
 * [berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-csv/berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.csv)
 * [berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-csv/berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.csv)
 
+### Berlin Election Results Berlin Election 2016 Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-district-council-city.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-district-council-districts.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-district-council-electoral-districts.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-first-vote-city.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-first-vote-districts.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-first-vote-electoral-districts.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-second-vote-city.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-second-vote-districts.parquet)
+* [berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2016-parquet/berlin-election-results-berlin-election-2016-electoral-results-second-vote-electoral-districts.parquet)
+
 ### Berlin Election Results Berlin Election 2023 Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2023-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -264,12 +283,31 @@
 * [berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-csv/berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv)
 * [berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-csv/berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv)
 
+### Berlin Election Results Berlin Election 2023 Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-berlin-election-2023-electoral-results-district-council-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-district-council-city.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.parquet)
+* [berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-berlin-election-2023-parquet/berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.parquet)
+
 ### Berlin Election Results European Election 2019 Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2019-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -277,12 +315,25 @@
 * [berlin-election-results-european-election-2019-electoral-results-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019-csv/berlin-election-results-european-election-2019-electoral-results-districts.csv)
 * [berlin-election-results-european-election-2019-electoral-results-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019-csv/berlin-election-results-european-election-2019-electoral-results-electoral-districts.csv)
 
+### Berlin Election Results European Election 2019 Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2019-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-european-election-2019-electoral-results-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019-parquet/berlin-election-results-european-election-2019-electoral-results-city.parquet)
+* [berlin-election-results-european-election-2019-electoral-results-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019-parquet/berlin-election-results-european-election-2019-electoral-results-districts.parquet)
+* [berlin-election-results-european-election-2019-electoral-results-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2019-parquet/berlin-election-results-european-election-2019-electoral-results-electoral-districts.parquet)
+
 ### Berlin Election Results European Election 2024 Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2024-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -290,12 +341,25 @@
 * [berlin-election-results-european-election-2024-electoral-results-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2024-csv/berlin-election-results-european-election-2024-electoral-results-districts.csv)
 * [berlin-election-results-european-election-2024-electoral-results-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2024-csv/berlin-election-results-european-election-2024-electoral-results-electoral-districts.csv)
 
+### Berlin Election Results European Election 2024 Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-european-election-2024-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-european-election-2024-electoral-results-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2024-parquet/berlin-election-results-european-election-2024-electoral-results-city.parquet)
+* [berlin-election-results-european-election-2024-electoral-results-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2024-parquet/berlin-election-results-european-election-2024-electoral-results-districts.parquet)
+* [berlin-election-results-european-election-2024-electoral-results-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-european-election-2024-parquet/berlin-election-results-european-election-2024-electoral-results-electoral-districts.parquet)
+
 ### Berlin Election Results Federal Election 2017 Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2017-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -306,12 +370,28 @@
 * [berlin-election-results-federal-election-2017-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-csv/berlin-election-results-federal-election-2017-electoral-results-second-vote-districts.csv)
 * [berlin-election-results-federal-election-2017-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-csv/berlin-election-results-federal-election-2017-electoral-results-second-vote-electoral-districts.csv)
 
+### Berlin Election Results Federal Election 2017 Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2017-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-federal-election-2017-electoral-results-first-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-parquet/berlin-election-results-federal-election-2017-electoral-results-first-vote-city.parquet)
+* [berlin-election-results-federal-election-2017-electoral-results-first-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-parquet/berlin-election-results-federal-election-2017-electoral-results-first-vote-districts.parquet)
+* [berlin-election-results-federal-election-2017-electoral-results-first-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-parquet/berlin-election-results-federal-election-2017-electoral-results-first-vote-electoral-districts.parquet)
+* [berlin-election-results-federal-election-2017-electoral-results-second-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-parquet/berlin-election-results-federal-election-2017-electoral-results-second-vote-city.parquet)
+* [berlin-election-results-federal-election-2017-electoral-results-second-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-parquet/berlin-election-results-federal-election-2017-electoral-results-second-vote-districts.parquet)
+* [berlin-election-results-federal-election-2017-electoral-results-second-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2017-parquet/berlin-election-results-federal-election-2017-electoral-results-second-vote-electoral-districts.parquet)
+
 ### Berlin Election Results Federal Election 2021 Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2021-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -322,12 +402,28 @@
 * [berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-csv/berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.csv)
 * [berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-csv/berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.csv)
 
+### Berlin Election Results Federal Election 2021 Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2021-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-federal-election-2021-electoral-results-first-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-parquet/berlin-election-results-federal-election-2021-electoral-results-first-vote-city.parquet)
+* [berlin-election-results-federal-election-2021-electoral-results-first-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-parquet/berlin-election-results-federal-election-2021-electoral-results-first-vote-districts.parquet)
+* [berlin-election-results-federal-election-2021-electoral-results-first-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-parquet/berlin-election-results-federal-election-2021-electoral-results-first-vote-electoral-districts.parquet)
+* [berlin-election-results-federal-election-2021-electoral-results-second-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-parquet/berlin-election-results-federal-election-2021-electoral-results-second-vote-city.parquet)
+* [berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-parquet/berlin-election-results-federal-election-2021-electoral-results-second-vote-districts.parquet)
+* [berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2021-parquet/berlin-election-results-federal-election-2021-electoral-results-second-vote-electoral-districts.parquet)
+
 ### Berlin Election Results Federal Election 2025 Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2025-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -338,12 +434,28 @@
 * [berlin-election-results-federal-election-2025-electoral-results-second-vote-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-csv/berlin-election-results-federal-election-2025-electoral-results-second-vote-districts.csv)
 * [berlin-election-results-federal-election-2025-electoral-results-second-vote-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-csv/berlin-election-results-federal-election-2025-electoral-results-second-vote-electoral-districts.csv)
 
+### Berlin Election Results Federal Election 2025 Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-federal-election-2025-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-federal-election-2025-electoral-results-first-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-parquet/berlin-election-results-federal-election-2025-electoral-results-first-vote-city.parquet)
+* [berlin-election-results-federal-election-2025-electoral-results-first-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-parquet/berlin-election-results-federal-election-2025-electoral-results-first-vote-districts.parquet)
+* [berlin-election-results-federal-election-2025-electoral-results-first-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-parquet/berlin-election-results-federal-election-2025-electoral-results-first-vote-electoral-districts.parquet)
+* [berlin-election-results-federal-election-2025-electoral-results-second-vote-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-parquet/berlin-election-results-federal-election-2025-electoral-results-second-vote-city.parquet)
+* [berlin-election-results-federal-election-2025-electoral-results-second-vote-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-parquet/berlin-election-results-federal-election-2025-electoral-results-second-vote-districts.parquet)
+* [berlin-election-results-federal-election-2025-electoral-results-second-vote-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-federal-election-2025-parquet/berlin-election-results-federal-election-2025-electoral-results-second-vote-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -351,12 +463,25 @@
 * [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-csv/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.csv)
 * [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-csv/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2008 Tempelhof Bleibt Verkehrsflughafen Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-parquet/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-city.parquet)
+* [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-parquet/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-districts.parquet)
+* [berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-parquet/berlin-election-results-referendum-2008-tempelhof-bleibt-verkehrsflughafen-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2009 On The Introduction Of The Compulsory Elective Subject Ethics Religion Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -364,12 +489,25 @@
 * [berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-csv/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.csv)
 * [berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-csv/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2009 On The Introduction Of The Compulsory Elective Subject Ethics Religion Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-parquet/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-city.parquet)
+* [berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-parquet/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-districts.parquet)
+* [berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-parquet/berlin-election-results-referendum-2009-on-the-introduction-of-the-compulsory-elective-subject-ethics-religion-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2011 On The Disclosure Of The Partial Privatisation Contracts At Berliner Wasserbetriebe Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -377,12 +515,25 @@
 * [berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-csv/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.csv)
 * [berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-csv/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2011 On The Disclosure Of The Partial Privatisation Contracts At Berliner Wasserbetriebe Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-parquet/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-city.parquet)
+* [berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-parquet/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-districts.parquet)
+* [berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-parquet/berlin-election-results-referendum-2011-on-the-disclosure-of-the-partial-privatisation-contracts-at-berliner-wasserbetriebe-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2013 On The Remunicipalisation Of Berlins Energy Supply Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -390,12 +541,25 @@
 * [berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-csv/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.csv)
 * [berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-csv/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2013 On The Remunicipalisation Of Berlins Energy Supply Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-parquet/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-city.parquet)
+* [berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-parquet/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-districts.parquet)
+* [berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-parquet/berlin-election-results-referendum-2013-on-the-remunicipalisation-of-berlins-energy-supply-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2014 On The Preservation Of Tempelhofer Feld Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -403,12 +567,25 @@
 * [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-csv/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.csv)
 * [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-csv/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2014 On The Preservation Of Tempelhofer Feld Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-parquet/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-city.parquet)
+* [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-parquet/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-districts.parquet)
+* [berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-parquet/berlin-election-results-referendum-2014-on-the-preservation-of-tempelhofer-feld-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2017 On The Continued Operation Of Tegel Airport Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -416,12 +593,25 @@
 * [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-csv/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.csv)
 * [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-csv/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2017 On The Continued Operation Of Tegel Airport Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-parquet/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-city.parquet)
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-parquet/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-districts.parquet)
+* [berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-parquet/berlin-election-results-referendum-2017-on-the-continued-operation-of-tegel-airport-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2021 Deutsche Wohnen Und Co Enteignen Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
@@ -429,18 +619,44 @@
 * [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-csv/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.csv)
 * [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-csv/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.csv)
 
+### Berlin Election Results Referendum 2021 Deutsche Wohnen Und Co Enteignen Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-parquet/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-city.parquet)
+* [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-parquet/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-districts.parquet)
+* [berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-parquet/berlin-election-results-referendum-2021-deutsche-wohnen-und-co-enteignen-electoral-districts.parquet)
+
 ### Berlin Election Results Referendum 2023 Berlin 2030 Klimaneutral Csv
 
 * owner: Open Data Product
 * url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv
 * license: GPLv3
-* updated: 2025-10-28
+* updated: 2025-10-29
 
 **Files**
 
 * [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.csv)
 * [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.csv)
 * [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-csv/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.csv)
+
+### Berlin Election Results Referendum 2023 Berlin 2030 Klimaneutral Parquet
+
+* owner: Open Data Product
+* url: https://github.com/open-data-product/open-data-product-berlin-election-results-source-aligned/tree/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-parquet
+* license: GPLv3
+* updated: 2025-10-29
+
+**Files**
+
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-parquet/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-city.parquet)
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-parquet/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-districts.parquet)
+* [berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.parquet](https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-source-aligned/main/data/03-gold/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-parquet/berlin-election-results-referendum-2023-berlin-2030-klimaneutral-electoral-districts.parquet)
 
 ## Classification
 

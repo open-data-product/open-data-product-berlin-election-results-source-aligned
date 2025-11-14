@@ -1,19 +1,18 @@
 
-# Open Data Product Specification (ODPS) Canvas - Berlin Election Results source-aligned
+# Open Data Product Specification (ODPS) Canvas - Berlin Election Results
 
 * schema version: 3.1
 ## Product
 
 ### Basic Information
 
-* output file formats: csv
 * categories: timeseries
-* description: Data product providing Berlin election results data
-* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-election-results-yearly-source-aligned/refs/heads/main/logo-with-text.png
+* description: This data product provides Berlin election results
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
 * product ID: berlin-election-results-source-aligned
 * product series: Berlin Timeseries Series
 * status: active
-* tags: Berlin, election
+* tags: berlin, election
 * type: source-aligned
 * value proposition: Providing Berlin election results data
 * version: 1.0
