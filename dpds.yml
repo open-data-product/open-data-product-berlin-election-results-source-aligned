@@ -44,8 +44,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-election-results-berlin-election-2023-csv
-      fullyQualifiedName: berlin-election-results-berlin-election-2023-csv
+      id: berlin-election-results-berlin-election-2021-csv
+      fullyQualifiedName: berlin-election-results-berlin-election-2021-csv
       entityType:
       name: ''
       version:
@@ -57,8 +57,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-election-results-berlin-election-2023-parquet
-      fullyQualifiedName: berlin-election-results-berlin-election-2023-parquet
+      id: berlin-election-results-berlin-election-2021-parquet
+      fullyQualifiedName: berlin-election-results-berlin-election-2021-parquet
       entityType:
       name: ''
       version:
@@ -422,8 +422,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-election-results-berlin-election-2023
-      fullyQualifiedName: berlin-election-results-berlin-election-2023
+      id: berlin-election-results-berlin-election-2021
+      fullyQualifiedName: berlin-election-results-berlin-election-2021
       entityType:
       name: ''
       version:

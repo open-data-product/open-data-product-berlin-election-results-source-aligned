@@ -884,10 +884,10 @@ input_ports:
           - { name: party_ökolinx-arl_b_f-k_percentage, action: "percentage", numerator: party_ökolinx-arl_b_f-k, denominator: valid_votes }
           - { name: party_pne_percentage, action: "percentage", numerator: party_pne, denominator: valid_votes }
           - { name: party_banc_percentage, action: "percentage", numerator: party_banc, denominator: valid_votes }
-  - id: berlin-election-results-berlin-election-2023
+  - id: berlin-election-results-berlin-election-2021
     files:
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-city.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote-city.csv
         aggregate_by: total
         names:
           - name: id
@@ -998,8 +998,8 @@ input_ports:
           - { name: individual_applicant_10_percentage, action: "percentage", numerator: individual_applicant_10, denominator: valid_votes }
           - { name: individual_applicant_11_percentage, action: "percentage", numerator: individual_applicant_11, denominator: valid_votes }
           - { name: individual_applicant_12_percentage, action: "percentage", numerator: individual_applicant_12, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-districts.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote-districts.csv
         aggregate_by: district_id
         names:
           - { name: id, action: "copy", copy: district_id, zfill: 2 }
@@ -1111,8 +1111,8 @@ input_ports:
           - { name: individual_applicant_10_percentage, action: "percentage", numerator: individual_applicant_10, denominator: valid_votes }
           - { name: individual_applicant_11_percentage, action: "percentage", numerator: individual_applicant_11, denominator: valid_votes }
           - { name: individual_applicant_12_percentage, action: "percentage", numerator: individual_applicant_12, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-first-vote-electoral-districts.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-first-vote-electoral-districts.csv
         names:
           - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
           - { name: district_id, zfill: 2 }
@@ -1224,8 +1224,8 @@ input_ports:
           - { name: individual_applicant_10_percentage, action: "percentage", numerator: individual_applicant_10, denominator: valid_votes }
           - { name: individual_applicant_11_percentage, action: "percentage", numerator: individual_applicant_11, denominator: valid_votes }
           - { name: individual_applicant_12_percentage, action: "percentage", numerator: individual_applicant_12, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-city.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote-city.csv
         aggregate_by: total
         names:
           - name: id
@@ -1312,8 +1312,8 @@ input_ports:
           - { name: party_die_humanisten_percentage, action: "percentage", numerator: party_die_humanisten, denominator: valid_votes }
           - { name: party_team_todenhöfer_percentage, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
           - { name: party_volt_percentage, action: "percentage", numerator: party_volt, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-districts.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote-districts.csv
         aggregate_by: district_id
         names:
           - { name: id, action: "copy", copy: district_id, zfill: 2 }
@@ -1401,8 +1401,8 @@ input_ports:
           - { name: party_die_humanisten_percentage, action: "percentage", numerator: party_die_humanisten, denominator: valid_votes }
           - { name: party_team_todenhöfer_percentage, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
           - { name: party_volt_percentage, action: "percentage", numerator: party_volt, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-second-vote-electoral-districts.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-second-vote-electoral-districts.csv
         names:
           - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
           - { name: district_id, zfill: 2 }
@@ -1490,8 +1490,8 @@ input_ports:
           - { name: party_die_humanisten_percentage, action: "percentage", numerator: party_die_humanisten, denominator: valid_votes }
           - { name: party_team_todenhöfer_percentage, action: "percentage", numerator: party_team_todenhöfer, denominator: valid_votes }
           - { name: party_volt_percentage, action: "percentage", numerator: party_volt, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-city.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council-city.csv
         aggregate_by: total
         names:
           - name: id
@@ -1564,8 +1564,8 @@ input_ports:
           - { name: voters_alliance_tkbb_percentage, action: "percentage", numerator: voters_alliance_tkbb, denominator: valid_votes }
           - { name: voters_alliance_wsb_percentage, action: "percentage", numerator: voters_alliance_wsb, denominator: valid_votes }
           - { name: voters_alliance_wiss_percentage, action: "percentage", numerator: voters_alliance_wiss, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-districts.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council-districts.csv
         aggregate_by: district_id
         names:
           - { name: id, action: "copy", copy: district_id, zfill: 2 }
@@ -1639,8 +1639,8 @@ input_ports:
           - { name: voters_alliance_tkbb_percentage, action: "percentage", numerator: voters_alliance_tkbb, denominator: valid_votes }
           - { name: voters_alliance_wsb_percentage, action: "percentage", numerator: voters_alliance_wsb, denominator: valid_votes }
           - { name: voters_alliance_wiss_percentage, action: "percentage", numerator: voters_alliance_wiss, denominator: valid_votes }
-      - source_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council.csv
-        target_file_name: berlin-election-results-berlin-election-2023-electoral-results-district-council-electoral-districts.csv
+      - source_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council.csv
+        target_file_name: berlin-election-results-berlin-election-2021-electoral-results-district-council-electoral-districts.csv
         names:
           - { name: id, action: "concatenation", concat: [ district_id, electoral_district_id ] }
           - { name: district_id, zfill: 2 }
